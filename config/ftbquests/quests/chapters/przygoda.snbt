@@ -39,6 +39,11 @@
 						Count: 1b
 					},
 					count: 8
+				},
+				{
+					id: "7CF8D52B3D26A267",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -70,6 +75,11 @@
 						id: "waystones:warp_stone",
 						Count: 1b
 					}
+				},
+				{
+					id: "1B5C49FD20ACB182",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -97,6 +107,15 @@
 					id: "5CF3962D12CA0654",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "559C2DEA2A3ED864",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 6
 				}
 			]
 		},
@@ -128,6 +147,11 @@
 						Count: 1b
 					},
 					count: 2
+				},
+				{
+					id: "18C9C430F5C2501A",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -165,6 +189,11 @@
 						Count: 1b
 					},
 					count: 32
+				},
+				{
+					id: "1A28E812B47F343C",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -196,6 +225,11 @@
 						Count: 1b
 					},
 					count: 32
+				},
+				{
+					id: "35FF5868DA6DD8EE",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -232,6 +266,11 @@
 						Count: 1b
 					},
 					count: 4
+				},
+				{
+					id: "1F0136412DDD1808",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -262,6 +301,11 @@
 						id: "minecraft:heart_of_the_sea",
 						Count: 1b
 					}
+				},
+				{
+					id: "365B123FB3C65D60",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -290,6 +334,15 @@
 					id: "76D45E37696EEEE5",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "7EF2CBEF5B69989E",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
 				}
 			]
 		},
@@ -360,6 +413,11 @@
 							Potion: "minecraft:water_breathing"
 						}
 					}
+				},
+				{
+					id: "7681AEA781BD022F",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -429,6 +487,11 @@
 						Count: 1b
 					},
 					count: 4
+				},
+				{
+					id: "5E7E64EC5EBACC42",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -508,7 +571,24 @@
 				{
 					id: "3CC7A2D12B0A0BD1",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 8
+				},
+				{
+					id: "1656E8A08FE77760",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "525ACD021F4DF66C",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					}
 				}
 			]
 		}

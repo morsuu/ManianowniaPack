@@ -19,7 +19,7 @@
 			icon: "wizards:wand_novice",
 			description: [
 				"Każdy mag zaczyna od różdżki nowicjusza.",
-				"Włóż ją do Stołu zaklęć i naucz się pierwszego czaru."
+				"Włóż ją do Stołu zaklęć i naucz się pierwszego czaru (pocisk arkanów)."
 			],
 			dependencies: [
 				"7FEE44943B9D9C09"
@@ -41,6 +41,20 @@
 						Count: 1b
 					},
 					count: 16
+				},
+				{
+					id: "559796E4D4C6241D",
+					type: "item",
+					item: {
+						id: "minecraft:white_wool",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "388BED28178D74E6",
+					type: "xp_levels",
+					xp_levels: 6
 				}
 			]
 		},
@@ -83,15 +97,24 @@
 					id: "10DFDD6EB2FCD6E7",
 					type: "item",
 					item: {
-						id: "minecraft:white_wool",
+						id: "minecraft:gold_ingot",
 						Count: 1b
 					},
-					count: 16
+					count: 6
 				},
 				{
 					id: "731B8FBE715B478B",
+					type: "item",
+					item: {
+						id: "minecraft:amethyst_shard",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "32615F439DC6D03D",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -102,7 +125,7 @@
 			y: -2.0d,
 			icon: "wizards:staff_wizard",
 			description: [
-				"Laska ma więcej mocy niż różdżka."
+				"Laska ma więcej mocy niż różdżka i otwiera trzy szkoły magii."
 			],
 			dependencies: [
 				"3A27248827763AAC"
@@ -117,8 +140,35 @@
 			rewards: [
 				{
 					id: "1C1A3195A119BB64",
+					type: "item",
+					item: {
+						id: "minecraft:blaze_rod",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "379B2465A81CFB61",
+					type: "item",
+					item: {
+						id: "minecraft:prismarine_shard",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "75B633B9D2DD8115",
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "1DE3AF2A7CE2DCC7",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -129,7 +179,7 @@
 			y: -3.5d,
 			icon: "wizards:wand_fire",
 			description: [
-				"Różdżka szkoły: ogień. Wybierz swoją ścieżkę (możesz przejść wszystkie)."
+				"Różdżka szkoły: ogień. Możesz przejść wszystkie trzy szkoły."
 			],
 			dependencies: [
 				"1586D87C968E2255"
@@ -146,10 +196,15 @@
 					id: "58E7F3C50CDBDFBD",
 					type: "item",
 					item: {
-						id: "minecraft:blaze_powder",
+						id: "minecraft:blaze_rod",
 						Count: 1b
 					},
-					count: 8
+					count: 4
+				},
+				{
+					id: "3E3E33A702D1F217",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -175,8 +230,17 @@
 			rewards: [
 				{
 					id: "7423765E31A685FB",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "5BC055E33DCFE1D4",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -223,54 +287,34 @@
 						id: "minecraft:diamond",
 						Count: 1b
 					},
-					count: 2
+					count: 3
 				},
 				{
 					id: "3C97F9B0EC635856",
-					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			id: "5F83F867D7E652C8",
-			title: "&cRubinowa laska ognia",
-			x: 6.5d,
-			y: -3.5d,
-			icon: "wizards:staff_ruby_fire",
-			description: [
-				"Laska z klejnotem: trzeci poziom mocy. Potrzebny rubin albo inny klejnot."
-			],
-			dependencies: [
-				"522D321CFFB44F38",
-				"31B517F5D5488ED2"
-			],
-			tasks: [
-				{
-					id: "3B4A6F78D5933D33",
 					type: "item",
-					item: "wizards:staff_ruby_fire"
-				}
-			],
-			rewards: [
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					}
+				},
 				{
-					id: "3471CEC4D685D658",
+					id: "50FE0CAC66B0E774",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 3
 				}
 			]
 		},
 		{
 			id: "3FCB84AC0452C4FD",
 			title: "&cOgień: netheryt",
-			x: 8.0d,
+			x: 6.5d,
 			y: -3.5d,
 			icon: "wizards:staff_netherite_fire",
 			description: [
-				"Netherytowa laska i różdżka szkoły."
+				"Netherytowa laska i różdżka szkoły (stół kowalski + szablon)."
 			],
 			dependencies: [
-				"5F83F867D7E652C8",
+				"522D321CFFB44F38",
 				"3E82FB0EC8FBCB55"
 			],
 			tasks: [
@@ -288,15 +332,32 @@
 			rewards: [
 				{
 					id: "3B5C9F8B662BBE9E",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "7690C76310BF2088",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_upgrade_smithing_template",
+						Count: 1b
+					}
+				},
+				{
+					id: "7B8EEF3AC6197644",
 					type: "xp_levels",
-					xp_levels: 15
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "5E3E5654589B9576",
 			title: "&cOgień: netherytowe szaty",
-			x: 8.0d,
+			x: 6.5d,
 			y: -2.3d,
 			icon: "wizards:netherite_fire_robe_chest",
 			description: [
@@ -331,15 +392,23 @@
 			rewards: [
 				{
 					id: "7EF227247CC70F0D",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "35C9F97EAC0E99DA",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "715CD09440091633",
 			title: "&cArcymag: ogień",
-			x: 9.5d,
+			x: 8.0d,
 			y: -3.5d,
 			icon: "wizards:staff_netherite_fire",
 			description: [
@@ -371,6 +440,11 @@
 							}
 						}
 					}
+				},
+				{
+					id: "1915D6BEC0240820",
+					type: "xp_levels",
+					xp_levels: 16
 				}
 			]
 		},
@@ -381,7 +455,7 @@
 			y: 0.0d,
 			icon: "wizards:wand_frost",
 			description: [
-				"Różdżka szkoły: lód. Wybierz swoją ścieżkę (możesz przejść wszystkie)."
+				"Różdżka szkoły: lód. Możesz przejść wszystkie trzy szkoły."
 			],
 			dependencies: [
 				"1586D87C968E2255"
@@ -398,10 +472,15 @@
 					id: "13CD28CAA35B1BB7",
 					type: "item",
 					item: {
-						id: "minecraft:packed_ice",
+						id: "minecraft:prismarine_crystals",
 						Count: 1b
 					},
-					count: 16
+					count: 8
+				},
+				{
+					id: "5965D7A3E039C2B6",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -427,8 +506,17 @@
 			rewards: [
 				{
 					id: "59581140D24CF6CA",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "50FDFD56F1F922F1",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -475,54 +563,34 @@
 						id: "minecraft:diamond",
 						Count: 1b
 					},
-					count: 2
+					count: 3
 				},
 				{
 					id: "760CD2253EC47229",
-					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			id: "74E25617FC653F45",
-			title: "&bSzmaragdowa laska lodu",
-			x: 6.5d,
-			y: 0.0d,
-			icon: "wizards:staff_smaragdant_frost",
-			description: [
-				"Laska z klejnotem: trzeci poziom mocy. Potrzebny rubin albo inny klejnot."
-			],
-			dependencies: [
-				"5CE0529831038BE0",
-				"31B517F5D5488ED2"
-			],
-			tasks: [
-				{
-					id: "770885EF560CFC17",
 					type: "item",
-					item: "wizards:staff_smaragdant_frost"
-				}
-			],
-			rewards: [
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					}
+				},
 				{
-					id: "53BC5247180892A0",
+					id: "1DE1FDD031616F37",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 3
 				}
 			]
 		},
 		{
 			id: "3E960CFB0B3897A1",
 			title: "&bLód: netheryt",
-			x: 8.0d,
+			x: 6.5d,
 			y: 0.0d,
 			icon: "wizards:staff_netherite_frost",
 			description: [
-				"Netherytowa laska i różdżka szkoły."
+				"Netherytowa laska i różdżka szkoły (stół kowalski + szablon)."
 			],
 			dependencies: [
-				"74E25617FC653F45",
+				"5CE0529831038BE0",
 				"3E82FB0EC8FBCB55"
 			],
 			tasks: [
@@ -540,15 +608,32 @@
 			rewards: [
 				{
 					id: "519AED6E59DE82ED",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "19A90E5138A5F655",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_upgrade_smithing_template",
+						Count: 1b
+					}
+				},
+				{
+					id: "1AF3F9A79C619EE7",
 					type: "xp_levels",
-					xp_levels: 15
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "1C439E4EA67F7276",
 			title: "&bLód: netherytowe szaty",
-			x: 8.0d,
+			x: 6.5d,
 			y: 1.2d,
 			icon: "wizards:netherite_frost_robe_chest",
 			description: [
@@ -583,15 +668,23 @@
 			rewards: [
 				{
 					id: "7CF245821D264369",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "3F398DAFA7972E73",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "3593B184C9870FBA",
 			title: "&bArcymag: lód",
-			x: 9.5d,
+			x: 8.0d,
 			y: 0.0d,
 			icon: "wizards:staff_netherite_frost",
 			description: [
@@ -623,6 +716,11 @@
 							}
 						}
 					}
+				},
+				{
+					id: "55BEDF09D8F4E472",
+					type: "xp_levels",
+					xp_levels: 16
 				}
 			]
 		},
@@ -633,7 +731,7 @@
 			y: 3.5d,
 			icon: "wizards:wand_arcane",
 			description: [
-				"Różdżka szkoły: arkana. Wybierz swoją ścieżkę (możesz przejść wszystkie)."
+				"Różdżka szkoły: arkana. Możesz przejść wszystkie trzy szkoły."
 			],
 			dependencies: [
 				"1586D87C968E2255"
@@ -650,10 +748,15 @@
 					id: "1D41D7FCF596701D",
 					type: "item",
 					item: {
-						id: "minecraft:amethyst_shard",
+						id: "minecraft:ender_pearl",
 						Count: 1b
 					},
-					count: 16
+					count: 4
+				},
+				{
+					id: "552063D01A932625",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -679,8 +782,17 @@
 			rewards: [
 				{
 					id: "7BC2741EF95CA6B4",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "3CFBB3247CEC76B1",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -727,54 +839,34 @@
 						id: "minecraft:diamond",
 						Count: 1b
 					},
-					count: 2
+					count: 3
 				},
 				{
 					id: "545DEEB7D88032EB",
-					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			id: "1B33BA95643E043E",
-			title: "&dKryształowa laska arkanów",
-			x: 6.5d,
-			y: 3.5d,
-			icon: "wizards:staff_crystal_arcane",
-			description: [
-				"Laska z klejnotem: trzeci poziom mocy. Potrzebny rubin albo inny klejnot."
-			],
-			dependencies: [
-				"7908A499E663FCFE",
-				"31B517F5D5488ED2"
-			],
-			tasks: [
-				{
-					id: "102979EC973D8414",
 					type: "item",
-					item: "wizards:staff_crystal_arcane"
-				}
-			],
-			rewards: [
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					}
+				},
 				{
-					id: "1B7D5F004A10C0FD",
+					id: "15E8239E7E3DFBE1",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 3
 				}
 			]
 		},
 		{
 			id: "7B6DEB40F8EB3D6C",
 			title: "&dArkana: netheryt",
-			x: 8.0d,
+			x: 6.5d,
 			y: 3.5d,
 			icon: "wizards:staff_netherite_arcane",
 			description: [
-				"Netherytowa laska i różdżka szkoły."
+				"Netherytowa laska i różdżka szkoły (stół kowalski + szablon)."
 			],
 			dependencies: [
-				"1B33BA95643E043E",
+				"7908A499E663FCFE",
 				"3E82FB0EC8FBCB55"
 			],
 			tasks: [
@@ -792,15 +884,32 @@
 			rewards: [
 				{
 					id: "5CE0E294DC8B8F2F",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "3A7580B6C70F1A11",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_upgrade_smithing_template",
+						Count: 1b
+					}
+				},
+				{
+					id: "7F2D92D70E75FB67",
 					type: "xp_levels",
-					xp_levels: 15
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "5CEEE56D7A46B80B",
 			title: "&dArkana: netherytowe szaty",
-			x: 8.0d,
+			x: 6.5d,
 			y: 4.7d,
 			icon: "wizards:netherite_arcane_robe_chest",
 			description: [
@@ -835,17 +944,25 @@
 			rewards: [
 				{
 					id: "5FC4200480F0F4F6",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "357DEFD722CAB1F7",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "13632CD616BF3E32",
 			title: "&dArcymag: arkana",
-			x: 9.5d,
+			x: 8.0d,
 			y: 3.5d,
-			icon: "minecraft:nether_star",
+			icon: "wizards:staff_netherite_arcane",
 			description: [
 				"Ukończ całą ścieżkę szkoły."
 			],
@@ -875,13 +992,62 @@
 							}
 						}
 					}
+				},
+				{
+					id: "30EEF184512778B3",
+					type: "xp_levels",
+					xp_levels: 16
+				}
+			]
+		},
+		{
+			id: "1909A1FB284D74DB",
+			title: "Próba maga",
+			x: 3.5d,
+			y: 6.0d,
+			icon: "minecraft:blaze_powder",
+			description: [
+				"Pokonaj 10 czarownic i 5 blaze'ów."
+			],
+			dependencies: [
+				"1586D87C968E2255",
+				"5C96898B541528E8"
+			],
+			tasks: [
+				{
+					id: "191C973FF4B72A09",
+					type: "kill",
+					entity: "minecraft:witch",
+					value: 10L
+				},
+				{
+					id: "7F50C45DFC9871B5",
+					type: "kill",
+					entity: "minecraft:blaze",
+					value: 5L
+				}
+			],
+			rewards: [
+				{
+					id: "758BC12C12CA68C6",
+					type: "item",
+					item: {
+						id: "minecraft:experience_bottle",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "54768428C06BD3FC",
+					type: "xp_levels",
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "5388A6DB51EED259",
 			title: "Arcymag",
-			x: 10.5d,
+			x: 9.5d,
 			y: 0.0d,
 			icon: "wizards:staff_wizard",
 			description: [
@@ -902,17 +1068,26 @@
 			rewards: [
 				{
 					id: "7F4B234663EB900F",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "753BC1C41848B2AE",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "37FD8CFCB3BED77A",
 			title: "&6Mistrz Czarodziejów",
-			x: 12.0d,
+			x: 11.0d,
 			y: 0.0d,
-			icon: "wizards:staff_crystal_arcane",
+			icon: "wizards:staff_netherite_arcane",
 			description: [
 				"Ukończ ścieżkę dowolnej szkoły magii i pokonaj Nocnego Licza."
 			],
@@ -934,13 +1109,13 @@
 					id: "10F1AE3130DE8173",
 					type: "item",
 					item: {
-						id: "minecraft:enchanted_golden_apple",
+						id: "jewelry:unique_spell_necklace",
 						Count: 1b,
 						tag: {
 							display: {
-								Name: "{\"text\": \"Jabłko Arcymaga\", \"italic\": false, \"color\": \"gold\"}",
+								Name: "{\"text\": \"Naszyjnik Mistrza Magii\", \"italic\": false, \"color\": \"gold\"}",
 								Lore: [
-									"{\"text\": \"Nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
+									"{\"text\": \"Unikatowa nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
 								]
 							}
 						}
@@ -948,8 +1123,16 @@
 				},
 				{
 					id: "5CCEEA8AC5A3C527",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "1C5D5454C9E6133D",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 30
 				}
 			]
 		}

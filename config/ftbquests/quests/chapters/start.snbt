@@ -39,6 +39,11 @@
 						Count: 1b
 					},
 					count: 4
+				},
+				{
+					id: "18C88456ABB0158D",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -71,6 +76,11 @@
 						Count: 1b
 					},
 					count: 8
+				},
+				{
+					id: "129E185EFCB0AE5E",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -102,6 +112,11 @@
 						Count: 1b
 					},
 					count: 8
+				},
+				{
+					id: "37F328821DBB7E5B",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -140,7 +155,7 @@
 				{
 					id: "164006F397FE200B",
 					type: "xp_levels",
-					xp_levels: 2
+					xp_levels: 3
 				}
 			]
 		},
@@ -173,6 +188,11 @@
 						Count: 1b
 					},
 					count: 8
+				},
+				{
+					id: "5952DEA541C1410C",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -205,6 +225,11 @@
 						Count: 1b
 					},
 					count: 8
+				},
+				{
+					id: "1C231A132411677A",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -237,6 +262,11 @@
 						Count: 1b
 					},
 					count: 16
+				},
+				{
+					id: "123CEE51BEA14D56",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -269,6 +299,11 @@
 						Count: 1b
 					},
 					count: 2
+				},
+				{
+					id: "13BCE52F60045BF2",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -299,6 +334,11 @@
 						id: "minecraft:shield",
 						Count: 1b
 					}
+				},
+				{
+					id: "57C9639C7E34FB40",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -330,6 +370,11 @@
 						Count: 1b
 					},
 					count: 3
+				},
+				{
+					id: "362CCD5A7F935AA9",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -358,6 +403,15 @@
 					id: "78A764713B2D8138",
 					type: "xp_levels",
 					xp_levels: 3
+				},
+				{
+					id: "1F584D3FF0F259F7",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 6
 				}
 			]
 		},
@@ -435,6 +489,11 @@
 						Count: 1b
 					},
 					count: 4
+				},
+				{
+					id: "537952021017AD51",
+					type: "xp_levels",
+					xp_levels: 5
 				}
 			]
 		},
@@ -466,6 +525,11 @@
 						Count: 1b
 					},
 					count: 8
+				},
+				{
+					id: "12FA04680451BDFF",
+					type: "xp_levels",
+					xp_levels: 5
 				}
 			]
 		},
@@ -493,6 +557,15 @@
 					id: "1707FCD3B333C12F",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "7DFC64A8A505C2B9",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
 				}
 			]
 		},
@@ -525,6 +598,11 @@
 						Count: 1b
 					},
 					count: 6
+				},
+				{
+					id: "36FDA441C0A60127",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		}

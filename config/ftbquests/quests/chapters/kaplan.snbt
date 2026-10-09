@@ -37,9 +37,23 @@
 					id: "3C492F05822CA695",
 					type: "item",
 					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 6
+				},
+				{
+					id: "51802C273D1F0B86",
+					type: "item",
+					item: {
 						id: "minecraft:golden_apple",
 						Count: 1b
 					}
+				},
+				{
+					id: "504BBC08AB11ADDE",
+					type: "xp_levels",
+					xp_levels: 6
 				}
 			]
 		},
@@ -65,8 +79,17 @@
 			rewards: [
 				{
 					id: "58F48BEFECC5B405",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 6
+				},
+				{
+					id: "7A5D8FB43A3DACB3",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -92,8 +115,17 @@
 			rewards: [
 				{
 					id: "141C979284BD4C4B",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "5DDEA8B901CB4EF4",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -136,15 +168,23 @@
 					id: "31BBF4507F9AFE2B",
 					type: "item",
 					item: {
-						id: "minecraft:white_wool",
+						id: "minecraft:gold_ingot",
 						Count: 1b
 					},
-					count: 16
+					count: 8
 				},
 				{
 					id: "3D2A2EEC53129E01",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					}
+				},
+				{
+					id: "5706112F6CF4F02B",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -178,10 +218,15 @@
 					id: "1C1C8D0E7BFB091A",
 					type: "item",
 					item: {
-						id: "minecraft:diamond",
+						id: "minecraft:netherite_scrap",
 						Count: 1b
 					},
 					count: 2
+				},
+				{
+					id: "3F7775B8AEE03BF0",
+					type: "xp_levels",
+					xp_levels: 5
 				}
 			]
 		},
@@ -223,50 +268,31 @@
 			rewards: [
 				{
 					id: "57BBBED3CBF4971E",
-					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			id: "177706FE65057548",
-			title: "Rubinowa laska",
-			x: 6.0d,
-			y: -1.0d,
-			icon: "paladins:ruby_holy_staff",
-			description: [
-				"Rubinowa święta laska."
-			],
-			dependencies: [
-				"1A7212DF30F53053",
-				"31B517F5D5488ED2"
-			],
-			tasks: [
-				{
-					id: "78ED6D0C1923D730",
 					type: "item",
-					item: "paladins:ruby_holy_staff"
-				}
-			],
-			rewards: [
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 2
+				},
 				{
-					id: "57FA50A2343B7CA2",
+					id: "13C1B22F7A4165DE",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 5
 				}
 			]
 		},
 		{
 			id: "7BABA001E2384B0B",
 			title: "Netherytowe relikwie",
-			x: 7.5d,
+			x: 6.0d,
 			y: -1.0d,
 			icon: "paladins:netherite_holy_staff",
 			description: [
 				"Netherytowa święta różdżka i laska."
 			],
 			dependencies: [
-				"177706FE65057548",
+				"1A7212DF30F53053",
 				"3E82FB0EC8FBCB55"
 			],
 			tasks: [
@@ -284,15 +310,32 @@
 			rewards: [
 				{
 					id: "11B19961E7068743",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_upgrade_smithing_template",
+						Count: 1b
+					}
+				},
+				{
+					id: "131CD6AF149FFEC4",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "334A90B1D2E5A2B7",
 					type: "xp_levels",
-					xp_levels: 15
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "7676D1B2C23E1615",
 			title: "Netherytowy przeor",
-			x: 7.5d,
+			x: 6.0d,
 			y: 1.0d,
 			icon: "paladins:netherite_prior_robe_chest",
 			description: [
@@ -327,8 +370,16 @@
 			rewards: [
 				{
 					id: "5B23F508FD0FF6F4",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "5A5AC9FF7FCC5024",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 8
 				}
 			]
 		},
@@ -362,14 +413,19 @@
 						id: "minecraft:golden_apple",
 						Count: 1b
 					},
-					count: 2
+					count: 4
+				},
+				{
+					id: "564B4132DBAB5B0F",
+					type: "xp_levels",
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "55F76589B2E9D22C",
 			title: "&6Mistrz Kapłanów",
-			x: 9.5d,
+			x: 8.0d,
 			y: 0.0d,
 			icon: "paladins:netherite_holy_staff",
 			description: [
@@ -400,7 +456,7 @@
 							display: {
 								Name: "{\"text\": \"Naszyjnik Uzdrowiciela\", \"italic\": false, \"color\": \"white\"}",
 								Lore: [
-									"{\"text\": \"Nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
+									"{\"text\": \"Unikatowa nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
 								]
 							}
 						}
@@ -408,8 +464,16 @@
 				},
 				{
 					id: "72D4D7F4CB8E502B",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "5ECDC49F27CA5C2D",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 30
 				}
 			]
 		}

@@ -44,6 +44,20 @@
 						Count: 1b
 					},
 					count: 6
+				},
+				{
+					id: "13676A446CAC83E5",
+					type: "item",
+					item: {
+						id: "minecraft:cooked_beef",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "5C86BC2C015C1910",
+					type: "xp_levels",
+					xp_levels: 6
 				}
 			]
 		},
@@ -76,6 +90,20 @@
 						Count: 1b
 					},
 					count: 32
+				},
+				{
+					id: "781D6B87D13F5708",
+					type: "item",
+					item: {
+						id: "minecraft:bone_meal",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "724595730B0A0EAF",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -108,6 +136,11 @@
 						Count: 1b
 					},
 					count: 16
+				},
+				{
+					id: "7B113DACF33C3949",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -120,11 +153,11 @@
 			description: [
 				"&6&lWybierz klasę!&r",
 				"",
-				"Stół zaklęć uczy czarów z broni magicznych. Włóż broń, wybierz czar, zapłać doświadczeniem i lapisem.",
+				"Stół zaklęć uczy czarów z broni magicznych. Włóż broń, wybierz czar i zapłać doświadczeniem oraz lapisem.",
 				"Każda klasa ma własny rozdział w grupie &cKlasy postaci&r z pełną ścieżką sprzętu:",
-				"&7żelazo → złoto/diament → rubin → netheryt&r, do tego 2-3 zestawy zbroi.",
+				"&7kamień/krzemień → żelazo → złoto → diament → netheryt&r oraz 2-3 zestawy zbroi.",
 				"",
-				"Rubiny i inne klejnoty wykopiesz głęboko pod ziemią (mod Jewelry)."
+				"Nagroda za każdy etap to materiały na następny poziom."
 			],
 			dependencies: [
 				"143F687D3FEA0561"
@@ -147,6 +180,20 @@
 						Count: 1b
 					},
 					count: 32
+				},
+				{
+					id: "5761D0D2F529F823",
+					type: "item",
+					item: {
+						id: "minecraft:experience_bottle",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "7FAA00BCCC24DAFF",
+					type: "xp_levels",
+					xp_levels: 6
 				}
 			]
 		},
@@ -157,7 +204,7 @@
 			y: 0.0d,
 			icon: "minecraft:experience_bottle",
 			description: [
-				"Mocne czary kosztują dużo doświadczenia. Zdobądź 30 poziom."
+				"Mocne czary kosztują dużo doświadczenia. Osiągnij 30 poziom."
 			],
 			dependencies: [
 				"7FEE44943B9D9C09"
@@ -178,16 +225,21 @@
 						id: "minecraft:lapis_lazuli",
 						Count: 1b
 					},
-					count: 32
+					count: 64
 				},
 				{
 					id: "14BE95DB029091AA",
 					type: "item",
 					item: {
-						id: "minecraft:experience_bottle",
+						id: "minecraft:diamond",
 						Count: 1b
 					},
-					count: 16
+					count: 2
+				},
+				{
+					id: "73387C13B84F1EEA",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -220,6 +272,20 @@
 						Count: 1b
 					},
 					count: 4
+				},
+				{
+					id: "3F6ADF2872F7C43D",
+					type: "item",
+					item: {
+						id: "minecraft:blaze_powder",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "3BCA62862AA85B68",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -251,12 +317,21 @@
 						id: "minecraft:emerald",
 						Count: 1b
 					},
-					count: 16
+					count: 24
 				},
 				{
 					id: "1EF2C00F21FBC3A2",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "505962015FDFAB74",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 3
 				}
 			]
 		},
@@ -282,52 +357,29 @@
 			rewards: [
 				{
 					id: "15B3E12725C40F5C",
-					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			id: "31B517F5D5488ED2",
-			title: "Rubin",
-			x: 4.5d,
-			y: -1.5d,
-			icon: "jewelry:ruby",
-			description: [
-				"Rubin to klejnot potrzebny do broni trzeciego poziomu każdej klasy.",
-				"Żyły klejnotów są głęboko pod ziemią, podobnie jak diamenty."
-			],
-			dependencies: [
-				"7FEE44943B9D9C09"
-			],
-			tasks: [
-				{
-					id: "30A0248A1DFFE633",
-					type: "item",
-					item: "jewelry:ruby",
-					count: 2L
-				}
-			],
-			rewards: [
-				{
-					id: "751E01590B702953",
 					type: "item",
 					item: {
-						id: "minecraft:iron_pickaxe",
+						id: "minecraft:golden_apple",
 						Count: 1b
-					}
+					},
+					count: 3
+				},
+				{
+					id: "79B60E7A56C7FF15",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
 		{
 			id: "3E82FB0EC8FBCB55",
-			title: "Ulepszenie netherytowe",
+			title: "Szablon netherytowy",
 			x: 4.5d,
 			y: 1.5d,
 			icon: "minecraft:netherite_upgrade_smithing_template",
 			description: [
-				"Szablon ulepszenia netherytowego znajdziesz w bastionach.",
-				"Na stole kowalskim zamienisz diamentowy sprzęt klasy w netherytowy."
+				"Szablon ulepszenia netherytowego znajdziesz w skrzyniach bastionów.",
+				"Na stole kowalskim zamienia diamentowy sprzęt klasy w netherytowy. Skopiujesz go diamentami i netherrackiem."
 			],
 			dependencies: [
 				"7FEE44943B9D9C09",
@@ -349,6 +401,20 @@
 						Count: 1b
 					},
 					count: 2
+				},
+				{
+					id: "79EDFB068EFAB882",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "3C65D71626617B18",
+					type: "xp_levels",
+					xp_levels: 8
 				}
 			]
 		}

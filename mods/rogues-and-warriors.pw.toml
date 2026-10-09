@@ -1,13 +1,13 @@
 name = "rogues-and-warriors"
-filename = "rogues-fabric-3.1.1+1.20.1.jar"
+filename = "rogues-fabric-3.1.3+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/3MKqoGuP/versions/YBXb6O4t/rogues-fabric-3.1.1%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/3MKqoGuP/versions/7gbnfP1K/rogues-fabric-3.1.3%2B1.20.1.jar"
 hash-format = "sha512"
-hash = "801771367a636d9311746522e7d7ccfa5a59ea8a153d7002c307ab2697d483cdfb8154ee135bf610b821f08c1d6d5b95ced418a927f2cd515e5d32faaa77abae"
+hash = "dad09e05a6d8ed3de25f07deb6449511d52a0be18fc575982140fa903a64bdbd6bbc1c427d005d816942d2edad3b16549e45a27aeea81fd084a29597b5f5ff4f"
 
 [update]
 [update.modrinth]
 mod-id = "3MKqoGuP"
-version = "YBXb6O4t"
+version = "7gbnfP1K"

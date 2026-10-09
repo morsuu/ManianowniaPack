@@ -23,7 +23,8 @@
 				"To paczka zrobiona specjalnie dla naszej ekipy: technika, magia i walka, przygoda, budowanie oraz własne questy.",
 				"",
 				"&6&lJak korzystać z tej księgi&r",
-				"Księgę otwierasz klawiszem &eU&r albo ikonką w lewym górnym rogu ekwipunku.",
+				"Księgę otwierasz klawiszem &eU&r, przedmiotem &eKsięga questów&r (dostajesz ją przy pierwszym wejściu do świata)",
+				"albo ikonką w lewym górnym rogu ekwipunku.",
 				"Po lewej masz rozdziały. Każdy kafelek to quest: kliknij, przeczytaj, wykonaj zadania i odbierz nagrodę.",
 				"Questy z kłódką odblokujesz, kończąc te, które do nich prowadzą (linie między kafelkami).",
 				"",
@@ -58,6 +59,11 @@
 						Count: 1b
 					},
 					count: 32
+				},
+				{
+					id: "57539A733C8B1FBB",
+					type: "xp_levels",
+					xp_levels: 2
 				}
 			]
 		},
@@ -93,6 +99,15 @@
 					id: "149F94F4336ACAA0",
 					type: "xp_levels",
 					xp_levels: 3
+				},
+				{
+					id: "328A0B03E6EE6870",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
 				}
 			]
 		},
@@ -130,6 +145,11 @@
 						Count: 1b
 					},
 					count: 8
+				},
+				{
+					id: "1D62D6FE9197B9BD",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -152,7 +172,7 @@
 				"&eJewelry&r dodaje pierścienie i naszyjniki z bonusami.",
 				"",
 				"Grupa rozdziałów &cKlasy postaci&r: wspólny start (&eWalka i klasy&r), osobny rozdział dla każdej klasy",
-				"z pełną ścieżką broni i zbroi (żelazo → diament → rubin → netheryt) oraz rozdział &dBiżuteria&r."
+				"z pełną ścieżką broni i zbroi (żelazo → złoto → diament → netheryt) oraz rozdział &dBiżuteria&r."
 			],
 			dependencies: [
 				"357D7C74A4819D02"
@@ -172,6 +192,11 @@
 						Count: 1b
 					},
 					count: 6
+				},
+				{
+					id: "3ADD465FBA05BD02",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -211,6 +236,11 @@
 						Count: 1b
 					},
 					count: 8
+				},
+				{
+					id: "7736BA58368ECB60",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -249,6 +279,11 @@
 						Count: 1b
 					},
 					count: 16
+				},
+				{
+					id: "5AA62D650E18271C",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -289,6 +324,11 @@
 						id: "minecraft:golden_apple",
 						Count: 1b
 					}
+				},
+				{
+					id: "7135E45C2D8806DD",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		}

@@ -53,6 +53,11 @@
 						Count: 1b
 					},
 					count: 64
+				},
+				{
+					id: "5BA5CE660B24A739",
+					type: "xp_levels",
+					xp_levels: 2
 				}
 			]
 		},
@@ -86,6 +91,15 @@
 					id: "74DFBE72EB9120AD",
 					type: "xp_levels",
 					xp_levels: 3
+				},
+				{
+					id: "1E78055F0F2D24CB",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
 				}
 			]
 		},
@@ -117,6 +131,11 @@
 						Count: 1b
 					},
 					count: 16
+				},
+				{
+					id: "1F0422FF0AE28364",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -154,6 +173,15 @@
 					id: "540F9001B22653C7",
 					type: "xp_levels",
 					xp_levels: 3
+				},
+				{
+					id: "33AC65853F6EE110",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
 				}
 			]
 		},
@@ -186,6 +214,11 @@
 						Count: 1b
 					},
 					count: 16
+				},
+				{
+					id: "775356FF2E4473A4",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -218,6 +251,11 @@
 						Count: 1b
 					},
 					count: 64
+				},
+				{
+					id: "379EFD5DE461721E",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -250,6 +288,11 @@
 						Count: 1b
 					},
 					count: 32
+				},
+				{
+					id: "14391CA433A94ADC",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -279,6 +322,15 @@
 					id: "162C4D032C5C1DB2",
 					type: "xp_levels",
 					xp_levels: 3
+				},
+				{
+					id: "580F5A36DF147903",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 6
 				}
 			]
 		},
@@ -323,6 +375,11 @@
 						Count: 1b
 					},
 					count: 32
+				},
+				{
+					id: "5D843FD0E3728A08",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -351,6 +408,15 @@
 					id: "36C385B67BCF7A67",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "57D5F05A9C867BBB",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
 				}
 			]
 		},
@@ -390,7 +456,7 @@
 				{
 					id: "7A6738F8803DD791",
 					type: "xp_levels",
-					xp_levels: 15
+					xp_levels: 16
 				}
 			]
 		}

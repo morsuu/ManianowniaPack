@@ -41,6 +41,11 @@
 						Count: 1b
 					},
 					count: 8
+				},
+				{
+					id: "1517F2F4602C455D",
+					type: "xp_levels",
+					xp_levels: 6
 				}
 			]
 		},
@@ -71,8 +76,17 @@
 			rewards: [
 				{
 					id: "7B15158758098C13",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "10045F4C54355029",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -115,26 +129,34 @@
 					id: "70C329E32DE85824",
 					type: "item",
 					item: {
-						id: "minecraft:iron_ingot",
+						id: "minecraft:chain",
 						Count: 1b
 					},
-					count: 8
+					count: 16
 				},
 				{
 					id: "113141612E595D50",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					}
+				},
+				{
+					id: "72B69E4074FF8529",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
 		{
 			id: "1CAE77E4EB529885",
-			title: "Złoty topór",
+			title: "Złoty arsenał",
 			x: 3.0d,
 			y: -1.0d,
 			icon: "rogues:golden_double_axe",
 			description: [
-				"Złoto jest kruche, ale szybkie. Złoty podwójny topór."
+				"Złoty podwójny topór i glewia."
 			],
 			dependencies: [
 				"1993BF6C4845F8E2"
@@ -144,6 +166,11 @@
 					id: "521917946EE398A3",
 					type: "item",
 					item: "rogues:golden_double_axe"
+				},
+				{
+					id: "7E21A8535DDCBA02",
+					type: "item",
+					item: "rogues:golden_glaive"
 				}
 			],
 			rewards: [
@@ -151,10 +178,15 @@
 					id: "76A49A93593B8196",
 					type: "item",
 					item: {
-						id: "minecraft:gold_ingot",
+						id: "minecraft:diamond",
 						Count: 1b
 					},
-					count: 8
+					count: 3
+				},
+				{
+					id: "5795EC71D54FEE11",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -192,6 +224,19 @@
 						Count: 1b
 					},
 					count: 2
+				},
+				{
+					id: "522AA1D003B8B137",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					}
+				},
+				{
+					id: "7B59874ECE0CDE7A",
+					type: "xp_levels",
+					xp_levels: 5
 				}
 			]
 		},
@@ -202,7 +247,7 @@
 			y: 1.0d,
 			icon: "rogues:berserker_armor_chest",
 			description: [
-				"Drugi zestaw: berserker. Potrzebne łańcuchy."
+				"Drugi zestaw: berserker (łańcuchy)."
 			],
 			dependencies: [
 				"701CF6A8838262C3",
@@ -235,62 +280,29 @@
 					id: "7EAC746CC76ECAB0",
 					type: "item",
 					item: {
-						id: "minecraft:chain",
+						id: "minecraft:netherite_scrap",
 						Count: 1b
 					},
-					count: 16
+					count: 2
 				},
 				{
 					id: "15CC6864CC11E00B",
 					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			id: "31E04A9EFC7DF3EE",
-			title: "Rubinowy arsenał",
-			x: 6.0d,
-			y: -1.0d,
-			icon: "rogues:ruby_double_axe",
-			description: [
-				"Rubinowy podwójny topór i glewia."
-			],
-			dependencies: [
-				"352C67AF1AA10422",
-				"31B517F5D5488ED2"
-			],
-			tasks: [
-				{
-					id: "7909D1E68E7FE516",
-					type: "item",
-					item: "rogues:ruby_double_axe"
-				},
-				{
-					id: "3C25CB1603234156",
-					type: "item",
-					item: "rogues:ruby_glaive"
-				}
-			],
-			rewards: [
-				{
-					id: "121572E6B716789C",
-					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 5
 				}
 			]
 		},
 		{
 			id: "50B6DB7111004603",
 			title: "Netherytowy arsenał",
-			x: 7.5d,
+			x: 6.0d,
 			y: -1.0d,
 			icon: "rogues:netherite_double_axe",
 			description: [
 				"Netherytowy podwójny topór i glewia."
 			],
 			dependencies: [
-				"31E04A9EFC7DF3EE",
+				"352C67AF1AA10422",
 				"3E82FB0EC8FBCB55"
 			],
 			tasks: [
@@ -308,15 +320,32 @@
 			rewards: [
 				{
 					id: "5EEC0049B5306EC6",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_upgrade_smithing_template",
+						Count: 1b
+					}
+				},
+				{
+					id: "72E70D042D7FD1A8",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "556113F02F591A8A",
 					type: "xp_levels",
-					xp_levels: 15
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "1959EB123D7BD6A9",
 			title: "Netherytowy berserker",
-			x: 7.5d,
+			x: 6.0d,
 			y: 1.0d,
 			icon: "rogues:netherite_berserker_armor_chest",
 			description: [
@@ -351,8 +380,16 @@
 			rewards: [
 				{
 					id: "5C149D63F07A2DBC",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "77CEDF9B9AEB3CFD",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 8
 				}
 			]
 		},
@@ -385,19 +422,28 @@
 						id: "minecraft:cooked_porkchop",
 						Count: 1b
 					},
-					count: 16
+					count: 32
 				},
 				{
 					id: "73F7B3FC5AC11280",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "3A06DCB2EDACBB50",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 8
 				}
 			]
 		},
 		{
 			id: "7B418BBAC153C9F8",
 			title: "&6Mistrz Wojowników",
-			x: 9.5d,
+			x: 8.0d,
 			y: 0.0d,
 			icon: "rogues:netherite_double_axe",
 			description: [
@@ -428,7 +474,7 @@
 							display: {
 								Name: "{\"text\": \"Naszyjnik Berserkera\", \"italic\": false, \"color\": \"dark_red\"}",
 								Lore: [
-									"{\"text\": \"Nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
+									"{\"text\": \"Unikatowa nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
 								]
 							}
 						}
@@ -436,8 +482,16 @@
 				},
 				{
 					id: "716A39EFA990EDE9",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "187E2B87ADF2ECB5",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 30
 				}
 			]
 		}

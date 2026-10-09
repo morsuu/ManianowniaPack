@@ -22,10 +22,11 @@
 				"",
 				"&7Poziom 1:&r Koszmar i Żniwiarz (cmentarze), &bNocny Licz&r (wieża w zimnych biomach)",
 				"&7Poziom 2:&r &bStrażnik Starszy&r, &cRękawica Netheru&r, &5Wither&r",
-				"&7Poziom 3:&r &aPusta Róża&r (bujne jaskinie), &4Skażony Czempion&r, &8Obsydialit&r (Kres), &dSmok Kresu&r",
+				"&7Poziom 3:&r &aPusta Róża&r (bujne jaskinie), &4Skażony Czempion&r, &dSmok Kresu&r, &8Obsydialit&r (Kres)",
 				"&7Poziom 4:&r &3Warden&r",
 				"",
-				"Areny bossów znajdziesz &eKompasem odkrywcy&r. Do większości walk idźcie razem!"
+				"Areny bossów znajdziesz &eKompasem odkrywcy&r. Trofea z bossów BOMD przerobisz na potężne przedmioty.",
+				"Do większości walk idźcie razem!"
 			],
 			dependencies: [
 				"1DC3DC43CB165273"
@@ -47,15 +48,20 @@
 						Count: 1b
 					},
 					count: 2
+				},
+				{
+					id: "57333DA958D6DC74",
+					type: "xp_levels",
+					xp_levels: 2
 				}
 			]
 		},
 		{
 			id: "1F3AD6F828C111D3",
 			title: "Cmentarzysko",
-			x: 2.4d,
-			y: -4.5d,
-			icon: "minecraft:skeleton_skull",
+			x: 2.0d,
+			y: -3.0d,
+			icon: "graveyard:gravestone",
 			description: [
 				"Znajdź duży cmentarz (The Graveyard). Nocą wychodzą z niego upiory."
 			],
@@ -78,14 +84,27 @@
 						Count: 1b
 					},
 					count: 32
+				},
+				{
+					id: "3D46A7A688B9DB93",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "72172AE693160093",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
 		{
 			id: "51D5CC52B649E8FF",
 			title: "Koszmary nocy",
-			x: 4.2d,
-			y: -4.5d,
+			x: 3.5d,
+			y: -3.0d,
 			icon: "minecraft:wither_rose",
 			description: [
 				"Pokonaj Koszmara i Żniwiarza."
@@ -115,23 +134,226 @@
 						id: "minecraft:diamond",
 						Count: 1b
 					},
-					count: 2
+					count: 3
 				},
 				{
 					id: "760F2A6002C9D0B5",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			id: "7A951B1281F33A0A",
+			title: "Kościany sztylet",
+			x: 2.0d,
+			y: -4.5d,
+			icon: "graveyard:bone_dagger",
+			description: [
+				"Kościany sztylet znajdziesz w skrzyniach na cmentarzach i w kryptach."
+			],
+			dependencies: [
+				"1F3AD6F828C111D3"
+			],
+			tasks: [
+				{
+					id: "3D40800E46CA17E8",
+					type: "item",
+					item: "graveyard:bone_dagger"
+				}
+			],
+			rewards: [
+				{
+					id: "301E2A05B0CCD32B",
+					type: "item",
+					item: {
+						id: "minecraft:glass_bottle",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "3876673301DDF185",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			id: "1897405BF077ED83",
+			title: "Fiolka krwi",
+			x: 3.5d,
+			y: -4.5d,
+			icon: "graveyard:vial_of_blood",
+			description: [
+				"Zbierz krew wieśniaków: pusta butelka w drugiej ręce i kościany sztylet w głównej.",
+				"Napełnij fiolkę do pełna."
+			],
+			dependencies: [
+				"7A951B1281F33A0A"
+			],
+			tasks: [
+				{
+					id: "50EE70D4D31356EE",
+					type: "item",
+					item: "graveyard:vial_of_blood"
+				}
+			],
+			rewards: [
+				{
+					id: "1139793F28ADEA9B",
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "52CFC2A2B58F77BA",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			id: "72DB24674EDFB177",
+			title: "Kościana laska",
+			x: 5.0d,
+			y: -4.5d,
+			icon: "graveyard:middle_bone_staff",
+			description: [
+				"Zdobądź trzy części kościanej laski (górną, środkową i dolną) z krypt i więzienia Licza."
+			],
+			dependencies: [
+				"1F3AD6F828C111D3"
+			],
+			tasks: [
+				{
+					id: "778ED70038C6C9F0",
+					type: "item",
+					item: "graveyard:upper_bone_staff"
+				},
+				{
+					id: "712802A62C2CFA87",
+					type: "item",
+					item: "graveyard:middle_bone_staff"
+				},
+				{
+					id: "3CF26D997770F8F2",
+					type: "item",
+					item: "graveyard:lower_bone_staff"
+				}
+			],
+			rewards: [
+				{
+					id: "37D82A9E9EF1AFB9",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "3F28BF997B889024",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			id: "572BA4A23CABDB61",
+			title: "Przeklęta wyspa",
+			x: 5.0d,
+			y: -3.0d,
+			icon: "graveyard:altar",
+			description: [
+				"Znajdź Więzienie Licza z ołtarzem."
+			],
+			dependencies: [
+				"1F3AD6F828C111D3"
+			],
+			tasks: [
+				{
+					id: "3D95297FC459CCEF",
+					type: "structure",
+					structure: "graveyard:lich_prison"
+				}
+			],
+			rewards: [
+				{
+					id: "11EA7A55FD58F858",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "5C44C4A0B811E380",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			id: "3DE6317F817E3491",
+			title: "&4Skażony Czempion",
+			x: 6.5d,
+			y: -3.0d,
+			icon: "minecraft:netherite_sword",
+			description: [
+				"Nocą przy ołtarzu w Więzieniu Licza użyj pełnej fiolki krwi i trzech części kościanej laski.",
+				"Czempion ma trzy fazy. Przygotujcie mikstury!"
+			],
+			dependencies: [
+				"1897405BF077ED83",
+				"72DB24674EDFB177",
+				"572BA4A23CABDB61"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "5B60380D4508BF13",
+					type: "kill",
+					entity: "graveyard:lich",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "359971FCA918114B",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_ingot",
+						Count: 1b
+					}
+				},
+				{
+					id: "51D2D9342964A13D",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "304676191ADF3C1C",
+					type: "xp_levels",
+					xp_levels: 2
 				}
 			]
 		},
 		{
 			id: "7493A99EC828A5E3",
 			title: "&bNocny Licz",
-			x: 4.2d,
-			y: -2.25d,
+			x: 2.0d,
+			y: 1.5d,
 			icon: "minecraft:soul_lantern",
 			description: [
-				"Wieża Licza stoi w zimnych, ośnieżonych biomach.",
+				"Wieża Licza stoi w zimnych, ośnieżonych biomach (Kompas odkrywcy ją znajdzie).",
 				"Licz rzuca pociski i przywołuje sługi. Weź łuk albo czary dystansowe."
 			],
 			dependencies: [
@@ -163,16 +385,25 @@
 				},
 				{
 					id: "3CD2A4DCCD41849F",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "323D7026D455B0B4",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 2
 				}
 			]
 		},
 		{
 			id: "11CC4C4F66A1A127",
 			title: "&bStrażnik Starszy",
-			x: 6.6d,
-			y: -4.5d,
+			x: 2.0d,
+			y: 4.0d,
 			icon: "minecraft:prismarine_crystals",
 			description: [
 				"Pokonaj Strażnika Starszego w podwodnej świątyni. Weź mikstury oddychania pod wodą i mleko na zmęczenie."
@@ -194,27 +425,34 @@
 					id: "72789A21E1EB6C7B",
 					type: "item",
 					item: {
-						id: "minecraft:sponge",
+						id: "minecraft:trident",
 						Count: 1b
-					},
-					count: 4
+					}
 				},
 				{
 					id: "10A5DBCB0FBEF839",
+					type: "item",
+					item: {
+						id: "minecraft:heart_of_the_sea",
+						Count: 1b
+					}
+				},
+				{
+					id: "7466EDD123245B62",
 					type: "xp_levels",
-					xp_levels: 15
+					xp_levels: 6
 				}
 			]
 		},
 		{
 			id: "76BF6B10BFDB4D81",
 			title: "&cRękawica Netheru",
-			x: 6.6d,
-			y: -2.25d,
+			x: 4.0d,
+			y: 1.5d,
 			icon: "minecraft:blackstone",
 			description: [
 				"Ogromna rękawica w arenie w Netherze. Strzela laserem i uderza pięścią.",
-				"Chowaj się za filarami!"
+				"Chowaj się za filarami! Trofeum: Płonące Oko."
 			],
 			dependencies: [
 				"7493A99EC828A5E3",
@@ -242,20 +480,29 @@
 						id: "minecraft:netherite_scrap",
 						Count: 1b
 					},
-					count: 2
+					count: 3
 				},
 				{
 					id: "34B81D12A5E68421",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "1EC12665D038A3B4",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 16
 				}
 			]
 		},
 		{
 			id: "710A01BD949B4036",
 			title: "&5Wither",
-			x: 6.6d,
-			y: 0.0d,
+			x: 4.0d,
+			y: 4.0d,
 			icon: "minecraft:wither_skeleton_skull",
 			description: [
 				"Zdobądź 3 czaszki witherowych szkieletów i przywołaj Withera.",
@@ -278,26 +525,34 @@
 					id: "505271BEC61AB629",
 					type: "item",
 					item: {
-						id: "minecraft:diamond_block",
+						id: "minecraft:netherite_ingot",
 						Count: 1b
 					}
 				},
 				{
 					id: "37E80C232E9B440D",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "34ACBC4A2C70F87D",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 16
 				}
 			]
 		},
 		{
 			id: "3A660A78977BEFDB",
 			title: "&aPusta Róża",
-			x: 9.0d,
-			y: -4.5d,
+			x: 6.0d,
+			y: 1.5d,
 			icon: "minecraft:spore_blossom",
 			description: [
-				"Pusta Róża (Void Blossom) rośnie w bujnych jaskiniach.",
-				"Uważaj na kolce i zarodniki. Niszcz jej kwiaty-tarcze."
+				"Pusta Róża rośnie w bujnych jaskiniach. Pustą lilię (konwalia + odłamek ametystu) postaw na ziemi: jej pyłek wskaże drogę.",
+				"Niszcz kwiaty-tarcze bossa. Trofeum: Kolec Pustki."
 			],
 			dependencies: [
 				"710A01BD949B4036"
@@ -324,60 +579,28 @@
 						id: "minecraft:netherite_scrap",
 						Count: 1b
 					},
-					count: 2
+					count: 4
 				},
 				{
 					id: "79AEBCE917EBA848",
-					type: "xp_levels",
-					xp_levels: 25
-				}
-			]
-		},
-		{
-			id: "3DE6317F817E3491",
-			title: "&4Skażony Czempion",
-			x: 9.0d,
-			y: -2.25d,
-			icon: "minecraft:netherite_sword",
-			description: [
-				"Boss z The Graveyard. Czeka w Więzieniu Licza.",
-				"Znajdź je Kompasem odkrywcy i przywołaj Czempiona przy ołtarzu."
-			],
-			dependencies: [
-				"710A01BD949B4036",
-				"51D5CC52B649E8FF"
-			],
-			size: 1.5d,
-			tasks: [
-				{
-					id: "5B60380D4508BF13",
-					type: "kill",
-					entity: "graveyard:lich",
-					value: 1L
-				}
-			],
-			rewards: [
-				{
-					id: "359971FCA918114B",
 					type: "item",
 					item: {
-						id: "minecraft:netherite_scrap",
+						id: "minecraft:enchanted_golden_apple",
 						Count: 1b
-					},
-					count: 2
+					}
 				},
 				{
-					id: "51D2D9342964A13D",
+					id: "5B66D62E29DB966A",
 					type: "xp_levels",
-					xp_levels: 25
+					xp_levels: 16
 				}
 			]
 		},
 		{
 			id: "59B99EEA84AF085B",
 			title: "&dSmok Kresu",
-			x: 9.0d,
-			y: 0.0d,
+			x: 6.0d,
+			y: 4.0d,
 			icon: "minecraft:dragon_head",
 			description: [
 				"Zniszczcie kryształy na obsydianowych wieżach, a potem pokonajcie smoka."
@@ -401,24 +624,33 @@
 					item: {
 						id: "minecraft:netherite_ingot",
 						Count: 1b
-					}
+					},
+					count: 2
 				},
 				{
 					id: "56DE0F20BDD731AC",
+					type: "item",
+					item: {
+						id: "minecraft:totem_of_undying",
+						Count: 1b
+					}
+				},
+				{
+					id: "5114BC03362C1C99",
 					type: "xp_levels",
-					xp_levels: 30
+					xp_levels: 24
 				}
 			]
 		},
 		{
 			id: "5DDC7F4D1B5EAB22",
 			title: "&8Obsydialit",
-			x: 11.4d,
-			y: -2.25d,
+			x: 8.0d,
+			y: 1.5d,
 			icon: "minecraft:crying_obsidian",
 			description: [
 				"Obsydianowy kolos na zewnętrznych wyspach Kresu.",
-				"Zmienia ataki w zależności od koloru run. Obserwuj go!"
+				"Zmienia ataki w zależności od koloru run. Trofeum: Obsydianowe Serce."
 			],
 			dependencies: [
 				"59B99EEA84AF085B"
@@ -444,20 +676,30 @@
 					item: {
 						id: "minecraft:netherite_ingot",
 						Count: 1b
-					}
+					},
+					count: 2
 				},
 				{
 					id: "7D632A82EA195CAA",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "17FC2E78149B2D38",
 					type: "xp_levels",
-					xp_levels: 30
+					xp_levels: 24
 				}
 			]
 		},
 		{
 			id: "7CC532E5F68DF2A1",
 			title: "&3Warden",
-			x: 11.4d,
-			y: 0.0d,
+			x: 8.0d,
+			y: 4.0d,
 			icon: "minecraft:sculk_shrieker",
 			description: [
 				"Najsilniejszy potwór w grze. Bez dobrego sprzętu lepiej uciekać.",
@@ -483,20 +725,211 @@
 					item: {
 						id: "minecraft:netherite_ingot",
 						Count: 1b
-					}
+					},
+					count: 3
 				},
 				{
 					id: "7AB3C1BBE1A977EF",
+					type: "item",
+					item: {
+						id: "minecraft:totem_of_undying",
+						Count: 1b
+					}
+				},
+				{
+					id: "183D33DE441E2DC3",
 					type: "xp_levels",
-					xp_levels: 30
+					xp_levels: 24
+				}
+			]
+		},
+		{
+			id: "38AEA791E693567F",
+			title: "Naładowana perła",
+			x: 4.0d,
+			y: -0.5d,
+			icon: "bosses_of_mass_destruction:charged_ender_pearl",
+			description: [
+				"Kolec Pustki + perła + Starożytna Anima: perła, której nie zużywasz."
+			],
+			dependencies: [
+				"7493A99EC828A5E3",
+				"3A660A78977BEFDB"
+			],
+			tasks: [
+				{
+					id: "36A36CCB4C97D2B9",
+					type: "item",
+					item: "bosses_of_mass_destruction:charged_ender_pearl"
+				}
+			],
+			rewards: [
+				{
+					id: "7C209275116A5EF4",
+					type: "xp_levels",
+					xp_levels: 15
+				},
+				{
+					id: "78C97D222F27C5C2",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "30C6D1E4CB5FA5DC",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "3866D3378B7F3B70",
+			title: "Kostur Ochrony",
+			x: 6.0d,
+			y: -0.5d,
+			icon: "bosses_of_mass_destruction:mob_ward",
+			description: [
+				"Starożytna Anima + Obsydianowe Serce: w promieniu 64 bloków nie odradzają się potwory. Idealny do bazy!"
+			],
+			dependencies: [
+				"7493A99EC828A5E3",
+				"5DDC7F4D1B5EAB22"
+			],
+			tasks: [
+				{
+					id: "5C32883365AC9804",
+					type: "item",
+					item: "bosses_of_mass_destruction:mob_ward"
+				}
+			],
+			rewards: [
+				{
+					id: "1391776D6C52A4DF",
+					type: "xp_levels",
+					xp_levels: 15
+				},
+				{
+					id: "1452753F72CAEC58",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "33048BE7D08F6C48",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "38A96961EF10BE83",
+			title: "Stół lewitacji",
+			x: 8.0d,
+			y: -0.5d,
+			icon: "bosses_of_mass_destruction:levitation_block",
+			description: [
+				"Starożytna Anima + Płonące Oko: latanie jak w trybie kreatywnym w kolumnie 7x7. Świetne do budowania!"
+			],
+			dependencies: [
+				"7493A99EC828A5E3",
+				"76BF6B10BFDB4D81"
+			],
+			tasks: [
+				{
+					id: "16692EADE5B931CB",
+					type: "item",
+					item: "bosses_of_mass_destruction:levitation_block"
+				}
+			],
+			rewards: [
+				{
+					id: "3644E7668E3D95EB",
+					type: "xp_levels",
+					xp_levels: 15
+				},
+				{
+					id: "786A93DC9510F6F1",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "348C8435086CB48C",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "3CCE60939CA921FE",
+			title: "Włócznia Ziemnego Skoku",
+			x: 10.0d,
+			y: -0.5d,
+			icon: "bosses_of_mass_destruction:earthdive_spear",
+			description: [
+				"Kolec Pustki + Obsydianowe Serce: teleport przez ściany na krótki dystans."
+			],
+			dependencies: [
+				"3A660A78977BEFDB",
+				"5DDC7F4D1B5EAB22"
+			],
+			tasks: [
+				{
+					id: "5A67A9C884A9BF73",
+					type: "item",
+					item: "bosses_of_mass_destruction:earthdive_spear"
+				}
+			],
+			rewards: [
+				{
+					id: "32701983CAB04C82",
+					type: "xp_levels",
+					xp_levels: 15
+				},
+				{
+					id: "1D7908CB83CED74D",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "3C0FF45C0273233A",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
 				}
 			]
 		},
 		{
 			id: "10596906DDC63094",
 			title: "Mistrz Manianowni",
-			x: 14.4d,
-			y: -1.5d,
+			x: 11.0d,
+			y: 2.0d,
 			icon: "minecraft:nether_star",
 			description: [
 				"Pokonaliście wszystkich bossów. Manianownia jest wasza!",
@@ -551,6 +984,10 @@
 								{
 									id: "minecraft:mending",
 									lvl: 1s
+								},
+								{
+									id: "minecraft:looting",
+									lvl: 3s
 								}
 							]
 						}
@@ -558,6 +995,14 @@
 				},
 				{
 					id: "33BC86F964D555B1",
+					type: "item",
+					item: {
+						id: "minecraft:elytra",
+						Count: 1b
+					}
+				},
+				{
+					id: "7A47DE4F9F08E931",
 					type: "xp_levels",
 					xp_levels: 50
 				}

@@ -6,75 +6,75 @@ hash = "8d21b9f3cb6e86436c23ebeb556a2838d6c5905bf93cfc5a30aa18eefa38e80a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bizuteria.snbt"
-hash = "6c75c8b2b1d4f905701ec7331dc9b298e2036a33ca1b2d8d8486de17f3ff1806"
+hash = "49abf83a98e347d7a69c5e45c3898a4010dd19cef8abca727a83ac6964d6581f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
-hash = "365da19ffaae7a5ca8d320073ae4b2e372db923b88f893016f3f991c1dad7648"
+hash = "39e1c12c847c7bc66754506419388c636daad204d45aa6cf2355a284a04d365b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/build.snbt"
-hash = "35ea8d10ce7602ef5d6176f884db8d6a020cdeeeb17d07bc10a6465225466064"
+hash = "dd4a5e4d417358b1a9b37856ff494613a2c155c80240c64c76b0eee6162cebb5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "cb491cae60882a7e7e19ae5561b4476a664e62b1b043413d77798258bc692908"
+hash = "a752d23524df9d886643efc1d627ef72522952072c40a79963f1913f859c01b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create2.snbt"
-hash = "991b7fcf0aaf0d0c60a2761ec3120e94ccaa799ec844842f2818c25a686b568a"
+hash = "90b4b1488473fc9c19b670e32725a05cd9634896dd0d99049fd3faf4e1e17894"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czarodziej.snbt"
-hash = "a20e74b6e4f4c39a377a5ef114e9f4bf85d21a0e7ec3ce9269afe8b54e4f924e"
+hash = "3e666f4a65652df0adc3ec7ed17600c361b04759d39caaaf21cf8ebb5569b54f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kaplan.snbt"
-hash = "e513423c99493aee1c24643cfd7076deeb5eb3e5bb8bbd5fb7b21a97fadf0b14"
+hash = "4ab0c7a7d9729fc92da454656a5fbc519c8958fb494e82724cbda075cdb391b2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kuchnia.snbt"
-hash = "cc83e042dc2e843b5c3e7b88c8e472c5b3512314ef5227fa64ff124cd3ee3c0e"
+hash = "3500c28e61608a19beaf6d0c6f154dc559898535498d53f0b8d21a5314ec043c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lotrzyk.snbt"
-hash = "de5ce630d658561159d60b837dac52002fbbfa3ea19e72ed3bab5148cf2a1ec7"
+hash = "e49a7905b5a3ebab1e91c5e59b74bbe11d1a6fc6cc5af24757fbe7442618f2f9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lucznik.snbt"
-hash = "ef50f7dc40978ed912b51268d078b15ffc1542615f5ec2e594a7ca3c89de4969"
+hash = "a62c00d313dacae89207a5eb3f494979c8b662a2d328aac608c4a4552c5c7edc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/manianownia.snbt"
-hash = "35d867d3c213702ace8da74fce7f3b90f359c3a06cd36a19bd1f99067f824c7b"
+hash = "b2b9ed960f5dc13261e5ed477b65a1bb18c5752e0be97103e82da637de2b5d1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
-hash = "08728af3e0627022e937ed9558cd6360c45bdd033797bc1e01e798765c618f42"
+hash = "7d32bae30912b24b707da8934f8c6a015f28e8d41eb561b20018803c73729a9e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/paladyn.snbt"
-hash = "fc07e39e5b3712625d384ce869bef9e9b39ae49dd5855ee44238e344f89e7b71"
+hash = "46289f93b07cc4f68cf0d1aee238845916ccdc4f7fbeb58e317ca34fc7bc6017"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/przygoda.snbt"
-hash = "e63bfe53c4e6f728a95fff07b585625346ee32bccf30bacd26dc0753052feaec"
+hash = "fbb90d45e02f6b90d34f798befe6315ba35c628c0850aff9ec1800a9c2ab96dd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "4582a4ee97204541d06069ff79151a2beac7029580478bd5d9289e8857e1cf61"
+hash = "d72567bf2bb8e4a1fde45cb14ffb045172b3efe6d93dad39d148dd70eba2f80d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/walka.snbt"
-hash = "3ce09fc2ecd9efb0ba8f9b832cb324b6fec52893a77c03a87cf5f93db1159aae"
+hash = "cdee560df616add338f62168e7fde8f281597c697dfd083f4e4cc4f637aec23c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "6bc97cf9934b2ec0332dd8519044b2478a20550e4d99eb91586eb6c712f21e4b"
+hash = "50ad4818b5930e0bb872738524c1841fa0196d43c089d3f6034995851202878b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
-hash = "3daf84c9f03a1819fbe2fab9df642274b5de9ba6944ad759e9ef5740349d356d"
+hash = "71ddeb1b38015a24114fe51c3afd762e5d3e8a948143d913395be8dc59ebaf63"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -116,7 +116,7 @@ metafile = true
 
 [[files]]
 file = "mods/archers.pw.toml"
-hash = "e5c4e37b4ab1cb18ee8236f8ef2a4f68a77b05714b75f2f9150369e28f566b7d"
+hash = "19c75a6941dcc918800074117e398688db299becb333660f9b498b9493c8ecc9"
 metafile = true
 
 [[files]]
@@ -366,7 +366,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures.pw.toml"
-hash = "d2cb5ad502e21b62311befd55b84739760325128d1daabc7a6ce8d61114f8723"
+hash = "36d3057339cdf6a8c7a0de5fbe026b7d6a75f358575ead7ecbeab46d8cfe71ad"
 metafile = true
 
 [[files]]
@@ -381,7 +381,7 @@ metafile = true
 
 [[files]]
 file = "mods/rogues-and-warriors.pw.toml"
-hash = "616396ba94a05e276c2e596d1afd439cfd4ce3e4ded5f978e0a673195daf080a"
+hash = "6087235f9c1cf7d6684ef0794ee0905939997e02320425761cf4e96af55a2eb6"
 metafile = true
 
 [[files]]
@@ -451,12 +451,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "13cdfa881df52ad91afd1696a1a9cce87ead3608e854d26614c2a47f3381d9bf"
+hash = "13c6aea854cabfbbbbb6abb4201915e08019dfe6a2fad6a9a7a39e266b9da4da"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "10a9cfa61d9d711d7d736498e3b56df3702019e8f4045d24a19d57b2843bcf00"
+hash = "aa69195658239840d17ff764eea2388ede9b3382a1783f09e42b7c2061b3a526"
 metafile = true
 
 [[files]]
@@ -478,6 +478,18 @@ metafile = true
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "ba696ce7c3b9ce41805be9a6b5ad1a99edea377753827ce9596af5453929dc71"
 metafile = true
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/first_join.json"
+hash = "aff3ec523c6556b96eb4ba90ddef69525173a03068dfc75034fb050976caf5ce"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/first_join.mcfunction"
+hash = "735993b04d71a75affe42d8ab50a59fa17d7e077e12c2edea60cf565252911cf"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/pack.mcmeta"
+hash = "bc1bd10a345b7ba1469df4267bc31bbeac285bd8802eb01d5a6c8ca8204a9bc8"
 
 [[files]]
 file = "options.txt"

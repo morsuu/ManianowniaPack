@@ -19,7 +19,8 @@
 			icon: "jewelry:jewelers_kit",
 			description: [
 				"Jewelry: pierścienie i naszyjniki wkładasz w sloty biżuterii.",
-				"Każdy klejnot pasuje do innej klasy: &crubin&r (ogień, siła), &etopaz&r, &6cytryn&r, &ajadeit&r, &bszafir&r (lód), &5tanzanit&r."
+				"Klejnoty wypadają z żył klejnotów głęboko pod ziemią (jak diamenty).",
+				"&crubin&r: atak, &etopaz&r: zbroja, &6cytryn&r: ogień, &ajadeit&r: leczenie, &bszafir&r: lód, &5tanzanit&r: arkana."
 			],
 			dependencies: [
 				"7FEE44943B9D9C09"
@@ -40,7 +41,21 @@
 						id: "minecraft:gold_ingot",
 						Count: 1b
 					},
-					count: 4
+					count: 6
+				},
+				{
+					id: "181B78446CE612F4",
+					type: "item",
+					item: {
+						id: "minecraft:copper_ingot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "3AE80D8569909776",
+					type: "xp_levels",
+					xp_levels: 6
 				}
 			]
 		},
@@ -68,10 +83,15 @@
 					id: "54EAFFDC16187902",
 					type: "item",
 					item: {
-						id: "minecraft:copper_ingot",
+						id: "minecraft:iron_ingot",
 						Count: 1b
 					},
-					count: 16
+					count: 4
+				},
+				{
+					id: "15FEF84DFF16AFFF",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -97,6 +117,15 @@
 			rewards: [
 				{
 					id: "5284CFA96FDA5FCD",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 6
+				},
+				{
+					id: "7EEED77756C4FF26",
 					type: "xp_levels",
 					xp_levels: 3
 				}
@@ -124,8 +153,17 @@
 			rewards: [
 				{
 					id: "722AE7789B29A35D",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "1B4BC2DC41BEC14C",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -136,7 +174,7 @@
 			y: 1.0d,
 			icon: "jewelry:sapphire",
 			description: [
-				"Wykop po jednym z sześciu klejnotów."
+				"Zdobądź po jednym z sześciu klejnotów."
 			],
 			dependencies: [
 				"724A20BD2C3A4A74"
@@ -181,12 +219,12 @@
 						id: "minecraft:diamond",
 						Count: 1b
 					},
-					count: 2
+					count: 3
 				},
 				{
 					id: "73DF135BCA1ECE34",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 3
 				}
 			]
 		},
@@ -197,7 +235,7 @@
 			y: -1.0d,
 			icon: "jewelry:ruby_ring",
 			description: [
-				"Zrób pierścień z dowolnym klejnotem (np. rubinowy)."
+				"Zrób pierścień z klejnotem pasującym do twojej klasy (np. rubinowy)."
 			],
 			dependencies: [
 				"3CE78175992BB850"
@@ -212,8 +250,17 @@
 			rewards: [
 				{
 					id: "72A0934F70F24F16",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "54500AADBAB315E4",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
@@ -240,8 +287,17 @@
 			rewards: [
 				{
 					id: "1E7CF827E3C6144F",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "589C8A46817CC06A",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 3
 				}
 			]
 		},
@@ -273,8 +329,17 @@
 			rewards: [
 				{
 					id: "54B8125F418C2882",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "10B5AE6B0BA6BF07",
 					type: "xp_levels",
-					xp_levels: 10
+					xp_levels: 3
 				}
 			]
 		},
@@ -303,8 +368,24 @@
 			rewards: [
 				{
 					id: "521357625EB678C7",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_ingot",
+						Count: 1b
+					}
+				},
+				{
+					id: "7EB7885355B0FC39",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "7F40FBF986CF416D",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 16
 				}
 			]
 		}

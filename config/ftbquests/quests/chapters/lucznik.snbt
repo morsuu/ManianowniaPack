@@ -18,7 +18,7 @@
 			y: 0.0d,
 			icon: "archers:archers_workbench",
 			description: [
-				"Łucznik walczy z dystansu: łuki, kusze, włócznie i specjalne strzały.",
+				"Łucznik walczy z dystansu: łuki, kusze i włócznie.",
 				"Wszystko zrobisz przy warsztacie łucznika."
 			],
 			dependencies: [
@@ -41,31 +41,59 @@
 						Count: 1b
 					},
 					count: 64
+				},
+				{
+					id: "190CD71BEE4896F4",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 6
+				},
+				{
+					id: "3565541129F218BE",
+					type: "xp_levels",
+					xp_levels: 6
 				}
 			]
 		},
 		{
-			id: "73E7745F2376AC1A",
+			id: "5D0B07A4B968951D",
 			title: "Włócznia",
 			x: 1.5d,
 			y: -2.0d,
 			icon: "archers:iron_spear",
 			description: [
-				"Krzemienna albo żelazna włócznia do walki z bliska."
+				"Krzemienna i żelazna włócznia do walki z bliska."
 			],
 			dependencies: [
 				"1D752A6D1387AAA9"
 			],
 			tasks: [
 				{
-					id: "770CCB24A9E95715",
+					id: "78E56495730DCDFC",
+					type: "item",
+					item: "archers:flint_spear"
+				},
+				{
+					id: "73ACA219FF92E446",
 					type: "item",
 					item: "archers:iron_spear"
 				}
 			],
 			rewards: [
 				{
-					id: "3DF3FBFD3D5C07EC",
+					id: "54293015FD723C15",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "549A0E8948F20A4C",
 					type: "xp_levels",
 					xp_levels: 3
 				}
@@ -95,10 +123,15 @@
 					id: "7F25CF124B862AA2",
 					type: "item",
 					item: {
-						id: "minecraft:arrow",
+						id: "minecraft:gold_ingot",
 						Count: 1b
 					},
-					count: 64
+					count: 6
+				},
+				{
+					id: "34C6823E1EFB172C",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -126,10 +159,15 @@
 					id: "53BE8E9417B457AF",
 					type: "item",
 					item: {
-						id: "minecraft:arrow",
+						id: "minecraft:redstone",
 						Count: 1b
 					},
-					count: 32
+					count: 16
+				},
+				{
+					id: "3EA5793FC3D7F8EE",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -172,46 +210,64 @@
 					id: "783C7755C31C72DB",
 					type: "item",
 					item: {
-						id: "minecraft:leather",
+						id: "minecraft:scute",
 						Count: 1b
 					},
-					count: 16
+					count: 5
 				},
 				{
 					id: "7484E79AFADB8676",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					}
+				},
+				{
+					id: "5A0BF4A801C37CF5",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
 		{
-			id: "7052251B08F4E98E",
-			title: "Mały kołczan",
+			id: "7C05F362F2D05BCB",
+			title: "Złota i diamentowa włócznia",
 			x: 3.0d,
 			y: -2.0d,
-			icon: "archers:small_quiver",
+			icon: "archers:diamond_spear",
 			description: [
-				"Kołczan nosi strzały w osobnym slocie."
+				"Złota, a potem diamentowa włócznia."
 			],
 			dependencies: [
-				"3890718EEE73A838"
+				"5D0B07A4B968951D",
+				"33835E8F17F8E0AB"
 			],
 			tasks: [
 				{
-					id: "74C86C5989E06664",
+					id: "54D2CC67784DDC08",
 					type: "item",
-					item: "archers:small_quiver"
+					item: "archers:golden_spear"
+				},
+				{
+					id: "788363D21AAACA0E",
+					type: "item",
+					item: "archers:diamond_spear"
 				}
 			],
 			rewards: [
 				{
-					id: "5C393EA079415E56",
+					id: "1281016A99FF6303",
 					type: "item",
 					item: {
-						id: "minecraft:spectral_arrow",
+						id: "minecraft:netherite_scrap",
 						Count: 1b
-					},
-					count: 16
+					}
+				},
+				{
+					id: "762F59E8FAAB414C",
+					type: "xp_levels",
+					xp_levels: 5
 				}
 			]
 		},
@@ -237,14 +293,23 @@
 			rewards: [
 				{
 					id: "16D01AD2DB0CFCF3",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "73F6929D061E3F15",
 					type: "xp_levels",
-					xp_levels: 5
+					xp_levels: 3
 				}
 			]
 		},
 		{
 			id: "7E42ED27C71F077A",
-			title: "Szybkostrzelne kusze",
+			title: "Szybkostrzelność",
 			x: 3.0d,
 			y: 0.7d,
 			icon: "archers:rapid_crossbow",
@@ -271,10 +336,51 @@
 					id: "5AF577243297BC07",
 					type: "item",
 					item: {
-						id: "minecraft:redstone",
+						id: "minecraft:diamond",
 						Count: 1b
 					},
-					count: 16
+					count: 3
+				},
+				{
+					id: "3921268290C486F9",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "516CB217F9229826",
+			title: "Automatyczny spust",
+			x: 4.5d,
+			y: 0.7d,
+			icon: "archers:auto_fire_hook",
+			description: [
+				"Hak automatycznego strzału: kusza sama strzela po naładowaniu."
+			],
+			dependencies: [
+				"7E42ED27C71F077A"
+			],
+			tasks: [
+				{
+					id: "702565FE499DE825",
+					type: "item",
+					item: "archers:auto_fire_hook"
+				}
+			],
+			rewards: [
+				{
+					id: "3B558B36BF1E98BA",
+					type: "item",
+					item: {
+						id: "minecraft:spectral_arrow",
+						Count: 1b
+					},
+					count: 32
+				},
+				{
+					id: "342C716F06D7B21F",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -285,7 +391,7 @@
 			y: 2.0d,
 			icon: "archers:ranger_armor_chest",
 			description: [
-				"Drugi zestaw: tropiciel. Potrzebne skorupy żółwi."
+				"Drugi zestaw: tropiciel (skorupy żółwi)."
 			],
 			dependencies: [
 				"7BBBE2F20751CFAE",
@@ -318,152 +424,15 @@
 					id: "76B53B2B59A05209",
 					type: "item",
 					item: {
-						id: "minecraft:scute",
+						id: "minecraft:netherite_scrap",
 						Count: 1b
 					},
-					count: 4
+					count: 2
 				},
 				{
 					id: "32EC38AF5F2C4D1A",
 					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			id: "35177D697A9A27FC",
-			title: "Średni kołczan",
-			x: 4.5d,
-			y: -2.0d,
-			icon: "archers:medium_quiver",
-			description: [
-				"Więcej miejsca na strzały."
-			],
-			dependencies: [
-				"7052251B08F4E98E"
-			],
-			tasks: [
-				{
-					id: "1F21778886174D4E",
-					type: "item",
-					item: "archers:medium_quiver"
-				}
-			],
-			rewards: [
-				{
-					id: "532B0EC135727E57",
-					type: "item",
-					item: {
-						id: "minecraft:arrow",
-						Count: 1b
-					},
-					count: 64
-				}
-			]
-		},
-		{
-			id: "156EE39EC0AAB24B",
-			title: "Kryształowe łuki",
-			x: 4.5d,
-			y: -0.7d,
-			icon: "archers:crystal_longbow",
-			description: [
-				"Kryształowy długi i krótki łuk."
-			],
-			dependencies: [
-				"1A1C89D5006C1920",
-				"33835E8F17F8E0AB"
-			],
-			tasks: [
-				{
-					id: "78381BC4C41764A9",
-					type: "item",
-					item: "archers:crystal_longbow"
-				},
-				{
-					id: "57CCA93A7FF0E335",
-					type: "item",
-					item: "archers:crystal_shortbow"
-				}
-			],
-			rewards: [
-				{
-					id: "52355482130E8632",
-					type: "item",
-					item: {
-						id: "minecraft:amethyst_shard",
-						Count: 1b
-					},
-					count: 16
-				},
-				{
-					id: "747557076CB502D7",
-					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			id: "3F598BB73C399E21",
-			title: "Rubinowe kusze",
-			x: 4.5d,
-			y: 0.7d,
-			icon: "archers:ruby_heavy_crossbow",
-			description: [
-				"Rubinowa ciężka i szybkostrzelna kusza."
-			],
-			dependencies: [
-				"7E42ED27C71F077A",
-				"31B517F5D5488ED2"
-			],
-			tasks: [
-				{
-					id: "39B9247C00CD9246",
-					type: "item",
-					item: "archers:ruby_heavy_crossbow"
-				},
-				{
-					id: "1361DC1E2D502324",
-					type: "item",
-					item: "archers:ruby_rapid_crossbow"
-				}
-			],
-			rewards: [
-				{
-					id: "51B05FF97FC7732E",
-					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			id: "199EE6A33B90D064",
-			title: "Duży kołczan",
-			x: 6.0d,
-			y: -2.0d,
-			icon: "archers:large_quiver",
-			description: [
-				"Największy kołczan."
-			],
-			dependencies: [
-				"35177D697A9A27FC"
-			],
-			tasks: [
-				{
-					id: "5721483AFCB5F9C8",
-					type: "item",
-					item: "archers:large_quiver"
-				}
-			],
-			rewards: [
-				{
-					id: "3F0F2D19639F7B2E",
-					type: "item",
-					item: {
-						id: "minecraft:spectral_arrow",
-						Count: 1b
-					},
-					count: 32
+					xp_levels: 5
 				}
 			]
 		},
@@ -471,14 +440,14 @@
 			id: "72DF213187C3ABAD",
 			title: "Netherytowe łuki",
 			x: 6.0d,
-			y: 0.0d,
+			y: -0.7d,
 			icon: "archers:netherite_longbow",
 			description: [
-				"Netherytowy długi łuk i ciężka kusza."
+				"Netherytowy długi łuk i krótki łuk."
 			],
 			dependencies: [
-				"156EE39EC0AAB24B",
-				"3F598BB73C399E21",
+				"1A1C89D5006C1920",
+				"7E42ED27C71F077A",
 				"3E82FB0EC8FBCB55"
 			],
 			tasks: [
@@ -490,14 +459,110 @@
 				{
 					id: "7F39136A4863FAF1",
 					type: "item",
-					item: "archers:netherite_heavy_crossbow"
+					item: "archers:netherite_shortbow"
 				}
 			],
 			rewards: [
 				{
 					id: "3115A2FD84505D92",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_upgrade_smithing_template",
+						Count: 1b
+					}
+				},
+				{
+					id: "1A96F741E57562B7",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "3FE9734EA726EAA3",
 					type: "xp_levels",
-					xp_levels: 15
+					xp_levels: 8
+				}
+			]
+		},
+		{
+			id: "1FA1DDD1A8FD9205",
+			title: "Netherytowe kusze",
+			x: 6.0d,
+			y: 0.7d,
+			icon: "archers:netherite_heavy_crossbow",
+			description: [
+				"Netherytowa ciężka i szybkostrzelna kusza."
+			],
+			dependencies: [
+				"7E42ED27C71F077A",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "5338BC4ED1074FD6",
+					type: "item",
+					item: "archers:netherite_heavy_crossbow"
+				},
+				{
+					id: "155558BF3929EB75",
+					type: "item",
+					item: "archers:netherite_rapid_crossbow"
+				}
+			],
+			rewards: [
+				{
+					id: "5C23A088081562E9",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "7242190C816E3583",
+					type: "xp_levels",
+					xp_levels: 8
+				}
+			]
+		},
+		{
+			id: "71880EDC6F7582C5",
+			title: "Netherytowa włócznia",
+			x: 6.0d,
+			y: -2.0d,
+			icon: "archers:netherite_spear",
+			description: [
+				"Najlepsza włócznia."
+			],
+			dependencies: [
+				"7C05F362F2D05BCB",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "501945851AE3E15F",
+					type: "item",
+					item: "archers:netherite_spear"
+				}
+			],
+			rewards: [
+				{
+					id: "7D0B9FC2880CF526",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "774EDB97DD1A08F2",
+					type: "xp_levels",
+					xp_levels: 8
 				}
 			]
 		},
@@ -539,8 +604,16 @@
 			rewards: [
 				{
 					id: "30401D3AA8A25015",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "36E8B81CF459213B",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 8
 				}
 			]
 		},
@@ -575,10 +648,24 @@
 					id: "15CD5A1922BFE4F1",
 					type: "item",
 					item: {
-						id: "minecraft:arrow",
+						id: "minecraft:spectral_arrow",
 						Count: 1b
 					},
 					count: 64
+				},
+				{
+					id: "1E71AF0C4FE2B0D6",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "7D7553EF44CAF6B8",
+					type: "xp_levels",
+					xp_levels: 3
 				}
 			]
 		},
@@ -593,7 +680,7 @@
 			],
 			dependencies: [
 				"72DF213187C3ABAD",
-				"199EE6A33B90D064",
+				"1FA1DDD1A8FD9205",
 				"357575E9D81A0BEE",
 				"3A660A78977BEFDB"
 			],
@@ -617,7 +704,7 @@
 							display: {
 								Name: "{\"text\": \"Naszyjnik Sokolego Oka\", \"italic\": false, \"color\": \"green\"}",
 								Lore: [
-									"{\"text\": \"Nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
+									"{\"text\": \"Unikatowa nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
 								]
 							}
 						}
@@ -625,8 +712,16 @@
 				},
 				{
 					id: "3F496AFEA80E46C2",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "1A988EFB9B29FAA2",
 					type: "xp_levels",
-					xp_levels: 20
+					xp_levels: 30
 				}
 			]
 		}
