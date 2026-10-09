@@ -1,0 +1,17 @@
+{
+ "type": "farmersdelight:cutting",
+ "ingredients": [
+  {
+   "item": "supplementaries:ash_bricks"
+  }
+ ],
+ "result": [
+  {
+   "item": "supplementaries:ash_brick",
+   "count": 4
+  }
+ ],
+ "tool": {
+  "tag": "minecraft:pickaxes"
+ }
+}

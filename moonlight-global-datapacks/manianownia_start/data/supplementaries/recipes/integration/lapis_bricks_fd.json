@@ -1,0 +1,17 @@
+{
+ "type": "farmersdelight:cutting",
+ "ingredients": [
+  {
+   "item": "supplementaries:lapis_bricks"
+  }
+ ],
+ "result": [
+  {
+   "item": "minecraft:lapis_lazuli",
+   "count": 4
+  }
+ ],
+ "tool": {
+  "tag": "minecraft:pickaxes"
+ }
+}

@@ -546,6 +546,14 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/
 hash = "1bb18f3dcd57759672360cb99827f067f9a4a0ee57f78857fc7199ee973b5ee9"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/supplementaries/recipes/integration/ash_bricks_fd.json"
+hash = "e7046cdea504073126e2e1877116586ef063132c0e7b749fe942c752c6000dc7"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/supplementaries/recipes/integration/lapis_bricks_fd.json"
+hash = "6698806071c4f693083268d9270d68a0606e41ba71fbe592b805e5e5ca23ff53"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/pack.mcmeta"
 hash = "bc1bd10a345b7ba1469df4267bc31bbeac285bd8802eb01d5a6c8ca8204a9bc8"
 
