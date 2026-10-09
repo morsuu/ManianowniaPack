@@ -1,0 +1,958 @@
+{
+	id: "79FD0C7D1DCEB01A",
+	group: "12041B3A60A255ED",
+	order_index: 5,
+	filename: "czarodziej",
+	title: "&bCzarodziej",
+	icon: "wizards:staff_wizard",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Ogień, lód i arkana"
+	],
+	quests: [
+		{
+			id: "3A27248827763AAC",
+			title: "Różdżka nowicjusza",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "wizards:wand_novice",
+			description: [
+				"Każdy mag zaczyna od różdżki nowicjusza.",
+				"Włóż ją do Stołu zaklęć i naucz się pierwszego czaru."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "12D24B3DB335A84E",
+					type: "item",
+					item: "wizards:wand_novice"
+				}
+			],
+			rewards: [
+				{
+					id: "5CAD031DD428E00C",
+					type: "item",
+					item: {
+						id: "minecraft:lapis_lazuli",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "3A0BA0CC370B9A4A",
+			title: "Szaty czarodzieja",
+			x: 1.5d,
+			y: 2.0d,
+			icon: "wizards:wizard_robe_chest",
+			description: [
+				"Pierwszy zestaw szat. Zwiększa moc wszystkich czarów."
+			],
+			dependencies: [
+				"3A27248827763AAC"
+			],
+			tasks: [
+				{
+					id: "538BDF45A98F5006",
+					type: "item",
+					item: "wizards:wizard_robe_head"
+				},
+				{
+					id: "51BA23AC10F7015E",
+					type: "item",
+					item: "wizards:wizard_robe_chest"
+				},
+				{
+					id: "7CBA321C42B02F43",
+					type: "item",
+					item: "wizards:wizard_robe_legs"
+				},
+				{
+					id: "598D4A0238A609BE",
+					type: "item",
+					item: "wizards:wizard_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "10DFDD6EB2FCD6E7",
+					type: "item",
+					item: {
+						id: "minecraft:white_wool",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "731B8FBE715B478B",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1586D87C968E2255",
+			title: "Laska czarodzieja",
+			x: 1.5d,
+			y: -2.0d,
+			icon: "wizards:staff_wizard",
+			description: [
+				"Laska ma więcej mocy niż różdżka."
+			],
+			dependencies: [
+				"3A27248827763AAC"
+			],
+			tasks: [
+				{
+					id: "7CABB81EE9D4EB3D",
+					type: "item",
+					item: "wizards:staff_wizard"
+				}
+			],
+			rewards: [
+				{
+					id: "1C1A3195A119BB64",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1C20B14064F02703",
+			title: "&cOgień: różdżka",
+			x: 3.5d,
+			y: -3.5d,
+			icon: "wizards:wand_fire",
+			description: [
+				"Różdżka szkoły: ogień. Wybierz swoją ścieżkę (możesz przejść wszystkie)."
+			],
+			dependencies: [
+				"1586D87C968E2255"
+			],
+			tasks: [
+				{
+					id: "5896B775E6227416",
+					type: "item",
+					item: "wizards:wand_fire"
+				}
+			],
+			rewards: [
+				{
+					id: "58E7F3C50CDBDFBD",
+					type: "item",
+					item: {
+						id: "minecraft:blaze_powder",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "522D321CFFB44F38",
+			title: "&cOgień: laska",
+			x: 5.0d,
+			y: -3.5d,
+			icon: "wizards:staff_fire",
+			description: [
+				"Laska szkoły zwiększa moc i zasięg czarów."
+			],
+			dependencies: [
+				"1C20B14064F02703"
+			],
+			tasks: [
+				{
+					id: "549479F6D42A733D",
+					type: "item",
+					item: "wizards:staff_fire"
+				}
+			],
+			rewards: [
+				{
+					id: "7423765E31A685FB",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "5E54B7EDBEB8D143",
+			title: "&cOgień: szaty",
+			x: 5.0d,
+			y: -2.3d,
+			icon: "wizards:fire_robe_chest",
+			description: [
+				"Pełne szaty szkoły. Ogromny bonus do mocy tej szkoły."
+			],
+			dependencies: [
+				"522D321CFFB44F38",
+				"3A0BA0CC370B9A4A"
+			],
+			tasks: [
+				{
+					id: "330D44C43D1BD0B2",
+					type: "item",
+					item: "wizards:fire_robe_head"
+				},
+				{
+					id: "1C205B6C79321CD5",
+					type: "item",
+					item: "wizards:fire_robe_chest"
+				},
+				{
+					id: "7B42A9EB9A269110",
+					type: "item",
+					item: "wizards:fire_robe_legs"
+				},
+				{
+					id: "1C3417F0A54FC119",
+					type: "item",
+					item: "wizards:fire_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "7098A2EBCFCDCB0C",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "3C97F9B0EC635856",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "5F83F867D7E652C8",
+			title: "&cRubinowa laska ognia",
+			x: 6.5d,
+			y: -3.5d,
+			icon: "wizards:staff_ruby_fire",
+			description: [
+				"Laska z klejnotem: trzeci poziom mocy. Potrzebny rubin albo inny klejnot."
+			],
+			dependencies: [
+				"522D321CFFB44F38",
+				"31B517F5D5488ED2"
+			],
+			tasks: [
+				{
+					id: "3B4A6F78D5933D33",
+					type: "item",
+					item: "wizards:staff_ruby_fire"
+				}
+			],
+			rewards: [
+				{
+					id: "3471CEC4D685D658",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "3FCB84AC0452C4FD",
+			title: "&cOgień: netheryt",
+			x: 8.0d,
+			y: -3.5d,
+			icon: "wizards:staff_netherite_fire",
+			description: [
+				"Netherytowa laska i różdżka szkoły."
+			],
+			dependencies: [
+				"5F83F867D7E652C8",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "10339634F802153C",
+					type: "item",
+					item: "wizards:staff_netherite_fire"
+				},
+				{
+					id: "10F6ECAA3B42F925",
+					type: "item",
+					item: "wizards:wand_netherite_fire"
+				}
+			],
+			rewards: [
+				{
+					id: "3B5C9F8B662BBE9E",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "5E3E5654589B9576",
+			title: "&cOgień: netherytowe szaty",
+			x: 8.0d,
+			y: -2.3d,
+			icon: "wizards:netherite_fire_robe_chest",
+			description: [
+				"Najlepsze szaty szkoły."
+			],
+			dependencies: [
+				"3FCB84AC0452C4FD",
+				"5E54B7EDBEB8D143"
+			],
+			tasks: [
+				{
+					id: "799676FB90806E00",
+					type: "item",
+					item: "wizards:netherite_fire_robe_head"
+				},
+				{
+					id: "1093CB2FA44DD32D",
+					type: "item",
+					item: "wizards:netherite_fire_robe_chest"
+				},
+				{
+					id: "73C6D4E65F07FEC0",
+					type: "item",
+					item: "wizards:netherite_fire_robe_legs"
+				},
+				{
+					id: "78508B19561F4BBE",
+					type: "item",
+					item: "wizards:netherite_fire_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "7EF227247CC70F0D",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "715CD09440091633",
+			title: "&cArcymag: ogień",
+			x: 9.5d,
+			y: -3.5d,
+			icon: "wizards:staff_netherite_fire",
+			description: [
+				"Ukończ całą ścieżkę szkoły."
+			],
+			dependencies: [
+				"5E3E5654589B9576"
+			],
+			shape: "diamond",
+			tasks: [
+				{
+					id: "7CB3635BAF5B45D9",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "7B8F596C8E960DD9",
+					type: "item",
+					item: {
+						id: "jewelry:unique_fire_necklace",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Naszyjnik Płomieni\", \"italic\": false, \"color\": \"red\"}",
+								Lore: [
+									"{\"text\": \"Unikatowy naszyjnik arcymaga.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			id: "3FBC4CAB6B5AF6D6",
+			title: "&bLód: różdżka",
+			x: 3.5d,
+			y: 0.0d,
+			icon: "wizards:wand_frost",
+			description: [
+				"Różdżka szkoły: lód. Wybierz swoją ścieżkę (możesz przejść wszystkie)."
+			],
+			dependencies: [
+				"1586D87C968E2255"
+			],
+			tasks: [
+				{
+					id: "575661CAE2BA5353",
+					type: "item",
+					item: "wizards:wand_frost"
+				}
+			],
+			rewards: [
+				{
+					id: "13CD28CAA35B1BB7",
+					type: "item",
+					item: {
+						id: "minecraft:packed_ice",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "5CE0529831038BE0",
+			title: "&bLód: laska",
+			x: 5.0d,
+			y: 0.0d,
+			icon: "wizards:staff_frost",
+			description: [
+				"Laska szkoły zwiększa moc i zasięg czarów."
+			],
+			dependencies: [
+				"3FBC4CAB6B5AF6D6"
+			],
+			tasks: [
+				{
+					id: "58E8A5D86366E1C1",
+					type: "item",
+					item: "wizards:staff_frost"
+				}
+			],
+			rewards: [
+				{
+					id: "59581140D24CF6CA",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "14597BEE97F1ACA8",
+			title: "&bLód: szaty",
+			x: 5.0d,
+			y: 1.2d,
+			icon: "wizards:frost_robe_chest",
+			description: [
+				"Pełne szaty szkoły. Ogromny bonus do mocy tej szkoły."
+			],
+			dependencies: [
+				"5CE0529831038BE0",
+				"3A0BA0CC370B9A4A"
+			],
+			tasks: [
+				{
+					id: "791F49E93C1D2E6C",
+					type: "item",
+					item: "wizards:frost_robe_head"
+				},
+				{
+					id: "74D095D23591FC4B",
+					type: "item",
+					item: "wizards:frost_robe_chest"
+				},
+				{
+					id: "37EB6499831AC06D",
+					type: "item",
+					item: "wizards:frost_robe_legs"
+				},
+				{
+					id: "35270C573F49A828",
+					type: "item",
+					item: "wizards:frost_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "34F5313269DFC3FA",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "760CD2253EC47229",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "74E25617FC653F45",
+			title: "&bSzmaragdowa laska lodu",
+			x: 6.5d,
+			y: 0.0d,
+			icon: "wizards:staff_smaragdant_frost",
+			description: [
+				"Laska z klejnotem: trzeci poziom mocy. Potrzebny rubin albo inny klejnot."
+			],
+			dependencies: [
+				"5CE0529831038BE0",
+				"31B517F5D5488ED2"
+			],
+			tasks: [
+				{
+					id: "770885EF560CFC17",
+					type: "item",
+					item: "wizards:staff_smaragdant_frost"
+				}
+			],
+			rewards: [
+				{
+					id: "53BC5247180892A0",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "3E960CFB0B3897A1",
+			title: "&bLód: netheryt",
+			x: 8.0d,
+			y: 0.0d,
+			icon: "wizards:staff_netherite_frost",
+			description: [
+				"Netherytowa laska i różdżka szkoły."
+			],
+			dependencies: [
+				"74E25617FC653F45",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "1BD56B32F47BEA42",
+					type: "item",
+					item: "wizards:staff_netherite_frost"
+				},
+				{
+					id: "1F542AF1DDA6714F",
+					type: "item",
+					item: "wizards:wand_netherite_frost"
+				}
+			],
+			rewards: [
+				{
+					id: "519AED6E59DE82ED",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "1C439E4EA67F7276",
+			title: "&bLód: netherytowe szaty",
+			x: 8.0d,
+			y: 1.2d,
+			icon: "wizards:netherite_frost_robe_chest",
+			description: [
+				"Najlepsze szaty szkoły."
+			],
+			dependencies: [
+				"3E960CFB0B3897A1",
+				"14597BEE97F1ACA8"
+			],
+			tasks: [
+				{
+					id: "338B5E802ED99CA6",
+					type: "item",
+					item: "wizards:netherite_frost_robe_head"
+				},
+				{
+					id: "7DC02DAE6C8377C4",
+					type: "item",
+					item: "wizards:netherite_frost_robe_chest"
+				},
+				{
+					id: "5BCCD144667571C5",
+					type: "item",
+					item: "wizards:netherite_frost_robe_legs"
+				},
+				{
+					id: "16AADF268CDD5678",
+					type: "item",
+					item: "wizards:netherite_frost_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "7CF245821D264369",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "3593B184C9870FBA",
+			title: "&bArcymag: lód",
+			x: 9.5d,
+			y: 0.0d,
+			icon: "wizards:staff_netherite_frost",
+			description: [
+				"Ukończ całą ścieżkę szkoły."
+			],
+			dependencies: [
+				"1C439E4EA67F7276"
+			],
+			shape: "diamond",
+			tasks: [
+				{
+					id: "7CCBC093DD53A8E5",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "711515A419B6AEBA",
+					type: "item",
+					item: {
+						id: "jewelry:unique_frost_necklace",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Naszyjnik Mrozu\", \"italic\": false, \"color\": \"aqua\"}",
+								Lore: [
+									"{\"text\": \"Unikatowy naszyjnik arcymaga.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			id: "7045D0BED5B1179A",
+			title: "&dArkana: różdżka",
+			x: 3.5d,
+			y: 3.5d,
+			icon: "wizards:wand_arcane",
+			description: [
+				"Różdżka szkoły: arkana. Wybierz swoją ścieżkę (możesz przejść wszystkie)."
+			],
+			dependencies: [
+				"1586D87C968E2255"
+			],
+			tasks: [
+				{
+					id: "1AEE01A332C6205E",
+					type: "item",
+					item: "wizards:wand_arcane"
+				}
+			],
+			rewards: [
+				{
+					id: "1D41D7FCF596701D",
+					type: "item",
+					item: {
+						id: "minecraft:amethyst_shard",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "7908A499E663FCFE",
+			title: "&dArkana: laska",
+			x: 5.0d,
+			y: 3.5d,
+			icon: "wizards:staff_arcane",
+			description: [
+				"Laska szkoły zwiększa moc i zasięg czarów."
+			],
+			dependencies: [
+				"7045D0BED5B1179A"
+			],
+			tasks: [
+				{
+					id: "76324A338315ADAB",
+					type: "item",
+					item: "wizards:staff_arcane"
+				}
+			],
+			rewards: [
+				{
+					id: "7BC2741EF95CA6B4",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "7B027D53BEABC309",
+			title: "&dArkana: szaty",
+			x: 5.0d,
+			y: 4.7d,
+			icon: "wizards:arcane_robe_chest",
+			description: [
+				"Pełne szaty szkoły. Ogromny bonus do mocy tej szkoły."
+			],
+			dependencies: [
+				"7908A499E663FCFE",
+				"3A0BA0CC370B9A4A"
+			],
+			tasks: [
+				{
+					id: "592651B5DF81551B",
+					type: "item",
+					item: "wizards:arcane_robe_head"
+				},
+				{
+					id: "1B5D1DF4D4A1A9FA",
+					type: "item",
+					item: "wizards:arcane_robe_chest"
+				},
+				{
+					id: "5DC8708B4EC7ADB5",
+					type: "item",
+					item: "wizards:arcane_robe_legs"
+				},
+				{
+					id: "3D7311332D973A06",
+					type: "item",
+					item: "wizards:arcane_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "5D4C1932EC4EBAB6",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "545DEEB7D88032EB",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "1B33BA95643E043E",
+			title: "&dKryształowa laska arkanów",
+			x: 6.5d,
+			y: 3.5d,
+			icon: "wizards:staff_crystal_arcane",
+			description: [
+				"Laska z klejnotem: trzeci poziom mocy. Potrzebny rubin albo inny klejnot."
+			],
+			dependencies: [
+				"7908A499E663FCFE",
+				"31B517F5D5488ED2"
+			],
+			tasks: [
+				{
+					id: "102979EC973D8414",
+					type: "item",
+					item: "wizards:staff_crystal_arcane"
+				}
+			],
+			rewards: [
+				{
+					id: "1B7D5F004A10C0FD",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "7B6DEB40F8EB3D6C",
+			title: "&dArkana: netheryt",
+			x: 8.0d,
+			y: 3.5d,
+			icon: "wizards:staff_netherite_arcane",
+			description: [
+				"Netherytowa laska i różdżka szkoły."
+			],
+			dependencies: [
+				"1B33BA95643E043E",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "55246101A23D48BC",
+					type: "item",
+					item: "wizards:staff_netherite_arcane"
+				},
+				{
+					id: "15E25431C6459688",
+					type: "item",
+					item: "wizards:wand_netherite_arcane"
+				}
+			],
+			rewards: [
+				{
+					id: "5CE0E294DC8B8F2F",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "5CEEE56D7A46B80B",
+			title: "&dArkana: netherytowe szaty",
+			x: 8.0d,
+			y: 4.7d,
+			icon: "wizards:netherite_arcane_robe_chest",
+			description: [
+				"Najlepsze szaty szkoły."
+			],
+			dependencies: [
+				"7B6DEB40F8EB3D6C",
+				"7B027D53BEABC309"
+			],
+			tasks: [
+				{
+					id: "5B67AD71999F2E19",
+					type: "item",
+					item: "wizards:netherite_arcane_robe_head"
+				},
+				{
+					id: "71D01A42E2A4CA0A",
+					type: "item",
+					item: "wizards:netherite_arcane_robe_chest"
+				},
+				{
+					id: "149C6A12CF5F1C11",
+					type: "item",
+					item: "wizards:netherite_arcane_robe_legs"
+				},
+				{
+					id: "7674DAA43D011573",
+					type: "item",
+					item: "wizards:netherite_arcane_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "5FC4200480F0F4F6",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "13632CD616BF3E32",
+			title: "&dArcymag: arkana",
+			x: 9.5d,
+			y: 3.5d,
+			icon: "minecraft:nether_star",
+			description: [
+				"Ukończ całą ścieżkę szkoły."
+			],
+			dependencies: [
+				"5CEEE56D7A46B80B"
+			],
+			shape: "diamond",
+			tasks: [
+				{
+					id: "54C4023BE318684A",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "3D6E74EF722AE8CB",
+					type: "item",
+					item: {
+						id: "jewelry:unique_arcane_necklace",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Naszyjnik Arkanów\", \"italic\": false, \"color\": \"light_purple\"}",
+								Lore: [
+									"{\"text\": \"Unikatowy naszyjnik arcymaga.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			id: "5388A6DB51EED259",
+			title: "Arcymag",
+			x: 10.5d,
+			y: 0.0d,
+			icon: "wizards:staff_wizard",
+			description: [
+				"Wystarczy ukończyć ścieżkę jednej szkoły magii."
+			],
+			dependencies: [
+				"715CD09440091633",
+				"3593B184C9870FBA",
+				"13632CD616BF3E32"
+			],
+			dependency_requirement: "one_completed",
+			tasks: [
+				{
+					id: "317FBCBFA1830313",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "7F4B234663EB900F",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "37FD8CFCB3BED77A",
+			title: "&6Mistrz Czarodziejów",
+			x: 12.0d,
+			y: 0.0d,
+			icon: "wizards:staff_crystal_arcane",
+			description: [
+				"Ukończ ścieżkę dowolnej szkoły magii i pokonaj Nocnego Licza."
+			],
+			dependencies: [
+				"5388A6DB51EED259",
+				"7493A99EC828A5E3"
+			],
+			size: 2.0d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "3E96CF4FDD5DBEAD",
+					type: "checkmark",
+					title: "Jestem mistrzem!"
+				}
+			],
+			rewards: [
+				{
+					id: "10F1AE3130DE8173",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Jabłko Arcymaga\", \"italic\": false, \"color\": \"gold\"}",
+								Lore: [
+									"{\"text\": \"Nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					}
+				},
+				{
+					id: "5CCEEA8AC5A3C527",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

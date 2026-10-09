@@ -1,0 +1,579 @@
+{
+	id: "70B61C77B3F0EEA2",
+	group: "12041B3A60A255ED",
+	order_index: 6,
+	filename: "paladyn",
+	title: "&ePaladyn",
+	icon: "paladins:iron_kite_shield",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Ciężka broń, tarcze i ochrona drużyny"
+	],
+	quests: [
+		{
+			id: "53FCE2B413F5CA06",
+			title: "Stół mnicha",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "paladins:monk_workbench",
+			description: [
+				"Przy stole mnicha zrobisz broń paladyna i kapłana.",
+				"Paladyn: buzdygany, młoty, claymore'y i tarcze latawcowe."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "789E5FB649D7FDB8",
+					type: "item",
+					item: "paladins:monk_workbench"
+				}
+			],
+			rewards: [
+				{
+					id: "3DC7385C75F22A2A",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "7BC38626EDB6E4F6",
+			title: "Kamienny młot",
+			x: 1.5d,
+			y: -1.5d,
+			icon: "paladins:stone_great_hammer",
+			description: [
+				"Na początek wystarczy kamień."
+			],
+			dependencies: [
+				"53FCE2B413F5CA06"
+			],
+			tasks: [
+				{
+					id: "1A0824F3FB27D476",
+					type: "item",
+					item: "paladins:stone_great_hammer"
+				}
+			],
+			rewards: [
+				{
+					id: "7D5173A93187043A",
+					type: "item",
+					item: {
+						id: "minecraft:cobblestone",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "37AC1899ECB5A476",
+			title: "Żelazna broń paladyna",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "paladins:iron_mace",
+			description: [
+				"Zrób żelazny buzdygan albo claymore."
+			],
+			dependencies: [
+				"7BC38626EDB6E4F6"
+			],
+			tasks: [
+				{
+					id: "16C031855E823C25",
+					type: "item",
+					item: "paladins:iron_mace"
+				}
+			],
+			rewards: [
+				{
+					id: "5BF11B6BE81D0B8F",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 6
+				}
+			]
+		},
+		{
+			id: "37772F297CBF9CC9",
+			title: "Tarcza latawcowa",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "paladins:iron_kite_shield",
+			description: [
+				"Paladyn walczy z tarczą. Żelazna tarcza latawcowa."
+			],
+			dependencies: [
+				"53FCE2B413F5CA06"
+			],
+			tasks: [
+				{
+					id: "39CE0AB3D2D18AC3",
+					type: "item",
+					item: "paladins:iron_kite_shield"
+				}
+			],
+			rewards: [
+				{
+					id: "1C887F0DC802F67C",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "530D632B80E9EDBA",
+			title: "Zbroja paladyna",
+			x: 3.0d,
+			y: 1.5d,
+			icon: "paladins:paladin_armor_chest",
+			description: [
+				"Pierwszy zestaw zbroi klasy."
+			],
+			dependencies: [
+				"53FCE2B413F5CA06"
+			],
+			tasks: [
+				{
+					id: "75CF2FA452BB5FB8",
+					type: "item",
+					item: "paladins:paladin_armor_head"
+				},
+				{
+					id: "7BB73C0BBA357AFE",
+					type: "item",
+					item: "paladins:paladin_armor_chest"
+				},
+				{
+					id: "11F567302B264E5A",
+					type: "item",
+					item: "paladins:paladin_armor_legs"
+				},
+				{
+					id: "58E47EDAFAFB86F3",
+					type: "item",
+					item: "paladins:paladin_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "517A177966D16869",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "53B0EF79CA3295AF",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1B380173CCF984F5",
+			title: "Wielki młot",
+			x: 4.5d,
+			y: -1.5d,
+			icon: "paladins:iron_great_hammer",
+			description: [
+				"Wolny, ogłusza przeciwników."
+			],
+			dependencies: [
+				"37AC1899ECB5A476"
+			],
+			tasks: [
+				{
+					id: "10B853E610537B03",
+					type: "item",
+					item: "paladins:iron_great_hammer"
+				}
+			],
+			rewards: [
+				{
+					id: "7AB7CF3C9DB929CF",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "50CE61F92D1630AD",
+			title: "Diamentowa broń",
+			x: 6.0d,
+			y: -1.5d,
+			icon: "paladins:diamond_claymore",
+			description: [
+				"Diamentowy claymore i buzdygan."
+			],
+			dependencies: [
+				"1B380173CCF984F5",
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "1AF61CCD37C43A90",
+					type: "item",
+					item: "paladins:diamond_claymore"
+				},
+				{
+					id: "35B104C204EBF9D6",
+					type: "item",
+					item: "paladins:diamond_mace"
+				}
+			],
+			rewards: [
+				{
+					id: "74F8086EA9507716",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "71193D65D211A469",
+			title: "Diamentowa tarcza",
+			x: 6.0d,
+			y: 0.0d,
+			icon: "paladins:diamond_kite_shield",
+			description: [
+				"Diamentowa tarcza latawcowa."
+			],
+			dependencies: [
+				"37772F297CBF9CC9",
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "32BF6E55CB779578",
+					type: "item",
+					item: "paladins:diamond_kite_shield"
+				}
+			],
+			rewards: [
+				{
+					id: "57B88E2AB47EBFAB",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "77290FD992E7F2EF",
+			title: "Zbroja krzyżowca",
+			x: 6.0d,
+			y: 1.5d,
+			icon: "paladins:crusader_armor_chest",
+			description: [
+				"Drugi zestaw: zbroja krzyżowca."
+			],
+			dependencies: [
+				"530D632B80E9EDBA",
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "7A1941C11E45AD15",
+					type: "item",
+					item: "paladins:crusader_armor_head"
+				},
+				{
+					id: "56B3214BAF7F3E32",
+					type: "item",
+					item: "paladins:crusader_armor_chest"
+				},
+				{
+					id: "1C55D16F13F9303B",
+					type: "item",
+					item: "paladins:crusader_armor_legs"
+				},
+				{
+					id: "749B21726DF2FB31",
+					type: "item",
+					item: "paladins:crusader_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "33DE7E6B95A94068",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "78EC18955ECBB244",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "1F1100878166DD2D",
+			title: "Rubinowy arsenał",
+			x: 7.5d,
+			y: -1.5d,
+			icon: "paladins:ruby_claymore",
+			description: [
+				"Rubinowy claymore, buzdygan albo młot: trzeci poziom broni."
+			],
+			dependencies: [
+				"50CE61F92D1630AD",
+				"31B517F5D5488ED2"
+			],
+			tasks: [
+				{
+					id: "70165B7B85B50317",
+					type: "item",
+					item: "paladins:ruby_claymore"
+				}
+			],
+			rewards: [
+				{
+					id: "10461E0A858A7648",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "16ADEC41D11AD7AD",
+			title: "Rubinowa tarcza",
+			x: 7.5d,
+			y: 0.0d,
+			icon: "paladins:ruby_kite_shield",
+			description: [
+				"Rubinowa tarcza latawcowa."
+			],
+			dependencies: [
+				"71193D65D211A469",
+				"31B517F5D5488ED2"
+			],
+			tasks: [
+				{
+					id: "3304B174348B0634",
+					type: "item",
+					item: "paladins:ruby_kite_shield"
+				}
+			],
+			rewards: [
+				{
+					id: "146C780F3E596ED7",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "353A1E0846EB1649",
+			title: "Netherytowy młot",
+			x: 9.0d,
+			y: -1.5d,
+			icon: "paladins:netherite_great_hammer",
+			description: [
+				"Netherytowy claymore i wielki młot."
+			],
+			dependencies: [
+				"1F1100878166DD2D",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "109A92D02A74F10B",
+					type: "item",
+					item: "paladins:netherite_claymore"
+				},
+				{
+					id: "7FAD5BF3D79E7516",
+					type: "item",
+					item: "paladins:netherite_great_hammer"
+				}
+			],
+			rewards: [
+				{
+					id: "5CAE1BBE8BAE2E56",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "1FB26028B7DAB7CF",
+			title: "Netherytowa tarcza",
+			x: 9.0d,
+			y: 0.0d,
+			icon: "paladins:netherite_kite_shield",
+			description: [
+				"Najlepsza tarcza w grze."
+			],
+			dependencies: [
+				"16ADEC41D11AD7AD",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "5D5D394DD8213087",
+					type: "item",
+					item: "paladins:netherite_kite_shield"
+				}
+			],
+			rewards: [
+				{
+					id: "7228EBFA1735742E",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "77FC611DA77C4C43",
+			title: "Netherytowy krzyżowiec",
+			x: 9.0d,
+			y: 1.5d,
+			icon: "paladins:netherite_crusader_armor_chest",
+			description: [
+				"Netherytowa zbroja krzyżowca."
+			],
+			dependencies: [
+				"77290FD992E7F2EF",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "1F0108DD246364B9",
+					type: "item",
+					item: "paladins:netherite_crusader_armor_head"
+				},
+				{
+					id: "51BB6C8AEDD0AFC3",
+					type: "item",
+					item: "paladins:netherite_crusader_armor_chest"
+				},
+				{
+					id: "7D8050CA88C073C2",
+					type: "item",
+					item: "paladins:netherite_crusader_armor_legs"
+				},
+				{
+					id: "72B56D60997E1F8C",
+					type: "item",
+					item: "paladins:netherite_crusader_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "13E4A39AAEFE36BF",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "1197B02CFF26771A",
+			title: "Próba obrońcy",
+			x: 4.5d,
+			y: 3.0d,
+			icon: "minecraft:iron_axe",
+			description: [
+				"Pokonaj 25 zombie i 10 złosadników-obrońców (vindicatorów)."
+			],
+			dependencies: [
+				"530D632B80E9EDBA"
+			],
+			tasks: [
+				{
+					id: "7188F773E050E16E",
+					type: "kill",
+					entity: "minecraft:zombie",
+					value: 25L
+				},
+				{
+					id: "1C059D2932E5D40A",
+					type: "kill",
+					entity: "minecraft:vindicator",
+					value: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "5D1ED212E036E87A",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "53862E19BA74D26F",
+			title: "&6Mistrz Paladynów",
+			x: 11.0d,
+			y: 0.0d,
+			icon: "paladins:netherite_kite_shield",
+			description: [
+				"Ukończ ścieżkę paladyna i pokonaj Rękawicę Netheru."
+			],
+			dependencies: [
+				"353A1E0846EB1649",
+				"1FB26028B7DAB7CF",
+				"77FC611DA77C4C43",
+				"76BF6B10BFDB4D81"
+			],
+			size: 2.0d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "57D0B20254CCE1A1",
+					type: "checkmark",
+					title: "Jestem mistrzem!"
+				}
+			],
+			rewards: [
+				{
+					id: "5CCD03794CFB25A3",
+					type: "item",
+					item: {
+						id: "jewelry:unique_tank_necklace",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Naszyjnik Obrońcy\", \"italic\": false, \"color\": \"yellow\"}",
+								Lore: [
+									"{\"text\": \"Nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					}
+				},
+				{
+					id: "7E98711347D15C26",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

@@ -70,15 +70,14 @@
 			description: [
 				"&6&lDo czego dążymy?&r",
 				"",
-				"Paczka nie ma jednego zakończenia, ale ma &cwielki cel&r: rozdział &cBossowie&r.",
-				"Żeby go ukończyć, musicie pokonać:",
-				"&7- &bStrażnika Starszego&7 w podwodnej świątyni,",
-				"&7- &5Withera&7,",
-				"&7- &dSmoka Kresu&7,",
-				"&7- &3Wardena&7 ze Starożytnego Miasta.",
+				"Paczka nie ma jednego zakończenia, ale ma &cwielki cel&r: rozdział &cBossowie&r. Jest w nim 10 bossów:",
+				"&7- nowe: &bNocny Licz&7, &cRękawica Netheru&7, &aPusta Róża&7, &8Obsydialit&7 (Bosses of Mass Destruction),",
+				"&7- &4Skażony Czempion&7, Koszmar i Żniwiarz (The Graveyard),",
+				"&7- klasyczne: &bStrażnik Starszy&7, &5Wither&7, &dSmok Kresu&7 i &3Warden&7.",
 				"",
-				"Po drodze zbudujecie fabrykę w Create, rozwiniecie klasy RPG i zdobędziecie mnóstwo sprzętu.",
-				"Kto ukończy wszystkie rozdziały, zostaje &6Mistrzem Manianowni&r."
+				"Każda klasa ma własną ścieżkę sprzętu od żelaza do netherytu i finałowy quest z bossem.",
+				"Po drodze zbudujecie fabrykę w Create i zdobędziecie mnóstwo łupów.",
+				"Kto pokona wszystkich bossów, zostaje &6Mistrzem Manianowni&r."
 			],
 			dependencies: [
 				"357D7C74A4819D02"
@@ -152,7 +151,8 @@
 				"Czary uczysz się przy &eStole zaklęć&r. &eBetter Combat&r daje broniom combosy, a &eCombat Roll&r uniki.",
 				"&eJewelry&r dodaje pierścienie i naszyjniki z bonusami.",
 				"",
-				"Rozdziały: &aKlasy i walka&r oraz &aŁucznictwo i biżuteria&r."
+				"Grupa rozdziałów &cKlasy postaci&r: wspólny start (&eWalka i klasy&r), osobny rozdział dla każdej klasy",
+				"z pełną ścieżką broni i zbroi (żelazo → diament → rubin → netheryt) oraz rozdział &dBiżuteria&r."
 			],
 			dependencies: [
 				"357D7C74A4819D02"

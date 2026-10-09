@@ -2,19 +2,19 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+hash = "8d21b9f3cb6e86436c23ebeb556a2838d6c5905bf93cfc5a30aa18eefa38e80a"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/archers.snbt"
-hash = "2fff5f9c5d72b04599759a7daad23cb40d9f7e49f8cd1fef75781c6a54d05a78"
+file = "config/ftbquests/quests/chapters/bizuteria.snbt"
+hash = "6c75c8b2b1d4f905701ec7331dc9b298e2036a33ca1b2d8d8486de17f3ff1806"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
-hash = "6fbea1f3275a7116458b5d29a3b9d50ee8dee15d75199216695afd20d7bac562"
+hash = "365da19ffaae7a5ca8d320073ae4b2e372db923b88f893016f3f991c1dad7648"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/build.snbt"
-hash = "cded507cdc1abf7887875c65700f4c253d738e4aee5cc7ead7d8bbaa3c189448"
+hash = "35ea8d10ce7602ef5d6176f884db8d6a020cdeeeb17d07bc10a6465225466064"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -25,32 +25,56 @@ file = "config/ftbquests/quests/chapters/create2.snbt"
 hash = "991b7fcf0aaf0d0c60a2761ec3120e94ccaa799ec844842f2818c25a686b568a"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/czarodziej.snbt"
+hash = "a20e74b6e4f4c39a377a5ef114e9f4bf85d21a0e7ec3ce9269afe8b54e4f924e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/kaplan.snbt"
+hash = "e513423c99493aee1c24643cfd7076deeb5eb3e5bb8bbd5fb7b21a97fadf0b14"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/kuchnia.snbt"
-hash = "ecde088dd55df4da2ee037ab968ae9365caacd67a3de7d4653fca5478aad7e95"
+hash = "cc83e042dc2e843b5c3e7b88c8e472c5b3512314ef5227fa64ff124cd3ee3c0e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/lotrzyk.snbt"
+hash = "de5ce630d658561159d60b837dac52002fbbfa3ea19e72ed3bab5148cf2a1ec7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/lucznik.snbt"
+hash = "ef50f7dc40978ed912b51268d078b15ffc1542615f5ec2e594a7ca3c89de4969"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/manianownia.snbt"
-hash = "dd16628bd104a7f0666e8921f169f183fd5c4c201e0c7f9e53df8d25d44c3336"
+hash = "35d867d3c213702ace8da74fce7f3b90f359c3a06cd36a19bd1f99067f824c7b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
-hash = "a57a66716ca9bd183fc7358782216fc24ac8095eff0021aeda20c867d0254455"
+hash = "08728af3e0627022e937ed9558cd6360c45bdd033797bc1e01e798765c618f42"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/paladyn.snbt"
+hash = "fc07e39e5b3712625d384ce869bef9e9b39ae49dd5855ee44238e344f89e7b71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/przygoda.snbt"
-hash = "49732ca3a0e556acc9841a8e5821030d6b619ba16c71dcbed515486767a509b2"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/rpg.snbt"
-hash = "7115097eb5b6b80a38f2b350a5680aaf110eff357619fd29c76a15159503f8ef"
+hash = "e63bfe53c4e6f728a95fff07b585625346ee32bccf30bacd26dc0753052feaec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
 hash = "4582a4ee97204541d06069ff79151a2beac7029580478bd5d9289e8857e1cf61"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/walka.snbt"
+hash = "3ce09fc2ecd9efb0ba8f9b832cb324b6fec52893a77c03a87cf5f93db1159aae"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "0511564ec591b631a15294b9157c13f78c0ab78a0295375d00add1e8084cb8a9"
+hash = "6bc97cf9934b2ec0332dd8519044b2478a20550e4d99eb91586eb6c712f21e4b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/wojownik.snbt"
+hash = "3daf84c9f03a1819fbe2fab9df642274b5de9ba6944ad759e9ef5740349d356d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -98,6 +122,11 @@ metafile = true
 [[files]]
 file = "mods/better-combat.pw.toml"
 hash = "82713f23ec194413f7af0df40355dd40efb119c3e845152bddcf4c7f1feb053b"
+metafile = true
+
+[[files]]
+file = "mods/bosses-of-mass-destruction.pw.toml"
+hash = "67f8c03ee26401f6db3727ec7c3fa67d51ac800cbb489677d075374f26000fd4"
 metafile = true
 
 [[files]]
@@ -156,6 +185,11 @@ hash = "d397b84f525eb465aff4fdbf9480d02d5da68779f439cb2c216d627fa76ff2da"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "3e0b39011c7922b696258a2b7411ffd89bbcbcfaa36d459c4a098b45c3cc1039"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "53cae8b92042b94031779ad8c515855bc7bf1b183cb0c1f9f3d2f7e12e0bd7cd"
 metafile = true
@@ -183,6 +217,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams.pw.toml"
 hash = "a01995a222e8fb7caa60fd7db9247a96e3575dad06dc1bb2914584fe86519026"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "c2694102b49664f91f1b08873c795020800a3086a2158a43caab237d4cc900fb"
 metafile = true
 
 [[files]]
@@ -353,6 +392,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "dedee66adbd20ff932d1fc0a13aecec08a18c37ed4a07521441a617bbad2c326"
+metafile = true
+
+[[files]]
+file = "mods/the-graveyard.pw.toml"
+hash = "6f9fcb21f55bfbd04c5393e755784a993edd212fcb32793125cd72bc64a1924c"
 metafile = true
 
 [[files]]

@@ -1,7 +1,7 @@
 {
 	id: "3E4E3016A7538100",
 	group: "",
-	order_index: 11,
+	order_index: 17,
 	filename: "bossowie",
 	title: "&c&lBossowie (cel gry)",
 	icon: "minecraft:dragon_head",
@@ -12,10 +12,167 @@
 	],
 	quests: [
 		{
-			id: "11CC4C4F66A1A127",
-			title: "Strażnik Starszy",
+			id: "37066CB97E6F2A07",
+			title: "Lista bossów",
 			x: 0.0d,
-			y: -1.5d,
+			y: 0.0d,
+			icon: "minecraft:skeleton_skull",
+			description: [
+				"&6&lBossowie Manianowni&r",
+				"",
+				"&7Poziom 1:&r Koszmar i Żniwiarz (cmentarze), &bNocny Licz&r (wieża w zimnych biomach)",
+				"&7Poziom 2:&r &bStrażnik Starszy&r, &cRękawica Netheru&r, &5Wither&r",
+				"&7Poziom 3:&r &aPusta Róża&r (bujne jaskinie), &4Skażony Czempion&r, &8Obsydialit&r (Kres), &dSmok Kresu&r",
+				"&7Poziom 4:&r &3Warden&r",
+				"",
+				"Areny bossów znajdziesz &eKompasem odkrywcy&r. Do większości walk idźcie razem!"
+			],
+			dependencies: [
+				"1DC3DC43CB165273"
+			],
+			size: 1.5d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "17F7D1C43F860C55",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "193B59650DE76D7A",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "1F3AD6F828C111D3",
+			title: "Cmentarzysko",
+			x: 2.4d,
+			y: -4.5d,
+			icon: "minecraft:skeleton_skull",
+			description: [
+				"Znajdź duży cmentarz (The Graveyard). Nocą wychodzą z niego upiory."
+			],
+			dependencies: [
+				"37066CB97E6F2A07"
+			],
+			tasks: [
+				{
+					id: "10A57067BBD88A36",
+					type: "structure",
+					structure: "graveyard:large_graveyard"
+				}
+			],
+			rewards: [
+				{
+					id: "1D752C5CFE24501A",
+					type: "item",
+					item: {
+						id: "minecraft:torch",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "51D5CC52B649E8FF",
+			title: "Koszmary nocy",
+			x: 4.2d,
+			y: -4.5d,
+			icon: "minecraft:wither_rose",
+			description: [
+				"Pokonaj Koszmara i Żniwiarza."
+			],
+			dependencies: [
+				"1F3AD6F828C111D3"
+			],
+			tasks: [
+				{
+					id: "32A5B231ECEB3690",
+					type: "kill",
+					entity: "graveyard:nightmare",
+					value: 1L
+				},
+				{
+					id: "71B35D157C51170F",
+					type: "kill",
+					entity: "graveyard:reaper",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "190DB7164AC53318",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "760F2A6002C9D0B5",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "7493A99EC828A5E3",
+			title: "&bNocny Licz",
+			x: 4.2d,
+			y: -2.25d,
+			icon: "minecraft:soul_lantern",
+			description: [
+				"Wieża Licza stoi w zimnych, ośnieżonych biomach.",
+				"Licz rzuca pociski i przywołuje sługi. Weź łuk albo czary dystansowe."
+			],
+			dependencies: [
+				"37066CB97E6F2A07"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "3CA67C3D7AE813C0",
+					type: "structure",
+					structure: "bosses_of_mass_destruction:lich_tower"
+				},
+				{
+					id: "7114D5DBBD5BFCD9",
+					type: "kill",
+					entity: "bosses_of_mass_destruction:lich",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "56405D68A50FF6BA",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "3CD2A4DCCD41849F",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "11CC4C4F66A1A127",
+			title: "&bStrażnik Starszy",
+			x: 6.6d,
+			y: -4.5d,
 			icon: "minecraft:prismarine_crystals",
 			description: [
 				"Pokonaj Strażnika Starszego w podwodnej świątyni. Weź mikstury oddychania pod wodą i mleko na zmęczenie."
@@ -50,17 +207,62 @@
 			]
 		},
 		{
-			id: "710A01BD949B4036",
-			title: "Wither",
-			x: 0.0d,
-			y: 1.5d,
-			icon: "minecraft:wither_skeleton_skull",
+			id: "76BF6B10BFDB4D81",
+			title: "&cRękawica Netheru",
+			x: 6.6d,
+			y: -2.25d,
+			icon: "minecraft:blackstone",
 			description: [
-				"Zdobądź 3 czaszki witherowych szkieletów z fortecy i przywołaj Withera.",
-				"Walczcie z dala od bazy!"
+				"Ogromna rękawica w arenie w Netherze. Strzela laserem i uderza pięścią.",
+				"Chowaj się za filarami!"
 			],
 			dependencies: [
+				"7493A99EC828A5E3",
 				"5C96898B541528E8"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "187AB3F7C33273FD",
+					type: "structure",
+					structure: "bosses_of_mass_destruction:gauntlet_arena"
+				},
+				{
+					id: "7CA5B22789339ACB",
+					type: "kill",
+					entity: "bosses_of_mass_destruction:gauntlet",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "1F8B8A7BC5D5D74E",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "34B81D12A5E68421",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "710A01BD949B4036",
+			title: "&5Wither",
+			x: 6.6d,
+			y: 0.0d,
+			icon: "minecraft:wither_skeleton_skull",
+			description: [
+				"Zdobądź 3 czaszki witherowych szkieletów i przywołaj Withera.",
+				"Walczcie z dala od bazy, najlepiej pod ziemią!"
+			],
+			dependencies: [
+				"76BF6B10BFDB4D81"
 			],
 			size: 1.5d,
 			tasks: [
@@ -88,10 +290,94 @@
 			]
 		},
 		{
+			id: "3A660A78977BEFDB",
+			title: "&aPusta Róża",
+			x: 9.0d,
+			y: -4.5d,
+			icon: "minecraft:spore_blossom",
+			description: [
+				"Pusta Róża (Void Blossom) rośnie w bujnych jaskiniach.",
+				"Uważaj na kolce i zarodniki. Niszcz jej kwiaty-tarcze."
+			],
+			dependencies: [
+				"710A01BD949B4036"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "13809E3D4D45ED7E",
+					type: "structure",
+					structure: "bosses_of_mass_destruction:void_blossom"
+				},
+				{
+					id: "7A8BC28B27247096",
+					type: "kill",
+					entity: "bosses_of_mass_destruction:void_blossom",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "1F1A2C9EEC926880",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "79AEBCE917EBA848",
+					type: "xp_levels",
+					xp_levels: 25
+				}
+			]
+		},
+		{
+			id: "3DE6317F817E3491",
+			title: "&4Skażony Czempion",
+			x: 9.0d,
+			y: -2.25d,
+			icon: "minecraft:netherite_sword",
+			description: [
+				"Boss z The Graveyard. Czeka w Więzieniu Licza.",
+				"Znajdź je Kompasem odkrywcy i przywołaj Czempiona przy ołtarzu."
+			],
+			dependencies: [
+				"710A01BD949B4036",
+				"51D5CC52B649E8FF"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "5B60380D4508BF13",
+					type: "kill",
+					entity: "graveyard:lich",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "359971FCA918114B",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "51D2D9342964A13D",
+					type: "xp_levels",
+					xp_levels: 25
+				}
+			]
+		},
+		{
 			id: "59B99EEA84AF085B",
-			title: "Smok Kresu",
-			x: 2.5d,
-			y: -1.5d,
+			title: "&dSmok Kresu",
+			x: 9.0d,
+			y: 0.0d,
 			icon: "minecraft:dragon_head",
 			description: [
 				"Zniszczcie kryształy na obsydianowych wieżach, a potem pokonajcie smoka."
@@ -125,17 +411,61 @@
 			]
 		},
 		{
+			id: "5DDC7F4D1B5EAB22",
+			title: "&8Obsydialit",
+			x: 11.4d,
+			y: -2.25d,
+			icon: "minecraft:crying_obsidian",
+			description: [
+				"Obsydianowy kolos na zewnętrznych wyspach Kresu.",
+				"Zmienia ataki w zależności od koloru run. Obserwuj go!"
+			],
+			dependencies: [
+				"59B99EEA84AF085B"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "7326BB0D11292CBF",
+					type: "structure",
+					structure: "bosses_of_mass_destruction:obsidilith_arena"
+				},
+				{
+					id: "3B7ED9C3C8E08796",
+					type: "kill",
+					entity: "bosses_of_mass_destruction:obsidilith",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "1F6A5E4D6F4A93D4",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_ingot",
+						Count: 1b
+					}
+				},
+				{
+					id: "7D632A82EA195CAA",
+					type: "xp_levels",
+					xp_levels: 30
+				}
+			]
+		},
+		{
 			id: "7CC532E5F68DF2A1",
-			title: "Warden",
-			x: 2.5d,
-			y: 1.5d,
+			title: "&3Warden",
+			x: 11.4d,
+			y: 0.0d,
 			icon: "minecraft:sculk_shrieker",
 			description: [
 				"Najsilniejszy potwór w grze. Bez dobrego sprzętu lepiej uciekać.",
 				"Pokonaj go w Starożytnym Mieście."
 			],
 			dependencies: [
-				"5B7A682BEF2108AF"
+				"5B7A682BEF2108AF",
+				"59B99EEA84AF085B"
 			],
 			size: 1.75d,
 			tasks: [
@@ -165,8 +495,8 @@
 		{
 			id: "10596906DDC63094",
 			title: "Mistrz Manianowni",
-			x: 5.0d,
-			y: 0.0d,
+			x: 14.4d,
+			y: -1.5d,
 			icon: "minecraft:nether_star",
 			description: [
 				"Pokonaliście wszystkich bossów. Manianownia jest wasza!",
@@ -174,9 +504,15 @@
 				"&6Gratulacje!"
 			],
 			dependencies: [
+				"7493A99EC828A5E3",
+				"51D5CC52B649E8FF",
 				"11CC4C4F66A1A127",
+				"76BF6B10BFDB4D81",
 				"710A01BD949B4036",
+				"3A660A78977BEFDB",
+				"3DE6317F817E3491",
 				"59B99EEA84AF085B",
+				"5DDC7F4D1B5EAB22",
 				"7CC532E5F68DF2A1",
 				"32132FE594114223"
 			],

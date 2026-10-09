@@ -1,0 +1,313 @@
+{
+	id: "7C29C7D4D26FEF72",
+	group: "12041B3A60A255ED",
+	order_index: 11,
+	filename: "bizuteria",
+	title: "&dBiżuteria",
+	icon: "jewelry:ruby_necklace",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Pierścienie i naszyjniki dla każdej klasy"
+	],
+	quests: [
+		{
+			id: "724A20BD2C3A4A74",
+			title: "Zestaw jubilera",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "jewelry:jewelers_kit",
+			description: [
+				"Jewelry: pierścienie i naszyjniki wkładasz w sloty biżuterii.",
+				"Każdy klejnot pasuje do innej klasy: &crubin&r (ogień, siła), &etopaz&r, &6cytryn&r, &ajadeit&r, &bszafir&r (lód), &5tanzanit&r."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "1DA9802560FBDEF7",
+					type: "item",
+					item: "jewelry:jewelers_kit"
+				}
+			],
+			rewards: [
+				{
+					id: "586CA36DDE309317",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "36FCA84690F3EC04",
+			title: "Miedziany pierścień",
+			x: 1.5d,
+			y: -1.0d,
+			icon: "jewelry:copper_ring",
+			description: [
+				"Najprostszy pierścień."
+			],
+			dependencies: [
+				"724A20BD2C3A4A74"
+			],
+			tasks: [
+				{
+					id: "7F04D3D5D4A21B1E",
+					type: "item",
+					item: "jewelry:copper_ring"
+				}
+			],
+			rewards: [
+				{
+					id: "54EAFFDC16187902",
+					type: "item",
+					item: {
+						id: "minecraft:copper_ingot",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "3654DB66EBFF1C7B",
+			title: "Żelazny pierścień",
+			x: 3.0d,
+			y: -1.0d,
+			icon: "jewelry:iron_ring",
+			description: [
+				"Trochę lepszy."
+			],
+			dependencies: [
+				"36FCA84690F3EC04"
+			],
+			tasks: [
+				{
+					id: "36B106787D3AB6EB",
+					type: "item",
+					item: "jewelry:iron_ring"
+				}
+			],
+			rewards: [
+				{
+					id: "5284CFA96FDA5FCD",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "3CE78175992BB850",
+			title: "Złoty pierścień",
+			x: 4.5d,
+			y: -1.0d,
+			icon: "jewelry:gold_ring",
+			description: [
+				"Złoto to baza biżuterii z klejnotami."
+			],
+			dependencies: [
+				"3654DB66EBFF1C7B"
+			],
+			tasks: [
+				{
+					id: "301842471084416F",
+					type: "item",
+					item: "jewelry:gold_ring"
+				}
+			],
+			rewards: [
+				{
+					id: "722AE7789B29A35D",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "50B0DDAA7239DC15",
+			title: "Kolekcjoner klejnotów",
+			x: 3.0d,
+			y: 1.0d,
+			icon: "jewelry:sapphire",
+			description: [
+				"Wykop po jednym z sześciu klejnotów."
+			],
+			dependencies: [
+				"724A20BD2C3A4A74"
+			],
+			tasks: [
+				{
+					id: "7A312077D4659F90",
+					type: "item",
+					item: "jewelry:ruby"
+				},
+				{
+					id: "73E63B51FA1696A8",
+					type: "item",
+					item: "jewelry:topaz"
+				},
+				{
+					id: "5FC2E5113B7BDA6B",
+					type: "item",
+					item: "jewelry:citrine"
+				},
+				{
+					id: "19057BB04B174416",
+					type: "item",
+					item: "jewelry:jade"
+				},
+				{
+					id: "7C9563557133C5D9",
+					type: "item",
+					item: "jewelry:sapphire"
+				},
+				{
+					id: "57C1284C808B83C1",
+					type: "item",
+					item: "jewelry:tanzanite"
+				}
+			],
+			rewards: [
+				{
+					id: "7F539D10ACBB02D2",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "73DF135BCA1ECE34",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "1BDA3156339911CA",
+			title: "Pierścień z klejnotem",
+			x: 6.0d,
+			y: -1.0d,
+			icon: "jewelry:ruby_ring",
+			description: [
+				"Zrób pierścień z dowolnym klejnotem (np. rubinowy)."
+			],
+			dependencies: [
+				"3CE78175992BB850"
+			],
+			tasks: [
+				{
+					id: "144C4A68241C9B4D",
+					type: "item",
+					item: "jewelry:ruby_ring"
+				}
+			],
+			rewards: [
+				{
+					id: "72A0934F70F24F16",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "5D0B9C496012C4B5",
+			title: "Naszyjnik z klejnotem",
+			x: 6.0d,
+			y: 1.0d,
+			icon: "jewelry:sapphire_necklace",
+			description: [
+				"Naszyjnik daje duży bonus do statystyk."
+			],
+			dependencies: [
+				"3CE78175992BB850",
+				"50B0DDAA7239DC15"
+			],
+			tasks: [
+				{
+					id: "5166E48456DFE59E",
+					type: "item",
+					item: "jewelry:sapphire_necklace"
+				}
+			],
+			rewards: [
+				{
+					id: "1E7CF827E3C6144F",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "17916441FA626C8E",
+			title: "Diamentowa biżuteria",
+			x: 7.5d,
+			y: 0.0d,
+			icon: "jewelry:diamond_necklace",
+			description: [
+				"Diamentowy pierścień i naszyjnik."
+			],
+			dependencies: [
+				"1BDA3156339911CA",
+				"5D0B9C496012C4B5"
+			],
+			tasks: [
+				{
+					id: "532D45D76BAC9897",
+					type: "item",
+					item: "jewelry:diamond_ring"
+				},
+				{
+					id: "3248F3B1ACD4026F",
+					type: "item",
+					item: "jewelry:diamond_necklace"
+				}
+			],
+			rewards: [
+				{
+					id: "54B8125F418C2882",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "1F72E9FE0D5097F1",
+			title: "Netherytowa biżuteria",
+			x: 9.0d,
+			y: 0.0d,
+			icon: "jewelry:netherite_ruby_ring",
+			description: [
+				"Netherytowy pierścień z klejnotem: najwyższy poziom."
+			],
+			dependencies: [
+				"17916441FA626C8E",
+				"3E82FB0EC8FBCB55"
+			],
+			size: 1.5d,
+			shape: "diamond",
+			tasks: [
+				{
+					id: "1EA1E21D9C6C076B",
+					type: "item",
+					item: "jewelry:netherite_ruby_ring"
+				}
+			],
+			rewards: [
+				{
+					id: "521357625EB678C7",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

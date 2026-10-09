@@ -1,0 +1,635 @@
+{
+	id: "5D596E9E7857CD73",
+	group: "12041B3A60A255ED",
+	order_index: 10,
+	filename: "lucznik",
+	title: "&aŁucznik",
+	icon: "archers:composite_longbow",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Łuki, kusze i włócznie"
+	],
+	quests: [
+		{
+			id: "1D752A6D1387AAA9",
+			title: "Warsztat łucznika",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "archers:archers_workbench",
+			description: [
+				"Łucznik walczy z dystansu: łuki, kusze, włócznie i specjalne strzały.",
+				"Wszystko zrobisz przy warsztacie łucznika."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "5B6C3179BF0D36E5",
+					type: "item",
+					item: "archers:archers_workbench"
+				}
+			],
+			rewards: [
+				{
+					id: "7DADF11DE4D5C078",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 64
+				}
+			]
+		},
+		{
+			id: "73E7745F2376AC1A",
+			title: "Włócznia",
+			x: 1.5d,
+			y: -2.0d,
+			icon: "archers:iron_spear",
+			description: [
+				"Krzemienna albo żelazna włócznia do walki z bliska."
+			],
+			dependencies: [
+				"1D752A6D1387AAA9"
+			],
+			tasks: [
+				{
+					id: "770CCB24A9E95715",
+					type: "item",
+					item: "archers:iron_spear"
+				}
+			],
+			rewards: [
+				{
+					id: "3DF3FBFD3D5C07EC",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "3890718EEE73A838",
+			title: "Łuk kompozytowy",
+			x: 1.5d,
+			y: -0.7d,
+			icon: "archers:composite_longbow",
+			description: [
+				"Mocniejszy i szybszy niż zwykły łuk."
+			],
+			dependencies: [
+				"1D752A6D1387AAA9"
+			],
+			tasks: [
+				{
+					id: "5906E04F9040FE8D",
+					type: "item",
+					item: "archers:composite_longbow"
+				}
+			],
+			rewards: [
+				{
+					id: "7F25CF124B862AA2",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 64
+				}
+			]
+		},
+		{
+			id: "301B5EFEAD31870F",
+			title: "Ciężka kusza",
+			x: 1.5d,
+			y: 0.7d,
+			icon: "archers:heavy_crossbow",
+			description: [
+				"Wolno się ładuje, ale potężnie trafia."
+			],
+			dependencies: [
+				"1D752A6D1387AAA9"
+			],
+			tasks: [
+				{
+					id: "363C21FD28B279A1",
+					type: "item",
+					item: "archers:heavy_crossbow"
+				}
+			],
+			rewards: [
+				{
+					id: "53BE8E9417B457AF",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "7BBBE2F20751CFAE",
+			title: "Zbroja łucznika",
+			x: 1.5d,
+			y: 2.0d,
+			icon: "archers:archer_armor_chest",
+			description: [
+				"Pierwszy zestaw: skórzana zbroja łucznika."
+			],
+			dependencies: [
+				"1D752A6D1387AAA9"
+			],
+			tasks: [
+				{
+					id: "32CCA4F241B36EC3",
+					type: "item",
+					item: "archers:archer_armor_head"
+				},
+				{
+					id: "5E1BBD29E2BE98AD",
+					type: "item",
+					item: "archers:archer_armor_chest"
+				},
+				{
+					id: "7D295D7DD0F28955",
+					type: "item",
+					item: "archers:archer_armor_legs"
+				},
+				{
+					id: "38AD0A2C106566F3",
+					type: "item",
+					item: "archers:archer_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "783C7755C31C72DB",
+					type: "item",
+					item: {
+						id: "minecraft:leather",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "7484E79AFADB8676",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "7052251B08F4E98E",
+			title: "Mały kołczan",
+			x: 3.0d,
+			y: -2.0d,
+			icon: "archers:small_quiver",
+			description: [
+				"Kołczan nosi strzały w osobnym slocie."
+			],
+			dependencies: [
+				"3890718EEE73A838"
+			],
+			tasks: [
+				{
+					id: "74C86C5989E06664",
+					type: "item",
+					item: "archers:small_quiver"
+				}
+			],
+			rewards: [
+				{
+					id: "5C393EA079415E56",
+					type: "item",
+					item: {
+						id: "minecraft:spectral_arrow",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "1A1C89D5006C1920",
+			title: "Królewski łuk",
+			x: 3.0d,
+			y: -0.7d,
+			icon: "archers:royal_longbow",
+			description: [
+				"Złocony łuk o dużej sile."
+			],
+			dependencies: [
+				"3890718EEE73A838"
+			],
+			tasks: [
+				{
+					id: "7E7B379731920CAA",
+					type: "item",
+					item: "archers:royal_longbow"
+				}
+			],
+			rewards: [
+				{
+					id: "16D01AD2DB0CFCF3",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "7E42ED27C71F077A",
+			title: "Szybkostrzelne kusze",
+			x: 3.0d,
+			y: 0.7d,
+			icon: "archers:rapid_crossbow",
+			description: [
+				"Mechaniczny krótki łuk i szybkostrzelna kusza."
+			],
+			dependencies: [
+				"301B5EFEAD31870F"
+			],
+			tasks: [
+				{
+					id: "3562B2B5E014FDE4",
+					type: "item",
+					item: "archers:mechanic_shortbow"
+				},
+				{
+					id: "52086B488EFF9480",
+					type: "item",
+					item: "archers:rapid_crossbow"
+				}
+			],
+			rewards: [
+				{
+					id: "5AF577243297BC07",
+					type: "item",
+					item: {
+						id: "minecraft:redstone",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "109B979FB0425A3A",
+			title: "Zbroja tropiciela",
+			x: 3.0d,
+			y: 2.0d,
+			icon: "archers:ranger_armor_chest",
+			description: [
+				"Drugi zestaw: tropiciel. Potrzebne skorupy żółwi."
+			],
+			dependencies: [
+				"7BBBE2F20751CFAE",
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "1D0AB02E599BC2FB",
+					type: "item",
+					item: "archers:ranger_armor_head"
+				},
+				{
+					id: "573B8EC0058185BF",
+					type: "item",
+					item: "archers:ranger_armor_chest"
+				},
+				{
+					id: "7A36D8AE0ED62EA7",
+					type: "item",
+					item: "archers:ranger_armor_legs"
+				},
+				{
+					id: "5193EBAD38DA9E98",
+					type: "item",
+					item: "archers:ranger_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "76B53B2B59A05209",
+					type: "item",
+					item: {
+						id: "minecraft:scute",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "32EC38AF5F2C4D1A",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "35177D697A9A27FC",
+			title: "Średni kołczan",
+			x: 4.5d,
+			y: -2.0d,
+			icon: "archers:medium_quiver",
+			description: [
+				"Więcej miejsca na strzały."
+			],
+			dependencies: [
+				"7052251B08F4E98E"
+			],
+			tasks: [
+				{
+					id: "1F21778886174D4E",
+					type: "item",
+					item: "archers:medium_quiver"
+				}
+			],
+			rewards: [
+				{
+					id: "532B0EC135727E57",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 64
+				}
+			]
+		},
+		{
+			id: "156EE39EC0AAB24B",
+			title: "Kryształowe łuki",
+			x: 4.5d,
+			y: -0.7d,
+			icon: "archers:crystal_longbow",
+			description: [
+				"Kryształowy długi i krótki łuk."
+			],
+			dependencies: [
+				"1A1C89D5006C1920",
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "78381BC4C41764A9",
+					type: "item",
+					item: "archers:crystal_longbow"
+				},
+				{
+					id: "57CCA93A7FF0E335",
+					type: "item",
+					item: "archers:crystal_shortbow"
+				}
+			],
+			rewards: [
+				{
+					id: "52355482130E8632",
+					type: "item",
+					item: {
+						id: "minecraft:amethyst_shard",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "747557076CB502D7",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "3F598BB73C399E21",
+			title: "Rubinowe kusze",
+			x: 4.5d,
+			y: 0.7d,
+			icon: "archers:ruby_heavy_crossbow",
+			description: [
+				"Rubinowa ciężka i szybkostrzelna kusza."
+			],
+			dependencies: [
+				"7E42ED27C71F077A",
+				"31B517F5D5488ED2"
+			],
+			tasks: [
+				{
+					id: "39B9247C00CD9246",
+					type: "item",
+					item: "archers:ruby_heavy_crossbow"
+				},
+				{
+					id: "1361DC1E2D502324",
+					type: "item",
+					item: "archers:ruby_rapid_crossbow"
+				}
+			],
+			rewards: [
+				{
+					id: "51B05FF97FC7732E",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "199EE6A33B90D064",
+			title: "Duży kołczan",
+			x: 6.0d,
+			y: -2.0d,
+			icon: "archers:large_quiver",
+			description: [
+				"Największy kołczan."
+			],
+			dependencies: [
+				"35177D697A9A27FC"
+			],
+			tasks: [
+				{
+					id: "5721483AFCB5F9C8",
+					type: "item",
+					item: "archers:large_quiver"
+				}
+			],
+			rewards: [
+				{
+					id: "3F0F2D19639F7B2E",
+					type: "item",
+					item: {
+						id: "minecraft:spectral_arrow",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "72DF213187C3ABAD",
+			title: "Netherytowe łuki",
+			x: 6.0d,
+			y: 0.0d,
+			icon: "archers:netherite_longbow",
+			description: [
+				"Netherytowy długi łuk i ciężka kusza."
+			],
+			dependencies: [
+				"156EE39EC0AAB24B",
+				"3F598BB73C399E21",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "578A53923EE9DEA1",
+					type: "item",
+					item: "archers:netherite_longbow"
+				},
+				{
+					id: "7F39136A4863FAF1",
+					type: "item",
+					item: "archers:netherite_heavy_crossbow"
+				}
+			],
+			rewards: [
+				{
+					id: "3115A2FD84505D92",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "357575E9D81A0BEE",
+			title: "Netherytowy tropiciel",
+			x: 6.0d,
+			y: 2.0d,
+			icon: "archers:netherite_ranger_armor_chest",
+			description: [
+				"Netherytowa zbroja tropiciela."
+			],
+			dependencies: [
+				"109B979FB0425A3A",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "509AFBBF1C51AC06",
+					type: "item",
+					item: "archers:netherite_ranger_armor_head"
+				},
+				{
+					id: "19B8C7255438D8BB",
+					type: "item",
+					item: "archers:netherite_ranger_armor_chest"
+				},
+				{
+					id: "59D17FC6E7396BD1",
+					type: "item",
+					item: "archers:netherite_ranger_armor_legs"
+				},
+				{
+					id: "1F71D27CEB566193",
+					type: "item",
+					item: "archers:netherite_ranger_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "30401D3AA8A25015",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "5182DF81B1DA60C3",
+			title: "Snajper",
+			x: 3.0d,
+			y: 3.5d,
+			icon: "minecraft:phantom_membrane",
+			description: [
+				"Pokonaj 20 szkieletów i 10 phantomów."
+			],
+			dependencies: [
+				"7BBBE2F20751CFAE"
+			],
+			tasks: [
+				{
+					id: "31578CE84D511557",
+					type: "kill",
+					entity: "minecraft:skeleton",
+					value: 20L
+				},
+				{
+					id: "5BE926B036E2F972",
+					type: "kill",
+					entity: "minecraft:phantom",
+					value: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "15CD5A1922BFE4F1",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 64
+				}
+			]
+		},
+		{
+			id: "3627C7EB488F03C1",
+			title: "&6Mistrz Łuczników",
+			x: 8.0d,
+			y: 0.0d,
+			icon: "archers:netherite_longbow",
+			description: [
+				"Ukończ ścieżkę łucznika i pokonaj Pustą Różę."
+			],
+			dependencies: [
+				"72DF213187C3ABAD",
+				"199EE6A33B90D064",
+				"357575E9D81A0BEE",
+				"3A660A78977BEFDB"
+			],
+			size: 2.0d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "588682BE4C511BA6",
+					type: "checkmark",
+					title: "Jestem mistrzem!"
+				}
+			],
+			rewards: [
+				{
+					id: "12BF8A25EE5F9B59",
+					type: "item",
+					item: {
+						id: "jewelry:unique_archer_necklace",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Naszyjnik Sokolego Oka\", \"italic\": false, \"color\": \"green\"}",
+								Lore: [
+									"{\"text\": \"Nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					}
+				},
+				{
+					id: "3F496AFEA80E46C2",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

@@ -1,0 +1,418 @@
+{
+	id: "5163DA425CC0A71C",
+	group: "12041B3A60A255ED",
+	order_index: 7,
+	filename: "kaplan",
+	title: "&fKapłan",
+	icon: "paladins:holy_staff",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Leczenie i wsparcie drużyny"
+	],
+	quests: [
+		{
+			id: "1BB7E2BA0193CA5A",
+			title: "Różdżka akolity",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "paladins:acolyte_wand",
+			description: [
+				"Kapłan leczy siebie i drużynę oraz rzuca święte tarcze.",
+				"Broń zrobisz przy Stole mnicha."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "56DE7ACBD408B781",
+					type: "item",
+					item: "paladins:acolyte_wand"
+				}
+			],
+			rewards: [
+				{
+					id: "3C492F05822CA695",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "1E05DCEB174CC0DA",
+			title: "Święta różdżka",
+			x: 1.5d,
+			y: -1.0d,
+			icon: "paladins:holy_wand",
+			description: [
+				"Mocniejsze leczenie."
+			],
+			dependencies: [
+				"1BB7E2BA0193CA5A"
+			],
+			tasks: [
+				{
+					id: "1F4E2FE8F137AEAE",
+					type: "item",
+					item: "paladins:holy_wand"
+				}
+			],
+			rewards: [
+				{
+					id: "58F48BEFECC5B405",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "574D8B03FD0AF681",
+			title: "Święta laska",
+			x: 3.0d,
+			y: -1.0d,
+			icon: "paladins:holy_staff",
+			description: [
+				"Laska kapłana: leczenie obszarowe."
+			],
+			dependencies: [
+				"1E05DCEB174CC0DA"
+			],
+			tasks: [
+				{
+					id: "57CBAC33259DFEF7",
+					type: "item",
+					item: "paladins:holy_staff"
+				}
+			],
+			rewards: [
+				{
+					id: "141C979284BD4C4B",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "3C92DA5130C8A533",
+			title: "Szaty kapłana",
+			x: 1.5d,
+			y: 1.0d,
+			icon: "paladins:priest_robe_chest",
+			description: [
+				"Pierwszy zestaw szat."
+			],
+			dependencies: [
+				"1BB7E2BA0193CA5A"
+			],
+			tasks: [
+				{
+					id: "5D8A19F00900B99B",
+					type: "item",
+					item: "paladins:priest_robe_head"
+				},
+				{
+					id: "5DB40829B167A7E3",
+					type: "item",
+					item: "paladins:priest_robe_chest"
+				},
+				{
+					id: "302AE01CF9D52202",
+					type: "item",
+					item: "paladins:priest_robe_legs"
+				},
+				{
+					id: "16A6694D13750BD1",
+					type: "item",
+					item: "paladins:priest_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "31BBF4507F9AFE2B",
+					type: "item",
+					item: {
+						id: "minecraft:white_wool",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "3D2A2EEC53129E01",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1A7212DF30F53053",
+			title: "Diamentowe relikwie",
+			x: 4.5d,
+			y: -1.0d,
+			icon: "paladins:diamond_holy_staff",
+			description: [
+				"Diamentowa święta różdżka i laska."
+			],
+			dependencies: [
+				"574D8B03FD0AF681",
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "5878471FFA05ECA1",
+					type: "item",
+					item: "paladins:diamond_holy_wand"
+				},
+				{
+					id: "5FE712D2A0989AE9",
+					type: "item",
+					item: "paladins:diamond_holy_staff"
+				}
+			],
+			rewards: [
+				{
+					id: "1C1C8D0E7BFB091A",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "1DE7845BBC6ABACF",
+			title: "Szaty przeora",
+			x: 4.5d,
+			y: 1.0d,
+			icon: "paladins:prior_robe_chest",
+			description: [
+				"Drugi zestaw szat: przeor."
+			],
+			dependencies: [
+				"3C92DA5130C8A533",
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "379D88A67118A2FA",
+					type: "item",
+					item: "paladins:prior_robe_head"
+				},
+				{
+					id: "362EE861C83FD43B",
+					type: "item",
+					item: "paladins:prior_robe_chest"
+				},
+				{
+					id: "71B799A87A17395E",
+					type: "item",
+					item: "paladins:prior_robe_legs"
+				},
+				{
+					id: "357A6E895BB39F2D",
+					type: "item",
+					item: "paladins:prior_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "57BBBED3CBF4971E",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "177706FE65057548",
+			title: "Rubinowa laska",
+			x: 6.0d,
+			y: -1.0d,
+			icon: "paladins:ruby_holy_staff",
+			description: [
+				"Rubinowa święta laska."
+			],
+			dependencies: [
+				"1A7212DF30F53053",
+				"31B517F5D5488ED2"
+			],
+			tasks: [
+				{
+					id: "78ED6D0C1923D730",
+					type: "item",
+					item: "paladins:ruby_holy_staff"
+				}
+			],
+			rewards: [
+				{
+					id: "57FA50A2343B7CA2",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "7BABA001E2384B0B",
+			title: "Netherytowe relikwie",
+			x: 7.5d,
+			y: -1.0d,
+			icon: "paladins:netherite_holy_staff",
+			description: [
+				"Netherytowa święta różdżka i laska."
+			],
+			dependencies: [
+				"177706FE65057548",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "32D9B36E59DEF42C",
+					type: "item",
+					item: "paladins:netherite_holy_wand"
+				},
+				{
+					id: "3F831EB1F0AE8A76",
+					type: "item",
+					item: "paladins:netherite_holy_staff"
+				}
+			],
+			rewards: [
+				{
+					id: "11B19961E7068743",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "7676D1B2C23E1615",
+			title: "Netherytowy przeor",
+			x: 7.5d,
+			y: 1.0d,
+			icon: "paladins:netherite_prior_robe_chest",
+			description: [
+				"Netherytowe szaty przeora."
+			],
+			dependencies: [
+				"1DE7845BBC6ABACF",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "3BE92494725B6B55",
+					type: "item",
+					item: "paladins:netherite_prior_robe_head"
+				},
+				{
+					id: "7BBBA0F9EFD63D30",
+					type: "item",
+					item: "paladins:netherite_prior_robe_chest"
+				},
+				{
+					id: "10FF1682723A6BCE",
+					type: "item",
+					item: "paladins:netherite_prior_robe_legs"
+				},
+				{
+					id: "36F3BC6904A86C76",
+					type: "item",
+					item: "paladins:netherite_prior_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "5B23F508FD0FF6F4",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "52303FB4ADC9FE73",
+			title: "Uzdrowiciel",
+			x: 3.0d,
+			y: 2.5d,
+			icon: "minecraft:wither_skeleton_skull",
+			description: [
+				"Kapłan nie musi zabijać, ale potrafi.",
+				"Pokonaj 10 witherowych szkieletów w fortecy."
+			],
+			dependencies: [
+				"3C92DA5130C8A533",
+				"5C96898B541528E8"
+			],
+			tasks: [
+				{
+					id: "3FABDD9C03A75EFD",
+					type: "kill",
+					entity: "minecraft:wither_skeleton",
+					value: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "7E25BB56C662778E",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "55F76589B2E9D22C",
+			title: "&6Mistrz Kapłanów",
+			x: 9.5d,
+			y: 0.0d,
+			icon: "paladins:netherite_holy_staff",
+			description: [
+				"Ukończ ścieżkę kapłana i pokonaj Withera."
+			],
+			dependencies: [
+				"7BABA001E2384B0B",
+				"7676D1B2C23E1615",
+				"710A01BD949B4036"
+			],
+			size: 2.0d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "3AC5499004009934",
+					type: "checkmark",
+					title: "Jestem mistrzem!"
+				}
+			],
+			rewards: [
+				{
+					id: "77333AEC498400C4",
+					type: "item",
+					item: {
+						id: "jewelry:unique_healing_necklace",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Naszyjnik Uzdrowiciela\", \"italic\": false, \"color\": \"white\"}",
+								Lore: [
+									"{\"text\": \"Nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					}
+				},
+				{
+					id: "72D4D7F4CB8E502B",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

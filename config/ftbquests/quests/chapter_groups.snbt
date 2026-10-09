@@ -1,3 +1,8 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{
+			id: "12041B3A60A255ED",
+			title: "&cKlasy postaci"
+		}
+	]
 }

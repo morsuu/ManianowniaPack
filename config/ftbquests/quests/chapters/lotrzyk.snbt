@@ -1,0 +1,446 @@
+{
+	id: "7E12682C39FD7D6F",
+	group: "12041B3A60A255ED",
+	order_index: 8,
+	filename: "lotrzyk",
+	title: "&8Łotrzyk",
+	icon: "rogues:iron_dagger",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Sztylety, sierpy i skradanie"
+	],
+	quests: [
+		{
+			id: "5886B920CBD7192B",
+			title: "Warsztat broni",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "rogues:arms_workbench",
+			description: [
+				"Przy warsztacie broni zrobisz broń łotrzyka i wojownika.",
+				"Łotrzyk: szybkie sztylety i sierpy, krwawienie, skradanie."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "72F151EC48641ABA",
+					type: "item",
+					item: "rogues:arms_workbench"
+				}
+			],
+			rewards: [
+				{
+					id: "1A3F1BC814FD2A08",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "54FC2CD38B270DA9",
+			title: "Krzemienny sztylet",
+			x: 1.5d,
+			y: -1.0d,
+			icon: "rogues:flint_dagger",
+			description: [
+				"Pierwszy sztylet z krzemienia."
+			],
+			dependencies: [
+				"5886B920CBD7192B"
+			],
+			tasks: [
+				{
+					id: "561D3E4B09080126",
+					type: "item",
+					item: "rogues:flint_dagger"
+				}
+			],
+			rewards: [
+				{
+					id: "772217FC819F19FB",
+					type: "item",
+					item: {
+						id: "minecraft:flint",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "1E30699539FA053E",
+			title: "Żelazne ostrza",
+			x: 3.0d,
+			y: -1.0d,
+			icon: "rogues:iron_dagger",
+			description: [
+				"Żelazny sztylet i sierp."
+			],
+			dependencies: [
+				"54FC2CD38B270DA9"
+			],
+			tasks: [
+				{
+					id: "1BC4961776E10700",
+					type: "item",
+					item: "rogues:iron_dagger"
+				},
+				{
+					id: "12CD97FAAD1FB4DE",
+					type: "item",
+					item: "rogues:iron_sickle"
+				}
+			],
+			rewards: [
+				{
+					id: "1783459F95207229",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "3F490A5FDC2C1423",
+			title: "Strój łotrzyka",
+			x: 1.5d,
+			y: 1.0d,
+			icon: "rogues:rogue_armor_chest",
+			description: [
+				"Pierwszy zestaw: lekki skórzany strój."
+			],
+			dependencies: [
+				"5886B920CBD7192B"
+			],
+			tasks: [
+				{
+					id: "7A53D6550805A498",
+					type: "item",
+					item: "rogues:rogue_armor_head"
+				},
+				{
+					id: "5437965C25858B2C",
+					type: "item",
+					item: "rogues:rogue_armor_chest"
+				},
+				{
+					id: "7FC15E1D7E60A466",
+					type: "item",
+					item: "rogues:rogue_armor_legs"
+				},
+				{
+					id: "51D495F2351DE6D8",
+					type: "item",
+					item: "rogues:rogue_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "38698A6CC67A4A9A",
+					type: "item",
+					item: {
+						id: "minecraft:leather",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "700AE6DCBDE82D55",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "53BB1A366086666E",
+			title: "Diamentowe ostrza",
+			x: 4.5d,
+			y: -1.0d,
+			icon: "rogues:diamond_dagger",
+			description: [
+				"Diamentowy sztylet i sierp."
+			],
+			dependencies: [
+				"1E30699539FA053E",
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "511755197A888C66",
+					type: "item",
+					item: "rogues:diamond_dagger"
+				},
+				{
+					id: "1CFFC3A2660A94B0",
+					type: "item",
+					item: "rogues:diamond_sickle"
+				}
+			],
+			rewards: [
+				{
+					id: "3D32EE43A3052AA8",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "3FBDF9BF0B3FAD1E",
+			title: "Strój skrytobójcy",
+			x: 4.5d,
+			y: 1.0d,
+			icon: "rogues:assassin_armor_chest",
+			description: [
+				"Drugi zestaw: skrytobójca. Potrzebna skóra królików."
+			],
+			dependencies: [
+				"3F490A5FDC2C1423",
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "17413C370699906B",
+					type: "item",
+					item: "rogues:assassin_armor_head"
+				},
+				{
+					id: "7BDC84B1C92EBC22",
+					type: "item",
+					item: "rogues:assassin_armor_chest"
+				},
+				{
+					id: "57B04822C9AD62E4",
+					type: "item",
+					item: "rogues:assassin_armor_legs"
+				},
+				{
+					id: "5CC7098C7839F34D",
+					type: "item",
+					item: "rogues:assassin_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "7D8E52AD43F45A67",
+					type: "item",
+					item: {
+						id: "minecraft:rabbit_hide",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "5912F0A5EAC58F89",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "1BD0D4ED25EC3072",
+			title: "Rubinowe ostrza",
+			x: 6.0d,
+			y: -1.0d,
+			icon: "rogues:ruby_dagger",
+			description: [
+				"Rubinowy sztylet i sierp."
+			],
+			dependencies: [
+				"53BB1A366086666E",
+				"31B517F5D5488ED2"
+			],
+			tasks: [
+				{
+					id: "19CBEEA25D8FD8BC",
+					type: "item",
+					item: "rogues:ruby_dagger"
+				},
+				{
+					id: "731B6B8FDA4E43AB",
+					type: "item",
+					item: "rogues:ruby_sickle"
+				}
+			],
+			rewards: [
+				{
+					id: "708E3B03FD044BBA",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "3BBD00C0F593E7E9",
+			title: "Netherytowe ostrza",
+			x: 7.5d,
+			y: -1.0d,
+			icon: "rogues:netherite_dagger",
+			description: [
+				"Netherytowy sztylet i sierp."
+			],
+			dependencies: [
+				"1BD0D4ED25EC3072",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "73B95F32F66A4FAE",
+					type: "item",
+					item: "rogues:netherite_dagger"
+				},
+				{
+					id: "151EDE8143FBC34D",
+					type: "item",
+					item: "rogues:netherite_sickle"
+				}
+			],
+			rewards: [
+				{
+					id: "5D9E4B1AC6A2D0A0",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "5174B4C47B5569E3",
+			title: "Netherytowy skrytobójca",
+			x: 7.5d,
+			y: 1.0d,
+			icon: "rogues:netherite_assassin_armor_chest",
+			description: [
+				"Netherytowy strój skrytobójcy."
+			],
+			dependencies: [
+				"3FBDF9BF0B3FAD1E",
+				"3E82FB0EC8FBCB55"
+			],
+			tasks: [
+				{
+					id: "13F6F95770D61928",
+					type: "item",
+					item: "rogues:netherite_assassin_armor_head"
+				},
+				{
+					id: "13C20FD6E6A723A9",
+					type: "item",
+					item: "rogues:netherite_assassin_armor_chest"
+				},
+				{
+					id: "5F45A92BFEEF144B",
+					type: "item",
+					item: "rogues:netherite_assassin_armor_legs"
+				},
+				{
+					id: "17351B6B79FA3D8C",
+					type: "item",
+					item: "rogues:netherite_assassin_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "5FB4A7C0764096AD",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "55207C1984B24BA3",
+			title: "Cichy zabójca",
+			x: 3.0d,
+			y: 2.5d,
+			icon: "minecraft:creeper_head",
+			description: [
+				"Pokonaj 10 creeperów i 10 pająków jaskiniowych, zanim cię zauważą."
+			],
+			dependencies: [
+				"3F490A5FDC2C1423"
+			],
+			tasks: [
+				{
+					id: "531730C2637B2BC0",
+					type: "kill",
+					entity: "minecraft:creeper",
+					value: 10L
+				},
+				{
+					id: "7BA282C1E933FACA",
+					type: "kill",
+					entity: "minecraft:cave_spider",
+					value: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "5552781A6D99E6F6",
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "182D3029CF03952F",
+			title: "&6Mistrz Łotrzyków",
+			x: 9.5d,
+			y: 0.0d,
+			icon: "rogues:netherite_dagger",
+			description: [
+				"Ukończ ścieżkę łotrzyka i pokonaj Obsydialita."
+			],
+			dependencies: [
+				"3BBD00C0F593E7E9",
+				"5174B4C47B5569E3",
+				"5DDC7F4D1B5EAB22"
+			],
+			size: 2.0d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "758860D15F102B2D",
+					type: "checkmark",
+					title: "Jestem mistrzem!"
+				}
+			],
+			rewards: [
+				{
+					id: "38622007D0F9B4C2",
+					type: "item",
+					item: {
+						id: "jewelry:unique_crit_ring",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Pierścień Cienia\", \"italic\": false, \"color\": \"dark_gray\"}",
+								Lore: [
+									"{\"text\": \"Nagroda za ukończenie ścieżki klasy.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					}
+				},
+				{
+					id: "594B97492A96F937",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}
