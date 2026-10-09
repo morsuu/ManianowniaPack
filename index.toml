@@ -221,6 +221,11 @@ file = "config/sdrp-common.json"
 hash = "1e83663af3eb9d10f22518083197ebd7f7d2623fd0bb16d2e10fab1743d66a5c"
 
 [[files]]
+file = "mods/amendments.pw.toml"
+hash = "208ed32d2aa0748e92f4d5b852ffb7dbd201caa7c119b879fca92b4f45c1eb9f"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "a10021ff4bb5426107f21688b8954a9dd386615adc98a61a508da7527be65a62"
 metafile = true
