@@ -1,0 +1,17 @@
+{
+ "setCustomWindowTitle": true,
+ "customWindowTitle": "ManianowniaPack",
+ "setCustomWindowIcon": true,
+ "replaceMainMenuLogo": true,
+ "replaceMainMenuEditionLogo": true,
+ "setCustomBackground": false,
+ "hideMinecraftRealmsButton": true,
+ "expandModsButton": false,
+ "enableServerPromoButton": false,
+ "serverPromoButtonTextDefault": "",
+ "serverPromoButtonTextOnHover": "",
+ "serverPromoButtonClickURL": "",
+ "hideSplashText": false,
+ "removeExperimentalModLoaderText": true,
+ "removeTextBottomLeft": true
+}
