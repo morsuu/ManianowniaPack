@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:iron_longsword"
+    },
+    "title": "Nowe ostrza",
+    "subtitle": "",
+    "description": [
+      "Simply Swords dodaje mnóstwo broni. Zacznij od długiego miecza."
+    ],
+    "groups": {
+      "RPG i walka": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "rpg_fight"
+  ],
+  "tasks": {
+    "s": {
+      "type": "heracles:item",
+      "item": "simplyswords:iron_longsword",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 5
+    }
+  }
+}

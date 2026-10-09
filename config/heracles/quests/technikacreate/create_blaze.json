@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner"
+    },
+    "title": "Palnik blaze",
+    "subtitle": "",
+    "description": [
+      "Złap blaze'a w Netherze do pustego palnika. Daje ciepło dla miksera."
+    ],
+    "groups": {
+      "Technika (Create)": {
+        "position": [
+          240,
+          48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "create_mixer"
+  ],
+  "tasks": {
+    "b": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 10
+    }
+  }
+}

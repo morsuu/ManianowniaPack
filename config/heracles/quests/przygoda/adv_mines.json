@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:cobweb"
+    },
+    "title": "Głębokie kopalnie",
+    "subtitle": "",
+    "description": [
+      "Pająki jaskiniowe siedzą w opuszczonych kopalniach (YUNG's Better Mineshafts)."
+    ],
+    "groups": {
+      "Przygoda": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "adv_compass"
+  ],
+  "tasks": {
+    "s": {
+      "type": "heracles:kill_entity",
+      "entity": {
+        "type": "minecraft:cave_spider"
+      },
+      "amount": 5
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:rail",
+        "count": 32
+      }
+    }
+  }
+}

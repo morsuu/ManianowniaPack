@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy"
+    },
+    "title": "Stop andezytu",
+    "subtitle": "",
+    "description": [
+      "Podstawa Create. Przepis znajdziesz w EMI.",
+      "Ponder: przytrzymaj **W** nad przedmiotem, żeby zobaczyć animowany poradnik."
+    ],
+    "groups": {
+      "Technika (Create)": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_iron"
+  ],
+  "tasks": {
+    "a": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy",
+      "amount": 16
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 8
+      }
+    }
+  }
+}

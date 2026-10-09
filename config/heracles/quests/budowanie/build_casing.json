@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_casing"
+    },
+    "title": "Industrialny styl",
+    "subtitle": "",
+    "description": [
+      "Obudowy z Create świetnie wyglądają w budowlach."
+    ],
+    "groups": {
+      "Budowanie": {
+        "position": [
+          48,
+          -48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "build_house",
+    "create_alloy"
+  ],
+  "tasks": {
+    "c": {
+      "type": "heracles:item",
+      "item": "create:andesite_casing",
+      "amount": 8
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 5
+    }
+  }
+}

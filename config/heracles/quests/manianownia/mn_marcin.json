@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:deepslate"
+    },
+    "title": "Marcin kopie do dna",
+    "subtitle": "",
+    "description": [
+      "Marcin nie zatrzymuje się, dopóki nie dokopie się do bedrocku.",
+      "Wykop 128 bloków głębokiego łupka."
+    ],
+    "groups": {
+      "Manianownia": {
+        "position": [
+          -77,
+          -92
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_iron"
+  ],
+  "tasks": {
+    "d": {
+      "type": "heracles:item",
+      "item": "minecraft:cobbled_deepslate",
+      "amount": 128
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "nbt": {
+          "display": {
+            "Name": "{\"text\": \"Kilof Marcina\", \"italic\": false, \"color\": \"gold\"}",
+            "Lore": [
+              "{\"text\": \"Kopie szybciej niż Marcin gada.\", \"italic\": true, \"color\": \"gray\"}"
+            ]
+          },
+          "Enchantments": [
+            {
+              "id": "minecraft:efficiency",
+              "lvl": 3
+            },
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": 2
+            }
+          ]
+        }
+      }
+    }
+  }
+}

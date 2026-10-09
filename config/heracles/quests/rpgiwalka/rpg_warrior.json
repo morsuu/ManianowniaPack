@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "rogues:iron_double_axe"
+    },
+    "title": "Klasa: Wojownik",
+    "subtitle": "",
+    "description": [
+      "Podwójny topór i szał bojowy."
+    ],
+    "groups": {
+      "RPG i walka": {
+        "position": [
+          96,
+          144
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "rpg_binding"
+  ],
+  "tasks": {
+    "a": {
+      "type": "heracles:item",
+      "item": "rogues:iron_double_axe",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 10
+    }
+  }
+}

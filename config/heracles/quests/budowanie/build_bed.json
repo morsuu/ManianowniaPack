@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "handcrafted:oak_fancy_bed"
+    },
+    "title": "Wygodne łóżko",
+    "subtitle": "",
+    "description": [
+      "Ozdobne łóżko z Handcrafted."
+    ],
+    "groups": {
+      "Budowanie": {
+        "position": [
+          96,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "build_furniture"
+  ],
+  "tasks": {
+    "b": {
+      "type": "heracles:item",
+      "item": "handcrafted:oak_fancy_bed",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:white_wool",
+        "count": 16
+      }
+    }
+  }
+}

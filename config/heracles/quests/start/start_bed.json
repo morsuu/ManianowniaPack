@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:red_bed"
+    },
+    "title": "Dobranoc",
+    "subtitle": "",
+    "description": [
+      "Prześpij się w łóżku, żeby ustawić punkt odrodzenia."
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_wood"
+  ],
+  "tasks": {
+    "b": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:adventure/sleep_in_bed"
+      ]
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooking_pot"
+    },
+    "title": "Kuchnia",
+    "subtitle": "",
+    "description": [
+      "Farmer's Delight: garnek i deska do krojenia. Gotowane jedzenie daje lepsze efekty."
+    ],
+    "groups": {
+      "Budowanie": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "build_house"
+  ],
+  "tasks": {
+    "p": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooking_pot",
+      "amount": 1
+    },
+    "c": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cutting_board",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 16
+      }
+    }
+  }
+}

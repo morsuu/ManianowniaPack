@@ -1,0 +1,13 @@
+name = "wizards"
+filename = "wizards-fabric-3.1.3+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NkGaQMDA/versions/sN5qsxEU/wizards-fabric-3.1.3%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "64384c9b37d28c088ed6c9ff4f84337372d0d369934790ccfce53606520ee79ed24d0cc3bf19cdb29c5749e5f7960aa5448db023ca21f07a880372875658135c"
+
+[update]
+[update.modrinth]
+mod-id = "NkGaQMDA"
+version = "sN5qsxEU"

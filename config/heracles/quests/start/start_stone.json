@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:stone_pickaxe"
+    },
+    "title": "Epoka kamienia",
+    "subtitle": "",
+    "description": [
+      "Zrób kamienny kilof."
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          96,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_wood"
+  ],
+  "tasks": {
+    "p": {
+      "type": "heracles:item",
+      "item": "minecraft:stone_pickaxe",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal",
+        "count": 8
+      }
+    }
+  }
+}

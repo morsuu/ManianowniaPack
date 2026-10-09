@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": "Cała Manianownia",
+    "subtitle": "",
+    "description": [
+      "Morsu, Mastix, Bombalson, Mateusz, Przemek, Skajson, Maciekos, Woda i Marcin.",
+      "Ukończcie wszystkie questy ekipy, żeby zdobyć ducha Manianowni."
+    ],
+    "groups": {
+      "Manianownia": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "mn_morsu",
+    "mn_mastix",
+    "mn_bombalson",
+    "mn_mateusz",
+    "mn_przemek",
+    "mn_skajson",
+    "mn_maciekos",
+    "mn_woda",
+    "mn_marcin"
+  ],
+  "tasks": {
+    "ok": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "nbt": {
+          "display": {
+            "Name": "{\"text\": \"Duch Manianowni\", \"italic\": false, \"color\": \"light_purple\"}",
+            "Lore": [
+              "{\"text\": \"Ekipa nie pozwoli ci zginąć.\", \"italic\": true, \"color\": \"gray\"}"
+            ]
+          }
+        }
+      }
+    },
+    "r2": {
+      "type": "heracles:xp",
+      "amount": 30
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "shield-api"
+filename = "shield_api-fabric-2.2.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/y9clIFY4/versions/olD4crvG/shield_api-fabric-2.2.0%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "88c9c5b55ce574488714c0b9bda6f5e0a7ee0f3ac2e1fd23c9ceff74233b4164b5087c66baeec059780912baeb7316bb8a7504cec6bdb0f4d5217df1a755d0fa"
+
+[update]
+[update.modrinth]
+mod-id = "y9clIFY4"
+version = "olD4crvG"

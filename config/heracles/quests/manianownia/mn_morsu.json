@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ice"
+    },
+    "title": "Morsowanie z Morsem",
+    "subtitle": "",
+    "description": [
+      "Prawdziwy mors nie boi się zimnej wody.",
+      "Znajdź lodowaty ocean i zanurz się w nim jak Morsu."
+    ],
+    "groups": {
+      "Manianownia": {
+        "position": [
+          0,
+          -120
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_welcome"
+  ],
+  "tasks": {
+    "b": {
+      "type": "heracles:biome",
+      "biomes": "minecraft:frozen_ocean"
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:leather_helmet",
+        "count": 1,
+        "nbt": {
+          "display": {
+            "Name": "{\"text\": \"Czapka Morsa\", \"italic\": false, \"color\": \"aqua\"}",
+            "Lore": [
+              "{\"text\": \"Morsowanie to styl życia.\", \"italic\": true, \"color\": \"gray\"}"
+            ]
+          },
+          "Enchantments": [
+            {
+              "id": "minecraft:respiration",
+              "lvl": 3
+            },
+            {
+              "id": "minecraft:aqua_affinity",
+              "lvl": 1
+            },
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": 3
+            }
+          ]
+        }
+      }
+    }
+  }
+}

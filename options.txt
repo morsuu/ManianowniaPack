@@ -1,0 +1,15 @@
+version:3465
+renderDistance:8
+simulationDistance:5
+graphicsMode:0
+renderClouds:"false"
+ao:false
+entityShadows:false
+particles:2
+biomeBlendRadius:0
+mipmapLevels:0
+maxFps:60
+enableVsync:false
+entityDistanceScaling:0.75
+lang:pl_pl
+resourcePacks:["vanilla","fabric","file/ManianowniaPack"]

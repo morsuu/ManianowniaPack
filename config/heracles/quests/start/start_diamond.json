@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond"
+    },
+    "title": "Diamenty!",
+    "subtitle": "",
+    "description": [
+      "Znajdź pierwsze diamenty."
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          192,
+          48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_iron"
+  ],
+  "tasks": {
+    "d": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:story/mine_diamond"
+      ]
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 1
+      }
+    },
+    "r2": {
+      "type": "heracles:xp",
+      "amount": 10
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:tnt"
+    },
+    "title": "Konkurencja dla Bombalsona",
+    "subtitle": "",
+    "description": [
+      "Po serwerze chodzą zielone podróbki Bombalsona.",
+      "Pokaż im, kto tu jest od wybuchów."
+    ],
+    "groups": {
+      "Manianownia": {
+        "position": [
+          118,
+          -21
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_welcome"
+  ],
+  "tasks": {
+    "c": {
+      "type": "heracles:kill_entity",
+      "entity": {
+        "type": "minecraft:creeper"
+      },
+      "amount": 10
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:firework_rocket",
+        "count": 32,
+        "nbt": {
+          "display": {
+            "Name": "{\"text\": \"Bombalsonki\", \"italic\": false, \"color\": \"red\"}",
+            "Lore": [
+              "{\"text\": \"Wybuchowy prezent od Bombalsona.\", \"italic\": true, \"color\": \"gray\"}"
+            ]
+          },
+          "Fireworks": {
+            "Flight": 2
+          }
+        }
+      }
+    }
+  }
+}

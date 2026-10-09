@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "heracles:quest_book"
+    },
+    "title": "Witaj w ManianowniaPack!",
+    "subtitle": "",
+    "description": [
+      "Questy otwierasz klawiszem **U**.",
+      "",
+      "Przepisy do wszystkiego: **EMI** po prawej stronie ekwipunku (najedź na przedmiot i wciśnij R).",
+      "Mapa świata: klawisz **M**, punkty na minimapie: **B**.",
+      "Gracie razem na waszym serwerze: dodajcie jego adres w menu Tryb wieloosobowy.",
+      "Po śmierci zostaje nagrobek z waszymi rzeczami, więc nic nie przepada.",
+      "Zajrzyjcie też do rozdziału **Manianownia**. Każdy z was ma tam swój quest.",
+      "",
+      "Zaznacz pole, żeby zacząć."
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [],
+  "tasks": {
+    "ok": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bread",
+        "count": 8
+      }
+    }
+  }
+}

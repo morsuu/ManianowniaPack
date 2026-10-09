@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_ingot"
+    },
+    "title": "Mosiądz",
+    "subtitle": "",
+    "description": [
+      "Miedź + cynk w mikserze nad podgrzaną misą = mosiądz."
+    ],
+    "groups": {
+      "Technika (Create)": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "create_mixer"
+  ],
+  "tasks": {
+    "b": {
+      "type": "heracles:item",
+      "item": "create:brass_ingot",
+      "amount": 16
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 8
+      }
+    },
+    "r2": {
+      "type": "heracles:xp",
+      "amount": 10
+    }
+  }
+}

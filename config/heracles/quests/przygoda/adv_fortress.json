@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_bricks"
+    },
+    "title": "Forteca",
+    "subtitle": "",
+    "description": [
+      "Znajdź fortecę w Netherze. Blazy są potrzebne do Create i do Kresu."
+    ],
+    "groups": {
+      "Przygoda": {
+        "position": [
+          144,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "adv_nether"
+  ],
+  "tasks": {
+    "f": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:nether/find_fortress"
+      ]
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 15
+    }
+  }
+}

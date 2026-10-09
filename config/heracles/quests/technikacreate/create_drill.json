@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_drill"
+    },
+    "title": "Wiertło",
+    "subtitle": "",
+    "description": [
+      "Mechaniczne wiertło kopie bloki przed sobą. Połącz je z napędem."
+    ],
+    "groups": {
+      "Technika (Create)": {
+        "position": [
+          144,
+          48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "create_waterwheel"
+  ],
+  "tasks": {
+    "d": {
+      "type": "heracles:item",
+      "item": "create:mechanical_drill",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 5
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:millstone"
+    },
+    "title": "Żarna",
+    "subtitle": "",
+    "description": [
+      "Żarna mielą rudę i zboże."
+    ],
+    "groups": {
+      "Technika (Create)": {
+        "position": [
+          144,
+          -48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "create_waterwheel"
+  ],
+  "tasks": {
+    "m": {
+      "type": "heracles:item",
+      "item": "create:millstone",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bread",
+        "count": 8
+      }
+    }
+  }
+}

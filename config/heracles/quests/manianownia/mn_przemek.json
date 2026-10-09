@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:emerald"
+    },
+    "title": "Interesy Przemka",
+    "subtitle": "",
+    "description": [
+      "Przemek zawsze wie, gdzie jest najlepszy kurs.",
+      "Zrób pierwszy handel z wieśniakiem."
+    ],
+    "groups": {
+      "Manianownia": {
+        "position": [
+          41,
+          113
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_welcome"
+  ],
+  "tasks": {
+    "t": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:adventure/trade"
+      ]
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 16,
+        "nbt": {
+          "display": {
+            "Name": "{\"text\": \"Oszczędności Przemka\", \"italic\": false, \"color\": \"green\"}",
+            "Lore": [
+              "{\"text\": \"Nie mów mu, że to masz.\", \"italic\": true, \"color\": \"gray\"}"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

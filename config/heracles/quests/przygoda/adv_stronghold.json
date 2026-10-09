@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ender_eye"
+    },
+    "title": "Twierdza",
+    "subtitle": "",
+    "description": [
+      "Podążaj za Okiem Kresu do twierdzy (YUNG's Better Strongholds)."
+    ],
+    "groups": {
+      "Przygoda": {
+        "position": [
+          192,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "adv_fortress"
+  ],
+  "tasks": {
+    "s": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:story/follow_ender_eye"
+      ]
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:ender_pearl",
+        "count": 4
+      }
+    }
+  }
+}

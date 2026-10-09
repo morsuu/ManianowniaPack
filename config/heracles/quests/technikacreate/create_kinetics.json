@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:cogwheel"
+    },
+    "title": "Wałki i koła zębate",
+    "subtitle": "",
+    "description": [
+      "Wałki i koła zębate przenoszą obroty między maszynami."
+    ],
+    "groups": {
+      "Technika (Create)": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "create_alloy"
+  ],
+  "tasks": {
+    "s": {
+      "type": "heracles:item",
+      "item": "create:shaft",
+      "amount": 8
+    },
+    "c": {
+      "type": "heracles:item",
+      "item": "create:cogwheel",
+      "amount": 8
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 5
+    }
+  }
+}

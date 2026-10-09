@@ -1,0 +1,13 @@
+name = "paladins-and-priests"
+filename = "paladins-fabric-3.1.3+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FxXkHaLe/versions/1t4iuZkn/paladins-fabric-3.1.3%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "e031600849386cb6d6e31357fb7c9c8b7a04bc346c7e2a2a82c84fac92f93014e02bd3f598a54af593c1bae45b3678eff9c15f500cc6da7310a9c1e1be16a892"
+
+[update]
+[update.modrinth]
+mod-id = "FxXkHaLe"
+version = "1t4iuZkn"

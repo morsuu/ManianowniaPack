@@ -1,0 +1,13 @@
+name = "ManianowniaPack"
+author = "Manianownia"
+version = "1.2.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3b6ddd9301f15757e3ae3b0e35cd74f7ea82afc9f89a509dbf3fa2f6b27d7dda"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "1.20.1"

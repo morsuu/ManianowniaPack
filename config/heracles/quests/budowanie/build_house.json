@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_door"
+    },
+    "title": "Wspólny dom",
+    "subtitle": "",
+    "description": [
+      "Zbudujcie razem bazę i zaznaczcie pole, gdy będzie gotowa.",
+      "Macaw's (drzwi, okna, dachy, płotki, mosty, lampy, meble), Handcrafted i Supplementaries dają mnóstwo bloków dekoracyjnych."
+    ],
+    "groups": {
+      "Budowanie": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_wood"
+  ],
+  "tasks": {
+    "ok": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:glass",
+        "count": 32
+      }
+    },
+    "r2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_planks",
+        "count": 64
+      }
+    }
+  }
+}

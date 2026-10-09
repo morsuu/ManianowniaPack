@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:spyglass"
+    },
+    "title": "Maciekos w kosmosie",
+    "subtitle": "",
+    "description": [
+      "Maciekos obserwuje niebo przez lunetę.",
+      "Wypatrz przez nią ghasta w Netherze."
+    ],
+    "groups": {
+      "Manianownia": {
+        "position": [
+          -104,
+          60
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_welcome"
+  ],
+  "tasks": {
+    "g": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:adventure/spyglass_at_ghast"
+      ]
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:ender_pearl",
+        "count": 8,
+        "nbt": {
+          "display": {
+            "Name": "{\"text\": \"Bilety w kosmos od Maciekosa\", \"italic\": false, \"color\": \"dark_purple\"}",
+            "Lore": [
+              "{\"text\": \"Tylko w jedną stronę.\", \"italic\": true, \"color\": \"gray\"}"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

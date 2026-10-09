@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat"
+    },
+    "title": "Farma",
+    "subtitle": "",
+    "description": [
+      "Zasiej i zbierz pszenicę."
+    ],
+    "groups": {
+      "Budowanie": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "build_kitchen"
+  ],
+  "tasks": {
+    "w": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat",
+      "amount": 32
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 16
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:goggles"
+    },
+    "title": "Gogle inżyniera",
+    "subtitle": "",
+    "description": [
+      "Gogle pokazują prędkość i obciążenie maszyn. Klucz obraca bloki."
+    ],
+    "groups": {
+      "Technika (Create)": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "create_kinetics"
+  ],
+  "tasks": {
+    "g": {
+      "type": "heracles:item",
+      "item": "create:goggles",
+      "amount": 1
+    },
+    "w": {
+      "type": "heracles:item",
+      "item": "create:wrench",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 5
+    }
+  }
+}

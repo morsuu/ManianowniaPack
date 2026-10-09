@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot"
+    },
+    "title": "Żelazo",
+    "subtitle": "",
+    "description": [
+      "Wytop 16 sztabek żelaza. Od nich zaczyna się Create i broń RPG."
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          144,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_stone"
+  ],
+  "tasks": {
+    "i": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot",
+      "amount": 16
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 5
+    },
+    "r2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      }
+    }
+  }
+}

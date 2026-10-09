@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "explorerscompass:explorerscompass"
+    },
+    "title": "Kompas odkrywcy",
+    "subtitle": "",
+    "description": [
+      "Kompas odkrywcy szuka wybranej struktury. Działa też ze strukturami z YUNG's i Repurposed Structures."
+    ],
+    "groups": {
+      "Przygoda": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_iron"
+  ],
+  "tasks": {
+    "c": {
+      "type": "heracles:item",
+      "item": "explorerscompass:explorerscompass",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:xp",
+      "amount": 10
+    }
+  }
+}

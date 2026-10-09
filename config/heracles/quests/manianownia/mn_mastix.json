@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:slime_ball"
+    },
+    "title": "Patent Mastixa",
+    "subtitle": "",
+    "description": [
+      "Mastix wszystko sklei. Zbierz kulki szlamu, a z nich zrobi się coś lepkiego."
+    ],
+    "groups": {
+      "Manianownia": {
+        "position": [
+          77,
+          -92
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "repeatable": false,
+    "autoClaimRewards": false
+  },
+  "dependencies": [
+    "start_welcome"
+  ],
+  "tasks": {
+    "s": {
+      "type": "heracles:item",
+      "item": "minecraft:slime_ball",
+      "amount": 16
+    }
+  },
+  "rewards": {
+    "r1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sticky_piston",
+        "count": 8,
+        "nbt": {
+          "display": {
+            "Name": "{\"text\": \"Patent Mastixa\", \"italic\": false, \"color\": \"yellow\"}",
+            "Lore": [
+              "{\"text\": \"Trzyma się wszystkiego. Jak Mastix.\", \"italic\": true, \"color\": \"gray\"}"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
