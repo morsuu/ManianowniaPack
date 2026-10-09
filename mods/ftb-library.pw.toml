@@ -1,0 +1,8 @@
+name = "ftb-library"
+filename = "ftb-library-fabric-2001.2.13.jar"
+side = "both"
+
+[download]
+url = "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/2001.2.13/ftb-library-fabric-2001.2.13.jar"
+hash-format = "sha512"
+hash = "391ac5cce1be6378e251d89ff6c446c4e33f256a5f627e6d37578ef2fa7c06711e0be9e4999da21b68e6a972af2f47f1a947e523fbb1e0c6e2072620ab9e0eed"

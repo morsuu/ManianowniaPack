@@ -1,0 +1,232 @@
+{
+	id: "3E4E3016A7538100",
+	group: "",
+	order_index: 11,
+	filename: "bossowie",
+	title: "&c&lBossowie (cel gry)",
+	icon: "minecraft:dragon_head",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Ostateczne wyzwania Manianowni"
+	],
+	quests: [
+		{
+			id: "11CC4C4F66A1A127",
+			title: "Strażnik Starszy",
+			x: 0.0d,
+			y: -1.5d,
+			icon: "minecraft:prismarine_crystals",
+			description: [
+				"Pokonaj Strażnika Starszego w podwodnej świątyni. Weź mikstury oddychania pod wodą i mleko na zmęczenie."
+			],
+			dependencies: [
+				"359F4F25C0C4C545"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "3EE72490D6A12281",
+					type: "kill",
+					entity: "minecraft:elder_guardian",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "72789A21E1EB6C7B",
+					type: "item",
+					item: {
+						id: "minecraft:sponge",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "10A5DBCB0FBEF839",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "710A01BD949B4036",
+			title: "Wither",
+			x: 0.0d,
+			y: 1.5d,
+			icon: "minecraft:wither_skeleton_skull",
+			description: [
+				"Zdobądź 3 czaszki witherowych szkieletów z fortecy i przywołaj Withera.",
+				"Walczcie z dala od bazy!"
+			],
+			dependencies: [
+				"5C96898B541528E8"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "5998F3E8924D40A2",
+					type: "kill",
+					entity: "minecraft:wither",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "505271BEC61AB629",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_block",
+						Count: 1b
+					}
+				},
+				{
+					id: "37E80C232E9B440D",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "59B99EEA84AF085B",
+			title: "Smok Kresu",
+			x: 2.5d,
+			y: -1.5d,
+			icon: "minecraft:dragon_head",
+			description: [
+				"Zniszczcie kryształy na obsydianowych wieżach, a potem pokonajcie smoka."
+			],
+			dependencies: [
+				"3B4ED7D972F2259B"
+			],
+			size: 1.75d,
+			tasks: [
+				{
+					id: "73820DAB13ABFCCA",
+					type: "kill",
+					entity: "minecraft:ender_dragon",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "5696C72E43D76BBA",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_ingot",
+						Count: 1b
+					}
+				},
+				{
+					id: "56DE0F20BDD731AC",
+					type: "xp_levels",
+					xp_levels: 30
+				}
+			]
+		},
+		{
+			id: "7CC532E5F68DF2A1",
+			title: "Warden",
+			x: 2.5d,
+			y: 1.5d,
+			icon: "minecraft:sculk_shrieker",
+			description: [
+				"Najsilniejszy potwór w grze. Bez dobrego sprzętu lepiej uciekać.",
+				"Pokonaj go w Starożytnym Mieście."
+			],
+			dependencies: [
+				"5B7A682BEF2108AF"
+			],
+			size: 1.75d,
+			tasks: [
+				{
+					id: "3F48326958884337",
+					type: "kill",
+					entity: "minecraft:warden",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "1581F03D58CBA0F3",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_ingot",
+						Count: 1b
+					}
+				},
+				{
+					id: "7AB3C1BBE1A977EF",
+					type: "xp_levels",
+					xp_levels: 30
+				}
+			]
+		},
+		{
+			id: "10596906DDC63094",
+			title: "Mistrz Manianowni",
+			x: 5.0d,
+			y: 0.0d,
+			icon: "minecraft:nether_star",
+			description: [
+				"Pokonaliście wszystkich bossów. Manianownia jest wasza!",
+				"",
+				"&6Gratulacje!"
+			],
+			dependencies: [
+				"11CC4C4F66A1A127",
+				"710A01BD949B4036",
+				"59B99EEA84AF085B",
+				"7CC532E5F68DF2A1",
+				"32132FE594114223"
+			],
+			size: 2.5d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "3901EA726048A550",
+					type: "checkmark",
+					title: "Jestem Mistrzem!"
+				}
+			],
+			rewards: [
+				{
+					id: "5BD70FF175E5B8B5",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_sword",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Miecz Mistrza Manianowni\", \"italic\": false, \"color\": \"gold\"}",
+								Lore: [
+									"{\"text\": \"Dla tych, co przeszli wszystko.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							},
+							Enchantments: [
+								{
+									id: "minecraft:sharpness",
+									lvl: 5s
+								},
+								{
+									id: "minecraft:unbreaking",
+									lvl: 3s
+								},
+								{
+									id: "minecraft:mending",
+									lvl: 1s
+								}
+							]
+						}
+					}
+				},
+				{
+					id: "33BC86F964D555B1",
+					type: "xp_levels",
+					xp_levels: 50
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

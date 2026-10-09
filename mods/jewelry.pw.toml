@@ -1,0 +1,13 @@
+name = "jewelry"
+filename = "jewelry-fabric-2.4.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sNJAIjUm/versions/njOxC7Or/jewelry-fabric-2.4.0%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "e3bce2fcdb2f2c3795a20c94cff87ff547d74052e1365deac6fbd049c2fad7b552eaa321bef0b0f465ede5a3c4ab5c2320132ed0bd76d90da65af7701ad98001"
+
+[update]
+[update.modrinth]
+mod-id = "sNJAIjUm"
+version = "njOxC7Or"

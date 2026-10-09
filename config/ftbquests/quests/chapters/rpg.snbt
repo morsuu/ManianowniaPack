@@ -1,0 +1,802 @@
+{
+	id: "167A4AE78422E681",
+	group: "",
+	order_index: 4,
+	filename: "rpg",
+	title: "&cKlasy i walka",
+	icon: "spell_engine:spell_binding",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Wybierz klasę i naucz się czarów"
+	],
+	quests: [
+		{
+			id: "143F687D3FEA0561",
+			title: "Pierwsza krew",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "minecraft:iron_sword",
+			description: [
+				"Pokonaj zombie.",
+				"",
+				"Better Combat: przytrzymaj atak, żeby robić combosy. Każda broń ma inny zasięg i ruch.",
+				"Unik (Combat Roll) znajdziesz w &eOpcje > Sterowanie&r."
+			],
+			dependencies: [
+				"5AAA760A737FE538"
+			],
+			tasks: [
+				{
+					id: "7B7760CD32DDD712",
+					type: "kill",
+					entity: "minecraft:zombie",
+					value: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "719446503565E9EC",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 6
+				}
+			]
+		},
+		{
+			id: "32CE8CD2F21C8CEE",
+			title: "Łucznicy",
+			x: 1.5d,
+			y: -1.5d,
+			icon: "minecraft:bone",
+			description: [
+				"Pokonaj szkielety."
+			],
+			dependencies: [
+				"143F687D3FEA0561"
+			],
+			tasks: [
+				{
+					id: "3BF0F410C2454F04",
+					type: "kill",
+					entity: "minecraft:skeleton",
+					value: 15L
+				}
+			],
+			rewards: [
+				{
+					id: "11F62294FFB75FED",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "147495FC5A06C9FB",
+			title: "Pajęczyny",
+			x: 1.5d,
+			y: 1.5d,
+			icon: "minecraft:string",
+			description: [
+				"Pokonaj pająki."
+			],
+			dependencies: [
+				"143F687D3FEA0561"
+			],
+			tasks: [
+				{
+					id: "53D302EEFC5962F3",
+					type: "kill",
+					entity: "minecraft:spider",
+					value: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "3BCC598DBA0E05AD",
+					type: "item",
+					item: {
+						id: "minecraft:string",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "7FEE44943B9D9C09",
+			title: "Stół zaklęć",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "spell_engine:spell_binding",
+			description: [
+				"Stół zaklęć uczy czarów z broni magicznych i ksiąg.",
+				"Włóż broń lub księgę zaklęć i wybierz czar. Kosztuje doświadczenie i lapis.",
+				"",
+				"Każdy z was może grać inną klasą!"
+			],
+			dependencies: [
+				"143F687D3FEA0561"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "58ACB21FBBE1F1E1",
+					type: "item",
+					item: "spell_engine:spell_binding"
+				}
+			],
+			rewards: [
+				{
+					id: "7C8A31B8604DCF8B",
+					type: "item",
+					item: {
+						id: "minecraft:lapis_lazuli",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "7112C8DE03384EED",
+			title: "Czarodziej: nowicjusz",
+			x: 5.0d,
+			y: -3.0d,
+			icon: "wizards:wand_novice",
+			description: [
+				"Różdżka nowicjusza to początek ścieżki maga."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			tasks: [
+				{
+					id: "5F58D7EC0916AE17",
+					type: "item",
+					item: "wizards:wand_novice"
+				}
+			],
+			rewards: [
+				{
+					id: "1C1643A02A2BA601",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "32E6A768D74BF861",
+			title: "Mag ognia",
+			x: 6.5d,
+			y: -4.0d,
+			icon: "wizards:staff_fire",
+			description: [
+				"Różdżka i laska ognia: kule ognia i podpalanie."
+			],
+			dependencies: [
+				"7112C8DE03384EED"
+			],
+			tasks: [
+				{
+					id: "1DE69AFB510942A3",
+					type: "item",
+					item: "wizards:wand_fire"
+				}
+			],
+			rewards: [
+				{
+					id: "72781A6A93221C46",
+					type: "item",
+					item: {
+						id: "minecraft:blaze_powder",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "15199ED2554D8DD8",
+			title: "Mag lodu",
+			x: 6.5d,
+			y: -3.0d,
+			icon: "wizards:staff_frost",
+			description: [
+				"Lód spowalnia i zamraża przeciwników."
+			],
+			dependencies: [
+				"7112C8DE03384EED"
+			],
+			tasks: [
+				{
+					id: "34C29A6EEA0E16EF",
+					type: "item",
+					item: "wizards:wand_frost"
+				}
+			],
+			rewards: [
+				{
+					id: "3C9D33C1BC62A976",
+					type: "item",
+					item: {
+						id: "minecraft:packed_ice",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "12AA6EB90D76E4FF",
+			title: "Mag arkanów",
+			x: 6.5d,
+			y: -2.0d,
+			icon: "wizards:staff_arcane",
+			description: [
+				"Czysta magia: pociski i teleportacja."
+			],
+			dependencies: [
+				"7112C8DE03384EED"
+			],
+			tasks: [
+				{
+					id: "7A213938D45799C9",
+					type: "item",
+					item: "wizards:wand_arcane"
+				}
+			],
+			rewards: [
+				{
+					id: "569015BE5EC5B5C2",
+					type: "item",
+					item: {
+						id: "minecraft:amethyst_shard",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "5CC8E40B7D47ED4F",
+			title: "Szaty maga",
+			x: 8.0d,
+			y: -3.0d,
+			icon: "wizards:wizard_robe_chest",
+			description: [
+				"Zdobądź pełen komplet szat czarodzieja. Zwiększają moc czarów."
+			],
+			dependencies: [
+				"32E6A768D74BF861",
+				"15199ED2554D8DD8",
+				"12AA6EB90D76E4FF"
+			],
+			shape: "diamond",
+			tasks: [
+				{
+					id: "3B2C55395661D56A",
+					type: "item",
+					item: "wizards:wizard_robe_head"
+				},
+				{
+					id: "36651D1F6405A53B",
+					type: "item",
+					item: "wizards:wizard_robe_chest"
+				},
+				{
+					id: "7ED1D2360BE82188",
+					type: "item",
+					item: "wizards:wizard_robe_legs"
+				},
+				{
+					id: "7F0457795E28D7C4",
+					type: "item",
+					item: "wizards:wizard_robe_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "32B513774D18E1DD",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "5E83979423680729",
+			title: "Paladyn",
+			x: 5.0d,
+			y: -0.75d,
+			icon: "paladins:iron_mace",
+			description: [
+				"Buzdygan i tarcza: paladyn przyjmuje ciosy i leczy drużynę.",
+				"Broń zrobisz przy &eStole mnicha&r."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			tasks: [
+				{
+					id: "1F805F4C59CB7309",
+					type: "item",
+					item: "paladins:monk_workbench"
+				},
+				{
+					id: "5A112F978B84B6E2",
+					type: "item",
+					item: "paladins:iron_mace"
+				}
+			],
+			rewards: [
+				{
+					id: "17C305A540AC97FD",
+					type: "item",
+					item: {
+						id: "minecraft:shield",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "3690240F88E84B6C",
+			title: "Ciężka broń",
+			x: 6.5d,
+			y: -0.75d,
+			icon: "paladins:iron_claymore",
+			description: [
+				"Claymore jest wolny, ale bije jak młot."
+			],
+			dependencies: [
+				"5E83979423680729"
+			],
+			tasks: [
+				{
+					id: "74624462A62AE0A5",
+					type: "item",
+					item: "paladins:iron_claymore"
+				}
+			],
+			rewards: [
+				{
+					id: "7A825FCB268F4588",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "3EC0447600C3C62A",
+			title: "Krzyżowiec",
+			x: 8.0d,
+			y: -0.75d,
+			icon: "paladins:crusader_armor_chest",
+			description: [
+				"Pełna zbroja krzyżowca."
+			],
+			dependencies: [
+				"3690240F88E84B6C"
+			],
+			shape: "diamond",
+			tasks: [
+				{
+					id: "55568A5152BDA43A",
+					type: "item",
+					item: "paladins:crusader_armor_head"
+				},
+				{
+					id: "1DF83CCDE5402C5E",
+					type: "item",
+					item: "paladins:crusader_armor_chest"
+				},
+				{
+					id: "1431A4F3A4A92FF9",
+					type: "item",
+					item: "paladins:crusader_armor_legs"
+				},
+				{
+					id: "728F944C667E8C95",
+					type: "item",
+					item: "paladins:crusader_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "1813C45F8D494059",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "54EDD71E44C55792",
+			title: "Kapłan",
+			x: 5.0d,
+			y: 0.75d,
+			icon: "paladins:holy_wand",
+			description: [
+				"Święta różdżka leczy sojuszników. Kapłan to najlepszy przyjaciel drużyny."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			tasks: [
+				{
+					id: "58A37B1CCF3C2D55",
+					type: "item",
+					item: "paladins:holy_wand"
+				}
+			],
+			rewards: [
+				{
+					id: "537A84CBEB8397B1",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "7C9CD3874697FB52",
+			title: "Święta laska",
+			x: 6.5d,
+			y: 0.75d,
+			icon: "paladins:holy_staff",
+			description: [
+				"Mocniejsze leczenie i tarcze ochronne."
+			],
+			dependencies: [
+				"54EDD71E44C55792"
+			],
+			tasks: [
+				{
+					id: "791BA66EDF3074EE",
+					type: "item",
+					item: "paladins:holy_staff"
+				}
+			],
+			rewards: [
+				{
+					id: "386AC4A13D4CD702",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "7EC8BC80E49C5033",
+			title: "Łotrzyk",
+			x: 5.0d,
+			y: 2.25d,
+			icon: "rogues:iron_dagger",
+			description: [
+				"Sztylety: szybkie ataki, krwawienie i skradanie.",
+				"Broń zrobisz przy &eWarsztacie broni&r."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			tasks: [
+				{
+					id: "505776F58932E1C5",
+					type: "item",
+					item: "rogues:arms_workbench"
+				},
+				{
+					id: "3D64D38734D53F57",
+					type: "item",
+					item: "rogues:iron_dagger"
+				}
+			],
+			rewards: [
+				{
+					id: "1E76ABDDBBBBDAA9",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "58C6B98E1AE31A32",
+			title: "Skrytobójca",
+			x: 6.5d,
+			y: 2.25d,
+			icon: "rogues:assassin_armor_chest",
+			description: [
+				"Pełna zbroja skrytobójcy."
+			],
+			dependencies: [
+				"7EC8BC80E49C5033"
+			],
+			shape: "diamond",
+			tasks: [
+				{
+					id: "5ABE4BEC4D61854A",
+					type: "item",
+					item: "rogues:assassin_armor_head"
+				},
+				{
+					id: "3C291CCC325D3AC2",
+					type: "item",
+					item: "rogues:assassin_armor_chest"
+				},
+				{
+					id: "1E8B380DED4FF0F4",
+					type: "item",
+					item: "rogues:assassin_armor_legs"
+				},
+				{
+					id: "5EDB1BF42BF2F831",
+					type: "item",
+					item: "rogues:assassin_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "7EE0AC4D3488CCAB",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "7A6F43423C357972",
+			title: "Wojownik",
+			x: 5.0d,
+			y: 3.75d,
+			icon: "rogues:iron_double_axe",
+			description: [
+				"Podwójny topór i glewia. Wojownik wpada w szał bojowy."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			tasks: [
+				{
+					id: "7C3C640B1A06E640",
+					type: "item",
+					item: "rogues:iron_double_axe"
+				}
+			],
+			rewards: [
+				{
+					id: "1394DC24EB12B5FB",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "333203AC55A4AB7C",
+			title: "Berserker",
+			x: 6.5d,
+			y: 3.75d,
+			icon: "rogues:berserker_armor_chest",
+			description: [
+				"Pełna zbroja berserkera."
+			],
+			dependencies: [
+				"7A6F43423C357972"
+			],
+			shape: "diamond",
+			tasks: [
+				{
+					id: "1204B2B364068C22",
+					type: "item",
+					item: "rogues:berserker_armor_head"
+				},
+				{
+					id: "77B1963AEBF98164",
+					type: "item",
+					item: "rogues:berserker_armor_chest"
+				},
+				{
+					id: "3FBBAC595FCC6DDE",
+					type: "item",
+					item: "rogues:berserker_armor_legs"
+				},
+				{
+					id: "720148C837C117D3",
+					type: "item",
+					item: "rogues:berserker_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "5919A4DFFBEA6C8E",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "5D4265B3F9FABABA",
+			title: "Diamentowa broń klasowa",
+			x: 9.5d,
+			y: 0.0d,
+			icon: "paladins:diamond_claymore",
+			description: [
+				"Zrób diamentową wersję broni swojej klasy (dowolną z poniższych).",
+				"Wystarczy jedna!"
+			],
+			dependencies: [
+				"5E83979423680729",
+				"7EC8BC80E49C5033"
+			],
+			tasks: [
+				{
+					id: "132A43877F7F6DC0",
+					type: "item",
+					item: "paladins:diamond_claymore"
+				},
+				{
+					id: "525E65106073276C",
+					type: "item",
+					item: "paladins:diamond_mace"
+				},
+				{
+					id: "53A5AD198B20221B",
+					type: "item",
+					item: "rogues:diamond_dagger"
+				},
+				{
+					id: "5E872441A33C684A",
+					type: "item",
+					item: "rogues:diamond_double_axe"
+				},
+				{
+					id: "312E8AF5A0C2C52B",
+					type: "item",
+					item: "paladins:diamond_holy_staff"
+				}
+			],
+			rewards: [
+				{
+					id: "129F913D708C8ECE",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "5C8B22A04315526E",
+			title: "Netherytowy wojownik",
+			x: 11.0d,
+			y: 0.0d,
+			icon: "minecraft:netherite_ingot",
+			description: [
+				"Ulepsz broń klasową do netherytu na stole kowalskim."
+			],
+			dependencies: [
+				"5D4265B3F9FABABA",
+				"389421858E957EF4"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "3935A1606287584B",
+					type: "item",
+					item: "minecraft:netherite_ingot"
+				}
+			],
+			rewards: [
+				{
+					id: "53B4FB167F8AA5E5",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "785E5E668FAAED21",
+			title: "Łowca endermanów",
+			x: 3.0d,
+			y: 3.0d,
+			icon: "minecraft:ender_pearl",
+			description: [
+				"Pokonaj endermany. Perły przydadzą się do Oka Kresu."
+			],
+			dependencies: [
+				"147495FC5A06C9FB"
+			],
+			tasks: [
+				{
+					id: "5C6EB70C77752BCA",
+					type: "kill",
+					entity: "minecraft:enderman",
+					value: 8L
+				}
+			],
+			rewards: [
+				{
+					id: "3AA18280EA6D5A7B",
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "301904578F198A84",
+			title: "Bohater wioski",
+			x: 3.0d,
+			y: -3.0d,
+			icon: "minecraft:white_banner",
+			description: [
+				"Obroń wioskę przed najazdem złosadników."
+			],
+			dependencies: [
+				"32CE8CD2F21C8CEE"
+			],
+			tasks: [
+				{
+					id: "1AD8EF475D8A7D4F",
+					type: "advancement",
+					advancement: "minecraft:adventure/hero_of_the_village",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "123C95D0B0A8767D",
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "1EF2C00F21FBC3A2",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "375F05317EBD0406",
+			title: "Totem nieśmiertelności",
+			x: 1.5d,
+			y: -3.0d,
+			icon: "minecraft:totem_of_undying",
+			description: [
+				"Złosadnicy z rezydencji i najazdów zostawiają totemy. Zdobądź jeden."
+			],
+			dependencies: [
+				"32CE8CD2F21C8CEE"
+			],
+			tasks: [
+				{
+					id: "51F700ABC3CB0B34",
+					type: "item",
+					item: "minecraft:totem_of_undying"
+				}
+			],
+			rewards: [
+				{
+					id: "15B3E12725C40F5C",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

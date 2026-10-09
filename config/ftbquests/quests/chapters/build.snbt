@@ -1,0 +1,399 @@
+{
+	id: "7E2D2049D4EFCB01",
+	group: "",
+	order_index: 8,
+	filename: "build",
+	title: "&dBudowanie",
+	icon: "handcrafted:oak_chair",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Dom, meble i dekoracje"
+	],
+	quests: [
+		{
+			id: "16D32704936873DF",
+			title: "Wspólny dom",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "minecraft:oak_door",
+			description: [
+				"Zbudujcie razem bazę Manianowni i zaznaczcie, gdy będzie gotowa.",
+				"",
+				"Macaw's: drzwi, okna, dachy, płotki, mosty i lampy w każdym gatunku drewna.",
+				"Handcrafted: meble.",
+				"Supplementaries i Amendments: setki dekoracji."
+			],
+			dependencies: [
+				"3B225375A3A91527"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "3BF5AB84B27C3417",
+					type: "checkmark",
+					title: "Dom stoi!"
+				}
+			],
+			rewards: [
+				{
+					id: "32927E084C19EF69",
+					type: "item",
+					item: {
+						id: "minecraft:glass",
+						Count: 1b
+					},
+					count: 32
+				},
+				{
+					id: "5BCBB33A467444E1",
+					type: "item",
+					item: {
+						id: "minecraft:oak_planks",
+						Count: 1b
+					},
+					count: 64
+				}
+			]
+		},
+		{
+			id: "58A1358D10DEA885",
+			title: "Krzesła i stół",
+			x: 1.5d,
+			y: -1.5d,
+			icon: "handcrafted:oak_chair",
+			description: [
+				"Meble z Handcrafted."
+			],
+			dependencies: [
+				"16D32704936873DF"
+			],
+			tasks: [
+				{
+					id: "7130A7706364493A",
+					type: "item",
+					item: "handcrafted:oak_chair",
+					count: 2L
+				},
+				{
+					id: "7733FE4704ED6B1C",
+					type: "item",
+					item: "handcrafted:oak_table"
+				}
+			],
+			rewards: [
+				{
+					id: "74DFBE72EB9120AD",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "309BBF18F5A541E9",
+			title: "Wygodne łóżko",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "handcrafted:oak_fancy_bed",
+			description: [
+				"Ozdobne łóżko z Handcrafted."
+			],
+			dependencies: [
+				"58A1358D10DEA885"
+			],
+			tasks: [
+				{
+					id: "1BCAF7BEEB9EE6CE",
+					type: "item",
+					item: "handcrafted:oak_fancy_bed"
+				}
+			],
+			rewards: [
+				{
+					id: "1C006325BB86FEAC",
+					type: "item",
+					item: {
+						id: "minecraft:white_wool",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "594C64246AED9C1F",
+			title: "Półki i szafki",
+			x: 4.5d,
+			y: -1.5d,
+			icon: "handcrafted:oak_shelf",
+			description: [
+				"Półka, szafka i komoda z Handcrafted."
+			],
+			dependencies: [
+				"309BBF18F5A541E9"
+			],
+			tasks: [
+				{
+					id: "7B1A4422BBD81EAD",
+					type: "item",
+					item: "handcrafted:oak_shelf"
+				},
+				{
+					id: "5D95F0B368DE9245",
+					type: "item",
+					item: "handcrafted:oak_cupboard"
+				},
+				{
+					id: "1D63DD8A3E34EC95",
+					type: "item",
+					item: "handcrafted:oak_drawer"
+				}
+			],
+			rewards: [
+				{
+					id: "540F9001B22653C7",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "396DBF3E1633F760",
+			title: "Kanapa",
+			x: 4.5d,
+			y: 0.0d,
+			icon: "handcrafted:oak_couch",
+			description: [
+				"Kanapa na wieczorne narady ekipy."
+			],
+			dependencies: [
+				"594C64246AED9C1F"
+			],
+			tasks: [
+				{
+					id: "76594EB6A643CF1E",
+					type: "item",
+					item: "handcrafted:oak_couch",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "168C708F4A7AC390",
+					type: "item",
+					item: {
+						id: "minecraft:white_wool",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "300AFBF4782FA02E",
+			title: "Światło",
+			x: 1.5d,
+			y: 1.5d,
+			icon: "minecraft:lantern",
+			description: [
+				"Postaw 16 latarni. Mniej potworów w bazie!"
+			],
+			dependencies: [
+				"16D32704936873DF"
+			],
+			tasks: [
+				{
+					id: "7D13802F77F1E0F2",
+					type: "item",
+					item: "minecraft:lantern",
+					count: 16L
+				}
+			],
+			rewards: [
+				{
+					id: "1D5FFEE9EC5D312A",
+					type: "item",
+					item: {
+						id: "minecraft:torch",
+						Count: 1b
+					},
+					count: 64
+				}
+			]
+		},
+		{
+			id: "5490D5732EE33E33",
+			title: "Witraże",
+			x: 3.0d,
+			y: 1.5d,
+			icon: "minecraft:cyan_stained_glass",
+			description: [
+				"Pokoloruj szkło."
+			],
+			dependencies: [
+				"300AFBF4782FA02E"
+			],
+			tasks: [
+				{
+					id: "1B4FB6F0D1372BF0",
+					type: "item",
+					item: "minecraft:cyan_stained_glass",
+					count: 16L
+				}
+			],
+			rewards: [
+				{
+					id: "59C0A381BB618D45",
+					type: "item",
+					item: {
+						id: "minecraft:glass",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "1EBA6940E1E80A3B",
+			title: "Industrialny styl",
+			x: 1.5d,
+			y: 0.0d,
+			icon: "create:andesite_casing",
+			description: [
+				"Obudowy z Create świetnie wyglądają w budowlach."
+			],
+			dependencies: [
+				"16D32704936873DF",
+				"3309EDD21E8B782C"
+			],
+			tasks: [
+				{
+					id: "7AACA1EEE7AAB182",
+					type: "item",
+					item: "create:andesite_casing",
+					count: 16L
+				}
+			],
+			rewards: [
+				{
+					id: "162C4D032C5C1DB2",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "1B4AE96ACE5543EF",
+			title: "Ogród",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "minecraft:poppy",
+			description: [
+				"Posadź kwiaty i drzewka. Weź po kilka sztuk."
+			],
+			dependencies: [
+				"16D32704936873DF"
+			],
+			tasks: [
+				{
+					id: "543D5C70C22FA625",
+					type: "item",
+					item: "minecraft:poppy",
+					count: 4L
+				},
+				{
+					id: "57FB82256D14A8EC",
+					type: "item",
+					item: "minecraft:dandelion",
+					count: 4L
+				},
+				{
+					id: "388A625F736078CD",
+					type: "item",
+					item: "minecraft:cherry_sapling",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "35538A4C56A298B5",
+					type: "item",
+					item: {
+						id: "minecraft:bone_meal",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "79A09A1B23D81249",
+			title: "Kowal-artysta",
+			x: 6.0d,
+			y: 0.0d,
+			icon: "minecraft:smithing_table",
+			description: [
+				"Ozdób zbroję wzorem na stole kowalskim."
+			],
+			dependencies: [
+				"396DBF3E1633F760"
+			],
+			tasks: [
+				{
+					id: "1AE83EE80643B489",
+					type: "advancement",
+					advancement: "minecraft:adventure/trim_with_any_armor_pattern",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "36C385B67BCF7A67",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "199F8B8AFD244A10",
+			title: "Latarnia",
+			x: 7.5d,
+			y: 0.0d,
+			icon: "minecraft:beacon",
+			description: [
+				"Zbuduj działającą latarnię. Potrzebna gwiazda Nether z Withera!"
+			],
+			dependencies: [
+				"79A09A1B23D81249",
+				"710A01BD949B4036"
+			],
+			size: 1.5d,
+			shape: "hexagon",
+			tasks: [
+				{
+					id: "1D81890A9415B4EF",
+					type: "advancement",
+					advancement: "minecraft:nether/create_beacon",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "1328A47432B9694D",
+					type: "item",
+					item: {
+						id: "minecraft:iron_block",
+						Count: 1b
+					},
+					count: 9
+				},
+				{
+					id: "7A6738F8803DD791",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

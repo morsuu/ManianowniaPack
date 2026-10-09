@@ -1,0 +1,367 @@
+{
+	id: "13769DC89CE02CFB",
+	group: "",
+	order_index: 9,
+	filename: "kuchnia",
+	title: "&6Kuchnia",
+	icon: "farmersdelight:cooking_pot",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Farmer's Delight"
+	],
+	quests: [
+		{
+			id: "51F33BC4067984C5",
+			title: "Nóż kuchenny",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "farmersdelight:iron_knife",
+			description: [
+				"Nóż kroi jedzenie na desce i zbiera słomę z trawy."
+			],
+			dependencies: [
+				"5AAA760A737FE538"
+			],
+			tasks: [
+				{
+					id: "3E6DEDEC37A40D32",
+					type: "item",
+					item: "farmersdelight:iron_knife"
+				}
+			],
+			rewards: [
+				{
+					id: "54183AE9D21949E8",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "305301057FA3DCE2",
+			title: "Deska do krojenia",
+			x: 1.5d,
+			y: 0.0d,
+			icon: "farmersdelight:cutting_board",
+			description: [
+				"Połóż składnik na desce i kliknij nożem."
+			],
+			dependencies: [
+				"51F33BC4067984C5"
+			],
+			tasks: [
+				{
+					id: "52855202B15BE04D",
+					type: "item",
+					item: "farmersdelight:cutting_board"
+				}
+			],
+			rewards: [
+				{
+					id: "5A46ED8B2A328607",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			id: "72BCB1B9333BEBB7",
+			title: "Garnek",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "farmersdelight:cooking_pot",
+			description: [
+				"Garnek nad ogniem albo piecem gotuje zupy i potrawy, które sycą na długo."
+			],
+			dependencies: [
+				"305301057FA3DCE2"
+			],
+			tasks: [
+				{
+					id: "1574E2144E8EFB1D",
+					type: "item",
+					item: "farmersdelight:cooking_pot"
+				}
+			],
+			rewards: [
+				{
+					id: "7348174422607032",
+					type: "item",
+					item: {
+						id: "minecraft:carrot",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "70516AE3540CAAA5",
+			title: "Kuchenka",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "farmersdelight:stove",
+			description: [
+				"Kuchenka to najlepsze źródło ciepła dla garnka i patelni."
+			],
+			dependencies: [
+				"72BCB1B9333BEBB7"
+			],
+			tasks: [
+				{
+					id: "7012A49732D80161",
+					type: "item",
+					item: "farmersdelight:stove"
+				}
+			],
+			rewards: [
+				{
+					id: "5C8B8C3CF018FA37",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "1E7F3C463BD94ED6",
+			title: "Patelnia",
+			x: 4.5d,
+			y: -1.5d,
+			icon: "farmersdelight:skillet",
+			description: [
+				"Na patelni smażysz jajka, bekon i steki."
+			],
+			dependencies: [
+				"70516AE3540CAAA5"
+			],
+			tasks: [
+				{
+					id: "38B9B3225B487C92",
+					type: "item",
+					item: "farmersdelight:skillet"
+				}
+			],
+			rewards: [
+				{
+					id: "573561813E3737CE",
+					type: "item",
+					item: {
+						id: "minecraft:egg",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "7DC9E3DC0AFBBB66",
+			title: "Nowe uprawy",
+			x: 1.5d,
+			y: 1.5d,
+			icon: "farmersdelight:tomato",
+			description: [
+				"Znajdź dzikie pomidory, kapustę, cebulę i ryż."
+			],
+			dependencies: [
+				"51F33BC4067984C5"
+			],
+			tasks: [
+				{
+					id: "17904C483C9EA705",
+					type: "item",
+					item: "farmersdelight:tomato"
+				},
+				{
+					id: "3122CFBC64C6AD3D",
+					type: "item",
+					item: "farmersdelight:cabbage"
+				},
+				{
+					id: "33CC8E2DC699BB7C",
+					type: "item",
+					item: "farmersdelight:onion"
+				},
+				{
+					id: "7B750E70E62128F6",
+					type: "item",
+					item: "farmersdelight:rice"
+				}
+			],
+			rewards: [
+				{
+					id: "19C023E00B3461D2",
+					type: "item",
+					item: {
+						id: "minecraft:bone_meal",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "703FE7B1DFCAFBDB",
+			title: "Zupa jarzynowa",
+			x: 4.5d,
+			y: 0.0d,
+			icon: "farmersdelight:vegetable_soup",
+			description: [
+				"Ugotuj zupę jarzynową w garnku."
+			],
+			dependencies: [
+				"72BCB1B9333BEBB7",
+				"7DC9E3DC0AFBBB66"
+			],
+			tasks: [
+				{
+					id: "7024BA6A351199D1",
+					type: "item",
+					item: "farmersdelight:vegetable_soup",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "5882609D86B40FBE",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1B7B01D2DBE01598",
+			title: "Gulasz",
+			x: 6.0d,
+			y: 0.0d,
+			icon: "farmersdelight:beef_stew",
+			description: [
+				"Gulasz wołowy na wyprawy."
+			],
+			dependencies: [
+				"703FE7B1DFCAFBDB"
+			],
+			tasks: [
+				{
+					id: "3DBCF5CDD0C28097",
+					type: "item",
+					item: "farmersdelight:beef_stew",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "1FDCF654366E4DB8",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "5976CA7B8FF6EC27",
+			title: "Ciasto",
+			x: 6.0d,
+			y: 1.5d,
+			icon: "farmersdelight:apple_pie",
+			description: [
+				"Upiecz szarlotkę."
+			],
+			dependencies: [
+				"703FE7B1DFCAFBDB"
+			],
+			tasks: [
+				{
+					id: "7AC481531E21009E",
+					type: "item",
+					item: "farmersdelight:apple_pie"
+				}
+			],
+			rewards: [
+				{
+					id: "32AC5D799950C68F",
+					type: "item",
+					item: {
+						id: "minecraft:sugar",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "394365136545AA75",
+			title: "Uczta",
+			x: 7.5d,
+			y: 0.0d,
+			icon: "farmersdelight:roast_chicken_block",
+			description: [
+				"Przygotuj pieczonego kurczaka na całą ekipę!"
+			],
+			dependencies: [
+				"1B7B01D2DBE01598"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "1F9A2AB4BB07DEA6",
+					type: "item",
+					item: "farmersdelight:roast_chicken_block"
+				}
+			],
+			rewards: [
+				{
+					id: "1DC914F8B8C8F516",
+					type: "item",
+					item: {
+						id: "minecraft:golden_carrot",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "7B0CF785C1C1C533",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "542235367B275213",
+			title: "Słodka fabryka",
+			x: 7.5d,
+			y: 1.5d,
+			icon: "create:bar_of_chocolate",
+			description: [
+				"Create też gotuje: zrób czekoladę albo słodką bułkę."
+			],
+			dependencies: [
+				"5976CA7B8FF6EC27",
+				"3F8E6C7ABF52FEAA"
+			],
+			tasks: [
+				{
+					id: "7A6231110503964B",
+					type: "item",
+					item: "create:bar_of_chocolate",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "1D838AF2EF22C574",
+					type: "item",
+					item: {
+						id: "create:builders_tea",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

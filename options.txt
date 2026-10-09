@@ -12,4 +12,5 @@ maxFps:60
 enableVsync:false
 entityDistanceScaling:0.75
 lang:pl_pl
+key_key.ftbquests.quests:key.keyboard.u
 resourcePacks:["vanilla","fabric","file/ManianowniaPack"]

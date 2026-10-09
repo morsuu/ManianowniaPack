@@ -1,0 +1,13 @@
+name = "archers"
+filename = "archers-fabric-3.1.1+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QgooUXAJ/versions/g4zmt9nb/archers-fabric-3.1.1%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "49b50c3646f2eddbd52b7c74e89fb7278236f59ebc4b0f7856022d780052159f83f08417346080e9fcb5e5f7100e403e792818dd92b2db0d8ed26d1d0414c2fa"
+
+[update]
+[update.modrinth]
+mod-id = "QgooUXAJ"
+version = "g4zmt9nb"

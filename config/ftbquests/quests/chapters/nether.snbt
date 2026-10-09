@@ -1,0 +1,397 @@
+{
+	id: "1B638705CABC1A37",
+	group: "",
+	order_index: 7,
+	filename: "nether",
+	title: "&4Nether i Kres",
+	icon: "minecraft:netherrack",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Inne wymiary"
+	],
+	quests: [
+		{
+			id: "36ABDC8197F51191",
+			title: "Obsydian",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "minecraft:obsidian",
+			description: [
+				"Zbierz obsydian na portal (lawa + woda albo diamentowy kilof)."
+			],
+			dependencies: [
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "7EE8965750EB3C77",
+					type: "item",
+					item: "minecraft:obsidian",
+					count: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "156CA9FAFFED7731",
+					type: "item",
+					item: {
+						id: "minecraft:flint_and_steel",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "17CA9EA3317BFD6C",
+			title: "Nether",
+			x: 1.5d,
+			y: 0.0d,
+			icon: "minecraft:netherrack",
+			description: [
+				"Zbuduj portal i wejdź do Netheru."
+			],
+			dependencies: [
+				"36ABDC8197F51191"
+			],
+			tasks: [
+				{
+					id: "1BD506C2743E7B77",
+					type: "dimension",
+					dimension: "minecraft:the_nether"
+				}
+			],
+			rewards: [
+				{
+					id: "759FF007F3B6865E",
+					type: "item",
+					item: {
+						id: "minecraft:golden_carrot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "13C3A5AD75D52400",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "5C96898B541528E8",
+			title: "Forteca",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "minecraft:nether_bricks",
+			description: [
+				"Znajdź netherową fortecę."
+			],
+			dependencies: [
+				"17CA9EA3317BFD6C"
+			],
+			tasks: [
+				{
+					id: "7AABE07CE1D1A45E",
+					type: "structure",
+					structure: "minecraft:fortress"
+				}
+			],
+			rewards: [
+				{
+					id: "76DC88880B621DC5",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "37E586966C3CF44D",
+			title: "Pręty blaze'a",
+			x: 4.5d,
+			y: 0.0d,
+			icon: "minecraft:blaze_rod",
+			description: [
+				"Pokonaj blaze'y i zdobądź ich pręty."
+			],
+			dependencies: [
+				"5C96898B541528E8"
+			],
+			tasks: [
+				{
+					id: "3AC82C8217148F2B",
+					type: "item",
+					item: "minecraft:blaze_rod",
+					count: 6L
+				}
+			],
+			rewards: [
+				{
+					id: "5BAF74F5C3CD6B5D",
+					type: "item",
+					item: {
+						id: "minecraft:blaze_powder",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "3F5CF35D4ECEDEB5",
+			title: "Alchemik",
+			x: 4.5d,
+			y: 1.5d,
+			icon: "minecraft:brewing_stand",
+			description: [
+				"Uwarz miksturę w statywie alchemicznym."
+			],
+			dependencies: [
+				"37E586966C3CF44D"
+			],
+			tasks: [
+				{
+					id: "78B2783AAB45225B",
+					type: "item",
+					item: "minecraft:brewing_stand"
+				},
+				{
+					id: "7FA4667BDF60E7AE",
+					type: "advancement",
+					advancement: "minecraft:nether/brew_potion",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "3D8120C2458BD904",
+					type: "item",
+					item: {
+						id: "minecraft:nether_wart",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "11DD851AE73E7BB4",
+			title: "Bastion",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "minecraft:gilded_blackstone",
+			description: [
+				"Znajdź bastion. Piglini pilnują złota... i skrzyń z netherytem."
+			],
+			dependencies: [
+				"17CA9EA3317BFD6C"
+			],
+			tasks: [
+				{
+					id: "77F3DD68A87CD535",
+					type: "structure",
+					structure: "minecraft:bastion_remnant"
+				}
+			],
+			rewards: [
+				{
+					id: "35B9123BE680567F",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "389421858E957EF4",
+			title: "Starożytne szczątki",
+			x: 4.5d,
+			y: -1.5d,
+			icon: "minecraft:ancient_debris",
+			description: [
+				"Wykop starożytne szczątki (najwięcej na Y=15) i wytop netheryt."
+			],
+			dependencies: [
+				"11DD851AE73E7BB4"
+			],
+			tasks: [
+				{
+					id: "378DAEC7644E8E30",
+					type: "item",
+					item: "minecraft:ancient_debris",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "5FD49AACE19074DF",
+					type: "item",
+					item: {
+						id: "minecraft:tnt",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "16360A6E9D9701D1",
+			title: "Oko Kresu",
+			x: 6.0d,
+			y: 0.0d,
+			icon: "minecraft:ender_eye",
+			description: [
+				"Zrób oczy Kresu z pereł i proszku blaze'a."
+			],
+			dependencies: [
+				"37E586966C3CF44D"
+			],
+			tasks: [
+				{
+					id: "7E0567F4DA12D650",
+					type: "item",
+					item: "minecraft:ender_eye",
+					count: 12L
+				}
+			],
+			rewards: [
+				{
+					id: "15B409B8C963FBAF",
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "3B4ED7D972F2259B",
+			title: "Kres",
+			x: 7.5d,
+			y: 0.0d,
+			icon: "minecraft:end_stone",
+			description: [
+				"Uruchom portal w twierdzy i wejdź do Kresu. Przygotujcie się razem!"
+			],
+			dependencies: [
+				"16360A6E9D9701D1",
+				"17CD9BEBAD3A3301"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "7927199B2E64E048",
+					type: "dimension",
+					dimension: "minecraft:the_end"
+				}
+			],
+			rewards: [
+				{
+					id: "72ADF115B4FEB782",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "16D0B0AC9B2702B4",
+			title: "Miasto Kresu",
+			x: 9.0d,
+			y: 0.0d,
+			icon: "minecraft:purpur_block",
+			description: [
+				"Po pokonaniu smoka leć bramą Kresu na zewnętrzne wyspy i znajdź miasto."
+			],
+			dependencies: [
+				"59B99EEA84AF085B"
+			],
+			tasks: [
+				{
+					id: "3F9C8A0B4962E490",
+					type: "advancement",
+					advancement: "minecraft:end/find_end_city",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "39F6D72043849295",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "53A650CE2FA5DBB1",
+			title: "Skrzydła",
+			x: 10.5d,
+			y: 0.0d,
+			icon: "minecraft:elytra",
+			description: [
+				"Zdobądź elytrę ze statku Kresu."
+			],
+			dependencies: [
+				"16D0B0AC9B2702B4"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "35A01241E1898604",
+					type: "advancement",
+					advancement: "minecraft:end/elytra",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "1F817B09CAC02196",
+					type: "item",
+					item: {
+						id: "minecraft:firework_rocket",
+						Count: 1b
+					},
+					count: 32
+				},
+				{
+					id: "5F06DFF61E3DEB47",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "78EAEF44453BF694",
+			title: "Shulkery",
+			x: 10.5d,
+			y: 1.5d,
+			icon: "minecraft:shulker_shell",
+			description: [
+				"Zbierz skorupy shulkerów: zrobisz z nich przenośne skrzynie."
+			],
+			dependencies: [
+				"16D0B0AC9B2702B4"
+			],
+			tasks: [
+				{
+					id: "793E7D023241331E",
+					type: "item",
+					item: "minecraft:shulker_shell",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "1AE6D139ADF66C60",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

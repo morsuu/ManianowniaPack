@@ -1,0 +1,889 @@
+{
+	id: "79293635781D1E8D",
+	group: "",
+	order_index: 2,
+	filename: "create",
+	title: "&eCreate: Maszyny",
+	icon: "create:cogwheel",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Obroty, prasy, miksery i mosiądz"
+	],
+	quests: [
+		{
+			id: "111EB78C867CFC55",
+			title: "Stop andezytu",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "create:andesite_alloy",
+			description: [
+				"Podstawowy materiał Create: andezyt + bryłki żelaza (albo cynku).",
+				"",
+				"Ponder (&eW&r nad przedmiotem) pokaże, jak to działa."
+			],
+			dependencies: [
+				"5AAA760A737FE538"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "3F1CAF79E066C9D2",
+					type: "item",
+					item: "create:andesite_alloy",
+					count: 16L
+				}
+			],
+			rewards: [
+				{
+					id: "1B33D48E84D24D37",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "31EE41141761B850",
+			title: "Wałki i koła zębate",
+			x: 1.5d,
+			y: 0.0d,
+			icon: "create:shaft",
+			description: [
+				"Wałki i koła zębate przenoszą obroty między maszynami. Duże koło zmienia prędkość."
+			],
+			dependencies: [
+				"111EB78C867CFC55"
+			],
+			tasks: [
+				{
+					id: "593A29E9B1A872C5",
+					type: "item",
+					item: "create:shaft",
+					count: 8L
+				},
+				{
+					id: "1BB541615FF10CF5",
+					type: "item",
+					item: "create:cogwheel",
+					count: 4L
+				},
+				{
+					id: "7A169179CF4F16FB",
+					type: "item",
+					item: "create:large_cogwheel",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "1E3510600451AC2D",
+					type: "item",
+					item: {
+						id: "create:andesite_alloy",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "57F97C4D44EA2394",
+			title: "Korba",
+			x: 1.5d,
+			y: -1.5d,
+			icon: "create:hand_crank",
+			description: [
+				"Najprostsze źródło obrotów: kręcisz ręcznie. Dobre do testów."
+			],
+			dependencies: [
+				"111EB78C867CFC55"
+			],
+			tasks: [
+				{
+					id: "17D5533583641A10",
+					type: "item",
+					item: "create:hand_crank"
+				}
+			],
+			rewards: [
+				{
+					id: "500A13CB02C0FD70",
+					type: "item",
+					item: {
+						id: "minecraft:cooked_beef",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "5A58A177E0FF1724",
+			title: "Siła wody",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "create:water_wheel",
+			description: [
+				"Koło wodne kręci się w płynącej wodzie. Kilka kół na jednym wałku daje więcej siły."
+			],
+			dependencies: [
+				"31EE41141761B850"
+			],
+			tasks: [
+				{
+					id: "55C82D256BC20299",
+					type: "item",
+					item: "create:water_wheel",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "514E76FA57627088",
+					type: "item",
+					item: {
+						id: "create:andesite_alloy",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "7B0824A79C08B89A",
+			title: "Gogle inżyniera",
+			x: 3.0d,
+			y: 1.5d,
+			icon: "create:goggles",
+			description: [
+				"Gogle pokazują prędkość i obciążenie (stres) sieci. Klucz obraca i zbiera bloki Create."
+			],
+			dependencies: [
+				"31EE41141761B850"
+			],
+			tasks: [
+				{
+					id: "53534E9DCC93E866",
+					type: "item",
+					item: "create:goggles"
+				},
+				{
+					id: "59EE870B33D6CB56",
+					type: "item",
+					item: "create:wrench"
+				}
+			],
+			rewards: [
+				{
+					id: "1DCEFE92064E70D9",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "3309EDD21E8B782C",
+			title: "Obudowa z andezytu",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "create:andesite_casing",
+			description: [
+				"Kliknij stopem andezytu na okorowane drewno. Obudowy kryją wałki i budują maszyny."
+			],
+			dependencies: [
+				"31EE41141761B850"
+			],
+			tasks: [
+				{
+					id: "5CA2B1F847AD14B1",
+					type: "item",
+					item: "create:andesite_casing",
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: "1D3B5D76D76806FA",
+					type: "item",
+					item: {
+						id: "minecraft:stripped_oak_log",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "73F4780B954329F3",
+			title: "Prasa mechaniczna",
+			x: 4.5d,
+			y: 0.0d,
+			icon: "create:mechanical_press",
+			description: [
+				"Prasa robi blachy ze sztabek. Bez blach dalej ani rusz."
+			],
+			dependencies: [
+				"5A58A177E0FF1724"
+			],
+			tasks: [
+				{
+					id: "735F8E377F738796",
+					type: "item",
+					item: "create:mechanical_press"
+				},
+				{
+					id: "77831A8F109F0E25",
+					type: "item",
+					item: "create:iron_sheet",
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: "541A09310F4CDBE0",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "13DE5FBC3B8A22A3",
+			title: "Żarna",
+			x: 4.5d,
+			y: -1.5d,
+			icon: "create:millstone",
+			description: [
+				"Żarna mielą rudy (więcej sztabek!), zboże i kwiaty."
+			],
+			dependencies: [
+				"5A58A177E0FF1724"
+			],
+			tasks: [
+				{
+					id: "75972BAC228382D3",
+					type: "item",
+					item: "create:millstone"
+				}
+			],
+			rewards: [
+				{
+					id: "5F4A94213CFB4ACF",
+					type: "item",
+					item: {
+						id: "minecraft:wheat",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "52DA0744D2C5B24F",
+			title: "Wiertło i piła",
+			x: 4.5d,
+			y: 1.5d,
+			icon: "create:mechanical_drill",
+			description: [
+				"Wiertło kopie bloki przed sobą, piła ścina drzewa. Idealne na farmy."
+			],
+			dependencies: [
+				"5A58A177E0FF1724"
+			],
+			tasks: [
+				{
+					id: "38BBE2C7572EE4D7",
+					type: "item",
+					item: "create:mechanical_drill"
+				},
+				{
+					id: "16E11771EA994EDC",
+					type: "item",
+					item: "create:mechanical_saw"
+				}
+			],
+			rewards: [
+				{
+					id: "1FC264866DE52FD4",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "562F1B873B7ED090",
+			title: "Wiatrak",
+			x: 6.0d,
+			y: -3.0d,
+			icon: "create:windmill_bearing",
+			description: [
+				"Łożysko wiatraka plus żagle albo wełna. Im więcej żagli, tym więcej siły, a pogoda nie ma znaczenia."
+			],
+			dependencies: [
+				"13DE5FBC3B8A22A3"
+			],
+			tasks: [
+				{
+					id: "1574820C3AE6E571",
+					type: "item",
+					item: "create:windmill_bearing"
+				},
+				{
+					id: "554A6E37E09C8153",
+					type: "item",
+					item: "create:white_sail",
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: "516AD49341A522D7",
+					type: "item",
+					item: {
+						id: "create:andesite_alloy",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "52C9378A5365355E",
+			title: "Wentylator",
+			x: 6.0d,
+			y: 3.0d,
+			icon: "create:encased_fan",
+			description: [
+				"Wentylator przed lawą piecze, przed ogniem wędzi, a przed wodą myje przedmioty."
+			],
+			dependencies: [
+				"52DA0744D2C5B24F"
+			],
+			tasks: [
+				{
+					id: "7B5467FE60374DD9",
+					type: "item",
+					item: "create:encased_fan"
+				}
+			],
+			rewards: [
+				{
+					id: "56A55AC1E10A523A",
+					type: "item",
+					item: {
+						id: "minecraft:charcoal",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "1EC81C1AAE9C0159",
+			title: "Kruszące koła",
+			x: 6.0d,
+			y: -1.5d,
+			icon: "create:crushing_wheel",
+			description: [
+				"Dwa koła obok siebie kruszą rudy i dają dodatkowy urobek. Sprawdź w EMI, co z czego wychodzi!"
+			],
+			dependencies: [
+				"13DE5FBC3B8A22A3"
+			],
+			tasks: [
+				{
+					id: "546FA716AE09FA3C",
+					type: "item",
+					item: "create:crushing_wheel",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "5B28781EF96EB0C9",
+					type: "item",
+					item: {
+						id: "create:andesite_alloy",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "3D6B84B387D58585",
+			title: "Cynk",
+			x: 6.0d,
+			y: 0.0d,
+			icon: "create:zinc_ingot",
+			description: [
+				"Cynk występuje wysoko w górach i pod ziemią. Potrzebny do mosiądzu."
+			],
+			dependencies: [
+				"73F4780B954329F3"
+			],
+			tasks: [
+				{
+					id: "10F4D70F41AA6028",
+					type: "item",
+					item: "create:zinc_ingot",
+					count: 16L
+				}
+			],
+			rewards: [
+				{
+					id: "7115A705D51916F0",
+					type: "item",
+					item: {
+						id: "create:raw_zinc",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "51CE4BFAB5E5034B",
+			title: "Mikser i misa",
+			x: 7.5d,
+			y: 0.0d,
+			icon: "create:mechanical_mixer",
+			description: [
+				"Mikser nad misą łączy składniki. Do niektórych przepisów misa musi być podgrzana."
+			],
+			dependencies: [
+				"3D6B84B387D58585"
+			],
+			tasks: [
+				{
+					id: "3AA3D23386C02BFC",
+					type: "item",
+					item: "create:mechanical_mixer"
+				},
+				{
+					id: "10BE67E7D232D773",
+					type: "item",
+					item: "create:basin"
+				}
+			],
+			rewards: [
+				{
+					id: "7214826495ACB2C3",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "7483A4737F1C93A6",
+			title: "Palnik blaze",
+			x: 7.5d,
+			y: 1.5d,
+			icon: "create:blaze_burner",
+			description: [
+				"Zrób pusty palnik i złap do niego blaze'a w Netherze (kliknij nim w blaze'a).",
+				"Daje ciepło pod misę."
+			],
+			dependencies: [
+				"51CE4BFAB5E5034B",
+				"5C96898B541528E8"
+			],
+			tasks: [
+				{
+					id: "19FD02821B661941",
+					type: "item",
+					item: "create:blaze_burner"
+				}
+			],
+			rewards: [
+				{
+					id: "7F157F0A968A3FAD",
+					type: "item",
+					item: {
+						id: "minecraft:blaze_rod",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "150EF75F9DDD6D2A",
+			title: "Mosiądz",
+			x: 9.0d,
+			y: 0.0d,
+			icon: "create:brass_ingot",
+			description: [
+				"Miedź + cynk w mikserze nad podgrzaną misą = mosiądz."
+			],
+			dependencies: [
+				"51CE4BFAB5E5034B"
+			],
+			tasks: [
+				{
+					id: "176734B2C3CC460D",
+					type: "item",
+					item: "create:brass_ingot",
+					count: 16L
+				}
+			],
+			rewards: [
+				{
+					id: "74409AD3F5379572",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "3BCD3C65EC29F971",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "37C4B214166CFC24",
+			title: "Taśmociąg",
+			x: 4.5d,
+			y: 3.0d,
+			icon: "create:belt_connector",
+			description: [
+				"Taśmociąg z gumy suszonych wodorostów przewozi przedmioty i łączy wałki."
+			],
+			dependencies: [
+				"52DA0744D2C5B24F"
+			],
+			tasks: [
+				{
+					id: "5944C701AE85972D",
+					type: "item",
+					item: "create:belt_connector",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "55DB6324C89D516B",
+					type: "item",
+					item: {
+						id: "minecraft:dried_kelp_block",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "7FEA6EA83A847EC6",
+			title: "Deployer",
+			x: 9.0d,
+			y: 1.5d,
+			icon: "create:deployer",
+			description: [
+				"Deployer to mechaniczna ręka: klika, stawia i używa przedmiotów."
+			],
+			dependencies: [
+				"150EF75F9DDD6D2A"
+			],
+			tasks: [
+				{
+					id: "1A7909AC847D7DA1",
+					type: "item",
+					item: "create:deployer"
+				}
+			],
+			rewards: [
+				{
+					id: "3FDCDF1F082E27DD",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "76917D1502837D92",
+			title: "Różowy kwarc",
+			x: 9.0d,
+			y: -1.5d,
+			icon: "create:polished_rose_quartz",
+			description: [
+				"Kwarc różowy wypolerowany na papierze ściernym. Potrzebny do elektroniki."
+			],
+			dependencies: [
+				"150EF75F9DDD6D2A"
+			],
+			tasks: [
+				{
+					id: "3BE26BC0F4482D21",
+					type: "item",
+					item: "create:polished_rose_quartz",
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: "168BD88F003767B9",
+					type: "item",
+					item: {
+						id: "minecraft:redstone",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "166A8F4169A4148B",
+			title: "Lampa elektronowa",
+			x: 10.5d,
+			y: -1.5d,
+			icon: "create:electron_tube",
+			description: [
+				"Element zaawansowanych maszyn."
+			],
+			dependencies: [
+				"76917D1502837D92"
+			],
+			tasks: [
+				{
+					id: "5768859CE6B9CACB",
+					type: "item",
+					item: "create:electron_tube",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "5DD9351786805F99",
+					type: "item",
+					item: {
+						id: "create:brass_ingot",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "7AB27CB3333D7AA2",
+			title: "Mechanizm precyzyjny",
+			x: 10.5d,
+			y: 0.0d,
+			icon: "create:precision_mechanism",
+			description: [
+				"Najtrudniejszy przepis wczesnego Create. Robi się go na taśmie: deployer kilka razy dokłada części.",
+				"",
+				"Sprawdź przepis w EMI (zakładka Sequenced Assembly)."
+			],
+			dependencies: [
+				"7FEA6EA83A847EC6",
+				"166A8F4169A4148B"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "71FC7ED1934D8475",
+					type: "item",
+					item: "create:precision_mechanism",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "127AE4B6B09DCED4",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "1FFE6F79E02E9135",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "7DA0699325838138",
+			title: "Ramię mechaniczne",
+			x: 12.0d,
+			y: 1.5d,
+			icon: "create:mechanical_arm",
+			description: [
+				"Robotyczne ramię przenosi przedmioty między pojemnikami i maszynami."
+			],
+			dependencies: [
+				"7AB27CB3333D7AA2"
+			],
+			tasks: [
+				{
+					id: "39A6F08B32885327",
+					type: "item",
+					item: "create:mechanical_arm"
+				}
+			],
+			rewards: [
+				{
+					id: "508EDF0CBA687ABF",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "142F5EFB20D26337",
+			title: "Mechaniczny rzemieślnik",
+			x: 12.0d,
+			y: -1.5d,
+			icon: "create:mechanical_crafter",
+			description: [
+				"Siatka mechanicznych rzemieślników sama robi przedmioty."
+			],
+			dependencies: [
+				"7AB27CB3333D7AA2"
+			],
+			tasks: [
+				{
+					id: "78510F32C8AD2346",
+					type: "item",
+					item: "create:mechanical_crafter",
+					count: 9L
+				}
+			],
+			rewards: [
+				{
+					id: "57D7C70C4453047D",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "71A16F8A725C2F5C",
+			title: "Płyny",
+			x: 7.5d,
+			y: 3.0d,
+			icon: "create:mechanical_pump",
+			description: [
+				"Rury, pompa i zbiornik. Create przenosi wodę, lawę, miód i czekoladę!"
+			],
+			dependencies: [
+				"52C9378A5365355E"
+			],
+			tasks: [
+				{
+					id: "1820C32175773FBD",
+					type: "item",
+					item: "create:fluid_pipe",
+					count: 8L
+				},
+				{
+					id: "5AB2BBD4E500E563",
+					type: "item",
+					item: "create:mechanical_pump"
+				},
+				{
+					id: "5D86EC5F9D92E2C3",
+					type: "item",
+					item: "create:fluid_tank"
+				}
+			],
+			rewards: [
+				{
+					id: "78999F2536F1EDCF",
+					type: "item",
+					item: {
+						id: "minecraft:bucket",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "3F8E6C7ABF52FEAA",
+			title: "Kranik",
+			x: 9.0d,
+			y: 3.0d,
+			icon: "create:spout",
+			description: [
+				"Kranik nalewa płyny do przedmiotów, np. robi butelki i miód na taśmie."
+			],
+			dependencies: [
+				"71A16F8A725C2F5C",
+				"150EF75F9DDD6D2A"
+			],
+			tasks: [
+				{
+					id: "18F436CF44E3BBAF",
+					type: "item",
+					item: "create:spout"
+				}
+			],
+			rewards: [
+				{
+					id: "17E9046858C904CD",
+					type: "item",
+					item: {
+						id: "create:sweet_roll",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "797529844DDA05C5",
+			title: "Silnik parowy",
+			x: 12.0d,
+			y: 0.0d,
+			icon: "create:steam_engine",
+			description: [
+				"Zbiornik nad palnikiem + silnik parowy = ogromna moc.",
+				"To serce każdej dużej fabryki."
+			],
+			dependencies: [
+				"7AB27CB3333D7AA2",
+				"7483A4737F1C93A6"
+			],
+			size: 1.5d,
+			shape: "hexagon",
+			tasks: [
+				{
+					id: "11BF6163C4B08AAA",
+					type: "item",
+					item: "create:steam_engine"
+				}
+			],
+			rewards: [
+				{
+					id: "51A3868FED667782",
+					type: "item",
+					item: {
+						id: "minecraft:coal_block",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "5E2C563BBA317001",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

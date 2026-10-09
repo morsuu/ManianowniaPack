@@ -1,0 +1,517 @@
+{
+	id: "5BEF53873F80DAAC",
+	group: "",
+	order_index: 6,
+	filename: "przygoda",
+	title: "&bPrzygoda",
+	icon: "explorerscompass:explorerscompass",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Odkrywaj struktury i podróżuj"
+	],
+	quests: [
+		{
+			id: "3CF94BD0DD45353A",
+			title: "Wioska",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "minecraft:bell",
+			description: [
+				"Znajdź wioskę. Często stoi w niej kamień teleportacyjny."
+			],
+			dependencies: [
+				"3B225375A3A91527"
+			],
+			tasks: [
+				{
+					id: "181E3516DCDDA9F6",
+					type: "structure",
+					structure: "#minecraft:village"
+				}
+			],
+			rewards: [
+				{
+					id: "1F1E7C84B5DCBF82",
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "7F6441E68BB18215",
+			title: "Kamień teleportacyjny",
+			x: 1.5d,
+			y: 0.0d,
+			icon: "waystones:waystone",
+			description: [
+				"Waystones: aktywuj kamień, a potem teleportuj się między odkrytymi kamieniami.",
+				"Zrób własny albo znajdź w wiosce."
+			],
+			dependencies: [
+				"3CF94BD0DD45353A"
+			],
+			tasks: [
+				{
+					id: "1E990C3DB29375EC",
+					type: "item",
+					item: "waystones:waystone"
+				}
+			],
+			rewards: [
+				{
+					id: "58934D67CD11B3F3",
+					type: "item",
+					item: {
+						id: "waystones:warp_stone",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "7527986E38766F19",
+			title: "Kompas odkrywcy",
+			x: 0.0d,
+			y: 1.5d,
+			icon: "explorerscompass:explorerscompass",
+			description: [
+				"Kliknij nim prawym, wybierz strukturę z listy, a kompas wskaże kierunek."
+			],
+			dependencies: [
+				"5AAA760A737FE538"
+			],
+			tasks: [
+				{
+					id: "1E699EDAE0C913E5",
+					type: "item",
+					item: "explorerscompass:explorerscompass"
+				}
+			],
+			rewards: [
+				{
+					id: "5CF3962D12CA0654",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1DA768AF0D8A9CAA",
+			title: "Lepsze lochy",
+			x: 1.5d,
+			y: 1.5d,
+			icon: "minecraft:spawner",
+			description: [
+				"YUNG's Better Dungeons: znajdź jeden z nowych lochów (szkieletów, zombie, pająków albo mały)."
+			],
+			dependencies: [
+				"7527986E38766F19"
+			],
+			tasks: [
+				{
+					id: "5B34E193DCFD8C64",
+					type: "structure",
+					structure: "#betterdungeons:better_dungeons"
+				}
+			],
+			rewards: [
+				{
+					id: "528D4331BE3D41DF",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "55C75E428FA64FA7",
+			title: "Głębokie kopalnie",
+			x: 3.0d,
+			y: 1.5d,
+			icon: "minecraft:rail",
+			description: [
+				"YUNG's Better Mineshafts: wejdź do opuszczonej kopalni."
+			],
+			dependencies: [
+				"1DA768AF0D8A9CAA"
+			],
+			tasks: [
+				{
+					id: "71FF915FD421D348",
+					type: "structure",
+					structure: "#bettermineshafts:better_mineshafts"
+				},
+				{
+					id: "7841A33765C2F3F2",
+					type: "kill",
+					entity: "minecraft:cave_spider",
+					value: 5L
+				}
+			],
+			rewards: [
+				{
+					id: "73A6D5583CF24881",
+					type: "item",
+					item: {
+						id: "minecraft:rail",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "3F22A53F4CF398AF",
+			title: "Posterunek złosadników",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "minecraft:crossbow",
+			description: [
+				"Znajdź posterunek złosadników. Uważaj na kuszników!"
+			],
+			dependencies: [
+				"7F6441E68BB18215"
+			],
+			tasks: [
+				{
+					id: "7AD49B4D8E26A823",
+					type: "structure",
+					structure: "minecraft:pillager_outpost"
+				}
+			],
+			rewards: [
+				{
+					id: "37A4807F66F708A3",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "76FCCFE7B4D49627",
+			title: "Świątynie",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "minecraft:chiseled_sandstone",
+			description: [
+				"Znajdź świątynię na pustyni albo w dżungli."
+			],
+			dependencies: [
+				"7F6441E68BB18215"
+			],
+			tasks: [
+				{
+					id: "5F357BF88753F070",
+					type: "structure",
+					structure: "minecraft:desert_pyramid"
+				},
+				{
+					id: "762598F5459262BC",
+					type: "structure",
+					structure: "minecraft:jungle_pyramid"
+				}
+			],
+			rewards: [
+				{
+					id: "1D5156CF4CD45F12",
+					type: "item",
+					item: {
+						id: "minecraft:tnt",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "7C7EF82F448A9269",
+			title: "Wrak statku",
+			x: 1.5d,
+			y: -1.5d,
+			icon: "minecraft:oak_boat",
+			description: [
+				"Znajdź wrak statku. Mapa skarbów prowadzi do ukrytej skrzyni."
+			],
+			dependencies: [
+				"3CF94BD0DD45353A"
+			],
+			tasks: [
+				{
+					id: "520314EFB256D611",
+					type: "structure",
+					structure: "#minecraft:shipwreck"
+				}
+			],
+			rewards: [
+				{
+					id: "77E882D0AAB1D260",
+					type: "item",
+					item: {
+						id: "minecraft:heart_of_the_sea",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "398CF06CAD8A8C10",
+			title: "Archeologia",
+			x: 4.5d,
+			y: -1.5d,
+			icon: "minecraft:brush",
+			description: [
+				"Odkop skorupę ceramiczną pędzlem z podejrzanego piasku lub żwiru."
+			],
+			dependencies: [
+				"76FCCFE7B4D49627"
+			],
+			tasks: [
+				{
+					id: "1E8F374976C453E8",
+					type: "advancement",
+					advancement: "minecraft:adventure/salvage_sherd",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "76D45E37696EEEE5",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1456E8076E9CD7B9",
+			title: "Rezydencja",
+			x: 4.5d,
+			y: 0.0d,
+			icon: "minecraft:dark_oak_log",
+			description: [
+				"Znajdź leśną rezydencję. W środku czekają przywoływacze z totemami."
+			],
+			dependencies: [
+				"3F22A53F4CF398AF"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "7179A093FB595A28",
+					type: "structure",
+					structure: "minecraft:mansion"
+				}
+			],
+			rewards: [
+				{
+					id: "74C21E7D1AEF37E7",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "797277E03CBD9941",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "359F4F25C0C4C545",
+			title: "Podwodna świątynia",
+			x: 4.5d,
+			y: 1.5d,
+			icon: "minecraft:prismarine_bricks",
+			description: [
+				"Znajdź podwodną świątynię. Mieszka w niej Strażnik Starszy."
+			],
+			dependencies: [
+				"55C75E428FA64FA7"
+			],
+			tasks: [
+				{
+					id: "7B66ABEE17C89F2C",
+					type: "structure",
+					structure: "minecraft:monument"
+				}
+			],
+			rewards: [
+				{
+					id: "35C4A84F5D9454AC",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
+					}
+				}
+			]
+		},
+		{
+			id: "5B7A682BEF2108AF",
+			title: "Starożytne Miasto",
+			x: 6.0d,
+			y: 1.5d,
+			icon: "minecraft:sculk",
+			description: [
+				"Głęboko w Ciemnej Głębi czeka Starożytne Miasto. Bądź cicho: tam mieszka &3Warden&r."
+			],
+			dependencies: [
+				"359F4F25C0C4C545"
+			],
+			tasks: [
+				{
+					id: "1001A90F60ABCC55",
+					type: "structure",
+					structure: "minecraft:ancient_city"
+				}
+			],
+			rewards: [
+				{
+					id: "5BC9221BDD55C55F",
+					type: "item",
+					item: {
+						id: "minecraft:echo_shard",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "55FF77930FECD8ED",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "17CD9BEBAD3A3301",
+			title: "Twierdza",
+			x: 6.0d,
+			y: 0.0d,
+			icon: "minecraft:ender_eye",
+			description: [
+				"Podążaj za Okiem Kresu do twierdzy (YUNG's Better Strongholds)."
+			],
+			dependencies: [
+				"1456E8076E9CD7B9",
+				"785E5E668FAAED21"
+			],
+			tasks: [
+				{
+					id: "52C9D67E62FE81E6",
+					type: "advancement",
+					advancement: "minecraft:story/follow_ender_eye",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "3331CAB445163215",
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "176CAE570DA1282D",
+			title: "Turysta",
+			x: 0.0d,
+			y: -3.0d,
+			icon: "minecraft:cherry_sapling",
+			description: [
+				"Odwiedź pustynię, dżunglę, tajgę śnieżną i wiśniowy gaj."
+			],
+			dependencies: [
+				"3CF94BD0DD45353A"
+			],
+			tasks: [
+				{
+					id: "7C0DEE31F03A47F2",
+					type: "biome",
+					biome: "minecraft:desert"
+				},
+				{
+					id: "1055D048CD2BA931",
+					type: "biome",
+					biome: "minecraft:jungle"
+				},
+				{
+					id: "730AB9FBBDD21883",
+					type: "biome",
+					biome: "minecraft:snowy_taiga"
+				},
+				{
+					id: "7CF416AE2ADDEBAF",
+					type: "biome",
+					biome: "minecraft:cherry_grove"
+				}
+			],
+			rewards: [
+				{
+					id: "5AEAB6C1BAFE27A4",
+					type: "item",
+					item: {
+						id: "minecraft:cherry_sapling",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "51283956D55C8011",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "707DDC4050885BB1",
+			title: "Lunetnik",
+			x: 1.5d,
+			y: -3.0d,
+			icon: "minecraft:spyglass",
+			description: [
+				"Wypatrz ghasta przez lunetę w Netherze."
+			],
+			dependencies: [
+				"176CAE570DA1282D",
+				"17CA9EA3317BFD6C"
+			],
+			tasks: [
+				{
+					id: "7E8D4FEA0CFC2F29",
+					type: "advancement",
+					advancement: "minecraft:adventure/spyglass_at_ghast",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "3CC7A2D12B0A0BD1",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

@@ -12,6 +12,11 @@ Paczka **aktualizuje się sama** przy każdym uruchomieniu gry.
 
 Od teraz przy każdym starcie gra sama sprawdza, czy jest nowa wersja paczki, i dociąga zmiany.
 
+## W grze
+
+- **U**: księga questów (FTB Quests). Jeśli klawisz nie działa, przypisz „Open Quests” w Opcje → Sterowanie albo kliknij ikonkę w lewym górnym rogu ekwipunku.
+- Zacznij od rozdziału **Witaj w Manianowni**: opisuje mody, skróty i cel gry.
+
 ## Ręcznie (bez zipa)
 
 W istniejącej instancji Fabric 1.20.1 (loader 0.19.5):

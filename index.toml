@@ -1,220 +1,60 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/heracles/groups.txt"
-hash = "50a5ab4cac7abc75c601c9c20b383f153d4bb9ebbc53903d0f9947c45edae35d"
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
-file = "config/heracles/quests/budowanie/build_bed.json"
-hash = "b4af0b040b9920936dc0aa353fbe5fd0783f81ff00fe2578e1216f806d89171a"
+file = "config/ftbquests/quests/chapters/archers.snbt"
+hash = "2fff5f9c5d72b04599759a7daad23cb40d9f7e49f8cd1fef75781c6a54d05a78"
 
 [[files]]
-file = "config/heracles/quests/budowanie/build_casing.json"
-hash = "5e07422f7688324739faadfe7c7092eab35bb8d480c5fe0c0edd68df1b676129"
+file = "config/ftbquests/quests/chapters/bossowie.snbt"
+hash = "6fbea1f3275a7116458b5d29a3b9d50ee8dee15d75199216695afd20d7bac562"
 
 [[files]]
-file = "config/heracles/quests/budowanie/build_farm.json"
-hash = "b5ff18b8723625d5cde7a6e6292dade38e2794de95a1bf2f36ab4fb83a5d5888"
+file = "config/ftbquests/quests/chapters/build.snbt"
+hash = "cded507cdc1abf7887875c65700f4c253d738e4aee5cc7ead7d8bbaa3c189448"
 
 [[files]]
-file = "config/heracles/quests/budowanie/build_furniture.json"
-hash = "d49bc47e5481e9c9d50aa8d5bc65387eeeb29ad6fc56f18ba8cc61a0d6e89225"
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "cb491cae60882a7e7e19ae5561b4476a664e62b1b043413d77798258bc692908"
 
 [[files]]
-file = "config/heracles/quests/budowanie/build_house.json"
-hash = "b73b5ade618ec14f4d21df08b384a21fe1903eb0e11c7941ab50d654a60edae4"
+file = "config/ftbquests/quests/chapters/create2.snbt"
+hash = "991b7fcf0aaf0d0c60a2761ec3120e94ccaa799ec844842f2818c25a686b568a"
 
 [[files]]
-file = "config/heracles/quests/budowanie/build_kitchen.json"
-hash = "84ff95ccd2c521b4e2c07e0dcb1d74c1fb44d7b3fa0025ba0e72a3a9942ef546"
+file = "config/ftbquests/quests/chapters/kuchnia.snbt"
+hash = "ecde088dd55df4da2ee037ab968ae9365caacd67a3de7d4653fca5478aad7e95"
 
 [[files]]
-file = "config/heracles/quests/manianownia/mn_bombalson.json"
-hash = "b710da9d06b258cf35b844ead3a36a78f728ddd90021767abf727b20012b3461"
+file = "config/ftbquests/quests/chapters/manianownia.snbt"
+hash = "dd16628bd104a7f0666e8921f169f183fd5c4c201e0c7f9e53df8d25d44c3336"
 
 [[files]]
-file = "config/heracles/quests/manianownia/mn_final.json"
-hash = "46105b5b890fdf04d8afe9907a1fda4a816efe8d19354b703658ca52ecfb92cf"
+file = "config/ftbquests/quests/chapters/nether.snbt"
+hash = "a57a66716ca9bd183fc7358782216fc24ac8095eff0021aeda20c867d0254455"
 
 [[files]]
-file = "config/heracles/quests/manianownia/mn_maciekos.json"
-hash = "5ae624b191190d2abeeaca88a72632b35d4786e0a697136a0adfe595f4b4b95f"
+file = "config/ftbquests/quests/chapters/przygoda.snbt"
+hash = "49732ca3a0e556acc9841a8e5821030d6b619ba16c71dcbed515486767a509b2"
 
 [[files]]
-file = "config/heracles/quests/manianownia/mn_marcin.json"
-hash = "18a19d74180a205ea85d13a25681f9b3f1c1a9247b10e70b8a33bbbb922a1237"
+file = "config/ftbquests/quests/chapters/rpg.snbt"
+hash = "7115097eb5b6b80a38f2b350a5680aaf110eff357619fd29c76a15159503f8ef"
 
 [[files]]
-file = "config/heracles/quests/manianownia/mn_mastix.json"
-hash = "28afe4dac233dc874d93f2fe06c8ebe9d4623d3c1d8467d6eeb365eaa9fd04bc"
+file = "config/ftbquests/quests/chapters/start.snbt"
+hash = "4582a4ee97204541d06069ff79151a2beac7029580478bd5d9289e8857e1cf61"
 
 [[files]]
-file = "config/heracles/quests/manianownia/mn_mateusz.json"
-hash = "0864f4e5a56817ff621ebdcaf4a8f32667b9c72b152aec358510900867df345b"
+file = "config/ftbquests/quests/chapters/witaj.snbt"
+hash = "0511564ec591b631a15294b9157c13f78c0ab78a0295375d00add1e8084cb8a9"
 
 [[files]]
-file = "config/heracles/quests/manianownia/mn_morsu.json"
-hash = "cf0ee19de385166285e12bd16f640f274e78f98d1aa1d28758088ab5642b1a14"
-
-[[files]]
-file = "config/heracles/quests/manianownia/mn_przemek.json"
-hash = "6470c0655e982cb8c308bd576b64187a08ae2dddb9f2cac344bc93d401df1090"
-
-[[files]]
-file = "config/heracles/quests/manianownia/mn_skajson.json"
-hash = "26adb22526432f0c4a0d2f3a036894943998e093c9d217f4e18f630074fcb830"
-
-[[files]]
-file = "config/heracles/quests/manianownia/mn_woda.json"
-hash = "caff35e25288f97772229e621d64da711b0cad21b42f216f8e084327870d1b67"
-
-[[files]]
-file = "config/heracles/quests/przygoda/adv_compass.json"
-hash = "7891c9616cc77f29c95a70decf0cbbb18340de5578cc2c9a219207dde08de9e5"
-
-[[files]]
-file = "config/heracles/quests/przygoda/adv_end.json"
-hash = "70f56d746b0dd2052eb46ca2ea5ed99901d879c04d505665a23ad37580435e0d"
-
-[[files]]
-file = "config/heracles/quests/przygoda/adv_fortress.json"
-hash = "d00ca25dd5694279e110fcd58f191436b95aca24868925616b39c20d2671fb52"
-
-[[files]]
-file = "config/heracles/quests/przygoda/adv_mines.json"
-hash = "2fe46462f7ac9b3004b9dbe83f325d738cfa6cceea174016e39dfddcab5a59f4"
-
-[[files]]
-file = "config/heracles/quests/przygoda/adv_nether.json"
-hash = "5e4de652ae0b308d632ca5516bf2ee95556cb2e72257b9b7c5c390a01b8c4445"
-
-[[files]]
-file = "config/heracles/quests/przygoda/adv_stronghold.json"
-hash = "263aa6f94fbd16a2d697c05d79de06113d8dda210283905cc08c30a210abe7d0"
-
-[[files]]
-file = "config/heracles/quests/przygoda/adv_village.json"
-hash = "f5c0666cf90e8cc213314bff6443d059196503d978063f2bf7df15fcdafc2588"
-
-[[files]]
-file = "config/heracles/quests/przygoda/adv_waystone.json"
-hash = "16302abe454ec7f576f91825deef8f880f31cbf6581b90428614a4511f4f4601"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_binding.json"
-hash = "a7c4c784ad7f8bc8249d641999ef87c1b20bacc2d8ccc93c00b765fc1efc6c60"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_dragon.json"
-hash = "e90659178112094be2703f095593e0732817319074bc5402d20da3b00d5acefd"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_enderman.json"
-hash = "c46a1b3528495bed92eea378a27fbed49f0b814c7e0f01976880af8007e0c72a"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_fight.json"
-hash = "6d4057f1b24a494649d8bb39a0c288683897507ddba9ef3fac471b3542962130"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_paladin.json"
-hash = "457eabc6a3fc6d063787c900ff1f623a3b794224ac02a002e3b29dbffb1947cf"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_priest.json"
-hash = "599dd9e67964c46c38864e2d42383e1ef2cb39006f0122f8620ef637f221dcd2"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_rogue.json"
-hash = "9004fd1b23a2d41ab64b67493ce115f59c8cbfe9bdb67caf5ae461aec273a0b2"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_skeletons.json"
-hash = "53d323e68cae17c785cc9e1a26e6c4644b4130b8ef2acac5b52954de295b8463"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_sword.json"
-hash = "225141d559f6b57c8d123011e399e57544a5aa02fdcaae2e1b1633cb8e4d3ccf"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_warrior.json"
-hash = "dd7e5253a3d065aaf2e79fd5787182616fb26d6bf03f4018eaa5b18ddc16f7ad"
-
-[[files]]
-file = "config/heracles/quests/rpgiwalka/rpg_wizard.json"
-hash = "11040e659bf46a55814d61f3f9190eafc23549e8a027827a6d141a4d0f022a39"
-
-[[files]]
-file = "config/heracles/quests/start/start_backpack.json"
-hash = "3f1db15a883b548369f5060eedce20d7a53546fbf4582919cc086eaaef1b597b"
-
-[[files]]
-file = "config/heracles/quests/start/start_bed.json"
-hash = "7851321b116798ed990e34cdbac34b6fbc7e714ea3922a6b1847decbfff3ae66"
-
-[[files]]
-file = "config/heracles/quests/start/start_diamond.json"
-hash = "273770ebfc7549fc5ae131e2d291ca541d17462cd46441b5734aec9704af7fa9"
-
-[[files]]
-file = "config/heracles/quests/start/start_iron.json"
-hash = "b717db0e1b7c16f8b817fcac17165b1d733b152c7c8bce8f23547a3763e4cd63"
-
-[[files]]
-file = "config/heracles/quests/start/start_stone.json"
-hash = "5289e3d4819bc50e34e284279d049dadc7d4943bd229cdbc187e2c6baf81cedc"
-
-[[files]]
-file = "config/heracles/quests/start/start_welcome.json"
-hash = "2091c747e18bb1f8e179abd66541a6f395d88b70ffb1fbea7458cda8ef8c39b9"
-
-[[files]]
-file = "config/heracles/quests/start/start_wood.json"
-hash = "8a4349c3915cecaf02b088ceb55a5702eef51ade78a349c6eb671ce46460f5c1"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_alloy.json"
-hash = "e3ec75dc275bda80108fa883c18723de6633835de2a3909b8913469ad80163eb"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_blaze.json"
-hash = "f048788327f8db8df0946a530d349bc9d5c4547341169dd1df8d9937ae0cb24b"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_brass.json"
-hash = "12e6b1963944c6f6a41fa07a8733c9e1b22d4f0b7b37a3cd04c08c359a7f0981"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_drill.json"
-hash = "d971bda8d74cb53e91e8cad0b2378bdabaee4e515e0bab2000c9a115412bd06f"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_goggles.json"
-hash = "507fadb58d3e85041c76d9390daf5d0ab9b211eee216a6608dbca6b385ccb4a5"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_kinetics.json"
-hash = "98a68886f6ee56f03c8c554964bf4173d8b78274ef6715b66745494efce605c3"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_millstone.json"
-hash = "31c0c56f7be758ef86fe5a61e699a1d51f1ed85495b5772d43d0e459f26f9f51"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_mixer.json"
-hash = "abd5b03fd0178d8dbd995d39f2f1735953bc69b551d44d3124df1abbe606508f"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_precision.json"
-hash = "29dddfec5d4a05eb3da49ad5cd6f3694d74d2630323a5eab9d46370247b2c817"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_press.json"
-hash = "c6ad73a534fa299fb523d9577728fece53dcc37e33bb0490c049020c7ac1f78e"
-
-[[files]]
-file = "config/heracles/quests/technikacreate/create_waterwheel.json"
-hash = "8445c3d9a5ff9e44627fe9ccf5320b1a3a8d5b344796fb1a84fd72944177efde"
+file = "config/ftbquests/quests/data.snbt"
+hash = "05d27c4c8f152e934527cf3009214fcebed6570a1fcff927d42dae6009b76bac"
 
 [[files]]
 file = "config/sdrp-common.json"
@@ -228,6 +68,11 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "a10021ff4bb5426107f21688b8954a9dd386615adc98a61a508da7527be65a62"
+metafile = true
+
+[[files]]
+file = "mods/archers.pw.toml"
+hash = "e5c4e37b4ab1cb18ee8236f8ef2a4f68a77b05714b75f2f9150369e28f566b7d"
 metafile = true
 
 [[files]]
@@ -326,6 +171,21 @@ hash = "b54a0f4ded5bb9614e5c0d8b70dead69cdea65d64cbb2276b0380d2e5537307e"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library.pw.toml"
+hash = "5a86d2407757a28d34dc2307a660a59048bea4957b85bd84fd8493f53d515e4e"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests.pw.toml"
+hash = "ebc2bb0dbba6d05b35de2da5175b1a28817b1a22bda7e157c9674c9aaee3b9a9"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams.pw.toml"
+hash = "a01995a222e8fb7caa60fd7db9247a96e3575dad06dc1bb2914584fe86519026"
+metafile = true
+
+[[files]]
 file = "mods/gravestones.pw.toml"
 hash = "230984583f4f5bb90dace4a16cf3bd57416631385bb87b8afbbfc0bbe0535959"
 metafile = true
@@ -348,6 +208,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "a64726d1774d835666454ed0fc297b706d6f75d039c84def4983faa63fd38d14"
+metafile = true
+
+[[files]]
+file = "mods/jewelry.pw.toml"
+hash = "f40dabe0a683aa56742d6c52e2b951ccd57c047951025f04bcd8fc5748257556"
 metafile = true
 
 [[files]]
@@ -416,11 +281,6 @@ hash = "d1c5cb8be3280eceae07c0040ec3f15b5ef84e8024066854464a25ded1d2ca9f"
 metafile = true
 
 [[files]]
-file = "mods/odyssey-quests.pw.toml"
-hash = "7428f8d214d64bca38d7fb5cf189eea94c1741a740d7ae95b0285a6c7d9a566d"
-metafile = true
-
-[[files]]
 file = "mods/paladins-and-priests.pw.toml"
 hash = "4780f5c1a1448d2c4615f2f6d3147018e06624a0865d898030fd142bbb96e207"
 metafile = true
@@ -433,6 +293,11 @@ metafile = true
 [[files]]
 file = "mods/pneumonocore.pw.toml"
 hash = "e150ef4a4d8bf58b0ba4664b6260c62ac07a5cde94826dbe85f30030f34b0b0f"
+metafile = true
+
+[[files]]
+file = "mods/ranged-weapon-api.pw.toml"
+hash = "ae0c8426d376d19aea174a5c1dcd6d0c347c7973d2f2b0d61f1a3b4e17e8672f"
 metafile = true
 
 [[files]]
@@ -542,7 +407,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "c6f6e1dae983996b5879555ba14ec7a791c94415bc5def75de735ac252364409"
+hash = "5eefb2ccd704c78224d9518c09197be5dcb0c53320aaefc500b9f928389071aa"
 preserve = true
 
 [[files]]

@@ -1,0 +1,297 @@
+{
+	id: "7F3A85A421B5F0A0",
+	group: "",
+	order_index: 0,
+	filename: "witaj",
+	title: "&6Witaj w Manianowni",
+	icon: "ftbquests:book",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Zacznij tutaj: co to za paczka i o co w niej chodzi"
+	],
+	quests: [
+		{
+			id: "357D7C74A4819D02",
+			title: "Witaj w ManianowniaPack!",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "ftbquests:book",
+			description: [
+				"&6&lCześć, Manianownio!&r",
+				"",
+				"To paczka zrobiona specjalnie dla naszej ekipy: technika, magia i walka, przygoda, budowanie oraz własne questy.",
+				"",
+				"&6&lJak korzystać z tej księgi&r",
+				"Księgę otwierasz klawiszem &eU&r albo ikonką w lewym górnym rogu ekwipunku.",
+				"Po lewej masz rozdziały. Każdy kafelek to quest: kliknij, przeczytaj, wykonaj zadania i odbierz nagrodę.",
+				"Questy z kłódką odblokujesz, kończąc te, które do nich prowadzą (linie między kafelkami).",
+				"",
+				"&6&lOd czego zacząć?&r",
+				"Przeczytaj questy w tym rozdziale. Każdy opisuje jedną część paczki i daje małą nagrodę na start.",
+				"Potem idź do rozdziału &aPierwsze kroki&r."
+			],
+			size: 2.0d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "3F29EFAAD84D8915",
+					type: "checkmark",
+					title: "Przeczytane!"
+				}
+			],
+			rewards: [
+				{
+					id: "169355DF67A211FE",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "35A855A0A5BCD273",
+					type: "item",
+					item: {
+						id: "minecraft:torch",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "1DC3DC43CB165273",
+			title: "Cel gry",
+			x: 0.0d,
+			y: -3.0d,
+			icon: "minecraft:dragon_head",
+			description: [
+				"&6&lDo czego dążymy?&r",
+				"",
+				"Paczka nie ma jednego zakończenia, ale ma &cwielki cel&r: rozdział &cBossowie&r.",
+				"Żeby go ukończyć, musicie pokonać:",
+				"&7- &bStrażnika Starszego&7 w podwodnej świątyni,",
+				"&7- &5Withera&7,",
+				"&7- &dSmoka Kresu&7,",
+				"&7- &3Wardena&7 ze Starożytnego Miasta.",
+				"",
+				"Po drodze zbudujecie fabrykę w Create, rozwiniecie klasy RPG i zdobędziecie mnóstwo sprzętu.",
+				"Kto ukończy wszystkie rozdziały, zostaje &6Mistrzem Manianowni&r."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "51C140A342132AE0",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "149F94F4336ACAA0",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "31260194EA350304",
+			title: "Create: technika",
+			x: -3.0d,
+			y: -1.5d,
+			icon: "create:cogwheel",
+			description: [
+				"&6&lCreate&r",
+				"",
+				"Najważniejszy mod techniczny w paczce. Zamiast prądu są &eobroty&r: koła wodne i wiatraki kręcą wałkami,",
+				"a wałki napędzają maszyny: prasy, wiertła, miksery, taśmociągi, ramiona robotów, a nawet pociągi.",
+				"",
+				"&eWskazówka:&r przytrzymaj &eW&r nad przedmiotem z Create, żeby zobaczyć animowany poradnik (Ponder).",
+				"",
+				"Rozdziały: &aCreate: Maszyny&r i &aCreate: Logistyka i pociągi&r."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "7E8DE6F2CDFCFE6A",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "12152A4B4029C53F",
+					type: "item",
+					item: {
+						id: "create:andesite_alloy",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "736C48C3E9DF5517",
+			title: "Klasy i magia",
+			x: -3.0d,
+			y: 1.5d,
+			icon: "wizards:wand_novice",
+			description: [
+				"&6&lSeria RPG&r",
+				"",
+				"Możesz grać jedną z klas (albo mieszać):",
+				"&b- Czarodziej&r: magia ognia, lodu i arkanów (mod Wizards),",
+				"&e- Paladyn i Kapłan&r: ciężka broń, tarcze i leczenie (Paladins & Priests),",
+				"&c- Łotrzyk i Wojownik&r: sztylety, skradanie i topory (Rogues & Warriors),",
+				"&a- Łucznik&r: łuki, kusze i włócznie (Archers).",
+				"",
+				"Czary uczysz się przy &eStole zaklęć&r. &eBetter Combat&r daje broniom combosy, a &eCombat Roll&r uniki.",
+				"&eJewelry&r dodaje pierścienie i naszyjniki z bonusami.",
+				"",
+				"Rozdziały: &aKlasy i walka&r oraz &aŁucznictwo i biżuteria&r."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "57BC5BDEE24C6A63",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "78A2F7351A42BC55",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 6
+				}
+			]
+		},
+		{
+			id: "1185EE1CA76D93F7",
+			title: "Przygoda i świat",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "explorerscompass:explorerscompass",
+			description: [
+				"&6&lLepszy świat&r",
+				"",
+				"&eYUNG's&r przebudowuje lochy, kopalnie i twierdze. &eRepurposed Structures&r i &eDungeons and Taverns&r",
+				"dodają mnóstwo nowych budowli z łupem. &eFriends & Foes&r dodaje nowe moby.",
+				"",
+				"&6&lPrzydatne narzędzia&r",
+				"&eM&r: mapa świata (Xaero's World Map), &eB&r: punkty na minimapie.",
+				"&eKompas odkrywcy&r wskazuje drogę do wybranej struktury.",
+				"&eWaystones&r: kamienie teleportacyjne między odkrytymi miejscami.",
+				"&ePlecak podróżnika&r: duży plecak na plecach, nie zajmuje miejsca w ekwipunku."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "5653D9CBA1173E2B",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "5CDE2656DDCDFE27",
+					type: "item",
+					item: {
+						id: "minecraft:cooked_beef",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "53680133F584A56E",
+			title: "Budowanie i jedzenie",
+			x: 3.0d,
+			y: 1.5d,
+			icon: "handcrafted:oak_chair",
+			description: [
+				"&6&lDo budowania&r",
+				"&eMacaw's&r (drzwi, okna, dachy, płotki, mosty, lampy, meble), &eHandcrafted&r (meble),",
+				"&eSupplementaries&r i &eAmendments&r (setki dekoracji i drobiazgów).",
+				"",
+				"&6&lDo jedzenia&r",
+				"&eFarmer's Delight&r: gotowanie w garnku, deska do krojenia i nowe uprawy. Lepsze jedzenie to dłuższa sytość.",
+				"&eAppleSkin&r pokazuje, ile jedzenie daje głodu i nasycenia.",
+				"",
+				"Rozdziały: &aBudowanie&r i &aKuchnia&r."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "7371B0948B8A566C",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "1FB827D14D7A152E",
+					type: "item",
+					item: {
+						id: "minecraft:glass",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "5B65ED94D493F66D",
+			title: "Przydatne skróty",
+			x: 0.0d,
+			y: 3.0d,
+			icon: "minecraft:spyglass",
+			description: [
+				"&6&lSkróty i pomoce&r",
+				"",
+				"&eU&r: księga questów,  &eM&r: mapa świata,  &eB&r: nowy punkt na mapie.",
+				"&eEMI&r (prawa strona ekwipunku): najedź na przedmiot i wciśnij &eR&r (przepis) albo &eU&r (do czego służy).",
+				"&eJade&r: okienko u góry ekranu pokazuje, na co patrzysz.",
+				"&eMouse Tweaks&r: przeciąganie myszką z wciśniętym przyciskiem rozkłada przedmioty.",
+				"",
+				"&6&lŚmierć&r",
+				"Po śmierci zostaje &enagrobek&r z całym ekwipunkiem. Wróć i kliknij go prawym przyciskiem.",
+				"",
+				"&6&lDiscord&r",
+				"Gra pokazuje na Discordzie, że grasz w ManianowniaPack i w którym wymiarze jesteś."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "56D700C6A610FDE8",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "307404B8995F9AE1",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					}
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

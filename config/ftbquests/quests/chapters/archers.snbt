@@ -1,0 +1,386 @@
+{
+	id: "19CBFA9454F175F4",
+	group: "",
+	order_index: 5,
+	filename: "archers",
+	title: "&aŁucznictwo i biżuteria",
+	icon: "archers:composite_longbow",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Klasa łucznika i magiczne pierścienie"
+	],
+	quests: [
+		{
+			id: "160D1E947469F9E1",
+			title: "Warsztat łucznika",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "archers:archers_workbench",
+			description: [
+				"Przy warsztacie łucznika zrobisz łuki, kusze, włócznie i kołczany."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			tasks: [
+				{
+					id: "313014D7A429DEB1",
+					type: "item",
+					item: "archers:archers_workbench"
+				}
+			],
+			rewards: [
+				{
+					id: "141788C3E742A74A",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "7CCEE4A594FD3BA7",
+			title: "Łuk kompozytowy",
+			x: 1.5d,
+			y: -1.5d,
+			icon: "archers:composite_longbow",
+			description: [
+				"Mocniejszy i szybszy niż zwykły łuk."
+			],
+			dependencies: [
+				"160D1E947469F9E1"
+			],
+			tasks: [
+				{
+					id: "11DD8EFA30143628",
+					type: "item",
+					item: "archers:composite_longbow"
+				}
+			],
+			rewards: [
+				{
+					id: "5301B82EEFC804C0",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 64
+				}
+			]
+		},
+		{
+			id: "5696DD95AFA977FF",
+			title: "Kusza ciężka",
+			x: 1.5d,
+			y: 0.0d,
+			icon: "archers:heavy_crossbow",
+			description: [
+				"Wolno się ładuje, ale potężnie trafia."
+			],
+			dependencies: [
+				"160D1E947469F9E1"
+			],
+			tasks: [
+				{
+					id: "1BEE14A19A1EB3F4",
+					type: "item",
+					item: "archers:heavy_crossbow"
+				}
+			],
+			rewards: [
+				{
+					id: "17C7C13AAE7BF835",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "792D9099B39B512E",
+			title: "Włócznia",
+			x: 1.5d,
+			y: 1.5d,
+			icon: "archers:iron_spear",
+			description: [
+				"Broń do walki wręcz z dużym zasięgiem."
+			],
+			dependencies: [
+				"160D1E947469F9E1"
+			],
+			tasks: [
+				{
+					id: "7AEB66269A23C5CE",
+					type: "item",
+					item: "archers:iron_spear"
+				}
+			],
+			rewards: [
+				{
+					id: "1B1BC2CE26A31815",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "1186657D7A81BF84",
+			title: "Kołczan",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "archers:small_quiver",
+			description: [
+				"Kołczan nosi strzały w osobnym miejscu (slot Trinkets)."
+			],
+			dependencies: [
+				"7CCEE4A594FD3BA7"
+			],
+			tasks: [
+				{
+					id: "34C22863256A87A4",
+					type: "item",
+					item: "archers:small_quiver"
+				}
+			],
+			rewards: [
+				{
+					id: "34A02DDF70192AD0",
+					type: "item",
+					item: {
+						id: "minecraft:spectral_arrow",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "718E02C05ABC1A7A",
+			title: "Zbroja łucznika",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "archers:archer_armor_chest",
+			description: [
+				"Pełna zbroja łucznika."
+			],
+			dependencies: [
+				"5696DD95AFA977FF"
+			],
+			shape: "diamond",
+			tasks: [
+				{
+					id: "59BA1A0E8C6D2E62",
+					type: "item",
+					item: "archers:archer_armor_head"
+				},
+				{
+					id: "7AC0F4A5F744948A",
+					type: "item",
+					item: "archers:archer_armor_chest"
+				},
+				{
+					id: "367FC70CD2FD0A42",
+					type: "item",
+					item: "archers:archer_armor_legs"
+				},
+				{
+					id: "38D75B76DEB3E608",
+					type: "item",
+					item: "archers:archer_armor_feet"
+				}
+			],
+			rewards: [
+				{
+					id: "533C88E95429A6A9",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			id: "13C5B38374748E8B",
+			title: "Snajper",
+			x: 3.0d,
+			y: 1.5d,
+			icon: "minecraft:bow",
+			description: [
+				"Trafiaj szkielety z daleka. Pokonaj 20 szkieletów."
+			],
+			dependencies: [
+				"792D9099B39B512E"
+			],
+			tasks: [
+				{
+					id: "1FAD38DAA24078E3",
+					type: "kill",
+					entity: "minecraft:skeleton",
+					value: 20L
+				}
+			],
+			rewards: [
+				{
+					id: "3D09F88AC5948B47",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 64
+				}
+			]
+		},
+		{
+			id: "724A20BD2C3A4A74",
+			title: "Zestaw jubilera",
+			x: 0.0d,
+			y: 3.5d,
+			icon: "jewelry:jewelers_kit",
+			description: [
+				"Jewelry: pierścienie i naszyjniki wkładasz w sloty biżuterii (Trinkets).",
+				"Kamienie szlachetne (rubin, topaz, cytryn, jadeit, szafir, tanzanit) znajdziesz głęboko pod ziemią w żyłach klejnotów."
+			],
+			dependencies: [
+				"7FEE44943B9D9C09"
+			],
+			tasks: [
+				{
+					id: "1DA9802560FBDEF7",
+					type: "item",
+					item: "jewelry:jewelers_kit"
+				}
+			],
+			rewards: [
+				{
+					id: "586CA36DDE309317",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "5211AFA83EF6591D",
+			title: "Pierwszy pierścień",
+			x: 1.5d,
+			y: 3.5d,
+			icon: "jewelry:iron_ring",
+			description: [
+				"Zrób miedziany albo żelazny pierścień."
+			],
+			dependencies: [
+				"724A20BD2C3A4A74"
+			],
+			tasks: [
+				{
+					id: "3A2F2EB5192DEBB1",
+					type: "item",
+					item: "jewelry:iron_ring"
+				}
+			],
+			rewards: [
+				{
+					id: "19B606E6A65B0FEB",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "552FB0F71CA5C312",
+			title: "Klejnoty",
+			x: 3.0d,
+			y: 3.5d,
+			icon: "jewelry:ruby",
+			description: [
+				"Wykop dowolny klejnot (np. rubin)."
+			],
+			dependencies: [
+				"5211AFA83EF6591D"
+			],
+			tasks: [
+				{
+					id: "77DFCE6A3D5B9F7F",
+					type: "item",
+					item: "jewelry:ruby"
+				}
+			],
+			rewards: [
+				{
+					id: "509C55654C81AC43",
+					type: "item",
+					item: {
+						id: "minecraft:iron_pickaxe",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "3CE78175992BB850",
+			title: "Złoty pierścień",
+			x: 4.5d,
+			y: 3.5d,
+			icon: "jewelry:gold_ring",
+			description: [
+				"Złoto to baza mocniejszej biżuterii."
+			],
+			dependencies: [
+				"552FB0F71CA5C312"
+			],
+			tasks: [
+				{
+					id: "301842471084416F",
+					type: "item",
+					item: "jewelry:gold_ring"
+				}
+			],
+			rewards: [
+				{
+					id: "722AE7789B29A35D",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "3CF6C0C570176669",
+			title: "Naszyjnik z rubinem",
+			x: 6.0d,
+			y: 3.5d,
+			icon: "jewelry:ruby_necklace",
+			description: [
+				"Naszyjnik zwiększa moc i statystyki."
+			],
+			dependencies: [
+				"3CE78175992BB850"
+			],
+			shape: "diamond",
+			tasks: [
+				{
+					id: "5D6C38198E1DD376",
+					type: "item",
+					item: "jewelry:ruby_necklace"
+				}
+			],
+			rewards: [
+				{
+					id: "1AFCAAB1B9B54A92",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

@@ -1,0 +1,533 @@
+{
+	id: "1FFABD0D5BD85D75",
+	group: "",
+	order_index: 1,
+	filename: "start",
+	title: "&aPierwsze kroki",
+	icon: "minecraft:oak_sapling",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Podstawy przetrwania i pierwszy sprzęt"
+	],
+	quests: [
+		{
+			id: "3B225375A3A91527",
+			title: "Stół rzemieślniczy",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "minecraft:crafting_table",
+			description: [
+				"Zetnij kilka drzew i zrób stół rzemieślniczy. Każde drewno się nada."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "158EB83D498A773D",
+					type: "item",
+					item: "minecraft:crafting_table"
+				}
+			],
+			rewards: [
+				{
+					id: "7D9EAEE0507CDF0A",
+					type: "item",
+					item: {
+						id: "minecraft:apple",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "5E428862B64F77F6",
+			title: "Epoka kamienia",
+			x: 1.5d,
+			y: 0.0d,
+			icon: "minecraft:stone_pickaxe",
+			description: [
+				"Wykop kamień i zrób kamienny kilof."
+			],
+			dependencies: [
+				"3B225375A3A91527"
+			],
+			tasks: [
+				{
+					id: "5961A11459C13EDC",
+					type: "advancement",
+					advancement: "minecraft:story/upgrade_tools",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "320DE61579D989A2",
+					type: "item",
+					item: {
+						id: "minecraft:coal",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "73FD689D3396EA31",
+			title: "Piec",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "minecraft:furnace",
+			description: [
+				"Zbuduj piec z bruku. Przyda się do wszystkiego."
+			],
+			dependencies: [
+				"5E428862B64F77F6"
+			],
+			tasks: [
+				{
+					id: "56E4EC3C4C1257E2",
+					type: "item",
+					item: "minecraft:furnace"
+				}
+			],
+			rewards: [
+				{
+					id: "50B253F99469E031",
+					type: "item",
+					item: {
+						id: "minecraft:coal",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "5AAA760A737FE538",
+			title: "Żelazo",
+			x: 4.5d,
+			y: 0.0d,
+			icon: "minecraft:iron_ingot",
+			description: [
+				"Wytop sztabkę żelaza.",
+				"",
+				"Od żelaza zaczyna się Create, broń klasowa i prawie wszystko inne."
+			],
+			dependencies: [
+				"73FD689D3396EA31"
+			],
+			tasks: [
+				{
+					id: "106BADA2C3E8D205",
+					type: "advancement",
+					advancement: "minecraft:story/smelt_iron",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "3ACD518F53D8AAF8",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "164006F397FE200B",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			id: "72115397F4959D26",
+			title: "Dobranoc",
+			x: 1.5d,
+			y: 1.5d,
+			icon: "minecraft:red_bed",
+			description: [
+				"Prześpij się w łóżku, żeby ustawić punkt odrodzenia."
+			],
+			dependencies: [
+				"3B225375A3A91527"
+			],
+			tasks: [
+				{
+					id: "314E04A31DE0BC44",
+					type: "advancement",
+					advancement: "minecraft:adventure/sleep_in_bed",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "1D12A1E5E5BC6FBD",
+					type: "item",
+					item: {
+						id: "minecraft:cooked_porkchop",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "116CF14D32ECD08C",
+			title: "Coś na ząb",
+			x: 1.5d,
+			y: -1.5d,
+			icon: "minecraft:cooked_beef",
+			description: [
+				"Upiecz trochę mięsa. Głód w tej paczce szybko dokucza."
+			],
+			dependencies: [
+				"3B225375A3A91527"
+			],
+			tasks: [
+				{
+					id: "13EBD75637DD86D7",
+					type: "item",
+					item: "minecraft:cooked_beef",
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: "32E7AFD9E18E1F78",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "78B1084FB5E9D44D",
+			title: "Rolnik",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "minecraft:wheat_seeds",
+			description: [
+				"Zasiej nasiona na zaoranej ziemi."
+			],
+			dependencies: [
+				"116CF14D32ECD08C"
+			],
+			tasks: [
+				{
+					id: "328085A103A98122",
+					type: "advancement",
+					advancement: "minecraft:husbandry/plant_seed",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "13B3A8CE5D1EF85F",
+					type: "item",
+					item: {
+						id: "minecraft:bone_meal",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "5534124889130657",
+			title: "Hodowca",
+			x: 4.5d,
+			y: -1.5d,
+			icon: "minecraft:wheat",
+			description: [
+				"Rozmnóż dwa zwierzęta. Krowy, owce, świnie: co wolisz."
+			],
+			dependencies: [
+				"78B1084FB5E9D44D"
+			],
+			tasks: [
+				{
+					id: "3CC7A1043391D1BC",
+					type: "advancement",
+					advancement: "minecraft:husbandry/breed_an_animal",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "3F03D252A1B80429",
+					type: "item",
+					item: {
+						id: "minecraft:lead",
+						Count: 1b
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			id: "58AF2A368EEA82DE",
+			title: "Pancerz",
+			x: 6.0d,
+			y: 0.0d,
+			icon: "minecraft:iron_chestplate",
+			description: [
+				"Zrób żelazny napierśnik."
+			],
+			dependencies: [
+				"5AAA760A737FE538"
+			],
+			tasks: [
+				{
+					id: "3AA4DC0B19D1DB99",
+					type: "item",
+					item: "minecraft:iron_chestplate"
+				}
+			],
+			rewards: [
+				{
+					id: "519F728AFE458706",
+					type: "item",
+					item: {
+						id: "minecraft:shield",
+						Count: 1b
+					}
+				}
+			]
+		},
+		{
+			id: "74A62047E9F6CD7E",
+			title: "Wiadro",
+			x: 6.0d,
+			y: 1.5d,
+			icon: "minecraft:bucket",
+			description: [
+				"Zrób wiadro. Woda gasi lawę, a lawa ratuje w Netherze."
+			],
+			dependencies: [
+				"5AAA760A737FE538"
+			],
+			tasks: [
+				{
+					id: "16A1E9D271654C57",
+					type: "item",
+					item: "minecraft:bucket"
+				}
+			],
+			rewards: [
+				{
+					id: "5F9CEC748620DF77",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 3
+				}
+			]
+		},
+		{
+			id: "77352F1F8EC9692D",
+			title: "Plecak podróżnika",
+			x: 4.5d,
+			y: 1.5d,
+			icon: "travelersbackpack:standard",
+			description: [
+				"Zrób plecak (Traveler's Backpack).",
+				"Załóż go na plecy: nie zajmuje miejsca w ekwipunku, a ma zbiorniki na płyny."
+			],
+			dependencies: [
+				"5AAA760A737FE538"
+			],
+			tasks: [
+				{
+					id: "3DE3B4C41FB4C3B4",
+					type: "item",
+					item: "travelersbackpack:standard"
+				}
+			],
+			rewards: [
+				{
+					id: "78A764713B2D8138",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "33835E8F17F8E0AB",
+			title: "Diamenty!",
+			x: 7.5d,
+			y: 0.0d,
+			icon: "minecraft:diamond",
+			description: [
+				"Znajdź pierwsze diamenty. Najwięcej jest głęboko, w okolicy Y=-58."
+			],
+			dependencies: [
+				"58AF2A368EEA82DE"
+			],
+			tasks: [
+				{
+					id: "7A5A2970AE14ACE2",
+					type: "advancement",
+					advancement: "minecraft:story/mine_diamond",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "31AECCCEFCA3C619",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					}
+				},
+				{
+					id: "5F1ECDA717493E0F",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1F84659238B30362",
+			title: "Zaklinanie",
+			x: 9.0d,
+			y: 0.0d,
+			icon: "minecraft:enchanting_table",
+			description: [
+				"Zbuduj stół do zaklinania i zaklnij dowolny przedmiot."
+			],
+			dependencies: [
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "31E8034E78AD9A6B",
+					type: "advancement",
+					advancement: "minecraft:story/enchant_item",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "72A453015E3F6D14",
+					type: "item",
+					item: {
+						id: "minecraft:lapis_lazuli",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "5CED072EE5BAE302",
+					type: "item",
+					item: {
+						id: "minecraft:bookshelf",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "1E1C29E63690C3C1",
+			title: "Diamentowy sprzęt",
+			x: 9.0d,
+			y: -1.5d,
+			icon: "minecraft:diamond_pickaxe",
+			description: [
+				"Zrób diamentowy kilof."
+			],
+			dependencies: [
+				"33835E8F17F8E0AB"
+			],
+			tasks: [
+				{
+					id: "73776FD8F8ADEDFA",
+					type: "item",
+					item: "minecraft:diamond_pickaxe"
+				}
+			],
+			rewards: [
+				{
+					id: "1C7143737122DDAC",
+					type: "item",
+					item: {
+						id: "minecraft:experience_bottle",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "5F890CDA7D423B22",
+			title: "Kowadło",
+			x: 10.5d,
+			y: 0.0d,
+			icon: "minecraft:anvil",
+			description: [
+				"Kowadło naprawia sprzęt i łączy zaklęcia z książek."
+			],
+			dependencies: [
+				"1F84659238B30362"
+			],
+			tasks: [
+				{
+					id: "70087595558B4666",
+					type: "item",
+					item: "minecraft:anvil"
+				}
+			],
+			rewards: [
+				{
+					id: "1707FCD3B333C12F",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "303917B04059855C",
+			title: "Handel",
+			x: 7.5d,
+			y: 1.5d,
+			icon: "minecraft:emerald",
+			description: [
+				"Pohandluj z wieśniakiem. Szmaragdy kupią ci zaklęte książki i dobre jedzenie."
+			],
+			dependencies: [
+				"5AAA760A737FE538"
+			],
+			tasks: [
+				{
+					id: "7F649F5EBE8E8A50",
+					type: "advancement",
+					advancement: "minecraft:adventure/trade",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "3F3E22CF52A477B4",
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 1b
+					},
+					count: 6
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

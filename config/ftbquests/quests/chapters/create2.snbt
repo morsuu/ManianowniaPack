@@ -1,0 +1,466 @@
+{
+	id: "7C4A2FE198777E26",
+	group: "",
+	order_index: 3,
+	filename: "create2",
+	title: "&eCreate: Logistyka i pociągi",
+	icon: "create:track_station",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Paczki, ramiona i koleje"
+	],
+	quests: [
+		{
+			id: "58010600AE25EAED",
+			title: "Lejki i tunele",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "create:brass_funnel",
+			description: [
+				"Lejki wkładają i wyjmują przedmioty z taśm i skrzyń, tunele je rozdzielają."
+			],
+			dependencies: [
+				"150EF75F9DDD6D2A"
+			],
+			tasks: [
+				{
+					id: "3EB323DB19B17E71",
+					type: "item",
+					item: "create:andesite_funnel",
+					count: 4L
+				},
+				{
+					id: "56C68228305F4CD9",
+					type: "item",
+					item: "create:brass_funnel",
+					count: 2L
+				},
+				{
+					id: "10D9B003CE621303",
+					type: "item",
+					item: "create:brass_tunnel",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "1E8A94B7CC282D0F",
+					type: "item",
+					item: {
+						id: "create:brass_ingot",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "3D7C121E773A60F2",
+			title: "Zsyp",
+			x: 1.5d,
+			y: 1.5d,
+			icon: "create:chute",
+			description: [
+				"Zsyp przenosi przedmioty w dół i, z wentylatorem, w górę."
+			],
+			dependencies: [
+				"58010600AE25EAED"
+			],
+			tasks: [
+				{
+					id: "7EF92374738DD4CA",
+					type: "item",
+					item: "create:chute",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "3E2CDFC504443FAC",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 4
+				}
+			]
+		},
+		{
+			id: "121266C1053D92DD",
+			title: "Łącze redstone",
+			x: 1.5d,
+			y: -1.5d,
+			icon: "create:redstone_link",
+			description: [
+				"Bezprzewodowy redstone: dwa łącza z tymi samymi przedmiotami w ramce rozmawiają ze sobą."
+			],
+			dependencies: [
+				"58010600AE25EAED"
+			],
+			tasks: [
+				{
+					id: "3845C73A8DB48F53",
+					type: "item",
+					item: "create:redstone_link",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "1DAF5679FBE92F47",
+					type: "item",
+					item: {
+						id: "minecraft:redstone",
+						Count: 1b
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "10E7CBFB38F01030",
+			title: "Tablica informacyjna",
+			x: 3.0d,
+			y: -1.5d,
+			icon: "create:display_board",
+			description: [
+				"Pokaż na ścianie stan magazynu albo rozkład pociągów."
+			],
+			dependencies: [
+				"121266C1053D92DD"
+			],
+			tasks: [
+				{
+					id: "561B35F775F53D2D",
+					type: "item",
+					item: "create:display_board",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "527A27C91C80B48D",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "175BA4F9CBDD7422",
+			title: "Paczkomat",
+			x: 3.0d,
+			y: 0.0d,
+			icon: "create:packager",
+			description: [
+				"Create 6 ma paczki! Pakowacz zamyka przedmioty w paczki, a łącze magazynowe pozwala zamawiać towar z sieci.",
+				"",
+				"Idealne do wspólnego magazynu bazy."
+			],
+			dependencies: [
+				"58010600AE25EAED",
+				"7AB27CB3333D7AA2"
+			],
+			tasks: [
+				{
+					id: "5AE8EF2E3D1C00CE",
+					type: "item",
+					item: "create:packager"
+				},
+				{
+					id: "503EE30AFD1F8EAF",
+					type: "item",
+					item: "create:stock_link"
+				}
+			],
+			rewards: [
+				{
+					id: "76F5101BEA324908",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "7C3ACCACCA0CFC4F",
+			title: "Ruchome konstrukcje",
+			x: 1.5d,
+			y: 3.0d,
+			icon: "create:mechanical_bearing",
+			description: [
+				"Łożysko mechaniczne obraca przyklejone do niego bloki. Tak powstają młyny, mosty zwodzone i drzwi."
+			],
+			dependencies: [
+				"3D7C121E773A60F2"
+			],
+			tasks: [
+				{
+					id: "1AE81FDF5CD64262",
+					type: "item",
+					item: "create:mechanical_bearing"
+				}
+			],
+			rewards: [
+				{
+					id: "790B0BF12ADA1D04",
+					type: "item",
+					item: {
+						id: "minecraft:slime_ball",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "536801D140A1E4A1",
+			title: "Tory",
+			x: 4.5d,
+			y: 0.0d,
+			icon: "create:track",
+			description: [
+				"Tory z Create mogą skręcać łukiem i wspinać się po zboczach."
+			],
+			dependencies: [
+				"175BA4F9CBDD7422"
+			],
+			tasks: [
+				{
+					id: "5BED434BF480FA00",
+					type: "item",
+					item: "create:track",
+					count: 32L
+				}
+			],
+			rewards: [
+				{
+					id: "5798E3FCB598D787",
+					type: "item",
+					item: {
+						id: "minecraft:iron_nugget",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "34465B3A6D913E13",
+			title: "Stacja",
+			x: 6.0d,
+			y: 0.0d,
+			icon: "create:track_station",
+			description: [
+				"Stacja składa pociąg z przyklejonych bloków i jest przystankiem."
+			],
+			dependencies: [
+				"536801D140A1E4A1"
+			],
+			tasks: [
+				{
+					id: "77A6B1934BF46395",
+					type: "item",
+					item: "create:track_station",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "7DEA2CD94C9A6607",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "3885AA1FAF441DEB",
+			title: "Sterowanie",
+			x: 6.0d,
+			y: 1.5d,
+			icon: "create:controls",
+			description: [
+				"Pulpit sterowniczy pozwala prowadzić pociąg samemu."
+			],
+			dependencies: [
+				"34465B3A6D913E13"
+			],
+			tasks: [
+				{
+					id: "77F6479391798685",
+					type: "item",
+					item: "create:controls"
+				}
+			],
+			rewards: [
+				{
+					id: "17D9B2D47C997A54",
+					type: "item",
+					item: {
+						id: "create:railway_casing",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "393ED05954F40212",
+			title: "Rozkład jazdy",
+			x: 6.0d,
+			y: -1.5d,
+			icon: "create:schedule",
+			description: [
+				"Włóż rozkład maszyniście (dowolny mob na siedzeniu), a pociąg sam będzie jeździł."
+			],
+			dependencies: [
+				"34465B3A6D913E13"
+			],
+			tasks: [
+				{
+					id: "3EF8C8071E1578AB",
+					type: "item",
+					item: "create:schedule"
+				}
+			],
+			rewards: [
+				{
+					id: "340A6BD8A778666F",
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 1b
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "18548CDD11B05080",
+			title: "Linia kolejowa Manianowni",
+			x: 7.5d,
+			y: 0.0d,
+			icon: "minecraft:minecart",
+			description: [
+				"Połączcie pociągiem dwie bazy albo bazę z kopalnią.",
+				"Zaznacz, kiedy linia działa!"
+			],
+			dependencies: [
+				"3885AA1FAF441DEB",
+				"393ED05954F40212"
+			],
+			size: 1.5d,
+			shape: "hexagon",
+			tasks: [
+				{
+					id: "50CAAE3973BA0A9F",
+					type: "checkmark",
+					title: "Linia działa!"
+				}
+			],
+			rewards: [
+				{
+					id: "50EA7BB7C3315240",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "1FB3E848AEA4EEA8",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			id: "56AA108E502870B1",
+			title: "Plecak ze sprężonym powietrzem",
+			x: 3.0d,
+			y: 3.0d,
+			icon: "create:copper_backtank",
+			description: [
+				"Napędza narzędzia Create, np. przedłużacz zasięgu i działo ziemniaczane."
+			],
+			dependencies: [
+				"7C3ACCACCA0CFC4F"
+			],
+			tasks: [
+				{
+					id: "7274697185526BFA",
+					type: "item",
+					item: "create:copper_backtank"
+				}
+			],
+			rewards: [
+				{
+					id: "317F7CEB9DE87461",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "339F86307127E2EF",
+			title: "Długie ręce",
+			x: 4.5d,
+			y: 3.0d,
+			icon: "create:extendo_grip",
+			description: [
+				"Przedłużacz zasięgu: stawiaj bloki z daleka. Świetne przy budowie."
+			],
+			dependencies: [
+				"56AA108E502870B1"
+			],
+			tasks: [
+				{
+					id: "363F5ACDE3643F82",
+					type: "item",
+					item: "create:extendo_grip"
+				}
+			],
+			rewards: [
+				{
+					id: "77F7893CA416F485",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "1243AF0665BFCF3A",
+			title: "Działo ziemniaczane",
+			x: 4.5d,
+			y: 4.5d,
+			icon: "create:potato_cannon",
+			description: [
+				"Strzela... czym się da. Zwłaszcza ziemniakami."
+			],
+			dependencies: [
+				"56AA108E502870B1"
+			],
+			optional: true,
+			tasks: [
+				{
+					id: "3D322CDB0EAA86E6",
+					type: "item",
+					item: "create:potato_cannon"
+				}
+			],
+			rewards: [
+				{
+					id: "553132DFDB629722",
+					type: "item",
+					item: {
+						id: "minecraft:potato",
+						Count: 1b
+					},
+					count: 32
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}

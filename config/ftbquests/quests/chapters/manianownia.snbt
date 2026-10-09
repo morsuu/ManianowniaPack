@@ -1,0 +1,483 @@
+{
+	id: "165DB9FABA1E92EF",
+	group: "",
+	order_index: 10,
+	filename: "manianownia",
+	title: "&dManianownia",
+	icon: "minecraft:totem_of_undying",
+	default_quest_shape: "",
+	default_hide_dependency_lines: false,
+	subtitle: [
+		"Questy ekipy: po jednym dla każdego"
+	],
+	quests: [
+		{
+			id: "771E9CE14DC1386F",
+			title: "Morsowanie z Morsem",
+			x: 0.0d,
+			y: -3.0d,
+			icon: "minecraft:ice",
+			description: [
+				"Prawdziwy mors nie boi się zimnej wody.",
+				"Znajdź lodowaty ocean i zanurz się w nim jak Morsu."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "7DEA40A3590F4A1C",
+					type: "biome",
+					biome: "minecraft:frozen_ocean"
+				}
+			],
+			rewards: [
+				{
+					id: "1D381B7144A0ADF0",
+					type: "item",
+					item: {
+						id: "minecraft:leather_helmet",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Czapka Morsa\", \"italic\": false, \"color\": \"aqua\"}",
+								Lore: [
+									"{\"text\": \"Morsowanie to styl życia.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							},
+							Enchantments: [
+								{
+									id: "minecraft:respiration",
+									lvl: 3s
+								},
+								{
+									id: "minecraft:aqua_affinity",
+									lvl: 1s
+								},
+								{
+									id: "minecraft:unbreaking",
+									lvl: 3s
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			id: "11CA45BB864D31D7",
+			title: "Patent Mastixa",
+			x: 1.93d,
+			y: -2.3d,
+			icon: "minecraft:slime_ball",
+			description: [
+				"Mastix wszystko sklei.",
+				"Zbierz kulki szlamu, a z nich zrobi się coś lepkiego."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "7823DB66A1448115",
+					type: "item",
+					item: "minecraft:slime_ball",
+					count: 16L
+				}
+			],
+			rewards: [
+				{
+					id: "11A2C4BD69E1CACC",
+					type: "item",
+					item: {
+						id: "minecraft:sticky_piston",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Patent Mastixa\", \"italic\": false, \"color\": \"yellow\"}",
+								Lore: [
+									"{\"text\": \"Trzyma się wszystkiego. Jak Mastix.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "5F0828A2C2D30DC9",
+			title: "Konkurencja dla Bombalsona",
+			x: 2.95d,
+			y: -0.52d,
+			icon: "minecraft:tnt",
+			description: [
+				"Po serwerze chodzą zielone podróbki Bombalsona.",
+				"Pokaż im, kto tu jest od wybuchów."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "1A9A8E93CF8CE2C3",
+					type: "kill",
+					entity: "minecraft:creeper",
+					value: 10L
+				}
+			],
+			rewards: [
+				{
+					id: "35EF7B0D3EBE6612",
+					type: "item",
+					item: {
+						id: "minecraft:firework_rocket",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Bombalsonki\", \"italic\": false, \"color\": \"red\"}",
+								Lore: [
+									"{\"text\": \"Wybuchowy prezent od Bombalsona.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							},
+							Fireworks: {
+								Flight: 2b
+							}
+						}
+					},
+					count: 32
+				}
+			]
+		},
+		{
+			id: "121A270DEFC3E449",
+			title: "Mateusz stawia tort",
+			x: 2.6d,
+			y: 1.5d,
+			icon: "minecraft:cake",
+			description: [
+				"Mateusz zaprasza całą ekipę na tort.",
+				"Upiecz go, zanim ktoś zje go pierwszy."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "5E948DED7BCD34E2",
+					type: "item",
+					item: "minecraft:cake"
+				}
+			],
+			rewards: [
+				{
+					id: "54B300CE0CC48245",
+					type: "item",
+					item: {
+						id: "minecraft:golden_carrot",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Marchewki Mateusza\", \"italic\": false, \"color\": \"gold\"}",
+								Lore: [
+									"{\"text\": \"Na deser po torcie.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "7F7360CD230AC88B",
+			title: "Interesy Przemka",
+			x: 1.03d,
+			y: 2.82d,
+			icon: "minecraft:emerald",
+			description: [
+				"Przemek zawsze wie, gdzie jest najlepszy kurs.",
+				"Uzbieraj 32 szmaragdy."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "7F833F478AE14A2F",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 32L
+				}
+			],
+			rewards: [
+				{
+					id: "3E36BD38F0764D97",
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Oszczędności Przemka\", \"italic\": false, \"color\": \"green\"}",
+								Lore: [
+									"{\"text\": \"Nie mów mu, że to masz.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					},
+					count: 16
+				}
+			]
+		},
+		{
+			id: "5CABC5D9ABBFF25A",
+			title: "Skajson sięga nieba",
+			x: -1.03d,
+			y: 2.82d,
+			icon: "minecraft:feather",
+			description: [
+				"Skajson patrzy na świat z góry.",
+				"Spadnij z samego szczytu świata aż na jego dno (i przeżyj)."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "1507731071B4C18F",
+					type: "advancement",
+					advancement: "minecraft:adventure/fall_from_world_height",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "5DFA03F4A7720A6E",
+					type: "item",
+					item: {
+						id: "minecraft:leather_boots",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Buty Skajsona\", \"italic\": false, \"color\": \"light_purple\"}",
+								Lore: [
+									"{\"text\": \"Lądowanie zawsze miękkie.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							},
+							Enchantments: [
+								{
+									id: "minecraft:feather_falling",
+									lvl: 4s
+								},
+								{
+									id: "minecraft:unbreaking",
+									lvl: 3s
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			id: "5DDCB4184979870A",
+			title: "Maciekos w kosmosie",
+			x: -2.6d,
+			y: 1.5d,
+			icon: "minecraft:spyglass",
+			description: [
+				"Maciekos obserwuje niebo przez lunetę.",
+				"Wypatrz przez nią ghasta w Netherze."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "183F8A92EDAA5600",
+					type: "advancement",
+					advancement: "minecraft:adventure/spyglass_at_ghast",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "1D7705AEC58FDE33",
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Bilety w kosmos od Maciekosa\", \"italic\": false, \"color\": \"dark_purple\"}",
+								Lore: [
+									"{\"text\": \"Tylko w jedną stronę.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					},
+					count: 8
+				}
+			]
+		},
+		{
+			id: "7699616A130199D1",
+			title: "Woda w wiadrze",
+			x: -2.95d,
+			y: -0.52d,
+			icon: "minecraft:axolotl_bucket",
+			description: [
+				"Woda zawsze ciągnie do wody.",
+				"Złap aksolotla do wiadra."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "79C816C6F244BF1E",
+					type: "advancement",
+					advancement: "minecraft:husbandry/axolotl_in_a_bucket",
+					criterion: ""
+				}
+			],
+			rewards: [
+				{
+					id: "5F2610DA5ECA3C4F",
+					type: "item",
+					item: {
+						id: "minecraft:fishing_rod",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Wędka Wody\", \"italic\": false, \"color\": \"blue\"}",
+								Lore: [
+									"{\"text\": \"Ryby same się zgłaszają.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							},
+							Enchantments: [
+								{
+									id: "minecraft:luck_of_the_sea",
+									lvl: 3s
+								},
+								{
+									id: "minecraft:lure",
+									lvl: 3s
+								},
+								{
+									id: "minecraft:unbreaking",
+									lvl: 3s
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			id: "3D56BF8E66A90CA6",
+			title: "Marcin kopie do dna",
+			x: -1.93d,
+			y: -2.3d,
+			icon: "minecraft:deepslate",
+			description: [
+				"Marcin nie zatrzymuje się, dopóki nie dokopie się do bedrocku.",
+				"Wykop 128 bloków głębokiego łupka."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "7F941B942575D9CE",
+					type: "item",
+					item: "minecraft:cobbled_deepslate",
+					count: 128L
+				}
+			],
+			rewards: [
+				{
+					id: "1EA9AA12677675D4",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_pickaxe",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Kilof Marcina\", \"italic\": false, \"color\": \"gold\"}",
+								Lore: [
+									"{\"text\": \"Kopie szybciej niż Marcin gada.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							},
+							Enchantments: [
+								{
+									id: "minecraft:efficiency",
+									lvl: 3s
+								},
+								{
+									id: "minecraft:unbreaking",
+									lvl: 2s
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			id: "32132FE594114223",
+			title: "Cała Manianownia",
+			x: 0.0d,
+			y: 0.0d,
+			icon: "minecraft:totem_of_undying",
+			description: [
+				"Morsu, Mastix, Bombalson, Mateusz, Przemek, Skajson, Maciekos, Woda i Marcin.",
+				"Ukończ questy całej ekipy, żeby zdobyć ducha Manianowni."
+			],
+			dependencies: [
+				"771E9CE14DC1386F",
+				"11CA45BB864D31D7",
+				"5F0828A2C2D30DC9",
+				"121A270DEFC3E449",
+				"7F7360CD230AC88B",
+				"5CABC5D9ABBFF25A",
+				"5DDCB4184979870A",
+				"7699616A130199D1",
+				"3D56BF8E66A90CA6"
+			],
+			size: 2.0d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "1645DB27D5B23DE1",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "3CD5F1B09F00DD33",
+					type: "item",
+					item: {
+						id: "minecraft:totem_of_undying",
+						Count: 1b,
+						tag: {
+							display: {
+								Name: "{\"text\": \"Duch Manianowni\", \"italic\": false, \"color\": \"light_purple\"}",
+								Lore: [
+									"{\"text\": \"Ekipa nie pozwoli ci zginąć.\", \"italic\": true, \"color\": \"gray\"}"
+								]
+							}
+						}
+					}
+				},
+				{
+					id: "301CF4D1763AD328",
+					type: "xp_levels",
+					xp_levels: 30
+				}
+			]
+		}
+	],
+	quest_links: [ ]
+}
