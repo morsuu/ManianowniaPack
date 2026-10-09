@@ -331,6 +331,440 @@
 					xp_levels: 1
 				}
 			]
+		},
+		{
+			id: "73B4AAA77D599885",
+			title: "&6&lWybierz klasę postaci",
+			x: 0.0d,
+			y: 5.5d,
+			icon: "minecraft:nether_star",
+			description: [
+				"&6&lKim chcesz być?&r",
+				"",
+				"Zaznacz to pole, a potem wybierz &cjedną&r z klas poniżej. &cWybór jest ostateczny&r: pozostałe ścieżki klas się zablokują.",
+				"Każda klasa daje zestaw startowy: pierwszą broń, warsztat klasy i Stół zaklęć.",
+				"Każdy gracz wybiera swoją klasę osobno, więc w ekipie możecie się uzupełniać!",
+				"",
+				"&bCzarodziej&r: czary z dystansu (ogień, lód, arkana). Szklany armat.",
+				"&ePaladyn&r: tarcza i ciężka broń, przyjmuje ciosy za drużynę.",
+				"&fKapłan&r: leczy siebie i drużynę, wspiera w walce z bossami.",
+				"&8Łotrzyk&r: szybkie sztylety, krytyki i skradanie.",
+				"&4Wojownik&r: topory i glewie, szał bojowy, dużo obrażeń z bliska.",
+				"&aŁucznik&r: łuki i kusze, zabija z daleka."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			size: 2.0d,
+			shape: "gear",
+			max_completable_dependents: 1,
+			tasks: [
+				{
+					id: "34AA87A8E23E308E",
+					type: "checkmark",
+					title: "Chcę wybrać klasę"
+				}
+			],
+			rewards: [
+				{
+					id: "32BDBEF313A1A952",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "1F4F1E5CD9C2DD18",
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			id: "1D3A7ED9EC22DC0C",
+			title: "Klasa: &bCzarodziej",
+			x: -6.25d,
+			y: 8.0d,
+			icon: "wizards:wand_novice",
+			description: [
+				"Magia ognia, lodu i arkanów. Silne obrażenia z dystansu, mało zdrowia.",
+				"",
+				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+			],
+			dependencies: [
+				"73B4AAA77D599885"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "3C55F5969EC87F36",
+					type: "checkmark",
+					title: "Wybieram tę klasę"
+				}
+			],
+			rewards: [
+				{
+					id: "731129A950AAEDF2",
+					type: "item",
+					item: {
+						id: "wizards:wand_novice",
+						Count: 1b
+					}
+				},
+				{
+					id: "5F0652B6725B0728",
+					type: "item",
+					item: {
+						id: "minecraft:lapis_lazuli",
+						Count: 1b
+					},
+					count: 32
+				},
+				{
+					id: "3EA47A7DBE37EA6F",
+					type: "item",
+					item: {
+						id: "minecraft:white_wool",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "5FB10C43FE710049",
+					type: "item",
+					item: {
+						id: "spell_engine:spell_binding",
+						Count: 1b
+					}
+				},
+				{
+					id: "1AFEF67D824B8CC3",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1779AE71AB99C179",
+			title: "Klasa: &ePaladyn",
+			x: -3.75d,
+			y: 8.0d,
+			icon: "paladins:iron_kite_shield",
+			description: [
+				"Tarcza latawcowa i buzdygan. Najbardziej wytrzymała klasa.",
+				"",
+				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+			],
+			dependencies: [
+				"73B4AAA77D599885"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "10D3DBFD27BDB637",
+					type: "checkmark",
+					title: "Wybieram tę klasę"
+				}
+			],
+			rewards: [
+				{
+					id: "137C89C334D76A41",
+					type: "item",
+					item: {
+						id: "paladins:monk_workbench",
+						Count: 1b
+					}
+				},
+				{
+					id: "7A7A240ACA528C16",
+					type: "item",
+					item: {
+						id: "paladins:iron_mace",
+						Count: 1b
+					}
+				},
+				{
+					id: "596ED664F33A7094",
+					type: "item",
+					item: {
+						id: "paladins:iron_kite_shield",
+						Count: 1b
+					}
+				},
+				{
+					id: "5F831E8D3296FB80",
+					type: "item",
+					item: {
+						id: "spell_engine:spell_binding",
+						Count: 1b
+					}
+				},
+				{
+					id: "5691F7D3E583B9C1",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "7D07568FA29213B6",
+			title: "Klasa: &fKapłan",
+			x: -1.25d,
+			y: 8.0d,
+			icon: "paladins:acolyte_wand",
+			description: [
+				"Leczenie i święte tarcze. Bez kapłana bossowie bolą bardziej.",
+				"",
+				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+			],
+			dependencies: [
+				"73B4AAA77D599885"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "7911ABEABF570642",
+					type: "checkmark",
+					title: "Wybieram tę klasę"
+				}
+			],
+			rewards: [
+				{
+					id: "1D510686DF2A90A3",
+					type: "item",
+					item: {
+						id: "paladins:monk_workbench",
+						Count: 1b
+					}
+				},
+				{
+					id: "781543DDF731ED20",
+					type: "item",
+					item: {
+						id: "paladins:acolyte_wand",
+						Count: 1b
+					}
+				},
+				{
+					id: "7B0BD7BF644F73FA",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "724B1FA4CF3F762E",
+					type: "item",
+					item: {
+						id: "spell_engine:spell_binding",
+						Count: 1b
+					}
+				},
+				{
+					id: "30FA75011907D8F4",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "365387198393D80B",
+			title: "Klasa: &8Łotrzyk",
+			x: 1.25d,
+			y: 8.0d,
+			icon: "rogues:iron_dagger",
+			description: [
+				"Sztylety i sierpy. Szybkie ciosy, krwawienie i skradanie.",
+				"",
+				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+			],
+			dependencies: [
+				"73B4AAA77D599885"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "718745C3B0FB8E1D",
+					type: "checkmark",
+					title: "Wybieram tę klasę"
+				}
+			],
+			rewards: [
+				{
+					id: "5F3590C36E850B57",
+					type: "item",
+					item: {
+						id: "rogues:arms_workbench",
+						Count: 1b
+					}
+				},
+				{
+					id: "3DE7745D398F05E8",
+					type: "item",
+					item: {
+						id: "rogues:iron_dagger",
+						Count: 1b
+					}
+				},
+				{
+					id: "5738C9C6C5ECC104",
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "5FDFBD170A09BA7C",
+					type: "item",
+					item: {
+						id: "spell_engine:spell_binding",
+						Count: 1b
+					}
+				},
+				{
+					id: "3A0AB300CBEBA34C",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "77071F1E6E8E02B1",
+			title: "Klasa: &4Wojownik",
+			x: 3.75d,
+			y: 8.0d,
+			icon: "rogues:iron_double_axe",
+			description: [
+				"Podwójne topory i glewie. Szał bojowy i ogromne obrażenia z bliska.",
+				"",
+				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+			],
+			dependencies: [
+				"73B4AAA77D599885"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "170AA3B712C44236",
+					type: "checkmark",
+					title: "Wybieram tę klasę"
+				}
+			],
+			rewards: [
+				{
+					id: "111E7B3724F71656",
+					type: "item",
+					item: {
+						id: "rogues:arms_workbench",
+						Count: 1b
+					}
+				},
+				{
+					id: "161DE4E54606D292",
+					type: "item",
+					item: {
+						id: "rogues:iron_double_axe",
+						Count: 1b
+					}
+				},
+				{
+					id: "3CB0782C570D5AAC",
+					type: "item",
+					item: {
+						id: "minecraft:cooked_beef",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "1F03C3593C171965",
+					type: "item",
+					item: {
+						id: "spell_engine:spell_binding",
+						Count: 1b
+					}
+				},
+				{
+					id: "58C64DD2512B49D5",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "39C1378B904F8E01",
+			title: "Klasa: &aŁucznik",
+			x: 6.25d,
+			y: 8.0d,
+			icon: "archers:composite_longbow",
+			description: [
+				"Łuki, kusze i włócznie. Zabija, zanim wróg podejdzie.",
+				"",
+				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+			],
+			dependencies: [
+				"73B4AAA77D599885"
+			],
+			size: 1.5d,
+			tasks: [
+				{
+					id: "35CE3BD76C2482A4",
+					type: "checkmark",
+					title: "Wybieram tę klasę"
+				}
+			],
+			rewards: [
+				{
+					id: "3B16FE80AA0E41D2",
+					type: "item",
+					item: {
+						id: "archers:archers_workbench",
+						Count: 1b
+					}
+				},
+				{
+					id: "773192B547968638",
+					type: "item",
+					item: {
+						id: "archers:composite_longbow",
+						Count: 1b
+					}
+				},
+				{
+					id: "59B1954E254E5328",
+					type: "item",
+					item: {
+						id: "minecraft:arrow",
+						Count: 1b
+					},
+					count: 64
+				},
+				{
+					id: "107410637AEFC7F5",
+					type: "item",
+					item: {
+						id: "spell_engine:spell_binding",
+						Count: 1b
+					}
+				},
+				{
+					id: "5B91D22239AAEA2D",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
 		}
 	],
 	quest_links: [ ]

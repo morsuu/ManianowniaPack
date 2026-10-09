@@ -22,7 +22,7 @@
 				"Wszystko zrobisz przy warsztacie łucznika."
 			],
 			dependencies: [
-				"7FEE44943B9D9C09"
+				"39C1378B904F8E01"
 			],
 			size: 1.5d,
 			tasks: [
@@ -54,7 +54,7 @@
 				{
 					id: "3565541129F218BE",
 					type: "xp_levels",
-					xp_levels: 6
+					xp_levels: 2
 				}
 			]
 		},
@@ -95,7 +95,7 @@
 				{
 					id: "549A0E8948F20A4C",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -131,7 +131,7 @@
 				{
 					id: "34C6823E1EFB172C",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -167,7 +167,7 @@
 				{
 					id: "3EA5793FC3D7F8EE",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -226,7 +226,7 @@
 				{
 					id: "5A0BF4A801C37CF5",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -303,7 +303,7 @@
 				{
 					id: "73F6929D061E3F15",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -344,7 +344,7 @@
 				{
 					id: "3921268290C486F9",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -380,7 +380,7 @@
 				{
 					id: "342C716F06D7B21F",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -665,7 +665,7 @@
 				{
 					id: "7D7553EF44CAF6B8",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},

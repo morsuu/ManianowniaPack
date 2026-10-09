@@ -22,7 +22,7 @@
 				"Broń zrobisz przy Warsztacie broni."
 			],
 			dependencies: [
-				"7FEE44943B9D9C09"
+				"77071F1E6E8E02B1"
 			],
 			size: 1.5d,
 			tasks: [
@@ -45,7 +45,7 @@
 				{
 					id: "1517F2F4602C455D",
 					type: "xp_levels",
-					xp_levels: 6
+					xp_levels: 2
 				}
 			]
 		},
@@ -86,7 +86,7 @@
 				{
 					id: "10045F4C54355029",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -145,7 +145,7 @@
 				{
 					id: "72B69E4074FF8529",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -186,7 +186,7 @@
 				{
 					id: "5795EC71D54FEE11",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},

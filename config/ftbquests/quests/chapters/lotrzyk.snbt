@@ -22,7 +22,7 @@
 				"Łotrzyk: szybkie sztylety i sierpy, krwawienie, skradanie."
 			],
 			dependencies: [
-				"7FEE44943B9D9C09"
+				"365387198393D80B"
 			],
 			size: 1.5d,
 			tasks: [
@@ -45,7 +45,7 @@
 				{
 					id: "104BDE16174C91A9",
 					type: "xp_levels",
-					xp_levels: 6
+					xp_levels: 2
 				}
 			]
 		},
@@ -81,7 +81,7 @@
 				{
 					id: "52941F87848C61A8",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -122,7 +122,7 @@
 				{
 					id: "38794AC4A96E1583",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -181,7 +181,7 @@
 				{
 					id: "5AD983B813E6EE2D",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -222,7 +222,7 @@
 				{
 					id: "74C623552DB0D3A9",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -477,7 +477,7 @@
 				{
 					id: "16EC9BEE305C2708",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},

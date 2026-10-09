@@ -151,8 +151,9 @@
 			y: 0.0d,
 			icon: "spell_engine:spell_binding",
 			description: [
-				"&6&lWybierz klasę!&r",
+				"&6&lCzary i broń klasowa&r",
 				"",
+				"Klasę wybierasz w rozdziale &6Witaj w Manianowni&r (quest &6Wybierz klasę postaci&r). Stół zaklęć dostajesz w zestawie startowym.",
 				"Stół zaklęć uczy czarów z broni magicznych. Włóż broń, wybierz czar i zapłać doświadczeniem oraz lapisem.",
 				"Każda klasa ma własny rozdział w grupie &cKlasy postaci&r z pełną ścieżką sprzętu:",
 				"&7kamień/krzemień → żelazo → złoto → diament → netheryt&r oraz 2-3 zestawy zbroi.",

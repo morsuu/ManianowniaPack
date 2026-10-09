@@ -22,7 +22,7 @@
 				"Broń zrobisz przy Stole mnicha."
 			],
 			dependencies: [
-				"7FEE44943B9D9C09"
+				"7D07568FA29213B6"
 			],
 			size: 1.5d,
 			tasks: [
@@ -53,7 +53,7 @@
 				{
 					id: "504BBC08AB11ADDE",
 					type: "xp_levels",
-					xp_levels: 6
+					xp_levels: 2
 				}
 			]
 		},
@@ -89,7 +89,7 @@
 				{
 					id: "7A5D8FB43A3DACB3",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -125,7 +125,7 @@
 				{
 					id: "5DDEA8B901CB4EF4",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -184,7 +184,7 @@
 				{
 					id: "5706112F6CF4F02B",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
