@@ -1,12 +1,12 @@
 name = "ManianowniaPack"
 author = "Manianownia"
-version = "1.2.1"
+version = "1.2.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3b6ddd9301f15757e3ae3b0e35cd74f7ea82afc9f89a509dbf3fa2f6b27d7dda"
+hash = "aa72caadb622946570014f2b432d9fc667d80cd626fbd64bb3a345b07da8ddb9"
 
 [versions]
 fabric = "0.19.5"
