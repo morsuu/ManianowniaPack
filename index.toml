@@ -105,6 +105,11 @@ file = "config/simplemenu/logo/logo.png"
 hash = "f35abb6d9f959acfcd36105b8053a4f61377d61627edc8c213c3126591e3e746"
 
 [[files]]
+file = "mods/alternate-current.pw.toml"
+hash = "e90c0a6c6b00b43190757d4cc3426fc7baee2816e39c6e4dc3f6592a7882cb31"
+metafile = true
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "208ed32d2aa0748e92f4d5b852ffb7dbd201caa7c119b879fca92b4f45c1eb9f"
 metafile = true
@@ -135,6 +140,11 @@ hash = "6a23410e58b2a14300485be275f7ae94adc0f79a553fc926df7ce4e5d99eb9d0"
 metafile = true
 
 [[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "b0f9183eecdc50065116fe85fe1b1d40ac1e79c923524a72c29cbd8aabb3fc46"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "53a51cd24dfdde8217526e300f745da6d041f68bdf0c68a473894fccf6e67e94"
 metafile = true
@@ -162,6 +172,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "9a1ea8194e529a9c41df9d855d9ab63deeec04e5e5c362f67aed38f89a27e180"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "4e2f041ff8a0e15fdb1aeaecc860cdfe05a04791562b4ebe0398e04ad3c4e23b"
 metafile = true
 
 [[files]]
@@ -217,6 +232,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "53cae8b92042b94031779ad8c515855bc7bf1b183cb0c1f9f3d2f7e12e0bd7cd"
+metafile = true
+
+[[files]]
+file = "mods/fastquit.pw.toml"
+hash = "bb1c3ae28d02e5e68498247202501882626a5ff7cfcc3833f33d1128f3061c6c"
 metafile = true
 
 [[files]]
@@ -280,6 +300,11 @@ hash = "f40dabe0a683aa56742d6c52e2b951ccd57c047951025f04bcd8fc5748257556"
 metafile = true
 
 [[files]]
+file = "mods/krypton.pw.toml"
+hash = "6f73734b0f8e270f2242f5a35b803da5c4826d35a852c1cf0657c8bd72763e5b"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "4516c3e6c4365b94f4bc0b95bd1985dce961ddde14231e52c24d42293d95bc04"
 metafile = true
@@ -320,6 +345,11 @@ hash = "ce39863a4773f8b97c9ddf7bab1326f31d22e16e63163127925e18fd689abe42"
 metafile = true
 
 [[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "f5e93d557cb903429a6d4207041a7ff401165aa601021f7e4cde2deae85d4801"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "95d03a215c4d57b9b72429fa40a5f19460958d13f7d56abf893c9d244ae2ee5d"
 metafile = true
@@ -340,8 +370,18 @@ hash = "8ec44da6dfa5b9ed2307310f9049b8d039e9831d05a37f375314328b45eb8b90"
 metafile = true
 
 [[files]]
+file = "mods/moreculling.pw.toml"
+hash = "021ab68946b9016df607b966334c40a51cddf7b0cc4004ab464a547fed5335ff"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "d1c5cb8be3280eceae07c0040ec3f15b5ef84e8024066854464a25ded1d2ca9f"
+metafile = true
+
+[[files]]
+file = "mods/noisium.pw.toml"
+hash = "91da26bb334d62b8ba901cc333e67a889433586383480eff2ed411508d1ac8ff"
 metafile = true
 
 [[files]]
@@ -362,6 +402,11 @@ metafile = true
 [[files]]
 file = "mods/ranged-weapon-api.pw.toml"
 hash = "ae0c8426d376d19aea174a5c1dcd6d0c347c7973d2f2b0d61f1a3b4e17e8672f"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "e468e88b987e7bd75ecbd5bff083f1561fc94dfd0c3018ab1e6016d47e4379d0"
 metafile = true
 
 [[files]]
@@ -397,6 +442,11 @@ metafile = true
 [[files]]
 file = "mods/simple-menu.pw.toml"
 hash = "f9bcfd7e3da20d5d172188f245f287bcb38a55a95fcf3c629053a0a627c6f53a"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "e218df68d93a615fdfcdfb4bb0f152a10ff99433d4fb39e32ec85ec8ac0f3d1f"
 metafile = true
 
 [[files]]
