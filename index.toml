@@ -134,7 +134,7 @@ hash = "53d323e68cae17c785cc9e1a26e6c4644b4130b8ef2acac5b52954de295b8463"
 
 [[files]]
 file = "config/heracles/quests/rpgiwalka/rpg_sword.json"
-hash = "ee0ab70f163a6a9c47f2a3f70740da7c251f47a9f5cb35823b0ff8772d42414a"
+hash = "225141d559f6b57c8d123011e399e57544a5aa02fdcaae2e1b1633cb8e4d3ccf"
 
 [[files]]
 file = "config/heracles/quests/rpgiwalka/rpg_warrior.json"
@@ -311,11 +311,6 @@ hash = "d397b84f525eb465aff4fdbf9480d02d5da68779f439cb2c216d627fa76ff2da"
 metafile = true
 
 [[files]]
-file = "mods/fabric-language-kotlin.pw.toml"
-hash = "3e0b39011c7922b696258a2b7411ffd89bbcbcfaa36d459c4a098b45c3cc1039"
-metafile = true
-
-[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "53cae8b92042b94031779ad8c515855bc7bf1b183cb0c1f9f3d2f7e12e0bd7cd"
 metafile = true
@@ -328,11 +323,6 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes.pw.toml"
 hash = "b54a0f4ded5bb9614e5c0d8b70dead69cdea65d64cbb2276b0380d2e5537307e"
-metafile = true
-
-[[files]]
-file = "mods/fzzy-config.pw.toml"
-hash = "2c35bbb071c6b005119d0bbcbb5bcdbec0e4ae19e1df2978f644300cb8e87106"
 metafile = true
 
 [[files]]
@@ -473,16 +463,6 @@ metafile = true
 [[files]]
 file = "mods/shield-api.pw.toml"
 hash = "8a020ca04c5d1ed02e8d53abddc570e075682a00903cc69ca619e571fbb62447"
-metafile = true
-
-[[files]]
-file = "mods/simply-swords.pw.toml"
-hash = "5bee228d905a601906a360154001776f10b769140361b2981d5967ee033a6a82"
-metafile = true
-
-[[files]]
-file = "mods/simply-tooltips.pw.toml"
-hash = "bfa43cddfc7df875e4aa6ba205c612048e19414ea65d06247b155aee9b732a79"
 metafile = true
 
 [[files]]

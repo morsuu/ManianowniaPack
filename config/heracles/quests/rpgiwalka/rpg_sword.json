@@ -2,12 +2,12 @@
   "display": {
     "icon": {
       "type": "heracles:item",
-      "item": "simplyswords:iron_longsword"
+      "item": "paladins:iron_claymore"
     },
-    "title": "Nowe ostrza",
+    "title": "Ciężka broń",
     "subtitle": "",
     "description": [
-      "Simply Swords dodaje mnóstwo broni. Zacznij od długiego miecza."
+      "Klasy RPG dodają mnóstwo broni. Zrób żelazny claymore: wolny, ale bije jak młot."
     ],
     "groups": {
       "RPG i walka": {
@@ -29,7 +29,7 @@
   "tasks": {
     "s": {
       "type": "heracles:item",
-      "item": "simplyswords:iron_longsword",
+      "item": "paladins:iron_claymore",
       "amount": 1
     }
   },
