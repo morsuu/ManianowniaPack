@@ -1,0 +1,13 @@
+name = "slice-and-dice"
+filename = "sliceanddice-fabric-3.6.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GmjmRQ0A/versions/YT0NEd3Q/sliceanddice-fabric-3.6.0.jar"
+hash-format = "sha512"
+hash = "a30f90308aec5f6820eaee577e872c220c8372d10defc276478704c86a45712a60c613861c7afb288735316ced658261a873ac41c3e644557c405bd8c78c994c"
+
+[update]
+[update.modrinth]
+mod-id = "GmjmRQ0A"
+version = "YT0NEd3Q"

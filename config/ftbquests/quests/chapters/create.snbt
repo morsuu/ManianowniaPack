@@ -492,7 +492,8 @@
 			y: 0.0d,
 			icon: "create:zinc_ingot",
 			description: [
-				"Cynk występuje wysoko w górach i pod ziemią. Potrzebny do mosiądzu."
+				"Cynk występuje wysoko w górach i pod ziemią. Potrzebny do mosiądzu.",
+				"&ePrzyda się też do diamentowej broni każdej klasy!"
 			],
 			dependencies: [
 				"73F4780B954329F3"
@@ -793,6 +794,7 @@
 			icon: "create:precision_mechanism",
 			description: [
 				"Najtrudniejszy przepis wczesnego Create. Robi się go na taśmie: deployer kilka razy dokłada części.",
+				"&eMechanizm jest też potrzebny do kopiowania szablonu ulepszenia netherytowego (netherytowy sprzęt klas)!",
 				"",
 				"Sprawdź przepis w EMI (zakładka Sequenced Assembly)."
 			],

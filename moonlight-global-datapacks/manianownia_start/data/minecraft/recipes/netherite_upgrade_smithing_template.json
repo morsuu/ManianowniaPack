@@ -1,0 +1,28 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "key": {
+  "#": {
+   "item": "minecraft:diamond"
+  },
+  "C": {
+   "item": "minecraft:netherrack"
+  },
+  "S": {
+   "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "P": {
+   "item": "create:precision_mechanism"
+  }
+ },
+ "pattern": [
+  "#S#",
+  "#C#",
+  "#P#"
+ ],
+ "result": {
+  "count": 2,
+  "item": "minecraft:netherite_upgrade_smithing_template"
+ },
+ "show_notification": true
+}

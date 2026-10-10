@@ -14,7 +14,7 @@ hash = "8d21b9f3cb6e86436c23ebeb556a2838d6c5905bf93cfc5a30aa18eefa38e80a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bizuteria.snbt"
-hash = "49abf83a98e347d7a69c5e45c3898a4010dd19cef8abca727a83ac6964d6581f"
+hash = "2e1ce5bb1ba1d7aba2c40b7c86964cf2981c9f52ac76f15110131234709ca93a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
@@ -26,7 +26,7 @@ hash = "dd4a5e4d417358b1a9b37856ff494613a2c155c80240c64c76b0eee6162cebb5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "a752d23524df9d886643efc1d627ef72522952072c40a79963f1913f859c01b0"
+hash = "4df5070f9294e04449705c3333645aec65325ce67f9631b2b22462d3b10d31aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create2.snbt"
@@ -38,7 +38,7 @@ hash = "a24003aa623bdec9f67d29ad9652cdb45ad63947f19afa121cd421ad133b5574"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kaplan.snbt"
-hash = "863350295d8772fdc30cadbd7baadc961f80e29d795ada65be939f5e0d73aae1"
+hash = "8dc613df11d2991183f5b2fe4937708563b1d8cbc7d9a3f279cc4162522929e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kuchnia.snbt"
@@ -46,11 +46,11 @@ hash = "3500c28e61608a19beaf6d0c6f154dc559898535498d53f0b8d21a5314ec043c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lotrzyk.snbt"
-hash = "c1b36cb75ad6a681b9c3314b3964385cf67932fba8fae6610731137e1eedea42"
+hash = "ea5318db56a3ddba3a06e920feb36f6432b58e713bc6d4f891d0e06f98c4ccc1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lucznik.snbt"
-hash = "02218954dadee66f411133583acbc892f7991c28ee14a5071322c673380da883"
+hash = "0a80dd510ec4e50fb5de4cf3c7ef857e32b2ec73b57d550eb163d24a78f5f940"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/manianownia.snbt"
@@ -62,7 +62,7 @@ hash = "9387691b7b5cb414f5d04f7a0d69f987a109c07de3f93cb11abff83ec3879f62"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/paladyn.snbt"
-hash = "c64fb3afc939a4eb6b76cb79c1dbe6710181e546f4fe8dde4e047782f1d5429d"
+hash = "f5e52e1916fa51f365ad7f1bfce86f3ccc34a6a9c0ea58525bf523103f020d0d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/przygoda.snbt"
@@ -74,15 +74,15 @@ hash = "d72567bf2bb8e4a1fde45cb14ffb045172b3efe6d93dad39d148dd70eba2f80d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/walka.snbt"
-hash = "d474da4dfb5e6d1f9d205361d86727b4a03dd087c0d468a82f6353379c653b9e"
+hash = "cc5615e5db72fd4846daf6bff2d378781f0751736491dce7cc55f9d93665337f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "1d3616f8937e76f82ce46408c0cb38249a763bd790cf2867fdc738f0f88ae90b"
+hash = "23dfd7879c5677d50191c1d6b3d9866fa6957e84b49a3d1a24187d4e4d417bc2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
-hash = "6ff301044474478c2523eeccaedec43f445e46a16987da49eeb5b43f32257d8c"
+hash = "fe95377d57fd399f3c321888c5cbac4b9a6cbe724fa3f6a02d6e2e960698d4a7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -412,6 +412,11 @@ hash = "6261fb5f10557a434d157b3263c3dba1522bd48a209dfe4b1e2aeaa0da79e847"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "12313972cead3e5bc9aad7604b590acc6e14fb1af982512ee81e8d1582398e63"
+metafile = true
+
+[[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "ee680891ce19f9de6e2c3f67790f8769c5af58cdf0c704404ab4289e459df546"
 metafile = true
@@ -682,6 +687,11 @@ hash = "48c895c03690bb7e7802cb7af303a3a7e97c8df2a3c0581b11ab51f3e3f5a060"
 metafile = true
 
 [[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "8c97dca328556f4ff9157b4b481edb7d24c49352e88dbea5171f1110fa86ff2a"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "e218df68d93a615fdfcdfb4bb0f152a10ff99433d4fb39e32ec85ec8ac0f3d1f"
 metafile = true
@@ -787,8 +797,60 @@ hash = "ba696ce7c3b9ce41805be9a6b5ad1a99edea377753827ce9596af5453929dc71"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/archers/recipes/diamond_spear.json"
+hash = "4a05353044bb1b37e67429c7d0d14c0b4f7af793b3a72d9a89dc6d9343401d01"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/archers/recipes/heavy_crossbow.json"
+hash = "b11d43c4fa84001b05229b0cf87336fce2e64c878f3524b16bba90abb7132eef"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/archers/recipes/royal_longbow.json"
+hash = "2729f7337e59bbce7f7ce57242ed9ef805258f04364b008b8a80a962550a6137"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/c/tags/entity_types/bosses.json"
 hash = "39a81ac797dd77377b12291925decf00c0b09b54d58997b1c8c43ca0336bd675"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_citrine_necklace.json"
+hash = "d534d593b85a8485403091b5cfd92eea7da8179254b4c97f27eb21ccdd6bf9f8"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_citrine_ring.json"
+hash = "9fcd5a29346c810212d4fc35087279a9ec895a9bc8800dba7d0b7f3374109b75"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_jade_necklace.json"
+hash = "f100b6b176f6e8d430e58d8994767840f310efe6d290e2beb1934c0e1e9f03bb"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_jade_ring.json"
+hash = "040b7db2f0a6b8b20a56e1cccb7fc223060ea563c94f9d33abdc4bb9d64cae81"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_sapphire_necklace.json"
+hash = "c581ba1f2556a0bc2e28e822fbfd953688775cf417503c346068970931a4bf5e"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_sapphire_ring.json"
+hash = "e802e9b8460d96ce4b23ee2eff31152471938c1137e316a44d3501d47f48b0d5"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_tanzanite_necklace.json"
+hash = "96828f7fe71ee5b6fede98cc5c37c66c5ec0cd844267f79c6fc60582aef845ca"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_tanzanite_ring.json"
+hash = "40ed44ea30ee0a959edb8d9d7798aca584e32a8ec8954268ac9baa91948d642f"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_topaz_necklace.json"
+hash = "21ab7f4d66c1b128c00b5794992d61305fa8aedfe99c645b4e269e0433a8e898"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_topaz_ring.json"
+hash = "4aca4bb5e31cd4ca037b974af8610fd42d75c7218dd72935f8777bdd68512d7b"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/boss/az_eye.json"
@@ -1063,8 +1125,52 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/tags/entit
 hash = "39a81ac797dd77377b12291925decf00c0b09b54d58997b1c8c43ca0336bd675"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/minecraft/recipes/netherite_upgrade_smithing_template.json"
+hash = "f8a6bcdcb2ad98eaaeaf61d0cebc633a87eeda5064d2a5111a6facfe606ea70e"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/minecraft/tags/functions/load.json"
 hash = "fd0e5d20591dede82abb4b121c79e49e186948859462bc73edc8435e49d8d83d"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_claymore.json"
+hash = "b595408fc266d590f101f34e58d9e233236701b0201a13f147fd2582d1043bad"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_great_hammer.json"
+hash = "f6d2d3fd9937e00522fed84d083f8df736925f5a7e58409c5b8ab3e21832b3c7"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_holy_staff.json"
+hash = "d4eb36520040a619756dee4135898f0b3d53029c5cb896a78e6e7c53aca7f86e"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_holy_wand.json"
+hash = "cb56da69ab21b9355e3c800a165325c7a0cf97927fd17bf9e2a3e729f036ff73"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_kite_shield.json"
+hash = "2ab6b1cf8d496fe42e6aee7fb40c4fe3828bfbeb25f14f60f04a1ee84377fd8b"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_mace.json"
+hash = "852e5054256c5fe8b001c3120e7713d9a28f50551f3b8f540b5a43c241013dcb"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/rogues/recipes/diamond_dagger.json"
+hash = "dce331454ca3f534c34493e1fc57a2e1a0c8a66fc45741173d133c73f98cf203"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/rogues/recipes/diamond_double_axe.json"
+hash = "e97b71694c33e23b2db1533896e402f56d5327880be03fcb36c010fe277ac225"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/rogues/recipes/diamond_glaive.json"
+hash = "93f07aaecc1e91df64a19c730850df77ea2ea832b3ebb496cf89423065ecd36e"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/rogues/recipes/diamond_sickle.json"
+hash = "1820e47cb8363264c104e5437c38a43d3193214ca6831c1baaa96d56fbbb79d3"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/supplementaries/recipes/integration/ash_bricks_fd.json"
@@ -1077,6 +1183,18 @@ hash = "6698806071c4f693083268d9270d68a0606e41ba71fbe592b805e5e5ca23ff53"
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/trinkets/entities/manianownia.json"
 hash = "9cf2679f589cc2fcef98afbffc28e8912cb244168f4f6959af2d33b1e0c081d7"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/wizards/recipes/staff_arcane.json"
+hash = "39a57a4e1d60646f621e313f3d7a1a1ba265fd31f7acf796012b12f174853aa0"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/wizards/recipes/staff_fire.json"
+hash = "625adaa3155cb031608edeaddce18f8354c3947d789b5a879015becc7b0415b3"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/wizards/recipes/staff_frost.json"
+hash = "31f642fd7c2fdd12bbf6b179427dcd375275be044484e8e0511e6b04e63acc66"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/pack.mcmeta"

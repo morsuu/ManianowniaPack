@@ -380,7 +380,8 @@
 			icon: "minecraft:netherite_upgrade_smithing_template",
 			description: [
 				"Szablon ulepszenia netherytowego znajdziesz w skrzyniach bastionów.",
-				"Na stole kowalskim zamienia diamentowy sprzęt klasy w netherytowy. Skopiujesz go diamentami i netherrackiem."
+				"Na stole kowalskim zamienia diamentowy sprzęt klasy w netherytowy.",
+				"Kopia szablonu: szablon, netherrack, 6 diamentów i &emechanizm precyzyjny&r z Create."
 			],
 			dependencies: [
 				"7FEE44943B9D9C09",

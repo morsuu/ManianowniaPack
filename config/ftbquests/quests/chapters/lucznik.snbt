@@ -286,7 +286,7 @@
 			y: -0.7d,
 			icon: "archers:royal_longbow",
 			description: [
-				"Złocony łuk o dużej sile."
+				"Łuk o dużej sile. Okucia z cynku (ruda z Create) zamiast złota."
 			],
 			dependencies: [
 				"3890718EEE73A838"

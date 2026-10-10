@@ -350,7 +350,7 @@
 			y: 0.0d,
 			icon: "jewelry:netherite_ruby_ring",
 			description: [
-				"Netherytowy pierścień z klejnotem: najwyższy poziom."
+				"Netherytowy pierścień z klejnotem: najwyższy poziom. Oprawa z mosiądzu z Create zamiast złota."
 			],
 			dependencies: [
 				"17916441FA626C8E",

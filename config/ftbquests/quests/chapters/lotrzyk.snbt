@@ -241,7 +241,7 @@
 			y: -1.0d,
 			icon: "rogues:diamond_dagger",
 			description: [
-				"Diamentowy sztylet i sierp."
+				"Diamentowy sztylet i sierp. Rękojeści i okucia diamentowej broni robi się ze sztabek cynku (ruda z Create)."
 			],
 			dependencies: [
 				"73A4C8206991D9C7",

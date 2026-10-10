@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "equipment",
+ "key": {
+  "#": {
+   "item": "create:zinc_ingot"
+  },
+  "P": {
+   "item": "minecraft:diamond"
+  }
+ },
+ "pattern": [
+  "  P",
+  " # ",
+  "#  "
+ ],
+ "result": {
+  "item": "archers:diamond_spear"
+ },
+ "show_notification": true
+}

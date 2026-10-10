@@ -278,7 +278,7 @@
 			y: -1.5d,
 			icon: "paladins:diamond_claymore",
 			description: [
-				"Diamentowy claymore i buzdygan."
+				"Diamentowy claymore i buzdygan. Rękojeści i okucia diamentowej broni robi się ze sztabek cynku (ruda z Create)."
 			],
 			dependencies: [
 				"5B60582DE6FD8062",

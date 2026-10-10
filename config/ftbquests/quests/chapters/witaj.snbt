@@ -126,6 +126,9 @@
 				"",
 				"&eWskazówka:&r przytrzymaj &eW&r nad przedmiotem z Create, żeby zobaczyć animowany poradnik (Ponder).",
 				"",
+				"Dodatki: &eSlice \\& Dice&r (automatyczna krajalnica do kuchni Farmer's Delight) i &eCreate Deco&r (bloki dekoracyjne pasujące do maszyn).",
+				"&eCreate przyda się każdemu:&r diamentowa broń klas wymaga cynku, netherytowa biżuteria mosiądzu,",
+				"a kopia szablonu netherytowego mechanizmu precyzyjnego.",
 				"Rozdziały: &aCreate: Maszyny&r i &aCreate: Logistyka i pociągi&r."
 			],
 			dependencies: [

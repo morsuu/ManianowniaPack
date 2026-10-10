@@ -205,7 +205,7 @@
 			y: -1.0d,
 			icon: "rogues:diamond_double_axe",
 			description: [
-				"Diamentowy podwójny topór i glewia."
+				"Diamentowy podwójny topór i glewia. Rękojeści i okucia diamentowej broni robi się ze sztabek cynku (ruda z Create)."
 			],
 			dependencies: [
 				"1CAE77E4EB529885",
