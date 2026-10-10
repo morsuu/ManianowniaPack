@@ -459,7 +459,7 @@
 			description: [
 				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
 				"",
-				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Na start masz 2 punkty. Zacznij od góry dowolnej ścieżki i schodź w dół. Ścieżki możesz mieszać.",
 				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
 			],
 			dependencies: [
@@ -569,7 +569,7 @@
 			description: [
 				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
 				"",
-				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Na start masz 2 punkty. Zacznij od góry dowolnej ścieżki i schodź w dół. Ścieżki możesz mieszać.",
 				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
 			],
 			dependencies: [
@@ -680,7 +680,7 @@
 			description: [
 				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
 				"",
-				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Na start masz 2 punkty. Zacznij od góry dowolnej ścieżki i schodź w dół. Ścieżki możesz mieszać.",
 				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
 			],
 			dependencies: [
@@ -791,7 +791,7 @@
 			description: [
 				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
 				"",
-				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Na start masz 2 punkty. Zacznij od góry dowolnej ścieżki i schodź w dół. Ścieżki możesz mieszać.",
 				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
 			],
 			dependencies: [
@@ -902,7 +902,7 @@
 			description: [
 				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
 				"",
-				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Na start masz 2 punkty. Zacznij od góry dowolnej ścieżki i schodź w dół. Ścieżki możesz mieszać.",
 				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
 			],
 			dependencies: [
@@ -1013,7 +1013,7 @@
 			description: [
 				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
 				"",
-				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Na start masz 2 punkty. Zacznij od góry dowolnej ścieżki i schodź w dół. Ścieżki możesz mieszać.",
 				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
 			],
 			dependencies: [
@@ -1066,8 +1066,9 @@
 				"pokonanych bossów i ważne odkrycia (Nether, Kres). Cztery ścieżki: Górnik, Wędrowiec, Twardziel i Uczony.",
 				"",
 				"&bDrzewko klasy&r odblokujesz questem pod wybraną klasą. Punkty dają pokonane potwory i etapy ścieżki klasy.",
-				"Na górze drzewka wybierasz &cjedną specjalizację&r (np. ogień, lód albo arkana), reszta się zablokuje.",
-				"Na końcu ścieżki czeka wybór jednej z dwóch umiejętności finałowych. Tak powstaje twój build!",
+				"Drzewko klasy ma 2-3 ścieżki (np. ogień, lód i arkana). Punkty rozdajesz jak w talentach z WoW-a: możesz iść w głąb jednej",
+				"ścieżki albo mieszać kilka. Im głębiej, tym droższe umiejętności, a do finałowych trzeba mocno zainwestować w jedną ścieżkę.",
+				"Na końcu każdej ścieżki czeka wybór jednej z dwóch umiejętności finałowych. Tak powstaje twój build!",
 				"",
 				"Bonusy działają od razu i sumują się ze sprzętem: moc czarów, obrażenia, zdrowie, uniki i inne.",
 				"Pomyliłeś się? Quest &dZapomnienie&r resetuje drzewka, a punkty wracają."
@@ -1115,7 +1116,7 @@
 			icon: "minecraft:amethyst_shard",
 			description: [
 				"Oddaj 2 diamenty, żeby &dzresetować wszystkie swoje drzewka umiejętności&r.",
-				"Wszystkie wydane punkty wrócą i rozdasz je od nowa. Możesz wtedy zmienić specjalizację, ale nie klasę.",
+				"Wszystkie wydane punkty wrócą i rozdasz je od nowa (np. na inne ścieżki). Klasy nie zmienisz.",
 				"",
 				"&7Quest można powtarzać dowolnie wiele razy."
 			],

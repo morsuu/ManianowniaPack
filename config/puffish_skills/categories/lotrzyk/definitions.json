@@ -30,7 +30,7 @@
   ],
   "cost": 1,
   "extra_description": {
-   "text": "Wybierasz ostrza. Cień się zablokuje.",
+   "text": "Wybierasz ostrza. Możesz łączyć tę ścieżkę ze ścieżką: Cień.",
    "color": "dark_aqua"
   },
   "size": 1.15
@@ -658,7 +658,7 @@
   ],
   "cost": 1,
   "extra_description": {
-   "text": "Wybierasz skradanie i uniki. Zabójca się zablokuje.",
+   "text": "Wybierasz skradanie i uniki. Możesz łączyć tę ścieżkę ze ścieżką: Zabójca.",
    "color": "dark_aqua"
   },
   "size": 1.15

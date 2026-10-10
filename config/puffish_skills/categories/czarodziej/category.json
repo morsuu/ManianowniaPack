@@ -5,7 +5,7 @@
   "bold": true
  },
  "description": {
-  "text": "Wybierz jedną szkołę magii. Punkty za pokonane potwory i etapy ścieżki klasy.",
+  "text": "Trzy szkoły magii: rozwijaj jedną albo mieszaj je jak chcesz. Punkty za pokonane potwory i etapy ścieżki klasy.",
   "color": "gray"
  },
  "icon": {
@@ -17,5 +17,5 @@
  "background": "minecraft:textures/block/obsidian.png",
  "unlocked_by_default": false,
  "starting_points": 2,
- "exclusive_root": true
+ "exclusive_root": false
 }

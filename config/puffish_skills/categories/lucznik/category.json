@@ -17,5 +17,5 @@
  "background": "minecraft:textures/block/dark_oak_planks.png",
  "unlocked_by_default": false,
  "starting_points": 2,
- "exclusive_root": true
+ "exclusive_root": false
 }

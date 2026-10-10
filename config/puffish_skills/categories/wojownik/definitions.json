@@ -30,7 +30,7 @@
   ],
   "cost": 1,
   "extra_description": {
-   "text": "Wybierasz szał bojowy. Strażnik się zablokuje.",
+   "text": "Wybierasz szał bojowy. Możesz łączyć tę ścieżkę ze ścieżką: Strażnik.",
    "color": "dark_aqua"
   },
   "size": 1.15
@@ -674,7 +674,7 @@
   ],
   "cost": 1,
   "extra_description": {
-   "text": "Wybierasz obronę. Berserker się zablokuje.",
+   "text": "Wybierasz obronę. Możesz łączyć tę ścieżkę ze ścieżką: Berserker.",
    "color": "dark_aqua"
   },
   "size": 1.15

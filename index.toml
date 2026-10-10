@@ -78,7 +78,7 @@ hash = "d474da4dfb5e6d1f9d205361d86727b4a03dd087c0d468a82f6353379c653b9e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "cfd33c04b290531fd384ff6588e5ff3e56dd2c25f53a45bc70bd5325c8cc039c"
+hash = "ff7b6022b3bd1a5a28ae236e4ebc2691c866527644701f6c4fc04e71a4922dc6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
@@ -90,7 +90,7 @@ hash = "05d27c4c8f152e934527cf3009214fcebed6570a1fcff927d42dae6009b76bac"
 
 [[files]]
 file = "config/puffish_skills/categories/czarodziej/category.json"
-hash = "16e0de14fe23f356e8c55dd3a440eb747daeac181b6f3840dd4bc26645cc974e"
+hash = "a99ce2a75ff01cf1f483c81acea718144565c5226ab3a5265e4c8d4ca9841b54"
 
 [[files]]
 file = "config/puffish_skills/categories/czarodziej/connections.json"
@@ -98,7 +98,7 @@ hash = "ae7e493ec1456005fb12cdc9657138c3b70592703b000239609f5b671b98e919"
 
 [[files]]
 file = "config/puffish_skills/categories/czarodziej/definitions.json"
-hash = "8dfa5f055894875de987097181ef884c1d4701d418b7ac7f89475711b591c901"
+hash = "c22cf1e7aa713397e0b6d22e1ba1f457e48486b5f694bca9989ccf2b5d522c39"
 
 [[files]]
 file = "config/puffish_skills/categories/czarodziej/experience.json"
@@ -110,7 +110,7 @@ hash = "65a6a99433976fc26df357ceda38e28e7046619bcb0cbe08e8b490b2dce4e8a7"
 
 [[files]]
 file = "config/puffish_skills/categories/kaplan/category.json"
-hash = "5812cd7076a0d9fdf8e834685a372d4ba600528945f04f091525ab75855dcd2e"
+hash = "54cc99f59725774999a31e53d4b8dfc4646417f37795f0bbe32c8ef1e9b469ae"
 
 [[files]]
 file = "config/puffish_skills/categories/kaplan/connections.json"
@@ -118,7 +118,7 @@ hash = "4c8b348c2942a0729f30735c20baa0a02a7db1788ff0b265a7763a48219683ae"
 
 [[files]]
 file = "config/puffish_skills/categories/kaplan/definitions.json"
-hash = "acfa84ab7266bf163755498f07e3ea1d9cedb8aec59ae8cba51211eb2315f59f"
+hash = "baa5d0848efad2c8584040552938ce7199c74654c018e1b401ed22ba9c9aef37"
 
 [[files]]
 file = "config/puffish_skills/categories/kaplan/experience.json"
@@ -130,7 +130,7 @@ hash = "f8691994840b3eba19519d400d86d1a64d212074c2d981e28d7b514d0b9a8091"
 
 [[files]]
 file = "config/puffish_skills/categories/lotrzyk/category.json"
-hash = "2f82d77f09136d5a60c3c187d42187cd830dd0263cfc64dea9567196cc6a699a"
+hash = "cabb62b7c8ead94729e0c94575db39d909e7459208f063a5ac6e591af3d2a7d9"
 
 [[files]]
 file = "config/puffish_skills/categories/lotrzyk/connections.json"
@@ -138,7 +138,7 @@ hash = "1b44489630bfd62765c2d22505aa828e1cff8d02b7c15a465225f225ded76c0e"
 
 [[files]]
 file = "config/puffish_skills/categories/lotrzyk/definitions.json"
-hash = "eac80c9602531593ac5fb901cc2850f3b781846cce4723b4ccacca8a0e1e658c"
+hash = "e28e8c67dab21dba76c0990d89dec7e087c3fe303be02996a7878ada6bda649e"
 
 [[files]]
 file = "config/puffish_skills/categories/lotrzyk/experience.json"
@@ -150,7 +150,7 @@ hash = "ab6ef28c7ab2dbed70817efcf1c4575cec509309edf615e1df4ade613f375661"
 
 [[files]]
 file = "config/puffish_skills/categories/lucznik/category.json"
-hash = "e6b34d9a348d3be578be2c9e5a5bb295ddffe8ee1b643c499446d94cba5641ac"
+hash = "25e66b9c6bcf15ce89c7062107da7dec056ef261ff49bd367ed04ab53f6e402b"
 
 [[files]]
 file = "config/puffish_skills/categories/lucznik/connections.json"
@@ -158,7 +158,7 @@ hash = "a3e90eeef2847a461c7bbeca5d2b313507c19ffd0548e2dfeffe2f96c23fac91"
 
 [[files]]
 file = "config/puffish_skills/categories/lucznik/definitions.json"
-hash = "f855e5636fed79217d6c316c8984c9b3e4ca21e9b34e48d749a2e0042c685349"
+hash = "f83eb35c0a6a23a3ca383258ccaf66fc3eb05857d29c92e92d1f3a0bc1208f9f"
 
 [[files]]
 file = "config/puffish_skills/categories/lucznik/experience.json"
@@ -170,7 +170,7 @@ hash = "ffe0c0158d0722f659bf3e12401d9688bf8dbe5588c4f41b63510d54d13263be"
 
 [[files]]
 file = "config/puffish_skills/categories/paladyn/category.json"
-hash = "c877897038682ab4741709b448dfd975c611ec0b910871d66ac18cfe5da63152"
+hash = "2e150cdaa8062e9e1597e41f3fef888728fa5eaf9fe20436aab64168dc2ab10c"
 
 [[files]]
 file = "config/puffish_skills/categories/paladyn/connections.json"
@@ -178,7 +178,7 @@ hash = "b755e1dc9c52639ce6ebf8dc4b167aa77592a837b10c273e5ef7e9c450a17642"
 
 [[files]]
 file = "config/puffish_skills/categories/paladyn/definitions.json"
-hash = "e6ecda363002e13dc081bdd488e723179ba971b340cf813785aef3df89794772"
+hash = "f3bd5678da088c72890bfce75b9f09d7079c13e7e3b4eb52da977e0e63e476ac"
 
 [[files]]
 file = "config/puffish_skills/categories/paladyn/experience.json"
@@ -210,7 +210,7 @@ hash = "dce89cd84b2f806f4259bbfb76c0833d6377bab4885023a541db1239c9972f51"
 
 [[files]]
 file = "config/puffish_skills/categories/wojownik/category.json"
-hash = "59c09e564f1d69831c29567881f050a3874ef8a892d61625bf2510e2e9fd4648"
+hash = "ab09371b014cfa90dc1fff4c73122a384635f0a3712b737c5e91bdea97f8a7b2"
 
 [[files]]
 file = "config/puffish_skills/categories/wojownik/connections.json"
@@ -218,7 +218,7 @@ hash = "40c500c3721a0a4e64e83a7bc311d40aec4abc37fa86b1feecf7a48a27c8a69f"
 
 [[files]]
 file = "config/puffish_skills/categories/wojownik/definitions.json"
-hash = "260943c949776b0ff3f05d059640d538eefac1a7ec71a31eff8827bf25a4a4fc"
+hash = "2c82069d9725445c00fd9c77954fdd683fb4d3afe41cd246fc38de1f381fbbb9"
 
 [[files]]
 file = "config/puffish_skills/categories/wojownik/experience.json"

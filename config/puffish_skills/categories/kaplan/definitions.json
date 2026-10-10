@@ -30,7 +30,7 @@
   ],
   "cost": 1,
   "extra_description": {
-   "text": "Wybierasz leczenie. Inkwizytor się zablokuje.",
+   "text": "Wybierasz leczenie. Możesz łączyć tę ścieżkę ze ścieżką: Inkwizytor.",
    "color": "dark_aqua"
   },
   "size": 1.15
@@ -674,7 +674,7 @@
   ],
   "cost": 1,
   "extra_description": {
-   "text": "Święte czary jako broń. Uzdrowiciel się zablokuje.",
+   "text": "Święte czary jako broń. Możesz łączyć tę ścieżkę ze ścieżką: Uzdrowiciel.",
    "color": "dark_aqua"
   },
   "size": 1.15

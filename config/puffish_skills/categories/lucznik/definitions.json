@@ -30,7 +30,7 @@
   ],
   "cost": 1,
   "extra_description": {
-   "text": "Wybierasz siłę strzału. Tropiciel się zablokuje.",
+   "text": "Wybierasz siłę strzału. Możesz łączyć tę ścieżkę ze ścieżką: Tropiciel.",
    "color": "dark_aqua"
   },
   "size": 1.15
@@ -666,7 +666,7 @@
   ],
   "cost": 1,
   "extra_description": {
-   "text": "Wybierasz szybkość i ruch. Snajper się zablokuje.",
+   "text": "Wybierasz szybkość i ruch. Możesz łączyć tę ścieżkę ze ścieżką: Snajper.",
    "color": "dark_aqua"
   },
   "size": 1.15

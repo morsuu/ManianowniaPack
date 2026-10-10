@@ -17,5 +17,5 @@
  "background": "minecraft:textures/block/polished_deepslate.png",
  "unlocked_by_default": false,
  "starting_points": 2,
- "exclusive_root": true
+ "exclusive_root": false
 }
