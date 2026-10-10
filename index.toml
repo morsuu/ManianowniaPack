@@ -322,6 +322,10 @@ file = "config/simplemenu/logo/logo.png"
 hash = "f35abb6d9f959acfcd36105b8053a4f61377d61627edc8c213c3126591e3e746"
 
 [[files]]
+file = "config/spell_engine/server.json5"
+hash = "1fc9009b102848824861b1ce4f5d68e9155edfb6d73f44533bfef65b140332bb"
+
+[[files]]
 file = "config/styled-chat.json"
 hash = "0a88709d2cdd7d878db34435cc91ed6b7233503721667348ca485127045ff4cf"
 
