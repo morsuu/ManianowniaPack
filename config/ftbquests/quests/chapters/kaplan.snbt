@@ -69,6 +69,7 @@
 			dependencies: [
 				"1BB7E2BA0193CA5A"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1F4E2FE8F137AEAE",
@@ -103,8 +104,10 @@
 				"Laska kapłana: leczenie obszarowe."
 			],
 			dependencies: [
-				"1E05DCEB174CC0DA"
+				"1E05DCEB174CC0DA",
+				"1BB7E2BA0193CA5A"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "57CBAC33259DFEF7",
@@ -141,6 +144,7 @@
 			dependencies: [
 				"1BB7E2BA0193CA5A"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "5D8A19F00900B99B",
@@ -207,8 +211,10 @@
 			],
 			dependencies: [
 				"574D8B03FD0AF681",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"1BB7E2BA0193CA5A"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "5878471FFA05ECA1",
@@ -249,8 +255,10 @@
 			],
 			dependencies: [
 				"3C92DA5130C8A533",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"1BB7E2BA0193CA5A"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "379D88A67118A2FA",
@@ -309,8 +317,10 @@
 			],
 			dependencies: [
 				"1A7212DF30F53053",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"1BB7E2BA0193CA5A"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "32D9B36E59DEF42C",
@@ -359,8 +369,10 @@
 			],
 			dependencies: [
 				"1DE7845BBC6ABACF",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"1BB7E2BA0193CA5A"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "3BE92494725B6B55",

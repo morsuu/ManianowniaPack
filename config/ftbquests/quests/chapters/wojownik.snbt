@@ -61,6 +61,7 @@
 			dependencies: [
 				"7E63E7E5A09246B4"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "3293A65B095498E6",
@@ -102,6 +103,7 @@
 			dependencies: [
 				"7E63E7E5A09246B4"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "5EE64F7DCD096BAC",
@@ -167,8 +169,10 @@
 				"Złoty podwójny topór i glewia."
 			],
 			dependencies: [
-				"1993BF6C4845F8E2"
+				"1993BF6C4845F8E2",
+				"7E63E7E5A09246B4"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "521917946EE398A3",
@@ -209,8 +213,10 @@
 			],
 			dependencies: [
 				"1CAE77E4EB529885",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"7E63E7E5A09246B4"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "15F795E227E4CB73",
@@ -259,8 +265,10 @@
 			],
 			dependencies: [
 				"701CF6A8838262C3",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"7E63E7E5A09246B4"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "356050F77DD2ECBE",
@@ -319,8 +327,10 @@
 			],
 			dependencies: [
 				"352C67AF1AA10422",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"7E63E7E5A09246B4"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "36AFD9DAD5AB07D4",
@@ -369,8 +379,10 @@
 			],
 			dependencies: [
 				"7DDDC59FBDBEEA67",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"7E63E7E5A09246B4"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1602C0900E37FADE",

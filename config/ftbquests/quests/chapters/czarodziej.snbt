@@ -70,6 +70,7 @@
 			dependencies: [
 				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "538BDF45A98F5006",
@@ -138,6 +139,7 @@
 			dependencies: [
 				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "7CABB81EE9D4EB3D",
@@ -198,8 +200,10 @@
 				"Różdżka szkoły: ogień. Możesz przejść wszystkie trzy szkoły."
 			],
 			dependencies: [
-				"1586D87C968E2255"
+				"1586D87C968E2255",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "5896B775E6227416",
@@ -234,8 +238,10 @@
 				"Laska szkoły zwiększa moc i zasięg czarów."
 			],
 			dependencies: [
-				"1C20B14064F02703"
+				"1C20B14064F02703",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "549479F6D42A733D",
@@ -271,8 +277,10 @@
 			],
 			dependencies: [
 				"522D321CFFB44F38",
-				"3A0BA0CC370B9A4A"
+				"3A0BA0CC370B9A4A",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "330D44C43D1BD0B2",
@@ -331,8 +339,10 @@
 			],
 			dependencies: [
 				"522D321CFFB44F38",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "10339634F802153C",
@@ -381,8 +391,10 @@
 			],
 			dependencies: [
 				"3FCB84AC0452C4FD",
-				"5E54B7EDBEB8D143"
+				"5E54B7EDBEB8D143",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "799676FB90806E00",
@@ -474,8 +486,10 @@
 				"Różdżka szkoły: lód. Możesz przejść wszystkie trzy szkoły."
 			],
 			dependencies: [
-				"1586D87C968E2255"
+				"1586D87C968E2255",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "575661CAE2BA5353",
@@ -510,8 +524,10 @@
 				"Laska szkoły zwiększa moc i zasięg czarów."
 			],
 			dependencies: [
-				"3FBC4CAB6B5AF6D6"
+				"3FBC4CAB6B5AF6D6",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "58E8A5D86366E1C1",
@@ -547,8 +563,10 @@
 			],
 			dependencies: [
 				"5CE0529831038BE0",
-				"3A0BA0CC370B9A4A"
+				"3A0BA0CC370B9A4A",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "791F49E93C1D2E6C",
@@ -607,8 +625,10 @@
 			],
 			dependencies: [
 				"5CE0529831038BE0",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1BD56B32F47BEA42",
@@ -657,8 +677,10 @@
 			],
 			dependencies: [
 				"3E960CFB0B3897A1",
-				"14597BEE97F1ACA8"
+				"14597BEE97F1ACA8",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "338B5E802ED99CA6",
@@ -750,8 +772,10 @@
 				"Różdżka szkoły: arkana. Możesz przejść wszystkie trzy szkoły."
 			],
 			dependencies: [
-				"1586D87C968E2255"
+				"1586D87C968E2255",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1AEE01A332C6205E",
@@ -786,8 +810,10 @@
 				"Laska szkoły zwiększa moc i zasięg czarów."
 			],
 			dependencies: [
-				"7045D0BED5B1179A"
+				"7045D0BED5B1179A",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "76324A338315ADAB",
@@ -823,8 +849,10 @@
 			],
 			dependencies: [
 				"7908A499E663FCFE",
-				"3A0BA0CC370B9A4A"
+				"3A0BA0CC370B9A4A",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "592651B5DF81551B",
@@ -883,8 +911,10 @@
 			],
 			dependencies: [
 				"7908A499E663FCFE",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "55246101A23D48BC",
@@ -933,8 +963,10 @@
 			],
 			dependencies: [
 				"7B6DEB40F8EB3D6C",
-				"7B027D53BEABC309"
+				"7B027D53BEABC309",
+				"3A27248827763AAC"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "5B67AD71999F2E19",

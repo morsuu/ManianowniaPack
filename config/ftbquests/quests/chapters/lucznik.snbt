@@ -70,6 +70,7 @@
 			dependencies: [
 				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "78E56495730DCDFC",
@@ -111,6 +112,7 @@
 			dependencies: [
 				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "5906E04F9040FE8D",
@@ -147,6 +149,7 @@
 			dependencies: [
 				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "363C21FD28B279A1",
@@ -183,6 +186,7 @@
 			dependencies: [
 				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "32CCA4F241B36EC3",
@@ -249,8 +253,10 @@
 			],
 			dependencies: [
 				"5D0B07A4B968951D",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "54D2CC67784DDC08",
@@ -289,8 +295,10 @@
 				"Łuk o dużej sile. Okucia z cynku (ruda z Create) zamiast złota."
 			],
 			dependencies: [
-				"3890718EEE73A838"
+				"3890718EEE73A838",
+				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "7E7B379731920CAA",
@@ -325,8 +333,10 @@
 				"Mechaniczny krótki łuk i szybkostrzelna kusza."
 			],
 			dependencies: [
-				"301B5EFEAD31870F"
+				"301B5EFEAD31870F",
+				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "3562B2B5E014FDE4",
@@ -366,8 +376,10 @@
 				"Hak automatycznego strzału: kusza sama strzela po naładowaniu."
 			],
 			dependencies: [
-				"7E42ED27C71F077A"
+				"7E42ED27C71F077A",
+				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "702565FE499DE825",
@@ -403,8 +415,10 @@
 			],
 			dependencies: [
 				"7BBBE2F20751CFAE",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1D0AB02E599BC2FB",
@@ -464,8 +478,10 @@
 			dependencies: [
 				"1A1C89D5006C1920",
 				"7E42ED27C71F077A",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "578A53923EE9DEA1",
@@ -514,8 +530,10 @@
 			],
 			dependencies: [
 				"7E42ED27C71F077A",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "5338BC4ED1074FD6",
@@ -556,8 +574,10 @@
 			],
 			dependencies: [
 				"7C05F362F2D05BCB",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "501945851AE3E15F",
@@ -593,8 +613,10 @@
 			],
 			dependencies: [
 				"109B979FB0425A3A",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"1D752A6D1387AAA9"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "509AFBBF1C51AC06",

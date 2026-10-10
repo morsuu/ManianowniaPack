@@ -43,11 +43,11 @@ hash = "90b4b1488473fc9c19b670e32725a05cd9634896dd0d99049fd3faf4e1e17894"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czarodziej.snbt"
-hash = "a24003aa623bdec9f67d29ad9652cdb45ad63947f19afa121cd421ad133b5574"
+hash = "a56413765d2b95cd80007d13353aac7755fcf262f00c95f5cc68d917aeb093c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kaplan.snbt"
-hash = "cfc648f7750b97a408a2b03b533715ba471fd06f8667256789eb9a275ab4a5da"
+hash = "621322e35bb41e0d1eeac3a58986208502a3e0ecf5da46479ec2b7284971b5ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kuchnia.snbt"
@@ -55,11 +55,11 @@ hash = "3500c28e61608a19beaf6d0c6f154dc559898535498d53f0b8d21a5314ec043c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lotrzyk.snbt"
-hash = "ea5318db56a3ddba3a06e920feb36f6432b58e713bc6d4f891d0e06f98c4ccc1"
+hash = "ead9f28acaff2fbff38e30a38e8201cb6aed95b433f5af9c07b734ee578e1bc5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lucznik.snbt"
-hash = "0a80dd510ec4e50fb5de4cf3c7ef857e32b2ec73b57d550eb163d24a78f5f940"
+hash = "33069cb48f327746d0afa735a89b316af2b5078dc8d30019780e155c9fb4f571"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/manianownia.snbt"
@@ -71,7 +71,7 @@ hash = "9387691b7b5cb414f5d04f7a0d69f987a109c07de3f93cb11abff83ec3879f62"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/paladyn.snbt"
-hash = "f5e52e1916fa51f365ad7f1bfce86f3ccc34a6a9c0ea58525bf523103f020d0d"
+hash = "0c1bfd8c3786df32b872ec4fd68d929ba3515f2175c42d8f45d276f2d79ff516"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/przygoda.snbt"
@@ -91,7 +91,7 @@ hash = "ee5b19b80bc3058402d3a68f7f2b982bd206796fc8fdcc621991bb426d1e352b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
-hash = "fe95377d57fd399f3c321888c5cbac4b9a6cbe724fa3f6a02d6e2e960698d4a7"
+hash = "0c99a29915b9798224df67dd5436eee378e25ccf526d557f5b373d9b48602db7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"

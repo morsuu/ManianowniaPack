@@ -61,6 +61,7 @@
 			dependencies: [
 				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1A0824F3FB27D476",
@@ -95,8 +96,10 @@
 				"Żelazny buzdygan i wielki młot."
 			],
 			dependencies: [
-				"7BC38626EDB6E4F6"
+				"7BC38626EDB6E4F6",
+				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "16C031855E823C25",
@@ -138,6 +141,7 @@
 			dependencies: [
 				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "39CE0AB3D2D18AC3",
@@ -174,6 +178,7 @@
 			dependencies: [
 				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "75CF2FA452BB5FB8",
@@ -240,8 +245,10 @@
 			],
 			dependencies: [
 				"37AC1899ECB5A476",
-				"37772F297CBF9CC9"
+				"37772F297CBF9CC9",
+				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1D1F9E02DA43EB96",
@@ -282,8 +289,10 @@
 			],
 			dependencies: [
 				"5B60582DE6FD8062",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1AF61CCD37C43A90",
@@ -332,8 +341,10 @@
 			],
 			dependencies: [
 				"5B60582DE6FD8062",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "32BF6E55CB779578",
@@ -369,8 +380,10 @@
 			],
 			dependencies: [
 				"530D632B80E9EDBA",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "7A1941C11E45AD15",
@@ -429,8 +442,10 @@
 			],
 			dependencies: [
 				"50CE61F92D1630AD",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "109A92D02A74F10B",
@@ -479,8 +494,10 @@
 			],
 			dependencies: [
 				"71193D65D211A469",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "5D5D394DD8213087",
@@ -516,8 +533,10 @@
 			],
 			dependencies: [
 				"77290FD992E7F2EF",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"53FCE2B413F5CA06"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1F0108DD246364B9",

@@ -61,6 +61,7 @@
 			dependencies: [
 				"5886B920CBD7192B"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "561D3E4B09080126",
@@ -95,8 +96,10 @@
 				"Żelazny sztylet i sierp."
 			],
 			dependencies: [
-				"54FC2CD38B270DA9"
+				"54FC2CD38B270DA9",
+				"5886B920CBD7192B"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "1BC4961776E10700",
@@ -138,6 +141,7 @@
 			dependencies: [
 				"5886B920CBD7192B"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "7A53D6550805A498",
@@ -203,8 +207,10 @@
 				"Złoty sztylet i sierp."
 			],
 			dependencies: [
-				"1E30699539FA053E"
+				"1E30699539FA053E",
+				"5886B920CBD7192B"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "3D71D20DDCDC7C77",
@@ -245,8 +251,10 @@
 			],
 			dependencies: [
 				"73A4C8206991D9C7",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"5886B920CBD7192B"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "511755197A888C66",
@@ -295,8 +303,10 @@
 			],
 			dependencies: [
 				"3F490A5FDC2C1423",
-				"33835E8F17F8E0AB"
+				"33835E8F17F8E0AB",
+				"5886B920CBD7192B"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "17413C370699906B",
@@ -355,8 +365,10 @@
 			],
 			dependencies: [
 				"53BB1A366086666E",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"5886B920CBD7192B"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "73B95F32F66A4FAE",
@@ -405,8 +417,10 @@
 			],
 			dependencies: [
 				"3FBDF9BF0B3FAD1E",
-				"3E82FB0EC8FBCB55"
+				"3E82FB0EC8FBCB55",
+				"5886B920CBD7192B"
 			],
+			dependency_requirement: "one_completed",
 			tasks: [
 				{
 					id: "13F6F95770D61928",
