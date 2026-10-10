@@ -61,4 +61,6 @@ Na serwerze dodatkowo działają (tylko po stronie serwera, gracze nic nie insta
 - **Discord Integration**: most czatu z Discordem (wyżej).
 - **Styled Chat + Styled Player List + Manianownia Tytuły**: klasa i poziom przed nickiem w czacie i TAB-ie, np. `[Mag 7] morsu`; nad głową poziom klasy.
 - **Server-Side Horror**: po kilku dniach gry świat zaczyna być... dziwny. Nic nie trzeba instalować.
+- **From The Fog**: Herobrine (po 3 dniach gry). Bez podpalania baz. Ustawienia (OP): `/function fromthefog:admin/config`.
+- **Tense Ambience** (u graczy): niepokojące dźwięki otoczenia nocą i w jaskiniach; na słabszym sprzęcie można je wyłączyć w ustawieniach moda.
 - **spark**: diagnoza lagów, `/spark profiler start`, po minucie `/spark profiler stop` daje link z raportem.

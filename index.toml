@@ -295,7 +295,7 @@ hash = "1e83663af3eb9d10f22518083197ebd7f7d2623fd0bb16d2e10fab1743d66a5c"
 
 [[files]]
 file = "config/serversidehorror.json"
-hash = "04cc81d7f2e2dcb9ccea16731961fb36b104e047477bd903a8da5071d4baf298"
+hash = "36a9ae0b491db7f7800f26e221cbfbad9db8ca353d8d663d71e407a0c03c85ed"
 
 [[files]]
 file = "config/simplemenu.json5"
@@ -505,6 +505,11 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes.pw.toml"
 hash = "b54a0f4ded5bb9614e5c0d8b70dead69cdea65d64cbb2276b0380d2e5537307e"
+metafile = true
+
+[[files]]
+file = "mods/from-the-fog.pw.toml"
+hash = "c75b3c1f6efe3617d75ab414d2b8322c0065abed701d9db34653f33ba1d667c1"
 metafile = true
 
 [[files]]
@@ -780,6 +785,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "dedee66adbd20ff932d1fc0a13aecec08a18c37ed4a07521441a617bbad2c326"
+metafile = true
+
+[[files]]
+file = "mods/tense-ambience.pw.toml"
+hash = "050c83c8c312109bba85904c03e69ee91f58bf6abc793956b9c421f66d27ca03"
 metafile = true
 
 [[files]]

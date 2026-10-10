@@ -1,5 +1,6 @@
 {
   "grace_period": 3,
+  "herobrine_starer_enable": false,
   "burn_down_house_enable": false,
   "removing_leaves_enable": false,
   "joining_on_bedrock_enable": false,
@@ -24,18 +25,15 @@
     "GG\n \n \n "
   ],
   "random_fake_joiner_list": [
-    "Herobrine;Cześć.;Widzę, co budujecie;Nie śpij dziś",
     "null;Kto zgasił pochodnie?;Jestem bliżej, niż myślisz",
     "Projekt_M;BAF;Hej?;Ups, zły serwer"
   ],
   "starer_list": [
-    "Herobrine",
     "null",
     "Projekt_M",
     "MarsThePlanet_"
   ],
   "heads_from_list_list": [
-    "Herobrine",
     "null",
     "Projekt_M",
     "MarsThePlanet_"
