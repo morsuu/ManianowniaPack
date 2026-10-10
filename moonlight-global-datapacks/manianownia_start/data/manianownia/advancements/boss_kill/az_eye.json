@@ -1,0 +1,15 @@
+{
+ "criteria": {
+  "kill": {
+   "trigger": "minecraft:player_killed_entity",
+   "conditions": {
+    "entity": {
+     "type": "adventurez:the_eye"
+    }
+   }
+  }
+ },
+ "rewards": {
+  "function": "manianownia:boss_kill/az_eye"
+ }
+}

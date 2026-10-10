@@ -1,5 +1,6 @@
 {
  "values": [
-  "manianownia:load"
+  "manianownia:load",
+  "manianownia:legenda/load"
  ]
 }

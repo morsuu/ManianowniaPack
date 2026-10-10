@@ -1162,7 +1162,10 @@
 				"Silniejsze potwory dają więcej doświadczenia. Zdarzają się też wielkie i szybkie zombie.",
 				"",
 				"&cBossowie&r mają dodatkowe zdrowie za każdego gracza w pobliżu i biją mocniej niż w zwykłych modach.",
-				"Idźcie na nich razem i przygotujcie się: mikstury, jedzenie, dobry sprzęt i rozwinięte drzewka."
+				"Idźcie na nich razem i przygotujcie się: mikstury, jedzenie, dobry sprzęt i rozwinięte drzewka.",
+				"",
+				"Po wejściu do Netheru uważajcie na &6legendy&r: losowe bossy, które pojawiają się obok graczy",
+				"i z bardzo małą szansą zostawiają legendarną broń klasy (rozdział &cBossowie&r)."
 			],
 			dependencies: [
 				"357D7C74A4819D02"

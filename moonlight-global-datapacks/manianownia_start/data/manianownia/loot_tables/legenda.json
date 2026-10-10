@@ -1,0 +1,275 @@
+{
+ "type": "minecraft:entity",
+ "pools": [
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:diamond",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:experience_bottle",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 6,
+        "max": 12
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:golden_apple",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    },
+    {
+     "condition": "minecraft:random_chance_with_looting",
+     "chance": 0.5,
+     "looting_multiplier": 0.1
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:netherite_scrap",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    },
+    {
+     "condition": "minecraft:random_chance_with_looting",
+     "chance": 0.15,
+     "looting_multiplier": 0.05
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:enchanted_golden_apple"
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    },
+    {
+     "condition": "minecraft:random_chance_with_looting",
+     "chance": 0.02,
+     "looting_multiplier": 0.005
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "wizards:staff_wizard",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{display:{Name:\"{\\\"text\\\": \\\"Kostur Gwiazdozbioru\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",Lore:[\"{\\\"text\\\": \\\"Legendarny łup\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"+9 mocy ognia, lodu i arkanów\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"+5% szansy na krytyczny czar\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Najlepsza broń: Czarodziej\\\", \\\"color\\\": \\\"dark_purple\\\", \\\"bold\\\": false, \\\"italic\\\": false}\"]},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"manianownia_legenda\",Amount:4.0d,Operation:0,UUID:[I;-885041709,1683771192,-1533567981,-1556236849],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"manianownia_legenda\",Amount:-3.0d,Operation:0,UUID:[I;-98353636,1098926181,-1340359474,-1752847197],Slot:\"mainhand\"},{AttributeName:\"spell_power:arcane\",Name:\"manianownia_legenda\",Amount:9.0d,Operation:0,UUID:[I;335023727,-1287630494,-371069881,2050715043],Slot:\"mainhand\"},{AttributeName:\"spell_power:fire\",Name:\"manianownia_legenda\",Amount:9.0d,Operation:0,UUID:[I;-917011604,-1512933855,-900760031,155671608],Slot:\"mainhand\"},{AttributeName:\"spell_power:frost\",Name:\"manianownia_legenda\",Amount:9.0d,Operation:0,UUID:[I;858613904,-1205211333,-581550360,-1147353806],Slot:\"mainhand\"},{AttributeName:\"spell_power:critical_chance\",Name:\"manianownia_legenda\",Amount:0.05d,Operation:1,UUID:[I;1060879881,-676043799,1392100392,-2097152420],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    },
+    {
+     "condition": "minecraft:random_chance_with_looting",
+     "chance": 0.02,
+     "looting_multiplier": 0.005
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "paladins:netherite_mace",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{display:{Name:\"{\\\"text\\\": \\\"Młot Świtu\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",Lore:[\"{\\\"text\\\": \\\"Legendarny łup\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Mocniejszy od netherytowego buzdyganu\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"+5 mocy leczenia, +2 pancerza\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Najlepsza broń: Paladyn\\\", \\\"color\\\": \\\"dark_purple\\\", \\\"bold\\\": false, \\\"italic\\\": false}\"]},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"manianownia_legenda\",Amount:12.0d,Operation:0,UUID:[I;-885041709,1683771192,-1533567981,-1556236849],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"manianownia_legenda\",Amount:-2.8d,Operation:0,UUID:[I;-98353636,1098926181,-1340359474,-1752847197],Slot:\"mainhand\"},{AttributeName:\"spell_power:healing\",Name:\"manianownia_legenda\",Amount:5.0d,Operation:0,UUID:[I;-382877615,-616779094,342325224,495916590],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"manianownia_legenda\",Amount:2.0d,Operation:0,UUID:[I;-1816482229,1655106236,-495909436,1705500841],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    },
+    {
+     "condition": "minecraft:random_chance_with_looting",
+     "chance": 0.02,
+     "looting_multiplier": 0.005
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "paladins:netherite_holy_staff",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{display:{Name:\"{\\\"text\\\": \\\"Laska Objawienia\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",Lore:[\"{\\\"text\\\": \\\"Legendarny łup\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"+10 mocy leczenia\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"+5% krytyka i szybkości rzucania\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Najlepsza broń: Kapłan\\\", \\\"color\\\": \\\"dark_purple\\\", \\\"bold\\\": false, \\\"italic\\\": false}\"]},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"manianownia_legenda\",Amount:4.0d,Operation:0,UUID:[I;-885041709,1683771192,-1533567981,-1556236849],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"manianownia_legenda\",Amount:-3.0d,Operation:0,UUID:[I;-98353636,1098926181,-1340359474,-1752847197],Slot:\"mainhand\"},{AttributeName:\"spell_power:healing\",Name:\"manianownia_legenda\",Amount:10.0d,Operation:0,UUID:[I;-1339529079,1770106555,-342348642,10250115],Slot:\"mainhand\"},{AttributeName:\"spell_power:critical_chance\",Name:\"manianownia_legenda\",Amount:0.05d,Operation:1,UUID:[I;-292543964,-1786438954,-1921798127,-2051345680],Slot:\"mainhand\"},{AttributeName:\"spell_power:haste\",Name:\"manianownia_legenda\",Amount:0.05d,Operation:1,UUID:[I;158843057,1285424060,-158554710,-646378624],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    },
+    {
+     "condition": "minecraft:random_chance_with_looting",
+     "chance": 0.02,
+     "looting_multiplier": 0.005
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "rogues:netherite_dagger",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{display:{Name:\"{\\\"text\\\": \\\"Szept Cienia\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",Lore:[\"{\\\"text\\\": \\\"Legendarny łup\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Mocniejszy od netherytowego sztyletu\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"5% kradzieży życia, +5% szybkości ruchu\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Najlepsza broń: Łotrzyk\\\", \\\"color\\\": \\\"dark_purple\\\", \\\"bold\\\": false, \\\"italic\\\": false}\"]},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"manianownia_legenda\",Amount:6.2d,Operation:0,UUID:[I;-885041709,1683771192,-1533567981,-1556236849],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"manianownia_legenda\",Amount:-1.6d,Operation:0,UUID:[I;-98353636,1098926181,-1340359474,-1752847197],Slot:\"mainhand\"},{AttributeName:\"puffish_attributes:life_steal\",Name:\"manianownia_legenda\",Amount:0.05d,Operation:1,UUID:[I;1136111196,908983615,-1294078776,-1723793137],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"manianownia_legenda\",Amount:0.05d,Operation:1,UUID:[I;-1594211008,605386420,-437522462,565632285],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    },
+    {
+     "condition": "minecraft:random_chance_with_looting",
+     "chance": 0.02,
+     "looting_multiplier": 0.005
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "rogues:netherite_double_axe",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{display:{Name:\"{\\\"text\\\": \\\"Topór Rzezi\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",Lore:[\"{\\\"text\\\": \\\"Legendarny łup\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Mocniejszy od netherytowego topora\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Ignoruje 20% pancerza, 3% kradzieży życia\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Najlepsza broń: Wojownik\\\", \\\"color\\\": \\\"dark_purple\\\", \\\"bold\\\": false, \\\"italic\\\": false}\"]},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"manianownia_legenda\",Amount:12.0d,Operation:0,UUID:[I;-885041709,1683771192,-1533567981,-1556236849],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"manianownia_legenda\",Amount:-2.8d,Operation:0,UUID:[I;-98353636,1098926181,-1340359474,-1752847197],Slot:\"mainhand\"},{AttributeName:\"puffish_attributes:armor_shred\",Name:\"manianownia_legenda\",Amount:0.2d,Operation:1,UUID:[I;1945620970,1215233905,-181511806,-505763907],Slot:\"mainhand\"},{AttributeName:\"puffish_attributes:life_steal\",Name:\"manianownia_legenda\",Amount:0.03d,Operation:1,UUID:[I;1134417068,2015643168,1798170367,-1702378622],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "condition": "minecraft:killed_by_player"
+    },
+    {
+     "condition": "minecraft:random_chance_with_looting",
+     "chance": 0.02,
+     "looting_multiplier": 0.005
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "archers:netherite_longbow",
+     "functions": [
+      {
+       "function": "minecraft:set_nbt",
+       "tag": "{display:{Name:\"{\\\"text\\\": \\\"Łuk Burzy\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",Lore:[\"{\\\"text\\\": \\\"Legendarny łup\\\", \\\"color\\\": \\\"gold\\\", \\\"bold\\\": true, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Moc VIII, Odrzut II, Płomień, Nieskończoność\\\", \\\"color\\\": \\\"gray\\\", \\\"bold\\\": false, \\\"italic\\\": false}\",\"{\\\"text\\\": \\\"Najlepsza broń: Łucznik\\\", \\\"color\\\": \\\"dark_purple\\\", \\\"bold\\\": false, \\\"italic\\\": false}\"]},Unbreakable:1b,Enchantments:[{id:\"minecraft:power\",lvl:8s},{id:\"minecraft:punch\",lvl:2s},{id:\"minecraft:flame\",lvl:1s},{id:\"minecraft:infinity\",lvl:1s}]}"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

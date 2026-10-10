@@ -36,15 +36,31 @@
         }
        }
       ]
+     },
+     "legend": {
+      "operations": [
+       {
+        "type": "get_killed_living_entity"
+       },
+       {
+        "type": "as_entity"
+       },
+       {
+        "type": "puffish_skills:has_tag",
+        "data": {
+         "tag": "mp_legend"
+        }
+       }
+      ]
      }
     },
     "experience": [
      {
-      "condition": "boss",
+      "condition": "max(boss, legend)",
       "expression": "round(min(hp, 3000) * 0.8)"
      },
      {
-      "condition": "1 - boss",
+      "condition": "(1 - boss) * (1 - legend)",
       "expression": "round(min(hp, 200) / 4)"
      }
     ],

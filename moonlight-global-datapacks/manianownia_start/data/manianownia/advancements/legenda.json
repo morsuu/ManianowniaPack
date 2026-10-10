@@ -1,0 +1,7 @@
+{
+ "criteria": {
+  "assist": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

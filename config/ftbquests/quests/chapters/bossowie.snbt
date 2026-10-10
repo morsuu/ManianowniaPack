@@ -1072,6 +1072,64 @@
 			]
 		},
 		{
+			id: "19720E72BBCA932B",
+			title: "&6&lLegendy",
+			x: 0.0d,
+			y: 3.0d,
+			icon: "minecraft:nether_star",
+			description: [
+				"&6&lLegendy wędrują po świecie&r",
+				"",
+				"Po wejściu do Netheru co jakiś czas obok losowego gracza na powierzchni pojawia się &6legenda&r.",
+				"Na czacie zobaczycie jej imię i współrzędne. Legenda świeci, ma pasek zdrowia i znika po 10 minutach.",
+				"&7Rzeźnik z Doliny, Nekrolord Mortis, Baba Jaga z Bagien, Wódz Złotych Kłów, Upiorny Łowca, Pożeracz Wiosek.",
+				"Każda ma swoją sztuczkę, a za każdego gracza w pobliżu dostaje +50% zdrowia.",
+				"",
+				"Zawsze wypadają diamenty, butelki doświadczenia i złote jabłka. Rzadko netheryt i zaklęte złote jabłko.",
+				"A z bardzo małą szansą (&c2%&r na każdy, Grabież trochę pomaga) &6legendarna broń klasy&r:",
+				"&7Kostur Gwiazdozbioru, Młot Świtu, Laska Objawienia, Szept Cienia, Topór Rzezi, Łuk Burzy."
+			],
+			dependencies: [
+				"17CA9EA3317BFD6C"
+			],
+			size: 1.5d,
+			shape: "diamond",
+			tasks: [
+				{
+					id: "1AF76B150F47DD99",
+					type: "advancement",
+					advancement: "manianownia:legenda",
+					criterion: "",
+					title: "Pokonajcie legendę"
+				}
+			],
+			rewards: [
+				{
+					id: "57A552CD4792EDE5",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "532B4965D8139E8B",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "7FF75893ABD492BB",
+					type: "xp_levels",
+					xp_levels: 16
+				}
+			]
+		},
+		{
 			id: "3121369A823CEE49",
 			title: "&5Uschnięty Nekromanta",
 			x: 2.0d,

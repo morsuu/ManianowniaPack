@@ -1,0 +1,15 @@
+{
+ "criteria": {
+  "kill": {
+   "trigger": "minecraft:player_killed_entity",
+   "conditions": {
+    "entity": {
+     "type": "bosses_of_mass_destruction:lich"
+    }
+   }
+  }
+ },
+ "rewards": {
+  "function": "manianownia:boss_kill/boss_lich"
+ }
+}
