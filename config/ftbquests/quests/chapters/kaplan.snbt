@@ -203,7 +203,7 @@
 			y: -1.0d,
 			icon: "paladins:diamond_holy_staff",
 			description: [
-				"Diamentowa święta różdżka i laska. Zamiast złota potrzebny jest cynk (ruda z Create)."
+				"Diamentowa święta różdżka i laska. Zamiast złota potrzebny jest mosiądz (cynk + miedź w mikserze Create)."
 			],
 			dependencies: [
 				"574D8B03FD0AF681",

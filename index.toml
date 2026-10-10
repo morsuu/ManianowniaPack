@@ -47,7 +47,7 @@ hash = "a24003aa623bdec9f67d29ad9652cdb45ad63947f19afa121cd421ad133b5574"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kaplan.snbt"
-hash = "8dc613df11d2991183f5b2fe4937708563b1d8cbc7d9a3f279cc4162522929e0"
+hash = "cfc648f7750b97a408a2b03b533715ba471fd06f8667256789eb9a275ab4a5da"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kuchnia.snbt"
@@ -1238,11 +1238,11 @@ hash = "f6d2d3fd9937e00522fed84d083f8df736925f5a7e58409c5b8ab3e21832b3c7"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_holy_staff.json"
-hash = "d4eb36520040a619756dee4135898f0b3d53029c5cb896a78e6e7c53aca7f86e"
+hash = "ec307917ca05babad545f9badc07f10afc03da5280da8ed07990531e95f59a50"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_holy_wand.json"
-hash = "cb56da69ab21b9355e3c800a165325c7a0cf97927fd17bf9e2a3e729f036ff73"
+hash = "e152fbfb60416638a5f88aa2d4025c19c4b47e9485c5bef2f842bfc75750d077"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_kite_shield.json"
