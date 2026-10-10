@@ -982,7 +982,7 @@ hash = "d39a8634f0fcb1a3a20601059827de725d06473b50e42dc85f9f16a79f530bff"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/ab_rzeznik.mcfunction"
-hash = "b29a76cbf8dcf3a512a2e5a18303466c3000cabb74f4b17e1638cf391b633385"
+hash = "890a950a9ff5513b37bacdc84dadb4f58cc60c3ccdbe549e4c04d915b5982a65"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/ab_wiedzma.mcfunction"
@@ -1014,7 +1014,7 @@ hash = "8229a7be1f774f386c0135c47f5df60b35a6189dbefbedd60d43fd663d6b7c35"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/spawn.mcfunction"
-hash = "a8dcd926b63e01b0cbb49927be57e55f95ff33c8da2e6c8c7cd4cbf7bd500d36"
+hash = "aaef7326f2481c324ae8036114869ad40bb3edf9df822235919e971fd623903c"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/tick.mcfunction"
