@@ -83,7 +83,7 @@ hash = "cc5615e5db72fd4846daf6bff2d378781f0751736491dce7cc55f9d93665337f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "23dfd7879c5677d50191c1d6b3d9866fa6957e84b49a3d1a24187d4e4d417bc2"
+hash = "ee5b19b80bc3058402d3a68f7f2b982bd206796fc8fdcc621991bb426d1e352b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
@@ -1120,6 +1120,18 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/
 hash = "05e3da8f02ab7fcd28d0a0b94a7f31db700f1ae05800e4ce0b1e9fd301bb61d6"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/tytul/gracz.mcfunction"
+hash = "401f537dc11e61516e21618834b7840df2c9398c449ef735148c413fbecd0580"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/tytul/load.mcfunction"
+hash = "c634084be43a4ed3af0129f49770b2c0fa98bd61fa4d300a14c5c9368fc058fc"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/tytul/tick.mcfunction"
+hash = "3d561e09ec82a853bb63972531a74c41eb46a63e1cd429508c8243bd663cbe80"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/zapomnienie.mcfunction"
 hash = "a375687ff22955ecb083272d7dca8bc26d2bb6918e1503d621ba025c8950ace5"
 
@@ -1145,7 +1157,7 @@ hash = "f8a6bcdcb2ad98eaaeaf61d0cebc633a87eeda5064d2a5111a6facfe606ea70e"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/minecraft/tags/functions/load.json"
-hash = "fd0e5d20591dede82abb4b121c79e49e186948859462bc73edc8435e49d8d83d"
+hash = "66534e5b8b472ba918ee84788dd41fe60f1bab4b72193316b1a9079f4d22143e"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_claymore.json"

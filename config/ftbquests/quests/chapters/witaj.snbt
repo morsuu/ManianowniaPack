@@ -400,7 +400,9 @@
 				"Magia ognia, lodu i arkanów. Silne obrażenia z dystansu, mało zdrowia.",
 				"",
 				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
-				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r.",
+				"",
+				"Poziom drzewka klasy widać w &eTAB&r-ie i pod Twoim nickiem."
 			],
 			dependencies: [
 				"73B4AAA77D599885"
@@ -452,6 +454,14 @@
 					id: "1AFEF67D824B8CC3",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "7B634D6723CA8C25",
+					type: "command",
+					command: "/tag @s add mp_k_czarodziej",
+					elevate_perms: true,
+					silent: true,
+					title: "&6Poziom klasy przy nicku"
 				}
 			]
 		},
@@ -512,7 +522,9 @@
 				"Tarcza latawcowa i buzdygan. Najbardziej wytrzymała klasa.",
 				"",
 				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
-				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r.",
+				"",
+				"Poziom drzewka klasy widać w &eTAB&r-ie i pod Twoim nickiem."
 			],
 			dependencies: [
 				"73B4AAA77D599885"
@@ -562,6 +574,14 @@
 					id: "5691F7D3E583B9C1",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "79BF926C1F959446",
+					type: "command",
+					command: "/tag @s add mp_k_paladyn",
+					elevate_perms: true,
+					silent: true,
+					title: "&6Poziom klasy przy nicku"
 				}
 			]
 		},
@@ -622,7 +642,9 @@
 				"Leczenie i święte tarcze. Bez kapłana bossowie bolą bardziej.",
 				"",
 				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
-				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r.",
+				"",
+				"Poziom drzewka klasy widać w &eTAB&r-ie i pod Twoim nickiem."
 			],
 			dependencies: [
 				"73B4AAA77D599885"
@@ -673,6 +695,14 @@
 					id: "30FA75011907D8F4",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "1A4E603CB58A4A72",
+					type: "command",
+					command: "/tag @s add mp_k_kaplan",
+					elevate_perms: true,
+					silent: true,
+					title: "&6Poziom klasy przy nicku"
 				}
 			]
 		},
@@ -733,7 +763,9 @@
 				"Sztylety i sierpy. Szybkie ciosy, krwawienie i skradanie.",
 				"",
 				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
-				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r.",
+				"",
+				"Poziom drzewka klasy widać w &eTAB&r-ie i pod Twoim nickiem."
 			],
 			dependencies: [
 				"73B4AAA77D599885"
@@ -784,6 +816,14 @@
 					id: "3A0AB300CBEBA34C",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "79067F7D1F53C806",
+					type: "command",
+					command: "/tag @s add mp_k_lotrzyk",
+					elevate_perms: true,
+					silent: true,
+					title: "&6Poziom klasy przy nicku"
 				}
 			]
 		},
@@ -844,7 +884,9 @@
 				"Podwójne topory i glewie. Szał bojowy i ogromne obrażenia z bliska.",
 				"",
 				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
-				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r.",
+				"",
+				"Poziom drzewka klasy widać w &eTAB&r-ie i pod Twoim nickiem."
 			],
 			dependencies: [
 				"73B4AAA77D599885"
@@ -895,6 +937,14 @@
 					id: "58C64DD2512B49D5",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "75B005B960277B8B",
+					type: "command",
+					command: "/tag @s add mp_k_wojownik",
+					elevate_perms: true,
+					silent: true,
+					title: "&6Poziom klasy przy nicku"
 				}
 			]
 		},
@@ -955,7 +1005,9 @@
 				"Łuki, kusze i włócznie. Zabija, zanim wróg podejdzie.",
 				"",
 				"&cWybór jest ostateczny!&r Dostaniesz zestaw startowy i Stół zaklęć.",
-				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r."
+				"Potem przejdź do rozdziału tej klasy w grupie &cKlasy postaci&r.",
+				"",
+				"Poziom drzewka klasy widać w &eTAB&r-ie i pod Twoim nickiem."
 			],
 			dependencies: [
 				"73B4AAA77D599885"
@@ -1006,6 +1058,14 @@
 					id: "5B91D22239AAEA2D",
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: "3D445C7B423D41CE",
+					type: "command",
+					command: "/tag @s add mp_k_lucznik",
+					elevate_perms: true,
+					silent: true,
+					title: "&6Poziom klasy przy nicku"
 				}
 			]
 		},
