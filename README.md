@@ -31,6 +31,13 @@ W istniejącej instancji Fabric 1.20.1 (loader 0.19.5):
 
 ## Serwer
 
+**Najprościej (np. Craftserve, bez własnej komendy startowej):** gotowa paczka serwerowa
+[`ManianowniaPack-serwer.zip`](https://github.com/morsuu/ManianowniaPack/releases/download/serwer/ManianowniaPack-serwer.zip)
+buduje się automatycznie przy każdej wersji paczki. Silnik Fabric 1.20.1, rozpakuj ZIP w głównym folderze serwera i uruchom.
+Aktualizacja: wyłącz serwer, usuń foldery `mods`, `config` i `moonlight-global-datapacks`, wgraj i rozpakuj nowy ZIP (świat i kopie zostają).
+
+**Albo z automatyczną aktualizacją przy starcie** (hosting z własną komendą startową):
+
 Pliki pomocnicze są w [`instalacja/serwer`](instalacja/serwer): `packwiz-installer-bootstrap.jar`, `start.sh` / `start.bat`, wzór `server.properties` i `server-icon.png`.
 
 1. Serwer **Fabric 1.20.1**, loader **0.19.5**, **Java 17**, RAM **6–8 GB** (minimum 6 GB).
