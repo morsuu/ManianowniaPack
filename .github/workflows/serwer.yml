@@ -1,0 +1,41 @@
+name: Paczka serwerowa
+# Po każdej aktualizacji paczki buduje ZIP dla serwera (mody tylko serwerowe + configi + datapacki)
+# i podmienia go w wydaniu "serwer": https://github.com/morsuu/ManianowniaPack/releases/tag/serwer
+on:
+  push:
+    branches: [main]
+    paths: ["pack.toml", "index.toml", "mods/**", "config/**", "moonlight-global-datapacks/**", "instalacja/serwer/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: serwer
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Pobierz mody i configi (strona serwera)
+        run: |
+          mkdir serwer
+          cp instalacja/serwer/packwiz-installer-bootstrap.jar serwer/
+          cd serwer
+          java -jar packwiz-installer-bootstrap.jar -g -s server "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_SHA}/pack.toml"
+          rm -rf packwiz-installer-bootstrap.jar packwiz-installer.jar packwiz.json resourcepacks options.txt
+          cp ../instalacja/serwer/server-icon.png .
+          cp ../instalacja/serwer/server.properties server.properties.wzor
+          ls mods | wc -l
+          zip -qr ../ManianowniaPack-serwer.zip .
+      - name: Podmień ZIP w wydaniu "serwer"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VER=$(grep -m1 '^version' pack.toml | cut -d'"' -f2)
+          gh release view serwer >/dev/null 2>&1 || gh release create serwer --title "Paczka serwerowa" --notes "ZIP z modami i configami dla serwera. Aktualizuje się automatycznie przy każdej wersji paczki."
+          gh release upload serwer ManianowniaPack-serwer.zip --clobber
+          gh release edit serwer --notes "Wersja paczki: ${VER}. Rozpakuj w folderze serwera (najpierw usuń stare foldery mods i config). Szczegóły w README."
