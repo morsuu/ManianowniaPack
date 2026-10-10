@@ -6,6 +6,10 @@ hash = "8f593d00a762e30170737fb313be340af47850572e72876c63a3a8ee090c6488"
 preserve = true
 
 [[files]]
+file = "config/EssentialCommands.properties"
+hash = "af2d4c6d9adb805c050de7f9883b1329b7d59b472585a4a7f4f2eb83ad27f1d6"
+
+[[files]]
 file = "config/adventurez.json5"
 hash = "e3d4b524cd4a3881221af04903253c6386a16ef2e8cee6cfba18849edea034eb"
 
@@ -470,6 +474,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "72255fa47da64e85a8adf8c305946f3cc4301301596eb6fbb65469f6562c025c"
+metafile = true
+
+[[files]]
+file = "mods/essential-commands.pw.toml"
+hash = "6c839835da7c6b90b66e614c916ad554e79d6b348ee705f9edcde6c5de859c89"
 metafile = true
 
 [[files]]
