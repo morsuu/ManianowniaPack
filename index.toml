@@ -1061,6 +1061,10 @@ file = "moonlight-global-datapacks/manianownia_start/data/supplementaries/recipe
 hash = "6698806071c4f693083268d9270d68a0606e41ba71fbe592b805e5e5ca23ff53"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/trinkets/entities/manianownia.json"
+hash = "9cf2679f589cc2fcef98afbffc28e8912cb244168f4f6959af2d33b1e0c081d7"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/pack.mcmeta"
 hash = "bc1bd10a345b7ba1469df4267bc31bbeac285bd8802eb01d5a6c8ca8204a9bc8"
 
