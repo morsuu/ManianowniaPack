@@ -180,6 +180,14 @@
 				},
 				{
 					id: "5AD983B813E6EE2D",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lotrzyk 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łotrzyk)"
+				},
+				{
+					id: "1CEC202A4F02760A",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -323,6 +331,14 @@
 				},
 				{
 					id: "5912F0A5EAC58F89",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lotrzyk 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łotrzyk)"
+				},
+				{
+					id: "11CF7BCD0CF9386D",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -424,6 +440,14 @@
 				},
 				{
 					id: "147E7CAC9B153612",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lotrzyk 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łotrzyk)"
+				},
+				{
+					id: "734B022D26C97A06",
 					type: "xp_levels",
 					xp_levels: 8
 				}
@@ -476,6 +500,14 @@
 				},
 				{
 					id: "16EC9BEE305C2708",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lotrzyk 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łotrzyk)"
+				},
+				{
+					id: "5A0C267284F1D77D",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -533,6 +565,14 @@
 					id: "52F8A94976FB3F62",
 					type: "xp_levels",
 					xp_levels: 30
+				},
+				{
+					id: "3E745EF79BDE7C5F",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lotrzyk 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łotrzyk)"
 				}
 			]
 		}

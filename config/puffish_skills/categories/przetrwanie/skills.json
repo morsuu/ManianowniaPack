@@ -1,0 +1,108 @@
+{
+ "root": {
+  "x": 0,
+  "y": 0,
+  "definition": "root",
+  "root": true
+ },
+ "g1": {
+  "x": 0,
+  "y": -44,
+  "definition": "g1"
+ },
+ "g2": {
+  "x": 0,
+  "y": -88,
+  "definition": "g2"
+ },
+ "g3": {
+  "x": 0,
+  "y": -132,
+  "definition": "g3"
+ },
+ "g4": {
+  "x": -30,
+  "y": -176,
+  "definition": "g4"
+ },
+ "g5": {
+  "x": 30,
+  "y": -176,
+  "definition": "g5"
+ },
+ "w1": {
+  "x": 44,
+  "y": 0,
+  "definition": "w1"
+ },
+ "w2": {
+  "x": 88,
+  "y": 0,
+  "definition": "w2"
+ },
+ "w3": {
+  "x": 132,
+  "y": 0,
+  "definition": "w3"
+ },
+ "w4": {
+  "x": 176,
+  "y": -30,
+  "definition": "w4"
+ },
+ "w5": {
+  "x": 176,
+  "y": 30,
+  "definition": "w5"
+ },
+ "t1": {
+  "x": 0,
+  "y": 44,
+  "definition": "t1"
+ },
+ "t2": {
+  "x": 0,
+  "y": 88,
+  "definition": "t2"
+ },
+ "t3": {
+  "x": 0,
+  "y": 132,
+  "definition": "t3"
+ },
+ "t4": {
+  "x": -30,
+  "y": 176,
+  "definition": "t4"
+ },
+ "t5": {
+  "x": 30,
+  "y": 176,
+  "definition": "t5"
+ },
+ "u1": {
+  "x": -44,
+  "y": 0,
+  "definition": "u1"
+ },
+ "u2": {
+  "x": -88,
+  "y": 0,
+  "definition": "u2"
+ },
+ "u3": {
+  "x": -132,
+  "y": 0,
+  "definition": "u3"
+ },
+ "u4": {
+  "x": -176,
+  "y": -30,
+  "definition": "u4"
+ },
+ "u5": {
+  "x": -176,
+  "y": 30,
+  "definition": "u5"
+ }
+}

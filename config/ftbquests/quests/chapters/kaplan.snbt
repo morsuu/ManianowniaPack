@@ -183,6 +183,14 @@
 				},
 				{
 					id: "5706112F6CF4F02B",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:kaplan 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Kapłan)"
+				},
+				{
+					id: "78FAF670F86CE38D",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -277,6 +285,14 @@
 				},
 				{
 					id: "13C1B22F7A4165DE",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:kaplan 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Kapłan)"
+				},
+				{
+					id: "14459E8A7DD0898F",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -378,6 +394,14 @@
 				},
 				{
 					id: "5A5AC9FF7FCC5024",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:kaplan 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Kapłan)"
+				},
+				{
+					id: "375FA08988EA8C73",
 					type: "xp_levels",
 					xp_levels: 8
 				}
@@ -417,6 +441,14 @@
 				},
 				{
 					id: "564B4132DBAB5B0F",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:kaplan 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Kapłan)"
+				},
+				{
+					id: "19F13A934020B06D",
 					type: "xp_levels",
 					xp_levels: 8
 				}
@@ -474,6 +506,14 @@
 					id: "5ECDC49F27CA5C2D",
 					type: "xp_levels",
 					xp_levels: 30
+				},
+				{
+					id: "31FB5CB724DE9A7C",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:kaplan 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Kapłan)"
 				}
 			]
 		}

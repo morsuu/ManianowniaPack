@@ -80,6 +80,14 @@
 					id: "13C3A5AD75D52400",
 					type: "xp_levels",
 					xp_levels: 8
+				},
+				{
+					id: "336C26AB1DE941B1",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
 				}
 			]
 		},
@@ -345,6 +353,14 @@
 				},
 				{
 					id: "59E18EC420EEEF5A",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "38F3D00241A27F72",
 					type: "item",
 					item: {
 						id: "minecraft:netherite_scrap",
@@ -353,7 +369,7 @@
 					count: 2
 				},
 				{
-					id: "38F3D00241A27F72",
+					id: "13530A275C9BCC42",
 					type: "item",
 					item: {
 						id: "minecraft:golden_apple",

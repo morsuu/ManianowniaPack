@@ -1,0 +1,21 @@
+{
+ "title": {
+  "text": "Łucznik",
+  "color": "green",
+  "bold": true
+ },
+ "description": {
+  "text": "Snajper z potężnym łukiem albo zwinny tropiciel. Punkty za pokonane potwory i etapy ścieżki klasy.",
+  "color": "gray"
+ },
+ "icon": {
+  "type": "item",
+  "data": {
+   "item": "archers:composite_longbow"
+  }
+ },
+ "background": "minecraft:textures/block/dark_oak_planks.png",
+ "unlocked_by_default": false,
+ "starting_points": 2,
+ "exclusive_root": true
+}

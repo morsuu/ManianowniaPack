@@ -1,0 +1,164 @@
+{
+ "uzdrowiciel_r": {
+  "x": -110,
+  "y": 0,
+  "definition": "uzdrowiciel_r",
+  "root": true
+ },
+ "uzdrowiciel_a": {
+  "x": -150,
+  "y": 44,
+  "definition": "uzdrowiciel_a"
+ },
+ "uzdrowiciel_b": {
+  "x": -70,
+  "y": 44,
+  "definition": "uzdrowiciel_b"
+ },
+ "uzdrowiciel_c": {
+  "x": -174,
+  "y": 88,
+  "definition": "uzdrowiciel_c"
+ },
+ "uzdrowiciel_d": {
+  "x": -110,
+  "y": 88,
+  "definition": "uzdrowiciel_d"
+ },
+ "uzdrowiciel_e": {
+  "x": -46,
+  "y": 88,
+  "definition": "uzdrowiciel_e"
+ },
+ "uzdrowiciel_f": {
+  "x": -150,
+  "y": 132,
+  "definition": "uzdrowiciel_f"
+ },
+ "uzdrowiciel_g": {
+  "x": -70,
+  "y": 132,
+  "definition": "uzdrowiciel_g"
+ },
+ "uzdrowiciel_h": {
+  "x": -174,
+  "y": 176,
+  "definition": "uzdrowiciel_h"
+ },
+ "uzdrowiciel_i": {
+  "x": -110,
+  "y": 176,
+  "definition": "uzdrowiciel_i"
+ },
+ "uzdrowiciel_j": {
+  "x": -46,
+  "y": 176,
+  "definition": "uzdrowiciel_j"
+ },
+ "uzdrowiciel_k": {
+  "x": -150,
+  "y": 220,
+  "definition": "uzdrowiciel_k"
+ },
+ "uzdrowiciel_l": {
+  "x": -70,
+  "y": 220,
+  "definition": "uzdrowiciel_l"
+ },
+ "uzdrowiciel_m": {
+  "x": -110,
+  "y": 264,
+  "definition": "uzdrowiciel_m"
+ },
+ "uzdrowiciel_x1": {
+  "x": -148,
+  "y": 318,
+  "definition": "uzdrowiciel_x1"
+ },
+ "uzdrowiciel_x2": {
+  "x": -72,
+  "y": 318,
+  "definition": "uzdrowiciel_x2"
+ },
+ "inkwizytor_r": {
+  "x": 110,
+  "y": 0,
+  "definition": "inkwizytor_r",
+  "root": true
+ },
+ "inkwizytor_a": {
+  "x": 70,
+  "y": 44,
+  "definition": "inkwizytor_a"
+ },
+ "inkwizytor_b": {
+  "x": 150,
+  "y": 44,
+  "definition": "inkwizytor_b"
+ },
+ "inkwizytor_c": {
+  "x": 46,
+  "y": 88,
+  "definition": "inkwizytor_c"
+ },
+ "inkwizytor_d": {
+  "x": 110,
+  "y": 88,
+  "definition": "inkwizytor_d"
+ },
+ "inkwizytor_e": {
+  "x": 174,
+  "y": 88,
+  "definition": "inkwizytor_e"
+ },
+ "inkwizytor_f": {
+  "x": 70,
+  "y": 132,
+  "definition": "inkwizytor_f"
+ },
+ "inkwizytor_g": {
+  "x": 150,
+  "y": 132,
+  "definition": "inkwizytor_g"
+ },
+ "inkwizytor_h": {
+  "x": 46,
+  "y": 176,
+  "definition": "inkwizytor_h"
+ },
+ "inkwizytor_i": {
+  "x": 110,
+  "y": 176,
+  "definition": "inkwizytor_i"
+ },
+ "inkwizytor_j": {
+  "x": 174,
+  "y": 176,
+  "definition": "inkwizytor_j"
+ },
+ "inkwizytor_k": {
+  "x": 70,
+  "y": 220,
+  "definition": "inkwizytor_k"
+ },
+ "inkwizytor_l": {
+  "x": 150,
+  "y": 220,
+  "definition": "inkwizytor_l"
+ },
+ "inkwizytor_m": {
+  "x": 110,
+  "y": 264,
+  "definition": "inkwizytor_m"
+ },
+ "inkwizytor_x1": {
+  "x": 72,
+  "y": 318,
+  "definition": "inkwizytor_x1"
+ },
+ "inkwizytor_x2": {
+  "x": 148,
+  "y": 318,
+  "definition": "inkwizytor_x2"
+ }
+}

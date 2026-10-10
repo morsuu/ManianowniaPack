@@ -16,6 +16,8 @@ Od teraz przy każdym starcie gra sama sprawdza, czy jest nowa wersja paczki, i 
 
 - **U**: księga questów (FTB Quests). Jeśli klawisz nie działa, przypisz „Open Quests” w Opcje → Sterowanie albo kliknij ikonkę w lewym górnym rogu ekwipunku.
 - Zacznij od rozdziału **Witaj w Manianowni**: opisuje mody, skróty i cel gry.
+- **K**: drzewka umiejętności (Pufferfish's Skills). Wspólne „Przetrwanie” + drzewko twojej klasy (odblokujesz je questem pod wybraną klasą).
+- Skróty w nowych instalacjach: **J** punkty na mapie (Xaero), **N** plecak na plecach, **R** przewrót. W starszych instalacjach Xaero ma punkty pod **U**, tak jak księga questów: zmień to w Opcje → Sterowanie.
 
 ## Ręcznie (bez zipa)
 

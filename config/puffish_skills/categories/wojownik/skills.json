@@ -1,0 +1,164 @@
+{
+ "berserker_r": {
+  "x": -110,
+  "y": 0,
+  "definition": "berserker_r",
+  "root": true
+ },
+ "berserker_a": {
+  "x": -150,
+  "y": 44,
+  "definition": "berserker_a"
+ },
+ "berserker_b": {
+  "x": -70,
+  "y": 44,
+  "definition": "berserker_b"
+ },
+ "berserker_c": {
+  "x": -174,
+  "y": 88,
+  "definition": "berserker_c"
+ },
+ "berserker_d": {
+  "x": -110,
+  "y": 88,
+  "definition": "berserker_d"
+ },
+ "berserker_e": {
+  "x": -46,
+  "y": 88,
+  "definition": "berserker_e"
+ },
+ "berserker_f": {
+  "x": -150,
+  "y": 132,
+  "definition": "berserker_f"
+ },
+ "berserker_g": {
+  "x": -70,
+  "y": 132,
+  "definition": "berserker_g"
+ },
+ "berserker_h": {
+  "x": -174,
+  "y": 176,
+  "definition": "berserker_h"
+ },
+ "berserker_i": {
+  "x": -110,
+  "y": 176,
+  "definition": "berserker_i"
+ },
+ "berserker_j": {
+  "x": -46,
+  "y": 176,
+  "definition": "berserker_j"
+ },
+ "berserker_k": {
+  "x": -150,
+  "y": 220,
+  "definition": "berserker_k"
+ },
+ "berserker_l": {
+  "x": -70,
+  "y": 220,
+  "definition": "berserker_l"
+ },
+ "berserker_m": {
+  "x": -110,
+  "y": 264,
+  "definition": "berserker_m"
+ },
+ "berserker_x1": {
+  "x": -148,
+  "y": 318,
+  "definition": "berserker_x1"
+ },
+ "berserker_x2": {
+  "x": -72,
+  "y": 318,
+  "definition": "berserker_x2"
+ },
+ "straznik_r": {
+  "x": 110,
+  "y": 0,
+  "definition": "straznik_r",
+  "root": true
+ },
+ "straznik_a": {
+  "x": 70,
+  "y": 44,
+  "definition": "straznik_a"
+ },
+ "straznik_b": {
+  "x": 150,
+  "y": 44,
+  "definition": "straznik_b"
+ },
+ "straznik_c": {
+  "x": 46,
+  "y": 88,
+  "definition": "straznik_c"
+ },
+ "straznik_d": {
+  "x": 110,
+  "y": 88,
+  "definition": "straznik_d"
+ },
+ "straznik_e": {
+  "x": 174,
+  "y": 88,
+  "definition": "straznik_e"
+ },
+ "straznik_f": {
+  "x": 70,
+  "y": 132,
+  "definition": "straznik_f"
+ },
+ "straznik_g": {
+  "x": 150,
+  "y": 132,
+  "definition": "straznik_g"
+ },
+ "straznik_h": {
+  "x": 46,
+  "y": 176,
+  "definition": "straznik_h"
+ },
+ "straznik_i": {
+  "x": 110,
+  "y": 176,
+  "definition": "straznik_i"
+ },
+ "straznik_j": {
+  "x": 174,
+  "y": 176,
+  "definition": "straznik_j"
+ },
+ "straznik_k": {
+  "x": 70,
+  "y": 220,
+  "definition": "straznik_k"
+ },
+ "straznik_l": {
+  "x": 150,
+  "y": 220,
+  "definition": "straznik_l"
+ },
+ "straznik_m": {
+  "x": 110,
+  "y": 264,
+  "definition": "straznik_m"
+ },
+ "straznik_x1": {
+  "x": 72,
+  "y": 318,
+  "definition": "straznik_x1"
+ },
+ "straznik_x2": {
+  "x": 148,
+  "y": 318,
+  "definition": "straznik_x2"
+ }
+}

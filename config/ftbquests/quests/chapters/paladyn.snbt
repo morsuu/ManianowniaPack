@@ -216,6 +216,14 @@
 				},
 				{
 					id: "31EEA0CC55EC8693",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:paladyn 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Paladyn)"
+				},
+				{
+					id: "32D15A6FF988E23D",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -397,6 +405,14 @@
 				},
 				{
 					id: "78EC18955ECBB244",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:paladyn 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Paladyn)"
+				},
+				{
+					id: "30416E5D285B5900",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -535,6 +551,14 @@
 				},
 				{
 					id: "1E9465CCBD9F03FB",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:paladyn 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Paladyn)"
+				},
+				{
+					id: "150750FD4E5271C3",
 					type: "xp_levels",
 					xp_levels: 8
 				}
@@ -587,6 +611,14 @@
 				},
 				{
 					id: "75F63A398BF6D48F",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:paladyn 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Paladyn)"
+				},
+				{
+					id: "52501A0D9DDF01CD",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -645,6 +677,14 @@
 					id: "11FA1863E821690F",
 					type: "xp_levels",
 					xp_levels: 30
+				},
+				{
+					id: "1D289BB330E40894",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:paladyn 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Paladyn)"
 				}
 			]
 		}

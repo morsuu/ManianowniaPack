@@ -1,0 +1,164 @@
+{
+ "zabojca_r": {
+  "x": -110,
+  "y": 0,
+  "definition": "zabojca_r",
+  "root": true
+ },
+ "zabojca_a": {
+  "x": -150,
+  "y": 44,
+  "definition": "zabojca_a"
+ },
+ "zabojca_b": {
+  "x": -70,
+  "y": 44,
+  "definition": "zabojca_b"
+ },
+ "zabojca_c": {
+  "x": -174,
+  "y": 88,
+  "definition": "zabojca_c"
+ },
+ "zabojca_d": {
+  "x": -110,
+  "y": 88,
+  "definition": "zabojca_d"
+ },
+ "zabojca_e": {
+  "x": -46,
+  "y": 88,
+  "definition": "zabojca_e"
+ },
+ "zabojca_f": {
+  "x": -150,
+  "y": 132,
+  "definition": "zabojca_f"
+ },
+ "zabojca_g": {
+  "x": -70,
+  "y": 132,
+  "definition": "zabojca_g"
+ },
+ "zabojca_h": {
+  "x": -174,
+  "y": 176,
+  "definition": "zabojca_h"
+ },
+ "zabojca_i": {
+  "x": -110,
+  "y": 176,
+  "definition": "zabojca_i"
+ },
+ "zabojca_j": {
+  "x": -46,
+  "y": 176,
+  "definition": "zabojca_j"
+ },
+ "zabojca_k": {
+  "x": -150,
+  "y": 220,
+  "definition": "zabojca_k"
+ },
+ "zabojca_l": {
+  "x": -70,
+  "y": 220,
+  "definition": "zabojca_l"
+ },
+ "zabojca_m": {
+  "x": -110,
+  "y": 264,
+  "definition": "zabojca_m"
+ },
+ "zabojca_x1": {
+  "x": -148,
+  "y": 318,
+  "definition": "zabojca_x1"
+ },
+ "zabojca_x2": {
+  "x": -72,
+  "y": 318,
+  "definition": "zabojca_x2"
+ },
+ "cien_r": {
+  "x": 110,
+  "y": 0,
+  "definition": "cien_r",
+  "root": true
+ },
+ "cien_a": {
+  "x": 70,
+  "y": 44,
+  "definition": "cien_a"
+ },
+ "cien_b": {
+  "x": 150,
+  "y": 44,
+  "definition": "cien_b"
+ },
+ "cien_c": {
+  "x": 46,
+  "y": 88,
+  "definition": "cien_c"
+ },
+ "cien_d": {
+  "x": 110,
+  "y": 88,
+  "definition": "cien_d"
+ },
+ "cien_e": {
+  "x": 174,
+  "y": 88,
+  "definition": "cien_e"
+ },
+ "cien_f": {
+  "x": 70,
+  "y": 132,
+  "definition": "cien_f"
+ },
+ "cien_g": {
+  "x": 150,
+  "y": 132,
+  "definition": "cien_g"
+ },
+ "cien_h": {
+  "x": 46,
+  "y": 176,
+  "definition": "cien_h"
+ },
+ "cien_i": {
+  "x": 110,
+  "y": 176,
+  "definition": "cien_i"
+ },
+ "cien_j": {
+  "x": 174,
+  "y": 176,
+  "definition": "cien_j"
+ },
+ "cien_k": {
+  "x": 70,
+  "y": 220,
+  "definition": "cien_k"
+ },
+ "cien_l": {
+  "x": 150,
+  "y": 220,
+  "definition": "cien_l"
+ },
+ "cien_m": {
+  "x": 110,
+  "y": 264,
+  "definition": "cien_m"
+ },
+ "cien_x1": {
+  "x": 72,
+  "y": 318,
+  "definition": "cien_x1"
+ },
+ "cien_x2": {
+  "x": 148,
+  "y": 318,
+  "definition": "cien_x2"
+ }
+}

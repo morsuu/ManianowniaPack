@@ -1,0 +1,1278 @@
+{
+ "snajper_r": {
+  "title": {
+   "text": "Snajper",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+8% obrażeń łuków i kusz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "archers:composite_longbow"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Wybierasz siłę strzału. Tropiciel się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "snajper_a": {
+  "title": {
+   "text": "Celne oko",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń łuków i kusz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:spyglass"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "snajper_b": {
+  "title": {
+   "text": "Napięta cięciwa",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% szybkości naciągania",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:string"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:haste",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "snajper_c": {
+  "title": {
+   "text": "Spokojny oddech",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń łuków i kusz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:feather"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "snajper_d": {
+  "title": {
+   "text": "Przebijanie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "8% pancerza wroga ignorowane",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:flint"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:armor_shred",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "snajper_e": {
+  "title": {
+   "text": "Ostre groty",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń łuków i kusz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:arrow"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "snajper_f": {
+  "title": {
+   "text": "Strzał w serce",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń łuków i kusz",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:spectral_arrow"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "snajper_g": {
+  "title": {
+   "text": "Skupienie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% szybkości naciągania",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:clock"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:haste",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "snajper_h": {
+  "title": {
+   "text": "Kamuflaż",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "15% mniejszy zasięg, z którego potwory cię zauważają",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:oak_leaves"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:stealth",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "snajper_i": {
+  "title": {
+   "text": "Strzał mocy",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+6% obrażeń łuków i kusz\n8% pancerza wroga ignorowane",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "archers:royal_longbow"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:armor_shred",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Jedna strzała, jeden trup.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "snajper_j": {
+  "title": {
+   "text": "Cierpliwość",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 serce zdrowia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:apple"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "snajper_k": {
+  "title": {
+   "text": "Snajperskie oko",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń łuków i kusz",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:ender_eye"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "snajper_l": {
+  "title": {
+   "text": "Grot wybuchowy",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+30% siły odrzutu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:tnt"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:knockback",
+     "value": 0.3,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "snajper_m": {
+  "title": {
+   "text": "Mistrz łuku",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+8% obrażeń łuków i kusz\n+5% szybkości naciągania",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "archers:netherite_longbow"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:haste",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 4,
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "snajper_x1": {
+  "title": {
+   "text": "Zabójczy strzał",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+14% obrażeń łuków i kusz\n12% pancerza wroga ignorowane",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "archers:netherite_longbow"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.14,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:armor_shred",
+     "value": 0.12,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Strzała przebija wszystko. Wyklucza Deszcz strzał.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "snajper_x2": {
+  "title": {
+   "text": "Deszcz strzał",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+12% szybkości naciągania\n+6% obrażeń łuków i kusz",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "archers:netherite_heavy_crossbow"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:haste",
+     "value": 0.12,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Strzelasz szybciej, niż wróg zdąży mrugnąć. Wyklucza Zabójczy strzał.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "tropiciel_r": {
+  "title": {
+   "text": "Tropiciel",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+6% szybkości naciągania\n+2% szybkości ruchu",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:leather_boots"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:haste",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.02,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Wybierasz szybkość i ruch. Snajper się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "tropiciel_a": {
+  "title": {
+   "text": "Lekki krok",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+3% szybkości ruchu",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:feather"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "tropiciel_b": {
+  "title": {
+   "text": "Szybkie ręce",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% szybkości naciągania",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:string"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:haste",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "tropiciel_c": {
+  "title": {
+   "text": "Przewrót",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "15% szybsze odnawianie przewrotu",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:rabbit_hide"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "combatroll:recharge",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "tropiciel_d": {
+  "title": {
+   "text": "Celność",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń łuków i kusz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:arrow"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "tropiciel_e": {
+  "title": {
+   "text": "Instynkt łowcy",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń łuków i kusz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:bone"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "tropiciel_f": {
+  "title": {
+   "text": "Sprint",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+10% szybkości sprintu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:rabbit_foot"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:sprinting_speed",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "tropiciel_g": {
+  "title": {
+   "text": "Seria",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% szybkości naciągania",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:crossbow"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:haste",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "tropiciel_h": {
+  "title": {
+   "text": "Unik",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 bloku dystansu przewrotu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:phantom_membrane"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "combatroll:distance",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "tropiciel_i": {
+  "title": {
+   "text": "Łowca",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+6% obrażeń łuków i kusz\n+4% szybkości naciągania",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "archers:rapid_crossbow"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:damage",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:haste",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Żadna zwierzyna ci nie ucieknie.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "tropiciel_j": {
+  "title": {
+   "text": "Akrobata",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "30% mniej obrażeń od upadku\n+10% wysokości skoku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:slime_ball"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:fall_reduction",
+     "value": 0.3,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:jump",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "tropiciel_k": {
+  "title": {
+   "text": "Tropy",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "15% mniejszy zasięg, z którego potwory cię zauważają",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:fern"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:stealth",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "tropiciel_l": {
+  "title": {
+   "text": "Zwinność",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+3% szybkości ruchu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sugar"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "tropiciel_m": {
+  "title": {
+   "text": "Wilk samotnik",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+1 ładunek przewrotu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:lead"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "combatroll:count",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 4,
+  "extra_description": {
+   "text": "Drugi przewrót pod rząd.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "tropiciel_x1": {
+  "title": {
+   "text": "Grad strzał",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+12% szybkości naciągania\n+5% szybkości ruchu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "archers:netherite_rapid_crossbow"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "ranged_weapon:haste",
+     "value": 0.12,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Strzelasz w biegu. Wyklucza Wiatr.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "tropiciel_x2": {
+  "title": {
+   "text": "Wiatr",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+8% szybkości ruchu\n30% szybsze odnawianie przewrotu\n50% mniej obrażeń od upadku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:elytra"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "combatroll:recharge",
+     "value": 0.3,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:fall_reduction",
+     "value": 0.5,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Nikt cię nie dogoni. Wyklucza Grad strzał.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ }
+}

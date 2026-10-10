@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/adventurez.json5"
+hash = "e3d4b524cd4a3881221af04903253c6386a16ef2e8cee6cfba18849edea034eb"
+
+[[files]]
+file = "config/bosses_of_mass_destruction.json5"
+hash = "fb58f45f4ab6a1423408ace5b6a8a411d9ed14c767eb3d4a22e47e8ead865886"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "8d21b9f3cb6e86436c23ebeb556a2838d6c5905bf93cfc5a30aa18eefa38e80a"
 
@@ -10,7 +18,7 @@ hash = "49abf83a98e347d7a69c5e45c3898a4010dd19cef8abca727a83ac6964d6581f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
-hash = "39e1c12c847c7bc66754506419388c636daad204d45aa6cf2355a284a04d365b"
+hash = "2b2ad630044545f66e083542964aea4e8d8c456756a63cd3f5d02905c0f4cdba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/build.snbt"
@@ -26,11 +34,11 @@ hash = "90b4b1488473fc9c19b670e32725a05cd9634896dd0d99049fd3faf4e1e17894"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czarodziej.snbt"
-hash = "64b69334a1e115a9afb7c597b8d641e97316c130c16f8e581dd69b2b246fefaa"
+hash = "a24003aa623bdec9f67d29ad9652cdb45ad63947f19afa121cd421ad133b5574"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kaplan.snbt"
-hash = "e1a6872f1f436a6dd2e3af9a5e8d01c3ad64042628daaa70f614a8459a8da507"
+hash = "863350295d8772fdc30cadbd7baadc961f80e29d795ada65be939f5e0d73aae1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kuchnia.snbt"
@@ -38,11 +46,11 @@ hash = "3500c28e61608a19beaf6d0c6f154dc559898535498d53f0b8d21a5314ec043c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lotrzyk.snbt"
-hash = "6ca1da1ef019f7783f89cc8bd7d0f29dc8d2135458a30f608dfd1a4bcb45ed0c"
+hash = "c1b36cb75ad6a681b9c3314b3964385cf67932fba8fae6610731137e1eedea42"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lucznik.snbt"
-hash = "def102e9fa3c6576c66487f59bec1d3a77d458d2b8e3db169b4065c7ae723232"
+hash = "02218954dadee66f411133583acbc892f7991c28ee14a5071322c673380da883"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/manianownia.snbt"
@@ -50,15 +58,15 @@ hash = "b2b9ed960f5dc13261e5ed477b65a1bb18c5752e0be97103e82da637de2b5d1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
-hash = "7d32bae30912b24b707da8934f8c6a015f28e8d41eb561b20018803c73729a9e"
+hash = "9387691b7b5cb414f5d04f7a0d69f987a109c07de3f93cb11abff83ec3879f62"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/paladyn.snbt"
-hash = "d9bdf5f1766d58c6bfafb87b7c50fae25ea48243e553c34e0c7556e06170431e"
+hash = "c64fb3afc939a4eb6b76cb79c1dbe6710181e546f4fe8dde4e047782f1d5429d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/przygoda.snbt"
-hash = "fbb90d45e02f6b90d34f798befe6315ba35c628c0850aff9ec1800a9c2ab96dd"
+hash = "9496293a3a69413835e737008797c4a17aa741700cf724ccbbc393a27eea9c13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
@@ -70,15 +78,163 @@ hash = "d474da4dfb5e6d1f9d205361d86727b4a03dd087c0d468a82f6353379c653b9e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "998d2a1424d8868ccf7809c48d0f79c0a654ac6777746791a67770b9c363b53f"
+hash = "cfd33c04b290531fd384ff6588e5ff3e56dd2c25f53a45bc70bd5325c8cc039c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
-hash = "ed7feeb547cfe9a713ea1ee843c4e9829925ce43f9ee54dd065fc5a2ed4c4697"
+hash = "6ff301044474478c2523eeccaedec43f445e46a16987da49eeb5b43f32257d8c"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "05d27c4c8f152e934527cf3009214fcebed6570a1fcff927d42dae6009b76bac"
+
+[[files]]
+file = "config/puffish_skills/categories/czarodziej/category.json"
+hash = "16e0de14fe23f356e8c55dd3a440eb747daeac181b6f3840dd4bc26645cc974e"
+
+[[files]]
+file = "config/puffish_skills/categories/czarodziej/connections.json"
+hash = "ae7e493ec1456005fb12cdc9657138c3b70592703b000239609f5b671b98e919"
+
+[[files]]
+file = "config/puffish_skills/categories/czarodziej/definitions.json"
+hash = "8dfa5f055894875de987097181ef884c1d4701d418b7ac7f89475711b591c901"
+
+[[files]]
+file = "config/puffish_skills/categories/czarodziej/experience.json"
+hash = "0f6621bb83ece5a89a31a1aacdcee7fdbaf95d4fe867f8773886dc67dadc6a9c"
+
+[[files]]
+file = "config/puffish_skills/categories/czarodziej/skills.json"
+hash = "65a6a99433976fc26df357ceda38e28e7046619bcb0cbe08e8b490b2dce4e8a7"
+
+[[files]]
+file = "config/puffish_skills/categories/kaplan/category.json"
+hash = "5812cd7076a0d9fdf8e834685a372d4ba600528945f04f091525ab75855dcd2e"
+
+[[files]]
+file = "config/puffish_skills/categories/kaplan/connections.json"
+hash = "4c8b348c2942a0729f30735c20baa0a02a7db1788ff0b265a7763a48219683ae"
+
+[[files]]
+file = "config/puffish_skills/categories/kaplan/definitions.json"
+hash = "acfa84ab7266bf163755498f07e3ea1d9cedb8aec59ae8cba51211eb2315f59f"
+
+[[files]]
+file = "config/puffish_skills/categories/kaplan/experience.json"
+hash = "0f6621bb83ece5a89a31a1aacdcee7fdbaf95d4fe867f8773886dc67dadc6a9c"
+
+[[files]]
+file = "config/puffish_skills/categories/kaplan/skills.json"
+hash = "f8691994840b3eba19519d400d86d1a64d212074c2d981e28d7b514d0b9a8091"
+
+[[files]]
+file = "config/puffish_skills/categories/lotrzyk/category.json"
+hash = "2f82d77f09136d5a60c3c187d42187cd830dd0263cfc64dea9567196cc6a699a"
+
+[[files]]
+file = "config/puffish_skills/categories/lotrzyk/connections.json"
+hash = "1b44489630bfd62765c2d22505aa828e1cff8d02b7c15a465225f225ded76c0e"
+
+[[files]]
+file = "config/puffish_skills/categories/lotrzyk/definitions.json"
+hash = "eac80c9602531593ac5fb901cc2850f3b781846cce4723b4ccacca8a0e1e658c"
+
+[[files]]
+file = "config/puffish_skills/categories/lotrzyk/experience.json"
+hash = "0f6621bb83ece5a89a31a1aacdcee7fdbaf95d4fe867f8773886dc67dadc6a9c"
+
+[[files]]
+file = "config/puffish_skills/categories/lotrzyk/skills.json"
+hash = "ab6ef28c7ab2dbed70817efcf1c4575cec509309edf615e1df4ade613f375661"
+
+[[files]]
+file = "config/puffish_skills/categories/lucznik/category.json"
+hash = "e6b34d9a348d3be578be2c9e5a5bb295ddffe8ee1b643c499446d94cba5641ac"
+
+[[files]]
+file = "config/puffish_skills/categories/lucznik/connections.json"
+hash = "a3e90eeef2847a461c7bbeca5d2b313507c19ffd0548e2dfeffe2f96c23fac91"
+
+[[files]]
+file = "config/puffish_skills/categories/lucznik/definitions.json"
+hash = "f855e5636fed79217d6c316c8984c9b3e4ca21e9b34e48d749a2e0042c685349"
+
+[[files]]
+file = "config/puffish_skills/categories/lucznik/experience.json"
+hash = "0f6621bb83ece5a89a31a1aacdcee7fdbaf95d4fe867f8773886dc67dadc6a9c"
+
+[[files]]
+file = "config/puffish_skills/categories/lucznik/skills.json"
+hash = "ffe0c0158d0722f659bf3e12401d9688bf8dbe5588c4f41b63510d54d13263be"
+
+[[files]]
+file = "config/puffish_skills/categories/paladyn/category.json"
+hash = "c877897038682ab4741709b448dfd975c611ec0b910871d66ac18cfe5da63152"
+
+[[files]]
+file = "config/puffish_skills/categories/paladyn/connections.json"
+hash = "b755e1dc9c52639ce6ebf8dc4b167aa77592a837b10c273e5ef7e9c450a17642"
+
+[[files]]
+file = "config/puffish_skills/categories/paladyn/definitions.json"
+hash = "e6ecda363002e13dc081bdd488e723179ba971b340cf813785aef3df89794772"
+
+[[files]]
+file = "config/puffish_skills/categories/paladyn/experience.json"
+hash = "0f6621bb83ece5a89a31a1aacdcee7fdbaf95d4fe867f8773886dc67dadc6a9c"
+
+[[files]]
+file = "config/puffish_skills/categories/paladyn/skills.json"
+hash = "effff98ea8558609ef92d94292d8b0b0bd988f4efe6ef84370c5a9ea011f7e3c"
+
+[[files]]
+file = "config/puffish_skills/categories/przetrwanie/category.json"
+hash = "4aa2dfb25ec9b427bc87471c7fe7d4c4e93c6ff52a178c1050e3e356266c9770"
+
+[[files]]
+file = "config/puffish_skills/categories/przetrwanie/connections.json"
+hash = "82222f1c7e69f66ff80ceb7675f7a85f7c69d7f1e04deaec358423b3b2206cb1"
+
+[[files]]
+file = "config/puffish_skills/categories/przetrwanie/definitions.json"
+hash = "7c8142ba893328c27a99cd8c979e2e0ac20ed5d91582221d7c49d791f33d2771"
+
+[[files]]
+file = "config/puffish_skills/categories/przetrwanie/experience.json"
+hash = "37e238c614eb4d49c91ecb12e7ded22535292365adb1b87b6f8b4bd3a9ac7993"
+
+[[files]]
+file = "config/puffish_skills/categories/przetrwanie/skills.json"
+hash = "dce89cd84b2f806f4259bbfb76c0833d6377bab4885023a541db1239c9972f51"
+
+[[files]]
+file = "config/puffish_skills/categories/wojownik/category.json"
+hash = "59c09e564f1d69831c29567881f050a3874ef8a892d61625bf2510e2e9fd4648"
+
+[[files]]
+file = "config/puffish_skills/categories/wojownik/connections.json"
+hash = "40c500c3721a0a4e64e83a7bc311d40aec4abc37fa86b1feecf7a48a27c8a69f"
+
+[[files]]
+file = "config/puffish_skills/categories/wojownik/definitions.json"
+hash = "260943c949776b0ff3f05d059640d538eefac1a7ec71a31eff8827bf25a4a4fc"
+
+[[files]]
+file = "config/puffish_skills/categories/wojownik/experience.json"
+hash = "0f6621bb83ece5a89a31a1aacdcee7fdbaf95d4fe867f8773886dc67dadc6a9c"
+
+[[files]]
+file = "config/puffish_skills/categories/wojownik/skills.json"
+hash = "902c449b629899622aa060af83d2a744bffa6614c3ac8388ad05d60cff19c4e7"
+
+[[files]]
+file = "config/puffish_skills/config.json"
+hash = "ebc8a208acbfba2dfb802520bea6e26dc9c0cbb5947a4b80d27676ddf6e30e16"
+
+[[files]]
+file = "config/rpgdifficulty.json"
+hash = "9cfc5312c7299ce57012235161053669e283ab3f90cbd8b6fce4de56a47db17b"
 
 [[files]]
 file = "config/sdrp-common.json"
@@ -103,6 +259,15 @@ hash = "aadab7bb6b1d3739bb2cfba99214b72377544553df5c4dd71f9be3c179681a64"
 [[files]]
 file = "config/simplemenu/logo/logo.png"
 hash = "f35abb6d9f959acfcd36105b8053a4f61377d61627edc8c213c3126591e3e746"
+
+[[files]]
+file = "config/voidz.json5"
+hash = "bcc35cae0700992c41c71d32975ffed2e78654597d7cd7e3985b18c35ccf670e"
+
+[[files]]
+file = "mods/adventurez.pw.toml"
+hash = "832a33f88da33ef873f0c747b49dea33be30650c66647a3c88bc736581e49cd9"
+metafile = true
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
@@ -137,6 +302,11 @@ metafile = true
 [[files]]
 file = "mods/artifacts.pw.toml"
 hash = "6a23410e58b2a14300485be275f7ae94adc0f79a553fc926df7ce4e5d99eb9d0"
+metafile = true
+
+[[files]]
+file = "mods/attributes.pw.toml"
+hash = "55d00fadcb934417d348af80c227b910ae6c0bca975d5a78f242b817903f3ce7"
 metafile = true
 
 [[files]]
@@ -390,6 +560,11 @@ hash = "4780f5c1a1448d2c4615f2f6d3147018e06624a0865d898030fd142bbb96e207"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "d0c437666a37d806dfcbd77cbc6413bbc496f283baac495c6772b8b79a0cc25a"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "9cf6036e6ddae026b9b53a0f63e7f67133b2269b1d691cc78472ecbc8299d7db"
 metafile = true
@@ -430,6 +605,11 @@ hash = "6087235f9c1cf7d6684ef0794ee0905939997e02320425761cf4e96af55a2eb6"
 metafile = true
 
 [[files]]
+file = "mods/rpgdifficulty.pw.toml"
+hash = "50f841bda59c9576571f3933b4d12c648fdec3db65dec68789950e22582f8b5b"
+metafile = true
+
+[[files]]
 file = "mods/sdrp.pw.toml"
 hash = "e45345b7291b2c55a678a6b43f5521236c5ec6ce00226a8acebb6c5ab04606bb"
 metafile = true
@@ -442,6 +622,11 @@ metafile = true
 [[files]]
 file = "mods/simple-menu.pw.toml"
 hash = "f9bcfd7e3da20d5d172188f245f287bcb38a55a95fcf3c629053a0a627c6f53a"
+metafile = true
+
+[[files]]
+file = "mods/skills.pw.toml"
+hash = "48c895c03690bb7e7802cb7af303a3a7e97c8df2a3c0581b11ab51f3e3f5a060"
 metafile = true
 
 [[files]]
@@ -490,6 +675,11 @@ hash = "f3841807133f548a16edfe743f6b275cffd5bcd8673d900a0772e38ee6c2056c"
 metafile = true
 
 [[files]]
+file = "mods/voidz.pw.toml"
+hash = "59d75b5bb1e8d6b94c2fc94c848ebcc9e82510267649a4d194f081d0c41e1dec"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "f5bbf51669fd9fddd7e356d0189adbe12687cfa9f011466e8554121b0309ee02"
 metafile = true
@@ -530,6 +720,10 @@ hash = "ba696ce7c3b9ce41805be9a6b5ad1a99edea377753827ce9596af5453929dc71"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/c/tags/entity_types/bosses.json"
+hash = "39a81ac797dd77377b12291925decf00c0b09b54d58997b1c8c43ca0336bd675"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/class_hint.json"
 hash = "b8cdc93b4c2bfe9dcaf50d18d102b0d6c27433875ed9b1546c9d64ae53a75cbe"
 
@@ -538,12 +732,56 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancemen
 hash = "aff3ec523c6556b96eb4ba90ddef69525173a03068dfc75034fb050976caf5ce"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/skills_hint.json"
+hash = "4c1cdcd30bcde14732742ea04e8b9cd934c79dceff5819e6cac0da8678d50ef2"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/difficulty/the_end.json"
+hash = "34def3a791705e2785f8ad5e194519ceeba8e7aa16abd3fca7b2ded3c3ed5641"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/difficulty/the_nether.json"
+hash = "ff8a66e9a68984a65c2cf3486c2c6ef86eaa3a8deaa78f7b60d0ec16c79cb1b7"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/difficulty/void.json"
+hash = "9bd63e92256962846499631df47536db0be252d11c0094796c02d692bf1dfe11"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_buff.mcfunction"
+hash = "b64cd069f058198949e62e00dfc9af81917adf5d207482a8d7c8d99bde0717e6"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_tick.mcfunction"
+hash = "88654def86048642978465a5ce7bfd4aad18e69a418e71e6449eacd093a5a17b"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/class_hint.mcfunction"
 hash = "98d3bdc2a886cc4f4055a8fbc647ebfa3698b60971698e2c0bb08df7aa125ccf"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/first_join.mcfunction"
 hash = "1bb18f3dcd57759672360cb99827f067f9a4a0ee57f78857fc7199ee973b5ee9"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/load.mcfunction"
+hash = "07868f7cdc75a8f7d08ed3bdef602441ce180c3c6e115f81d5af9f84c65ff50f"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/skills_hint.mcfunction"
+hash = "05e3da8f02ab7fcd28d0a0b94a7f31db700f1ae05800e4ce0b1e9fd301bb61d6"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/zapomnienie.mcfunction"
+hash = "a375687ff22955ecb083272d7dca8bc26d2bb6918e1503d621ba025c8950ace5"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/tags/entity_types/bosses.json"
+hash = "39a81ac797dd77377b12291925decf00c0b09b54d58997b1c8c43ca0336bd675"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/minecraft/tags/functions/load.json"
+hash = "be912cc643f4e8e48475cb78e5f7ebfc6ad2f60aae01668388ee653567c8a8d2"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/supplementaries/recipes/integration/ash_bricks_fd.json"
@@ -559,7 +797,7 @@ hash = "bc1bd10a345b7ba1469df4267bc31bbeac285bd8802eb01d5a6c8ca8204a9bc8"
 
 [[files]]
 file = "options.txt"
-hash = "5eefb2ccd704c78224d9518c09197be5dcb0c53320aaefc500b9f928389071aa"
+hash = "6594a67d54413d8106d9f0e7979d3f76c1224e47bf2e8c8e267561945edc5592"
 preserve = true
 
 [[files]]

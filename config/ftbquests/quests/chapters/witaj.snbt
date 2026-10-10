@@ -76,12 +76,13 @@
 			description: [
 				"&6&lDo czego dążymy?&r",
 				"",
-				"Paczka nie ma jednego zakończenia, ale ma &cwielki cel&r: rozdział &cBossowie&r. Jest w nim 10 bossów:",
-				"&7- nowe: &bNocny Licz&7, &cRękawica Netheru&7, &aPusta Róża&7, &8Obsydialit&7 (Bosses of Mass Destruction),",
+				"Paczka nie ma jednego zakończenia, ale ma &cwielki cel&r: rozdział &cBossowie&r. Jest w nim 13 bossów:",
+				"&7- &bNocny Licz&7, &cRękawica Netheru&7, &aPusta Róża&7, &8Obsydialit&7 (Bosses of Mass Destruction),",
 				"&7- &4Skażony Czempion&7, Koszmar i Żniwiarz (The Graveyard),",
+				"&7- &8Czarny Golem&7, &5Oko&7 i finałowy &0&lCień Pustki&7 (AdventureZ),",
 				"&7- klasyczne: &bStrażnik Starszy&7, &5Wither&7, &dSmok Kresu&7 i &3Warden&7.",
 				"",
-				"Każda klasa ma własną ścieżkę sprzętu od żelaza do netherytu i finałowy quest z bossem.",
+				"Każda klasa ma własną ścieżkę sprzętu od żelaza do netherytu, finałowy quest z bossem i &adrzewko umiejętności&r.",
 				"Po drodze zbudujecie fabrykę w Create i zdobędziecie mnóstwo łupów.",
 				"Kto pokona wszystkich bossów, zostaje &6Mistrzem Manianowni&r."
 			],
@@ -169,6 +170,7 @@
 				"&a- Łucznik&r: łuki, kusze i włócznie (Archers).",
 				"",
 				"Czary uczysz się przy &eStole zaklęć&r. &eBetter Combat&r daje broniom combosy, a &eCombat Roll&r uniki.",
+				"Każda klasa ma też &adrzewko umiejętności&r (klawisz &eK&r) z wyborem specjalizacji.",
 				"&eJewelry&r dodaje pierścienie i naszyjniki z bonusami.",
 				"",
 				"Grupa rozdziałów &cKlasy postaci&r: wspólny start (&eWalka i klasy&r), osobny rozdział dla każdej klasy",
@@ -210,13 +212,13 @@
 				"&6&lLepszy świat&r",
 				"",
 				"&eYUNG's&r przebudowuje lochy, kopalnie i twierdze. &eRepurposed Structures&r i &eDungeons and Taverns&r",
-				"dodają mnóstwo nowych budowli z łupem. &eFriends \\& Foes&r dodaje nowe moby.",
+				"dodają mnóstwo nowych budowli z łupem. &eFriends \\& Foes&r i &eAdventureZ&r dodają nowe moby i bossów.",
 				"",
 				"&6&lPrzydatne narzędzia&r",
 				"&eM&r: mapa świata (Xaero's World Map), &eB&r: punkty na minimapie.",
 				"&eKompas odkrywcy&r wskazuje drogę do wybranej struktury.",
 				"&eWaystones&r: kamienie teleportacyjne między odkrytymi miejscami.",
-				"&ePlecak podróżnika&r: duży plecak na plecach, nie zajmuje miejsca w ekwipunku."
+				"&ePlecak podróżnika&r: duży plecak na plecach, nie zajmuje miejsca w ekwipunku (otwierasz go klawiszem &eN&r)."
 			],
 			dependencies: [
 				"357D7C74A4819D02"
@@ -296,7 +298,8 @@
 			description: [
 				"&6&lSkróty i pomoce&r",
 				"",
-				"&eU&r: księga questów,  &eM&r: mapa świata,  &eB&r: nowy punkt na mapie.",
+				"&eU&r: księga questów,  &eK&r: drzewka umiejętności,  &eM&r: mapa świata,  &eB&r: nowy punkt na mapie.",
+				"&eJ&r: lista punktów na mapie,  &eN&r: plecak na plecach,  &eR&r: przewrót (unik).",
 				"&eEMI&r (prawa strona ekwipunku): najedź na przedmiot i wciśnij &eR&r (przepis) albo &eU&r (do czego służy).",
 				"&eJade&r: okienko u góry ekranu pokazuje, na co patrzysz.",
 				"&eMouse Tweaks&r: przeciąganie myszką z wciśniętym przyciskiem rozkłada przedmioty.",
@@ -342,7 +345,7 @@
 				"&6&lKim chcesz być?&r",
 				"",
 				"Zaznacz to pole, a potem wybierz &cjedną&r z klas poniżej. &cWybór jest ostateczny&r: pozostałe ścieżki klas się zablokują.",
-				"Każda klasa daje zestaw startowy: pierwszą broń, warsztat klasy i Stół zaklęć.",
+				"Każda klasa daje zestaw startowy: pierwszą broń, warsztat klasy i Stół zaklęć, a quest pod nią odblokowuje &adrzewko umiejętności klasy&r.",
 				"Każdy gracz wybiera swoją klasę osobno, więc w ekipie możecie się uzupełniać!",
 				"",
 				"&bCzarodziej&r: czary z dystansu (ogień, lód, arkana). Szklany armat.",
@@ -448,6 +451,53 @@
 			]
 		},
 		{
+			id: "17023DC59F987795",
+			title: "Drzewko: &bCzarodziej",
+			x: -6.25d,
+			y: 10.0d,
+			icon: "minecraft:experience_bottle",
+			description: [
+				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
+				"",
+				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
+			],
+			dependencies: [
+				"1D3A7ED9EC22DC0C"
+			],
+			tasks: [
+				{
+					id: "5DA91F88D8059B65",
+					type: "checkmark",
+					title: "Odblokuj drzewko"
+				}
+			],
+			rewards: [
+				{
+					id: "1A761F4A5D7CFDB6",
+					type: "command",
+					command: "/puffish_skills category unlock @s puffish_skills:czarodziej",
+					elevate_perms: true,
+					silent: true,
+					title: "&bDrzewko umiejętności: Czarodziej"
+				},
+				{
+					id: "528B6554F1373041",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "1746FDDBCCE4A458",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
 			id: "1779AE71AB99C179",
 			title: "Klasa: &ePaladyn",
 			x: -3.75d,
@@ -507,6 +557,53 @@
 					id: "5691F7D3E583B9C1",
 					type: "xp_levels",
 					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "5895979B7E69ACB0",
+			title: "Drzewko: &ePaladyn",
+			x: -3.75d,
+			y: 10.0d,
+			icon: "minecraft:experience_bottle",
+			description: [
+				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
+				"",
+				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
+			],
+			dependencies: [
+				"1779AE71AB99C179"
+			],
+			tasks: [
+				{
+					id: "53C90B7C90F8D0D0",
+					type: "checkmark",
+					title: "Odblokuj drzewko"
+				}
+			],
+			rewards: [
+				{
+					id: "7183370261C3DD7D",
+					type: "command",
+					command: "/puffish_skills category unlock @s puffish_skills:paladyn",
+					elevate_perms: true,
+					silent: true,
+					title: "&bDrzewko umiejętności: Paladyn"
+				},
+				{
+					id: "384F98893860AEC5",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "33DBA96D27C2D940",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -575,6 +672,53 @@
 			]
 		},
 		{
+			id: "3A682BB1B710860F",
+			title: "Drzewko: &fKapłan",
+			x: -1.25d,
+			y: 10.0d,
+			icon: "minecraft:experience_bottle",
+			description: [
+				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
+				"",
+				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
+			],
+			dependencies: [
+				"7D07568FA29213B6"
+			],
+			tasks: [
+				{
+					id: "77292C36592F9537",
+					type: "checkmark",
+					title: "Odblokuj drzewko"
+				}
+			],
+			rewards: [
+				{
+					id: "327D490F6AAD1776",
+					type: "command",
+					command: "/puffish_skills category unlock @s puffish_skills:kaplan",
+					elevate_perms: true,
+					silent: true,
+					title: "&bDrzewko umiejętności: Kapłan"
+				},
+				{
+					id: "1FA74B9BC48DF718",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "1DEE33D467C74B4D",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
 			id: "365387198393D80B",
 			title: "Klasa: &8Łotrzyk",
 			x: 1.25d,
@@ -635,6 +779,53 @@
 					id: "3A0AB300CBEBA34C",
 					type: "xp_levels",
 					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "399E3B60692F5BEE",
+			title: "Drzewko: &8Łotrzyk",
+			x: 1.25d,
+			y: 10.0d,
+			icon: "minecraft:experience_bottle",
+			description: [
+				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
+				"",
+				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
+			],
+			dependencies: [
+				"365387198393D80B"
+			],
+			tasks: [
+				{
+					id: "5D0B7226DF352782",
+					type: "checkmark",
+					title: "Odblokuj drzewko"
+				}
+			],
+			rewards: [
+				{
+					id: "57F5C68D98C1952E",
+					type: "command",
+					command: "/puffish_skills category unlock @s puffish_skills:lotrzyk",
+					elevate_perms: true,
+					silent: true,
+					title: "&bDrzewko umiejętności: Łotrzyk"
+				},
+				{
+					id: "515521F18B5A7C04",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "52C3A0DDA6829162",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		},
@@ -703,6 +894,53 @@
 			]
 		},
 		{
+			id: "320D12D6969EF336",
+			title: "Drzewko: &4Wojownik",
+			x: 3.75d,
+			y: 10.0d,
+			icon: "minecraft:experience_bottle",
+			description: [
+				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
+				"",
+				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
+			],
+			dependencies: [
+				"77071F1E6E8E02B1"
+			],
+			tasks: [
+				{
+					id: "5275E52C779A1B06",
+					type: "checkmark",
+					title: "Odblokuj drzewko"
+				}
+			],
+			rewards: [
+				{
+					id: "3D0E4033D7C9EDB2",
+					type: "command",
+					command: "/puffish_skills category unlock @s puffish_skills:wojownik",
+					elevate_perms: true,
+					silent: true,
+					title: "&bDrzewko umiejętności: Wojownik"
+				},
+				{
+					id: "7F29D401892A68A3",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "3570CB4D68162D71",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
 			id: "39C1378B904F8E01",
 			title: "Klasa: &aŁucznik",
 			x: 6.25d,
@@ -763,6 +1001,188 @@
 					id: "5B91D22239AAEA2D",
 					type: "xp_levels",
 					xp_levels: 5
+				}
+			]
+		},
+		{
+			id: "1152AE0124368AFD",
+			title: "Drzewko: &aŁucznik",
+			x: 6.25d,
+			y: 10.0d,
+			icon: "minecraft:experience_bottle",
+			description: [
+				"Kliknij, żeby odblokować &adrzewko umiejętności&r tej klasy. Otworzysz je klawiszem &eK&r.",
+				"",
+				"Na start masz 2 punkty. Na górze drzewka wybierz &cjedną specjalizację&r, a potem idź w dół ścieżki.",
+				"Kolejne punkty dają pokonane potwory (bossowie bardzo dużo) i etapy ścieżki klasy."
+			],
+			dependencies: [
+				"39C1378B904F8E01"
+			],
+			tasks: [
+				{
+					id: "7D6B2365932AD98D",
+					type: "checkmark",
+					title: "Odblokuj drzewko"
+				}
+			],
+			rewards: [
+				{
+					id: "7F1BFCACB2EDC95A",
+					type: "command",
+					command: "/puffish_skills category unlock @s puffish_skills:lucznik",
+					elevate_perms: true,
+					silent: true,
+					title: "&bDrzewko umiejętności: Łucznik"
+				},
+				{
+					id: "78ACCA35E1E4A29C",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "1C27A42B5CE2B09D",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			id: "7E9BEC910DEEAF8D",
+			title: "Drzewka umiejętności",
+			x: -3.0d,
+			y: 3.0d,
+			icon: "minecraft:experience_bottle",
+			description: [
+				"&6&lRozwój postaci&r",
+				"",
+				"Klawisz &eK&r otwiera drzewka umiejętności. Kliknij umiejętność, żeby wydać na nią punkty.",
+				"",
+				"&aPrzetrwanie&r ma każdy gracz. Punkty dostajesz za kopanie rud, zbiory, łowienie ryb,",
+				"pokonanych bossów i ważne odkrycia (Nether, Kres). Cztery ścieżki: Górnik, Wędrowiec, Twardziel i Uczony.",
+				"",
+				"&bDrzewko klasy&r odblokujesz questem pod wybraną klasą. Punkty dają pokonane potwory i etapy ścieżki klasy.",
+				"Na górze drzewka wybierasz &cjedną specjalizację&r (np. ogień, lód albo arkana), reszta się zablokuje.",
+				"Na końcu ścieżki czeka wybór jednej z dwóch umiejętności finałowych. Tak powstaje twój build!",
+				"",
+				"Bonusy działają od razu i sumują się ze sprzętem: moc czarów, obrażenia, zdrowie, uniki i inne.",
+				"Pomyliłeś się? Quest &dZapomnienie&r resetuje drzewka, a punkty wracają."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "19C0022D032355DC",
+					type: "checkmark",
+					title: "Rozumiem!"
+				}
+			],
+			rewards: [
+				{
+					id: "778E87185025ACF1",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "3EBEE7939B91D16D",
+					type: "item",
+					item: {
+						id: "minecraft:bread",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "15B42E7E09DA8A5C",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			id: "1D6FEFFB58E5A97D",
+			title: "&dZapomnienie",
+			x: -4.5d,
+			y: 4.5d,
+			icon: "minecraft:amethyst_shard",
+			description: [
+				"Oddaj 2 diamenty, żeby &dzresetować wszystkie swoje drzewka umiejętności&r.",
+				"Wszystkie wydane punkty wrócą i rozdasz je od nowa. Możesz wtedy zmienić specjalizację, ale nie klasę.",
+				"",
+				"&7Quest można powtarzać dowolnie wiele razy."
+			],
+			dependencies: [
+				"7E9BEC910DEEAF8D"
+			],
+			can_repeat: true,
+			tasks: [
+				{
+					id: "50F22C1A756BFDFC",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 2L,
+					consume_items: true
+				}
+			],
+			rewards: [
+				{
+					id: "1C70A0E5FFD6505F",
+					type: "command",
+					command: "/function manianownia:zapomnienie",
+					elevate_perms: true,
+					silent: true,
+					title: "&dReset drzewek umiejętności"
+				}
+			]
+		},
+		{
+			id: "73EC032B4B816D8E",
+			title: "Coraz groźniej",
+			x: 3.0d,
+			y: 3.0d,
+			icon: "minecraft:zombie_head",
+			description: [
+				"&6&lTrudność rośnie razem z tobą&r",
+				"",
+				"Potwory nie są wszędzie takie same (RpgDifficulty):",
+				"&7- są silniejsze &cim dalej od spawnu&7 (co 400 bloków),",
+				"&7- &cgłęboko pod ziemią&7 i &cz upływem czasu świata&7 (co 2 godziny),",
+				"&7- w &cNetherze&7, &5Kresie&7 i &8Pustce&7 są mocniejsze od początku.",
+				"Silniejsze potwory dają więcej doświadczenia. Zdarzają się też wielkie i szybkie zombie.",
+				"",
+				"&cBossowie&r mają dodatkowe zdrowie za każdego gracza w pobliżu i biją mocniej niż w zwykłych modach.",
+				"Idźcie na nich razem i przygotujcie się: mikstury, jedzenie, dobry sprzęt i rozwinięte drzewka."
+			],
+			dependencies: [
+				"357D7C74A4819D02"
+			],
+			tasks: [
+				{
+					id: "39553C0AD9B3CD29",
+					type: "checkmark"
+				}
+			],
+			rewards: [
+				{
+					id: "7F574C7C3B650C39",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "73D1576880BF175D",
+					type: "xp_levels",
+					xp_levels: 1
 				}
 			]
 		}

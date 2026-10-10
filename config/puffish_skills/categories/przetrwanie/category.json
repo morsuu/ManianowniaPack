@@ -1,0 +1,21 @@
+{
+ "title": {
+  "text": "Przetrwanie",
+  "color": "green",
+  "bold": true
+ },
+ "description": {
+  "text": "Wspólne drzewko każdego gracza. Punkty za kopanie rud, zbiory, łowienie ryb i pokonanych bossów.",
+  "color": "gray"
+ },
+ "icon": {
+  "type": "item",
+  "data": {
+   "item": "minecraft:iron_pickaxe"
+  }
+ },
+ "background": "minecraft:textures/block/mossy_cobblestone.png",
+ "unlocked_by_default": true,
+ "starting_points": 1,
+ "exclusive_root": false
+}

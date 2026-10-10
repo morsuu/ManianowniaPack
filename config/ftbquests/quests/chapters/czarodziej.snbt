@@ -113,6 +113,14 @@
 				},
 				{
 					id: "32615F439DC6D03D",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:czarodziej 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Czarodziej)"
+				},
+				{
+					id: "76850DE904ADEDFD",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -167,6 +175,14 @@
 				},
 				{
 					id: "1DE3AF2A7CE2DCC7",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:czarodziej 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Czarodziej)"
+				},
+				{
+					id: "75A8A540EB44F82D",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -1039,6 +1055,14 @@
 				},
 				{
 					id: "54768428C06BD3FC",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:czarodziej 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Czarodziej)"
+				},
+				{
+					id: "7034A075DF7EBAD3",
 					type: "xp_levels",
 					xp_levels: 8
 				}
@@ -1077,6 +1101,14 @@
 				},
 				{
 					id: "753BC1C41848B2AE",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:czarodziej 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Czarodziej)"
+				},
+				{
+					id: "1D263DC34C8C7DB9",
 					type: "xp_levels",
 					xp_levels: 8
 				}
@@ -1133,6 +1165,14 @@
 					id: "1C5D5454C9E6133D",
 					type: "xp_levels",
 					xp_levels: 30
+				},
+				{
+					id: "7A8926CD9A2140F0",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:czarodziej 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Czarodziej)"
 				}
 			]
 		}

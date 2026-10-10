@@ -1,0 +1,13 @@
+name = "skills"
+filename = "puffish_skills-0.19.2-1.20-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hqQqvaa4/versions/g3pzFlwX/puffish_skills-0.19.2-1.20-fabric.jar"
+hash-format = "sha512"
+hash = "5e78f6ec5b084833248dea113f8081e8cc4700e0fd97a4a00820f23ea0e5db6c1705f0fbdb904658279f716b34d8eede3ae7e6ad6c008b4ff277a65fa3e423d0"
+
+[update]
+[update.modrinth]
+mod-id = "hqQqvaa4"
+version = "g3pzFlwX"

@@ -1,0 +1,1282 @@
+{
+ "berserker_r": {
+  "title": {
+   "text": "Berserker",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+6% obrażeń broni wręcz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:iron_double_axe"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Wybierasz szał bojowy. Strażnik się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "berserker_a": {
+  "title": {
+   "text": "Furia",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% szybkości ataku",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:blaze_powder"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "berserker_b": {
+  "title": {
+   "text": "Krwiożerczość",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "2% zadanych obrażeń wraca jako zdrowie",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:beef"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.02,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "berserker_c": {
+  "title": {
+   "text": "Siła",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń broni wręcz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_axe"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "berserker_d": {
+  "title": {
+   "text": "Zahartowany",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 serce zdrowia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:cooked_beef"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "berserker_e": {
+  "title": {
+   "text": "Rozpęd",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+3% szybkości ruchu",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sugar"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "berserker_f": {
+  "title": {
+   "text": "Szał",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% szybkości ataku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:nether_wart"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "berserker_g": {
+  "title": {
+   "text": "Rozłupanie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "10% pancerza wroga ignorowane",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:stone_axe"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:armor_shred",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "berserker_h": {
+  "title": {
+   "text": "Krwawa uczta",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "3% zadanych obrażeń wraca jako zdrowie",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:porkchop"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "berserker_i": {
+  "title": {
+   "text": "Wir",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+6% obrażeń broni wręcz\n+4% szybkości ataku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:diamond_double_axe"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Topory tańczą wokół ciebie.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "berserker_j": {
+  "title": {
+   "text": "Odporność na ból",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+2 serca zdrowia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:golden_apple"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 4,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "berserker_k": {
+  "title": {
+   "text": "Miażdżenie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+30% siły odrzutu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:piston"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:knockback",
+     "value": 0.3,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "berserker_l": {
+  "title": {
+   "text": "Rzeź",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń broni wręcz",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:diamond_axe"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "berserker_m": {
+  "title": {
+   "text": "Rzeźnik",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+8% obrażeń broni wręcz\n3% zadanych obrażeń wraca jako zdrowie",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:netherite_double_axe"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 4,
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "berserker_x1": {
+  "title": {
+   "text": "Krwawy szał",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+12% obrażeń broni wręcz\n+8% szybkości ataku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:netherite_glaive"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.12,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Im dłużej walczysz, tym mocniej bijesz. Wyklucza Nieśmiertelnego.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "berserker_x2": {
+  "title": {
+   "text": "Nieśmiertelny",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "5% zadanych obrażeń wraca jako zdrowie\n+3 serca zdrowia\n+30% regeneracji zdrowia z jedzenia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:totem_of_undying"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 6,
+     "operation": "addition"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:natural_regeneration",
+     "value": 0.3,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Nie padasz, dopóki walczysz. Wyklucza Krwawy szał.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "straznik_r": {
+  "title": {
+   "text": "Strażnik",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+2 pancerza\n+1 serce zdrowia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_chestplate"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor",
+     "value": 2,
+     "operation": "addition"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Wybierasz obronę. Berserker się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "straznik_a": {
+  "title": {
+   "text": "Kolczuga",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 pancerza",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:chainmail_chestplate"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "straznik_b": {
+  "title": {
+   "text": "Twarda głowa",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+10% odporności na odrzut",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_helmet"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.knockback_resistance",
+     "value": 0.1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "straznik_c": {
+  "title": {
+   "text": "Wytrzymałość",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 serce zdrowia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:cooked_porkchop"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "straznik_d": {
+  "title": {
+   "text": "Opór",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "3% mniej otrzymywanych obrażeń",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:shield"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "straznik_e": {
+  "title": {
+   "text": "Ciężki cios",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń broni wręcz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_axe"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "straznik_f": {
+  "title": {
+   "text": "Stal",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 wytrzymałości pancerza",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_block"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor_toughness",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "straznik_g": {
+  "title": {
+   "text": "Ciernie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "10% otrzymanych obrażeń wraca do atakującego",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:cactus"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:damage_reflection",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "straznik_h": {
+  "title": {
+   "text": "Okrzyk bojowy",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń broni wręcz",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:goat_horn"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "straznik_i": {
+  "title": {
+   "text": "Nieugięty",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "5% mniej otrzymywanych obrażeń\n+2 pancerza",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:obsidian"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Stoisz, choćby wszystko się waliło.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "straznik_j": {
+  "title": {
+   "text": "Regeneracja",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+20% regeneracji zdrowia z jedzenia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:glistering_melon_slice"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:natural_regeneration",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "straznik_k": {
+  "title": {
+   "text": "Twierdza",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+2 serca zdrowia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:golden_carrot"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 4,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "straznik_l": {
+  "title": {
+   "text": "Kontratak",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "10% otrzymanych obrażeń wraca do atakującego",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sweet_berries"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:damage_reflection",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "straznik_m": {
+  "title": {
+   "text": "Weteran",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+2 wytrzymałości pancerza\n+15% odporności na odrzut\n+1 serce zdrowia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:diamond_chestplate"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor_toughness",
+     "value": 2,
+     "operation": "addition"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.knockback_resistance",
+     "value": 0.15,
+     "operation": "addition"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 4,
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "straznik_x1": {
+  "title": {
+   "text": "Żelazna ściana",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "8% mniej otrzymywanych obrażeń\n+4 pancerza",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:netherite_chestplate"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor",
+     "value": 4,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Ściana, przez którą nic nie przejdzie. Wyklucza Gladiatora.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "straznik_x2": {
+  "title": {
+   "text": "Gladiator",
+   "color": "red",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+10% obrażeń broni wręcz\n15% otrzymanych obrażeń wraca do atakującego",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:netherite_glaive"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:damage_reflection",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Obrona to też atak. Wyklucza Żelazną ścianę.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ }
+}

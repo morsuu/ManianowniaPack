@@ -22,9 +22,12 @@
 				"",
 				"&7Poziom 1:&r Koszmar i Żniwiarz (cmentarze), &bNocny Licz&r (wieża w zimnych biomach)",
 				"&7Poziom 2:&r &bStrażnik Starszy&r, &cRękawica Netheru&r, &5Wither&r",
-				"&7Poziom 3:&r &aPusta Róża&r (bujne jaskinie), &4Skażony Czempion&r, &dSmok Kresu&r, &8Obsydialit&r (Kres)",
-				"&7Poziom 4:&r &3Warden&r",
+				"&7Poziom 3:&r &aPusta Róża&r (bujne jaskinie), &4Skażony Czempion&r, &8Czarny Golem&r (Nether), &dSmok Kresu&r, &8Obsydialit&r (Kres)",
+				"&7Poziom 4:&r &3Warden&r, &5Oko&r (Kres)",
+				"&7Finał:&r &0&lCień Pustki&r (wymiar Pustki)",
 				"",
+				"Bossowie mają więcej zdrowia za każdego gracza w pobliżu i biją mocniej. Każdy daje punkt do drzewka &aPrzetrwanie&r",
+				"i mnóstwo doświadczenia do drzewka klasy.",
 				"Areny bossów znajdziesz &eKompasem odkrywcy&r. Trofea z bossów BOMD przerobisz na potężne przedmioty.",
 				"Do większości walk idźcie razem!"
 			],
@@ -138,6 +141,14 @@
 				},
 				{
 					id: "760F2A6002C9D0B5",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "3B156EA868B3EBF1",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -341,6 +352,14 @@
 				},
 				{
 					id: "304676191ADF3C1C",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "16B96C3FCF789993",
 					type: "xp_levels",
 					xp_levels: 2
 				}
@@ -394,6 +413,14 @@
 				},
 				{
 					id: "323D7026D455B0B4",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "781F770A0CE387B4",
 					type: "xp_levels",
 					xp_levels: 2
 				}
@@ -439,6 +466,14 @@
 				},
 				{
 					id: "7466EDD123245B62",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "56EA3353F82C5D9B",
 					type: "xp_levels",
 					xp_levels: 6
 				}
@@ -493,6 +528,14 @@
 				},
 				{
 					id: "1EC12665D038A3B4",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "1A09A25C3BACB719",
 					type: "xp_levels",
 					xp_levels: 16
 				}
@@ -539,6 +582,14 @@
 				},
 				{
 					id: "34ACBC4A2C70F87D",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "7EB2F10DEAB22303",
 					type: "xp_levels",
 					xp_levels: 16
 				}
@@ -591,6 +642,14 @@
 				},
 				{
 					id: "5B66D62E29DB966A",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "5E260ACE5BAD84BD",
 					type: "xp_levels",
 					xp_levels: 16
 				}
@@ -637,6 +696,14 @@
 				},
 				{
 					id: "5114BC03362C1C99",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "73450CE015B9B799",
 					type: "xp_levels",
 					xp_levels: 24
 				}
@@ -690,6 +757,14 @@
 				},
 				{
 					id: "17FC2E78149B2D38",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "732227A3D3CE7380",
 					type: "xp_levels",
 					xp_levels: 24
 				}
@@ -738,6 +813,14 @@
 				},
 				{
 					id: "183D33DE441E2DC3",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "5AC0AF25206F57CC",
 					type: "xp_levels",
 					xp_levels: 24
 				}
@@ -926,6 +1009,365 @@
 			]
 		},
 		{
+			id: "3121369A823CEE49",
+			title: "&5Uschnięty Nekromanta",
+			x: 2.0d,
+			y: 6.0d,
+			icon: "minecraft:wither_skeleton_skull",
+			description: [
+				"Mieszka w fortecach Netheru i przywołuje Witherowe Kukiełki.",
+				"Zabij najpierw nekromantę: kukiełki bez niego się rozpadną."
+			],
+			dependencies: [
+				"5C96898B541528E8"
+			],
+			tasks: [
+				{
+					id: "3C2E69C065D36BF8",
+					type: "kill",
+					entity: "adventurez:necromancer",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "11119726CC5D60AA",
+					type: "item",
+					item: {
+						id: "minecraft:wither_skeleton_skull",
+						Count: 1b
+					}
+				},
+				{
+					id: "57167D88067E75A8",
+					type: "item",
+					item: {
+						id: "minecraft:golden_apple",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "370A5FA43ED1B326",
+					type: "xp_levels",
+					xp_levels: 8
+				}
+			]
+		},
+		{
+			id: "3613B32562F718CD",
+			title: "Uchwyty na odłamki",
+			x: 4.0d,
+			y: 6.0d,
+			icon: "adventurez:chiseled_polished_blackstone_holder",
+			description: [
+				"Do przywołania Czarnego Golema potrzeba 4 &eUchwytów z rzeźbionego polerowanego czarnego kamienia&r.",
+				"Zrobisz je w przecinarce z rzeźbionego polerowanego czarnego kamienia."
+			],
+			dependencies: [
+				"11DD851AE73E7BB4"
+			],
+			tasks: [
+				{
+					id: "16F201933B9EC07F",
+					type: "item",
+					item: "adventurez:chiseled_polished_blackstone_holder",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "1B60E11C7EB2E3B1",
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "144DF8D1CA1A5FEF",
+					type: "xp_levels",
+					xp_levels: 8
+				}
+			]
+		},
+		{
+			id: "54154C1A5902B89B",
+			title: "Złocone odłamki",
+			x: 4.0d,
+			y: 7.5d,
+			icon: "adventurez:gilded_blackstone_shard",
+			description: [
+				"&eZłocone odłamki czarnego kamienia&r znajdziesz w skrzyniach bastionów,",
+				"dostaniesz od piglinów-osiłków albo w handlu ze zwykłymi piglinami (złoto). Potrzebne są 4."
+			],
+			dependencies: [
+				"11DD851AE73E7BB4"
+			],
+			tasks: [
+				{
+					id: "71B65AA42D9A9F3C",
+					type: "item",
+					item: "adventurez:gilded_blackstone_shard",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "5DF418B8015F60E5",
+					type: "item",
+					item: {
+						id: "minecraft:gold_block",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "1B42678D1B94A4AA",
+					type: "xp_levels",
+					xp_levels: 8
+				}
+			]
+		},
+		{
+			id: "5D22E418B4CE249C",
+			title: "&8Czarny Golem",
+			x: 6.0d,
+			y: 6.75d,
+			icon: "minecraft:polished_blackstone_bricks",
+			description: [
+				"&6&lNajgroźniejsza istota Netheru&r",
+				"",
+				"W Netherze zbuduj ołtarz: platformę 9x9. Zewnętrzny pierścień i trzeci pierścień z &epolerowanego czarnego kamienia&r,",
+				"drugi pierścień z &epopękanych cegieł z polerowanego czarnego kamienia&r, środek 3x3 z &ecegieł z polerowanego czarnego kamienia&r",
+				"z polerowanym czarnym kamieniem w samym centrum. Platformę można też zrobić z dowolnego czarnego kamienia.",
+				"Uchwyty postaw na zewnątrz, na środku każdego boku (5 bloków od centrum), i włóż do nich złocone odłamki.",
+				"",
+				"&7Podręcznik AdventureZ (książka + oko Kresu + skóra orka) pokazuje ołtarz w 3D.",
+				"Golem po śmierci rozpada się na dwa mniejsze. Trofeum: serce golema i złocone fragmenty netherytu."
+			],
+			dependencies: [
+				"3613B32562F718CD",
+				"54154C1A5902B89B",
+				"710A01BD949B4036"
+			],
+			size: 1.75d,
+			tasks: [
+				{
+					id: "38967FF86253D1B0",
+					type: "kill",
+					entity: "adventurez:blackstone_golem",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "3A2F39CCE142551A",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_ingot",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "5E65CE560544A785",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					}
+				},
+				{
+					id: "3842A34D028F18CB",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "172173B83A1A0523",
+					type: "xp_levels",
+					xp_levels: 16
+				}
+			]
+		},
+		{
+			id: "71CAEAB67CAEC5B5",
+			title: "Złocony netheryt",
+			x: 7.5d,
+			y: 7.5d,
+			icon: "adventurez:gilded_netherite_chestplate",
+			description: [
+				"Złocone fragmenty netherytu z Czarnego Golema ulepszają netherytową zbroję",
+				"na stole kowalskim (szablon złoconego ulepszenia). Pełny zestaw chroni przed ogniem i daje szansę na unik."
+			],
+			dependencies: [
+				"5D22E418B4CE249C"
+			],
+			optional: true,
+			tasks: [
+				{
+					id: "74121D5C2467C55A",
+					type: "item",
+					item: "adventurez:gilded_netherite_chestplate"
+				}
+			],
+			rewards: [
+				{
+					id: "770F02FC1860B490",
+					type: "item",
+					item: {
+						id: "adventurez:gilded_upgrade_smithing_template",
+						Count: 1b
+					}
+				},
+				{
+					id: "599F69A244EDD76D",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			id: "1ED6C5A7DB82A406",
+			title: "&5Oko",
+			x: 8.0d,
+			y: 6.0d,
+			icon: "minecraft:ender_eye",
+			description: [
+				"&6&lWładca Kresu&r",
+				"",
+				"Oko przywołasz w Kresie kapliczką, która wysysa moc ze &5smoczego jaja&r:",
+				"&7- spód: obsydian 5x5 (może być płaczący),",
+				"&7- środek: płaczący obsydian 3x3 na środku i pręty Kresu w czterech rogach podstawy,",
+				"&7- góra: pręty Kresu na rogach płaczącego obsydianu i smocze jajo na samym środku.",
+				"",
+				"Oko wysysa energię i strzela pociskami. Po jego śmierci otworzy się portal do &8Pustki&r."
+			],
+			dependencies: [
+				"59B99EEA84AF085B",
+				"5D22E418B4CE249C"
+			],
+			size: 1.75d,
+			tasks: [
+				{
+					id: "3CDE0CA8DF9F062B",
+					type: "kill",
+					entity: "adventurez:the_eye",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "325C8BCC4C53ECBD",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_ingot",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "72671EE1850AD6D8",
+					type: "item",
+					item: {
+						id: "minecraft:totem_of_undying",
+						Count: 1b
+					}
+				},
+				{
+					id: "79E3F437713D1AE2",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "1AD339AC40B967D0",
+					type: "xp_levels",
+					xp_levels: 24
+				}
+			]
+		},
+		{
+			id: "178018FAF631E4AF",
+			title: "&0&lCień Pustki",
+			x: 10.0d,
+			y: 6.5d,
+			icon: "adventurez:source_stone",
+			description: [
+				"&6&lOstateczny boss Manianowni&r",
+				"",
+				"Przejdź przez portal po Oku i pokonaj &0Cień Pustki&r w jego wymiarze.",
+				"&7Cienie Pustki strzelają pociskami: odbijaj je ciosem. Nie podchodź do Fragmentów Pustki,",
+				"&7a większe Kule Pustki niszczą tylko odbite pociski (i ranią przy tym bossa).",
+				"Trofeum: &dKamień Źródła&r (strzela pociskami i przenika przez bloki)."
+			],
+			dependencies: [
+				"1ED6C5A7DB82A406"
+			],
+			size: 2.0d,
+			shape: "gear",
+			tasks: [
+				{
+					id: "5AAC59D96B8EAD3E",
+					type: "dimension",
+					dimension: "voidz:void"
+				},
+				{
+					id: "38FFDC2F9FB7DB18",
+					type: "kill",
+					entity: "adventurez:void_shadow",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "7FA9111911E765C2",
+					type: "item",
+					item: {
+						id: "minecraft:nether_star",
+						Count: 1b
+					}
+				},
+				{
+					id: "51A3C891246B3CF6",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_ingot",
+						Count: 1b
+					},
+					count: 4
+				},
+				{
+					id: "188089F11821C0A6",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_golden_apple",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "7AE5ED4A80371F59",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:przetrwanie 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Przetrwanie)"
+				},
+				{
+					id: "7D44FCC42447B693",
+					type: "xp_levels",
+					xp_levels: 24
+				}
+			]
+		},
+		{
 			id: "10596906DDC63094",
 			title: "Mistrz Manianowni",
 			x: 11.0d,
@@ -947,6 +1389,9 @@
 				"59B99EEA84AF085B",
 				"5DDC7F4D1B5EAB22",
 				"7CC532E5F68DF2A1",
+				"5D22E418B4CE249C",
+				"1ED6C5A7DB82A406",
+				"178018FAF631E4AF",
 				"32132FE594114223"
 			],
 			size: 2.5d,

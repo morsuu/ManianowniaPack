@@ -1,0 +1,21 @@
+{
+ "title": {
+  "text": "Łotrzyk",
+  "color": "gray",
+  "bold": true
+ },
+ "description": {
+  "text": "Zabójca od pierwszego ciosu albo nieuchwytny cień. Punkty za pokonane potwory i etapy ścieżki klasy.",
+  "color": "gray"
+ },
+ "icon": {
+  "type": "item",
+  "data": {
+   "item": "rogues:iron_dagger"
+  }
+ },
+ "background": "minecraft:textures/block/blackstone.png",
+ "unlocked_by_default": false,
+ "starting_points": 2,
+ "exclusive_root": true
+}

@@ -1,0 +1,1262 @@
+{
+ "zabojca_r": {
+  "title": {
+   "text": "Zabójca",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń broni wręcz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:iron_dagger"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Wybierasz ostrza. Cień się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "zabojca_a": {
+  "title": {
+   "text": "Ostrze",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń broni wręcz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:flint"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "zabojca_b": {
+  "title": {
+   "text": "Zwinne palce",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% szybkości ataku",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:feather"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "zabojca_c": {
+  "title": {
+   "text": "Trucizna",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "8% pancerza wroga ignorowane",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:spider_eye"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:armor_shred",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "zabojca_d": {
+  "title": {
+   "text": "Krwawienie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "2% zadanych obrażeń wraca jako zdrowie",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:redstone"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.02,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "zabojca_e": {
+  "title": {
+   "text": "Precyzja",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń broni wręcz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:arrow"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "zabojca_f": {
+  "title": {
+   "text": "Ciosy w plecy",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń broni wręcz",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:diamond_dagger"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "zabojca_g": {
+  "title": {
+   "text": "Szał ostrzy",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% szybkości ataku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sugar"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "zabojca_h": {
+  "title": {
+   "text": "Przebicie pancerza",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "10% pancerza wroga ignorowane",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_nugget"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:armor_shred",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "zabojca_i": {
+  "title": {
+   "text": "Egzekucja",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+6% obrażeń broni wręcz\n2% zadanych obrażeń wraca jako zdrowie",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_sword"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.02,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Słabi wrogowie padają od jednego cięcia.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "zabojca_j": {
+  "title": {
+   "text": "Wyważenie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+3% szybkości ruchu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:rabbit_foot"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "zabojca_k": {
+  "title": {
+   "text": "Zabójcze tempo",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% szybkości ataku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:clock"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "zabojca_l": {
+  "title": {
+   "text": "Pijawka",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "3% zadanych obrażeń wraca jako zdrowie",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:ghast_tear"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "zabojca_m": {
+  "title": {
+   "text": "Mistrz sztyletów",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+8% obrażeń broni wręcz\n+5% szybkości ataku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:netherite_dagger"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 4,
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "zabojca_x1": {
+  "title": {
+   "text": "Cicha śmierć",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+12% obrażeń broni wręcz\n15% pancerza wroga ignorowane",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:netherite_sickle"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.12,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:armor_shred",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Nikt nie słyszy ostatniego cięcia. Wyklucza Wampira.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "zabojca_x2": {
+  "title": {
+   "text": "Wampir",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "6% zadanych obrażeń wraca jako zdrowie\n+2 serca zdrowia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:fermented_spider_eye"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 4,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Żyjesz krwią wrogów. Wyklucza Cichą śmierć.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "cien_r": {
+  "title": {
+   "text": "Cień",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "15% mniejszy zasięg, z którego potwory cię zauważają",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:ender_pearl"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:stealth",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Wybierasz skradanie i uniki. Zabójca się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "cien_a": {
+  "title": {
+   "text": "Lekkie stopy",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+3% szybkości ruchu",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:feather"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "cien_b": {
+  "title": {
+   "text": "Przewrót",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "15% szybsze odnawianie przewrotu",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:rabbit_hide"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "combatroll:recharge",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "cien_c": {
+  "title": {
+   "text": "Bez śladu",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "10% mniejszy zasięg, z którego potwory cię zauważają",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:black_wool"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:stealth",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "cien_d": {
+  "title": {
+   "text": "Zwinność",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% szybkości ataku",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sugar"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "cien_e": {
+  "title": {
+   "text": "Akrobata",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "30% mniej obrażeń od upadku",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:slime_ball"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:fall_reduction",
+     "value": 0.3,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "cien_f": {
+  "title": {
+   "text": "Sprint",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+10% szybkości sprintu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:rabbit_foot"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:sprinting_speed",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "cien_g": {
+  "title": {
+   "text": "Unik",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 bloku dystansu przewrotu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:phantom_membrane"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "combatroll:distance",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "cien_h": {
+  "title": {
+   "text": "Cios z cienia",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń broni wręcz",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:iron_sickle"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "cien_i": {
+  "title": {
+   "text": "Znikanie",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "15% mniejszy zasięg, z którego potwory cię zauważają\n+3% szybkości ruchu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:tinted_glass"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:stealth",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Potwory gubią cię z oczu.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "cien_j": {
+  "title": {
+   "text": "Skok",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+15% wysokości skoku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:slime_block"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:jump",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "cien_k": {
+  "title": {
+   "text": "Refleks",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "20% szybsze odnawianie przewrotu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:clock"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "combatroll:recharge",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "cien_l": {
+  "title": {
+   "text": "Kontra",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń broni wręcz",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_sword"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "cien_m": {
+  "title": {
+   "text": "Władca cieni",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+1 ładunek przewrotu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:ender_eye"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "combatroll:count",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 4,
+  "extra_description": {
+   "text": "Drugi przewrót pod rząd.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "cien_x1": {
+  "title": {
+   "text": "Duch",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "20% mniejszy zasięg, z którego potwory cię zauważają\n+6% szybkości ruchu\n25% szybsze odnawianie przewrotu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:phantom_membrane"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:stealth",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "combatroll:recharge",
+     "value": 0.25,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Jesteś tylko cieniem. Wyklucza Zasadzkę.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "cien_x2": {
+  "title": {
+   "text": "Zasadzka",
+   "color": "gray",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+10% obrażeń broni wręcz\n+6% szybkości ataku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "rogues:netherite_dagger"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Wyskakujesz z cienia i tniesz. Wyklucza Ducha.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ }
+}

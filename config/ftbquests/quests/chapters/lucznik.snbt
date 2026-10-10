@@ -225,6 +225,14 @@
 				},
 				{
 					id: "5A0BF4A801C37CF5",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lucznik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łucznik)"
+				},
+				{
+					id: "14AD7537AB2713A5",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -431,6 +439,14 @@
 				},
 				{
 					id: "32EC38AF5F2C4D1A",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lucznik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łucznik)"
+				},
+				{
+					id: "7B046DF1B8F64209",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -612,6 +628,14 @@
 				},
 				{
 					id: "36E8B81CF459213B",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lucznik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łucznik)"
+				},
+				{
+					id: "7092FAADE8712003",
 					type: "xp_levels",
 					xp_levels: 8
 				}
@@ -664,6 +688,14 @@
 				},
 				{
 					id: "7D7553EF44CAF6B8",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lucznik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łucznik)"
+				},
+				{
+					id: "5B9D8BA61D6C17DA",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -722,6 +754,14 @@
 					id: "1A988EFB9B29FAA2",
 					type: "xp_levels",
 					xp_levels: 30
+				},
+				{
+					id: "73FD924496CC6143",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:lucznik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Łucznik)"
 				}
 			]
 		}

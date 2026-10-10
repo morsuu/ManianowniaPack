@@ -1,0 +1,1282 @@
+{
+ "uzdrowiciel_r": {
+  "title": {
+   "text": "Uzdrowiciel",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+10% mocy leczenia i świętych czarów",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:acolyte_wand"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Wybierasz leczenie. Inkwizytor się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "uzdrowiciel_a": {
+  "title": {
+   "text": "Łaska",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+3% szybkości rzucania czarów",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:clock"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:haste",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "uzdrowiciel_b": {
+  "title": {
+   "text": "Kojący dotyk",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% mocy leczenia i świętych czarów",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:glistering_melon_slice"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "uzdrowiciel_c": {
+  "title": {
+   "text": "Spokój ducha",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+15% regeneracji zdrowia z jedzenia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:honey_bottle"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:natural_regeneration",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "uzdrowiciel_d": {
+  "title": {
+   "text": "Modlitwa",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+2% szansy na krytyczny czar",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:book"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_chance",
+     "value": 0.02,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "uzdrowiciel_e": {
+  "title": {
+   "text": "Ochrona",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 serce zdrowia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:golden_apple"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "uzdrowiciel_f": {
+  "title": {
+   "text": "Oddanie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% mocy leczenia i świętych czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:golden_carrot"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "uzdrowiciel_g": {
+  "title": {
+   "text": "Wiara",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% szybkości rzucania czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sunflower"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:haste",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "uzdrowiciel_h": {
+  "title": {
+   "text": "Niezłomność",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "6% mniej obrażeń od magii",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:lapis_block"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:magic_resistance",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "uzdrowiciel_i": {
+  "title": {
+   "text": "Krąg leczenia",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+8% mocy leczenia i świętych czarów\n+10% obrażeń krytycznych czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:beacon"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_damage",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Twoje leczenie potrafi uratować całą drużynę.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "uzdrowiciel_j": {
+  "title": {
+   "text": "Przyjmowanie łask",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+15% otrzymywanego leczenia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:honey_block"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:healing",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "uzdrowiciel_k": {
+  "title": {
+   "text": "Ostoja",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "4% mniej otrzymywanych obrażeń",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:shield"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "uzdrowiciel_l": {
+  "title": {
+   "text": "Natchnienie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+3% szansy na krytyczny czar",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:experience_bottle"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_chance",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "uzdrowiciel_m": {
+  "title": {
+   "text": "Arcykapłan",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+10% mocy leczenia i świętych czarów\n+5% szybkości rzucania czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:diamond_holy_staff"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:haste",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 4,
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "uzdrowiciel_x1": {
+  "title": {
+   "text": "Cud",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+15% mocy leczenia i świętych czarów\n+20% obrażeń krytycznych czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:totem_of_undying"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_damage",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Twoje krytyczne leczenie przywraca do życia. Wyklucza Anioła stróża.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "uzdrowiciel_x2": {
+  "title": {
+   "text": "Anioł stróż",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+3 serca zdrowia\n6% mniej otrzymywanych obrażeń\n+20% otrzymywanego leczenia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:feather"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 6,
+     "operation": "addition"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:healing",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Niełatwo cię zabić. Wyklucza Cud.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "inkwizytor_r": {
+  "title": {
+   "text": "Inkwizytor",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+8% mocy leczenia i świętych czarów\n+2% szansy na krytyczny czar",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:holy_wand"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_chance",
+     "value": 0.02,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Święte czary jako broń. Uzdrowiciel się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "inkwizytor_a": {
+  "title": {
+   "text": "Gniew",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+10% obrażeń krytycznych czarów",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:blaze_powder"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_damage",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "inkwizytor_b": {
+  "title": {
+   "text": "Święte światło",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% mocy leczenia i świętych czarów",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:glowstone_dust"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "inkwizytor_c": {
+  "title": {
+   "text": "Pośpiech",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+3% szybkości rzucania czarów",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sugar"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:haste",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "inkwizytor_d": {
+  "title": {
+   "text": "Osąd",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+2% szansy na krytyczny czar",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:spectral_arrow"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_chance",
+     "value": 0.02,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "inkwizytor_e": {
+  "title": {
+   "text": "Hart",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 serce zdrowia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:apple"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "inkwizytor_f": {
+  "title": {
+   "text": "Promień światła",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+6% mocy leczenia i świętych czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sea_lantern"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "inkwizytor_g": {
+  "title": {
+   "text": "Kara",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+10% obrażeń krytycznych czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:lightning_rod"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_damage",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "inkwizytor_h": {
+  "title": {
+   "text": "Szybki wyrok",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% szybkości rzucania czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:clock"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:haste",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "inkwizytor_i": {
+  "title": {
+   "text": "Pokuta",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+8% mocy leczenia i świętych czarów\n+3% szansy na krytyczny czar",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:end_rod"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_chance",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Grzesznicy płoną w świętym świetle.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "inkwizytor_j": {
+  "title": {
+   "text": "Ochrona wiary",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "6% mniej obrażeń od magii",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:lapis_block"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:magic_resistance",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "inkwizytor_k": {
+  "title": {
+   "text": "Fanatyzm",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+2% szansy na krytyczny czar",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:redstone"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_chance",
+     "value": 0.02,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "inkwizytor_l": {
+  "title": {
+   "text": "Pochłonięcie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "3% zadanych obrażeń wraca jako zdrowie",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:ghast_tear"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "inkwizytor_m": {
+  "title": {
+   "text": "Młot heretyków",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+10% mocy leczenia i świętych czarów\n+15% obrażeń krytycznych czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:bell"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_damage",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 4,
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "inkwizytor_x1": {
+  "title": {
+   "text": "Gniew niebios",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+15% mocy leczenia i świętych czarów\n+4% szansy na krytyczny czar",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:netherite_holy_wand"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_chance",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Niebo walczy po twojej stronie. Wyklucza Męczennika.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "inkwizytor_x2": {
+  "title": {
+   "text": "Męczennik",
+   "color": "white",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "5% zadanych obrażeń wraca jako zdrowie\n+2 serca zdrowia\n5% mniej otrzymywanych obrażeń",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:wither_rose"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 4,
+     "operation": "addition"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Cierpienie cię wzmacnia. Wyklucza Gniew niebios.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ }
+}

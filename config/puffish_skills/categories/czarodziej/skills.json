@@ -1,0 +1,245 @@
+{
+ "ogien_r": {
+  "x": -190,
+  "y": 0,
+  "definition": "ogien_r",
+  "root": true
+ },
+ "ogien_a": {
+  "x": -230,
+  "y": 44,
+  "definition": "ogien_a"
+ },
+ "ogien_b": {
+  "x": -150,
+  "y": 44,
+  "definition": "ogien_b"
+ },
+ "ogien_c": {
+  "x": -254,
+  "y": 88,
+  "definition": "ogien_c"
+ },
+ "ogien_d": {
+  "x": -190,
+  "y": 88,
+  "definition": "ogien_d"
+ },
+ "ogien_e": {
+  "x": -126,
+  "y": 88,
+  "definition": "ogien_e"
+ },
+ "ogien_f": {
+  "x": -230,
+  "y": 132,
+  "definition": "ogien_f"
+ },
+ "ogien_g": {
+  "x": -150,
+  "y": 132,
+  "definition": "ogien_g"
+ },
+ "ogien_h": {
+  "x": -254,
+  "y": 176,
+  "definition": "ogien_h"
+ },
+ "ogien_i": {
+  "x": -190,
+  "y": 176,
+  "definition": "ogien_i"
+ },
+ "ogien_j": {
+  "x": -126,
+  "y": 176,
+  "definition": "ogien_j"
+ },
+ "ogien_k": {
+  "x": -230,
+  "y": 220,
+  "definition": "ogien_k"
+ },
+ "ogien_l": {
+  "x": -150,
+  "y": 220,
+  "definition": "ogien_l"
+ },
+ "ogien_m": {
+  "x": -190,
+  "y": 264,
+  "definition": "ogien_m"
+ },
+ "ogien_x1": {
+  "x": -228,
+  "y": 318,
+  "definition": "ogien_x1"
+ },
+ "ogien_x2": {
+  "x": -152,
+  "y": 318,
+  "definition": "ogien_x2"
+ },
+ "lod_r": {
+  "x": 0,
+  "y": 0,
+  "definition": "lod_r",
+  "root": true
+ },
+ "lod_a": {
+  "x": -40,
+  "y": 44,
+  "definition": "lod_a"
+ },
+ "lod_b": {
+  "x": 40,
+  "y": 44,
+  "definition": "lod_b"
+ },
+ "lod_c": {
+  "x": -64,
+  "y": 88,
+  "definition": "lod_c"
+ },
+ "lod_d": {
+  "x": 0,
+  "y": 88,
+  "definition": "lod_d"
+ },
+ "lod_e": {
+  "x": 64,
+  "y": 88,
+  "definition": "lod_e"
+ },
+ "lod_f": {
+  "x": -40,
+  "y": 132,
+  "definition": "lod_f"
+ },
+ "lod_g": {
+  "x": 40,
+  "y": 132,
+  "definition": "lod_g"
+ },
+ "lod_h": {
+  "x": -64,
+  "y": 176,
+  "definition": "lod_h"
+ },
+ "lod_i": {
+  "x": 0,
+  "y": 176,
+  "definition": "lod_i"
+ },
+ "lod_j": {
+  "x": 64,
+  "y": 176,
+  "definition": "lod_j"
+ },
+ "lod_k": {
+  "x": -40,
+  "y": 220,
+  "definition": "lod_k"
+ },
+ "lod_l": {
+  "x": 40,
+  "y": 220,
+  "definition": "lod_l"
+ },
+ "lod_m": {
+  "x": 0,
+  "y": 264,
+  "definition": "lod_m"
+ },
+ "lod_x1": {
+  "x": -38,
+  "y": 318,
+  "definition": "lod_x1"
+ },
+ "lod_x2": {
+  "x": 38,
+  "y": 318,
+  "definition": "lod_x2"
+ },
+ "arkana_r": {
+  "x": 190,
+  "y": 0,
+  "definition": "arkana_r",
+  "root": true
+ },
+ "arkana_a": {
+  "x": 150,
+  "y": 44,
+  "definition": "arkana_a"
+ },
+ "arkana_b": {
+  "x": 230,
+  "y": 44,
+  "definition": "arkana_b"
+ },
+ "arkana_c": {
+  "x": 126,
+  "y": 88,
+  "definition": "arkana_c"
+ },
+ "arkana_d": {
+  "x": 190,
+  "y": 88,
+  "definition": "arkana_d"
+ },
+ "arkana_e": {
+  "x": 254,
+  "y": 88,
+  "definition": "arkana_e"
+ },
+ "arkana_f": {
+  "x": 150,
+  "y": 132,
+  "definition": "arkana_f"
+ },
+ "arkana_g": {
+  "x": 230,
+  "y": 132,
+  "definition": "arkana_g"
+ },
+ "arkana_h": {
+  "x": 126,
+  "y": 176,
+  "definition": "arkana_h"
+ },
+ "arkana_i": {
+  "x": 190,
+  "y": 176,
+  "definition": "arkana_i"
+ },
+ "arkana_j": {
+  "x": 254,
+  "y": 176,
+  "definition": "arkana_j"
+ },
+ "arkana_k": {
+  "x": 150,
+  "y": 220,
+  "definition": "arkana_k"
+ },
+ "arkana_l": {
+  "x": 230,
+  "y": 220,
+  "definition": "arkana_l"
+ },
+ "arkana_m": {
+  "x": 190,
+  "y": 264,
+  "definition": "arkana_m"
+ },
+ "arkana_x1": {
+  "x": 152,
+  "y": 318,
+  "definition": "arkana_x1"
+ },
+ "arkana_x2": {
+  "x": 228,
+  "y": 318,
+  "definition": "arkana_x2"
+ }
+}

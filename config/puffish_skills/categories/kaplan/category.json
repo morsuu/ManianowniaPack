@@ -1,0 +1,21 @@
+{
+ "title": {
+  "text": "Kapłan",
+  "color": "white",
+  "bold": true
+ },
+ "description": {
+  "text": "Uzdrowiciel drużyny albo inkwizytor światła. Punkty za pokonane potwory i etapy ścieżki klasy.",
+  "color": "gray"
+ },
+ "icon": {
+  "type": "item",
+  "data": {
+   "item": "paladins:acolyte_wand"
+  }
+ },
+ "background": "minecraft:textures/block/deepslate_bricks.png",
+ "unlocked_by_default": false,
+ "starting_points": 2,
+ "exclusive_root": true
+}

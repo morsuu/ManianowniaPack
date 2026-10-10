@@ -1,0 +1,1274 @@
+{
+ "obronca_r": {
+  "title": {
+   "text": "Obrońca",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+2 pancerza",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:iron_kite_shield"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Wybierasz ścieżkę tarczy. Krzyżowiec się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "obronca_a": {
+  "title": {
+   "text": "Twarda skóra",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 serce zdrowia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:leather_chestplate"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "obronca_b": {
+  "title": {
+   "text": "Niewzruszony",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+10% odporności na odrzut",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:anvil"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.knockback_resistance",
+     "value": 0.1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "obronca_c": {
+  "title": {
+   "text": "Hartowanie",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+1 wytrzymałości pancerza",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_block"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor_toughness",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "obronca_d": {
+  "title": {
+   "text": "Święta osłona",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% mocy leczenia i świętych czarów",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:golden_apple"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "obronca_e": {
+  "title": {
+   "text": "Opór",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "3% mniej otrzymywanych obrażeń",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:shield"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "obronca_f": {
+  "title": {
+   "text": "Bastion",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+2 pancerza",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_chestplate"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "obronca_g": {
+  "title": {
+   "text": "Krzepa",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+2 serca zdrowia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:golden_carrot"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 4,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "obronca_h": {
+  "title": {
+   "text": "Odwet",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "10% otrzymanych obrażeń wraca do atakującego",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:cactus"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:damage_reflection",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "obronca_i": {
+  "title": {
+   "text": "Mur",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "5% mniej otrzymywanych obrażeń\n+15% odporności na odrzut",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:obsidian"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.knockback_resistance",
+     "value": 0.15,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Za tobą drużyna jest bezpieczna.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "obronca_j": {
+  "title": {
+   "text": "Regeneracja",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+20% regeneracji zdrowia z jedzenia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:glistering_melon_slice"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:natural_regeneration",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "obronca_k": {
+  "title": {
+   "text": "Tarcza wiary",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "8% mniej obrażeń od magii",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:lapis_block"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:magic_resistance",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "obronca_l": {
+  "title": {
+   "text": "Odporność",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+2 wytrzymałości pancerza",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:netherite_scrap"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor_toughness",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "obronca_m": {
+  "title": {
+   "text": "Twierdza",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+2 serca zdrowia\n+3 pancerza",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:diamond_kite_shield"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 4,
+     "operation": "addition"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor",
+     "value": 3,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 4,
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "obronca_x1": {
+  "title": {
+   "text": "Niezłomny",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "8% mniej otrzymywanych obrażeń\n15% otrzymanych obrażeń wraca do atakującego",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:netherite_kite_shield"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:damage_reflection",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Każdy cios w ciebie boli atakującego. Wyklucza Opiekuna.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "obronca_x2": {
+  "title": {
+   "text": "Opiekun",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+20% otrzymywanego leczenia\n+15% mocy leczenia i świętych czarów\n+30% regeneracji zdrowia z jedzenia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:enchanted_golden_apple"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:healing",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:natural_regeneration",
+     "value": 0.3,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Leczysz siebie i innych lepiej niż ktokolwiek. Wyklucza Niezłomnego.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "krzyzowiec_r": {
+  "title": {
+   "text": "Krzyżowiec",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń broni wręcz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:iron_mace"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Wybierasz ścieżkę młota. Obrońca się zablokuje.",
+   "color": "dark_aqua"
+  },
+  "size": 1.15
+ },
+ "krzyzowiec_a": {
+  "title": {
+   "text": "Święty zapał",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% mocy leczenia i świętych czarów",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:glowstone_dust"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "krzyzowiec_b": {
+  "title": {
+   "text": "Ciężka ręka",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% obrażeń broni wręcz",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_axe"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "krzyzowiec_c": {
+  "title": {
+   "text": "Szybkie ciosy",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+4% szybkości ataku",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sugar"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "krzyzowiec_d": {
+  "title": {
+   "text": "Błogosławieństwo",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% mocy leczenia i świętych czarów",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:honey_bottle"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "krzyzowiec_e": {
+  "title": {
+   "text": "Sprawiedliwość",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "10% pancerza wroga ignorowane",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:flint"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:armor_shred",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1
+ },
+ "krzyzowiec_f": {
+  "title": {
+   "text": "Młot sprawiedliwości",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% obrażeń broni wręcz",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:diamond_mace"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "krzyzowiec_g": {
+  "title": {
+   "text": "Światłość",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+6% mocy leczenia i świętych czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:glowstone"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "krzyzowiec_h": {
+  "title": {
+   "text": "Krucjata",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "3% zadanych obrażeń wraca jako zdrowie",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:ghast_tear"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "krzyzowiec_i": {
+  "title": {
+   "text": "Wyrok",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+6% obrażeń broni wręcz\n+3% szansy na krytyczny czar",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:bell"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:critical_chance",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Wyrok zapada jednym ciosem.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 4,
+  "size": 1.15
+ },
+ "krzyzowiec_j": {
+  "title": {
+   "text": "Pancerz wiary",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+2 pancerza",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 4 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:golden_chestplate"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 4
+ },
+ "krzyzowiec_k": {
+  "title": {
+   "text": "Furia światła",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+5% szybkości ataku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:blaze_powder"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_speed",
+     "value": 0.05,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "krzyzowiec_l": {
+  "title": {
+   "text": "Pochodnia",
+   "color": "white"
+  },
+  "description": [
+   {
+    "text": "+6% mocy leczenia i świętych czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 10 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sea_lantern"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.06,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "required_spent_points": 10
+ },
+ "krzyzowiec_m": {
+  "title": {
+   "text": "Rycerz zakonu",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+8% obrażeń broni wręcz\n+8% mocy leczenia i świętych czarów",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 4 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 14 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "paladins:netherite_mace"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 4,
+  "required_spent_points": 14,
+  "size": 1.15
+ },
+ "krzyzowiec_x1": {
+  "title": {
+   "text": "Młot niebios",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+12% obrażeń broni wręcz\n15% pancerza wroga ignorowane",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:netherite_axe"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.attack_damage",
+     "value": 0.12,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:armor_shred",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Żaden pancerz nie wytrzyma. Wyklucza Święty sztandar.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ },
+ "krzyzowiec_x2": {
+  "title": {
+   "text": "Święty sztandar",
+   "color": "yellow",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+15% mocy leczenia i świętych czarów\n4% zadanych obrażeń wraca jako zdrowie\n+2 serca zdrowia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 5 pkt",
+    "color": "gold"
+   },
+   {
+    "text": "\nWymaga wydania 20 pkt w drzewku",
+    "color": "dark_gray"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:white_banner"
+   }
+  },
+  "frame": "challenge",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "spell_power:healing",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:life_steal",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 4,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 5,
+  "extra_description": {
+   "text": "Walczysz i leczysz jednocześnie. Wyklucza Młot niebios.",
+   "color": "dark_aqua"
+  },
+  "required_spent_points": 20,
+  "size": 1.15
+ }
+}

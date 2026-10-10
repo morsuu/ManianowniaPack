@@ -591,6 +591,191 @@
 					}
 				}
 			]
+		},
+		{
+			id: "1BDF1726D8C61BAD",
+			title: "Orki",
+			x: 0.0d,
+			y: 3.0d,
+			icon: "adventurez:orc_skin",
+			description: [
+				"Nocą na równinach grasują &corki&r (AdventureZ). Chodzą grupami i mocno biją.",
+				"Pokonaj 5 orków. W nagrodę dostaniesz &ePodręcznik AdventureZ&r z opisem stworów i ołtarzy w 3D."
+			],
+			dependencies: [
+				"7527986E38766F19"
+			],
+			tasks: [
+				{
+					id: "314C18D5E3AD9D4D",
+					type: "kill",
+					entity: "adventurez:orc",
+					value: 5L
+				}
+			],
+			rewards: [
+				{
+					id: "7B56394C9417C7F4",
+					type: "item",
+					item: {
+						id: "adventurez:handbook",
+						Count: 1b
+					}
+				},
+				{
+					id: "582DE6FEFF714BAB",
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "76F93ADFEEE61D2F",
+					type: "item",
+					item: {
+						id: "minecraft:cooked_beef",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "36478BD8B47B9435",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "1C9489384181A288",
+			title: "Wielkie łowy",
+			x: 1.5d,
+			y: 3.0d,
+			icon: "adventurez:raw_venison",
+			description: [
+				"Po świecie chodzą nowe zwierzęta: &ejelenie&r w lasach, &emamuty&r w śniegach, &enosorożce&r na pustyni i &eiguany&r w badlandach.",
+				"Upoluj jelenia i przynieś surową dziczyznę."
+			],
+			dependencies: [
+				"1BDF1726D8C61BAD"
+			],
+			tasks: [
+				{
+					id: "1B8FD2E462DF5763",
+					type: "item",
+					item: "adventurez:raw_venison",
+					count: 3L
+				}
+			],
+			rewards: [
+				{
+					id: "1D3B909541637357",
+					type: "item",
+					item: {
+						id: "minecraft:leather",
+						Count: 1b
+					},
+					count: 8
+				},
+				{
+					id: "36227B39A0C154FA",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "79B897C8F758968C",
+			title: "Przywoływacz burzy",
+			x: 3.0d,
+			y: 3.0d,
+			icon: "minecraft:lightning_rod",
+			description: [
+				"Podczas burzy może pojawić się &5Przywoływacz&r z gwardią szkieletów-strażników.",
+				"Strażnicy parują ciosy tarczą: atakuj z boku albo czarami. Pokonaj Przywoływacza."
+			],
+			dependencies: [
+				"1BDF1726D8C61BAD"
+			],
+			tasks: [
+				{
+					id: "16CC6478295BB02C",
+					type: "kill",
+					entity: "adventurez:summoner",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "76C87D8BB2130C80",
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 1b
+					},
+					count: 3
+				},
+				{
+					id: "162EFA2A70C5F418",
+					type: "item",
+					item: {
+						id: "minecraft:totem_of_undying",
+						Count: 1b
+					}
+				},
+				{
+					id: "5D05ADDAC06CDCE4",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			id: "1D5C6C6849BF46B0",
+			title: "Ametystowy golem",
+			x: 4.5d,
+			y: 3.0d,
+			icon: "minecraft:amethyst_cluster",
+			description: [
+				"W geodach śpią &dametystowe golemy&r. Wściekają się, gdy niszczysz ametyst.",
+				"Pokonaj jednego."
+			],
+			dependencies: [
+				"1BDF1726D8C61BAD"
+			],
+			tasks: [
+				{
+					id: "5FD611ECEC43A791",
+					type: "kill",
+					entity: "adventurez:amethyst_golem",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "14742DDC799CCE4C",
+					type: "item",
+					item: {
+						id: "minecraft:amethyst_shard",
+						Count: 1b
+					},
+					count: 16
+				},
+				{
+					id: "1F69CECE28653C7E",
+					type: "item",
+					item: {
+						id: "minecraft:spyglass",
+						Count: 1b
+					}
+				},
+				{
+					id: "39BE7B37A5489804",
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
 		}
 	],
 	quest_links: [ ]

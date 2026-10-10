@@ -144,6 +144,14 @@
 				},
 				{
 					id: "72B69E4074FF8529",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:wojownik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Wojownik)"
+				},
+				{
+					id: "50F32F9069C3B1B6",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -287,6 +295,14 @@
 				},
 				{
 					id: "15CC6864CC11E00B",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:wojownik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Wojownik)"
+				},
+				{
+					id: "1A4B977910778990",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -388,6 +404,14 @@
 				},
 				{
 					id: "77CEDF9B9AEB3CFD",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:wojownik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Wojownik)"
+				},
+				{
+					id: "5E72E8EB9F4575C8",
 					type: "xp_levels",
 					xp_levels: 8
 				}
@@ -435,6 +459,14 @@
 				},
 				{
 					id: "3A06DCB2EDACBB50",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:wojownik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Wojownik)"
+				},
+				{
+					id: "3ED273F48F0009C3",
 					type: "xp_levels",
 					xp_levels: 8
 				}
@@ -492,6 +524,14 @@
 					id: "187E2B87ADF2ECB5",
 					type: "xp_levels",
 					xp_levels: 30
+				},
+				{
+					id: "390E998D019E8336",
+					type: "command",
+					command: "/puffish_skills points add @s puffish_skills:wojownik 1",
+					elevate_perms: true,
+					silent: true,
+					title: "&a+1 punkt umiejętności (Wojownik)"
 				}
 			]
 		}

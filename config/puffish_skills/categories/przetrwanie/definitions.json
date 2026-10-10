@@ -1,0 +1,782 @@
+{
+ "root": {
+  "title": {
+   "text": "Ocalały",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+1 serce zdrowia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:apple"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Każda przygoda zaczyna się od przetrwania pierwszej nocy.",
+   "color": "dark_aqua"
+  },
+  "size": 1.2
+ },
+ "g1": {
+  "title": {
+   "text": "Kilof w dłoń",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+10% szybkości kopania",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:iron_pickaxe"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:mining_speed",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Ścieżka: Górnik",
+   "color": "dark_aqua"
+  }
+ },
+ "g2": {
+  "title": {
+   "text": "Wyczucie żył",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+10% szybkości kopania",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:raw_iron"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:mining_speed",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Ścieżka: Górnik",
+   "color": "dark_aqua"
+  }
+ },
+ "g3": {
+  "title": {
+   "text": "Głębiny",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+15% szybkości kopania",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:deepslate"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:mining_speed",
+     "value": 0.15,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "extra_description": {
+   "text": "Ścieżka: Górnik",
+   "color": "dark_aqua"
+  }
+ },
+ "g4": {
+  "title": {
+   "text": "Fortuna",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+1 poziom Fortuny przy kopaniu",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:diamond"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:fortune",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Ścieżka: Górnik",
+   "color": "dark_aqua"
+  }
+ },
+ "g5": {
+  "title": {
+   "text": "Kopacz ekspres",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+20% szybkości kopania",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:diamond_pickaxe"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:mining_speed",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "extra_description": {
+   "text": "Ścieżka: Górnik",
+   "color": "dark_aqua"
+  }
+ },
+ "w1": {
+  "title": {
+   "text": "Lekki krok",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+3% szybkości ruchu",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:leather_boots"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Ścieżka: Wędrowiec",
+   "color": "dark_aqua"
+  }
+ },
+ "w2": {
+  "title": {
+   "text": "Sprinter",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+8% szybkości sprintu",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:sugar"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:sprinting_speed",
+     "value": 0.08,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Ścieżka: Wędrowiec",
+   "color": "dark_aqua"
+  }
+ },
+ "w3": {
+  "title": {
+   "text": "Miękkie lądowanie",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "30% mniej obrażeń od upadku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:hay_block"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:fall_reduction",
+     "value": 0.3,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "extra_description": {
+   "text": "Ścieżka: Wędrowiec",
+   "color": "dark_aqua"
+  }
+ },
+ "w4": {
+  "title": {
+   "text": "Skoczek",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+10% wysokości skoku",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:rabbit_foot"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:jump",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "extra_description": {
+   "text": "Ścieżka: Wędrowiec",
+   "color": "dark_aqua"
+  }
+ },
+ "w5": {
+  "title": {
+   "text": "Podróżnik",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+4% szybkości ruchu\n20% wolniejsze głodnienie",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:compass"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.movement_speed",
+     "value": 0.04,
+     "operation": "multiply_base"
+    }
+   },
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:stamina",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Ścieżka: Wędrowiec",
+   "color": "dark_aqua"
+  }
+ },
+ "t1": {
+  "title": {
+   "text": "Gruba skóra",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+1 pancerza",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:leather_chestplate"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.armor",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Ścieżka: Twardziel",
+   "color": "dark_aqua"
+  }
+ },
+ "t2": {
+  "title": {
+   "text": "Krzepa",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+1 serce zdrowia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:cooked_beef"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 2,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Ścieżka: Twardziel",
+   "color": "dark_aqua"
+  }
+ },
+ "t3": {
+  "title": {
+   "text": "Zdrowy tryb życia",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+20% regeneracji zdrowia z jedzenia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:golden_carrot"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:natural_regeneration",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "extra_description": {
+   "text": "Ścieżka: Twardziel",
+   "color": "dark_aqua"
+  }
+ },
+ "t4": {
+  "title": {
+   "text": "Twarda sztuka",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "3% mniej otrzymywanych obrażeń",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:shield"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:resistance",
+     "value": 0.03,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 2,
+  "extra_description": {
+   "text": "Ścieżka: Twardziel",
+   "color": "dark_aqua"
+  }
+ },
+ "t5": {
+  "title": {
+   "text": "Żelazne zdrowie",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+2 serca zdrowia",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:golden_apple"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.max_health",
+     "value": 4,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Ścieżka: Twardziel",
+   "color": "dark_aqua"
+  }
+ },
+ "u1": {
+  "title": {
+   "text": "Ciekawość",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+10% doświadczenia z kul",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:experience_bottle"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:experience",
+     "value": 0.1,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Ścieżka: Uczony",
+   "color": "dark_aqua"
+  }
+ },
+ "u2": {
+  "title": {
+   "text": "Smakosz",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "+20% szybkości jedzenia i picia",
+    "color": "green"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:bread"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:consuming_speed",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 1,
+  "extra_description": {
+   "text": "Ścieżka: Uczony",
+   "color": "dark_aqua"
+  }
+ },
+ "u3": {
+  "title": {
+   "text": "Oszczędny",
+   "color": "green"
+  },
+  "description": [
+   {
+    "text": "20% wolniejsze głodnienie",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:cookie"
+   }
+  },
+  "frame": "task",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:stamina",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "extra_description": {
+   "text": "Ścieżka: Uczony",
+   "color": "dark_aqua"
+  }
+ },
+ "u4": {
+  "title": {
+   "text": "Szczęściarz",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+1 szczęścia (lepsze łupy i połowy)",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 2 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:emerald"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "minecraft:generic.luck",
+     "value": 1,
+     "operation": "addition"
+    }
+   }
+  ],
+  "cost": 2,
+  "extra_description": {
+   "text": "Ścieżka: Uczony",
+   "color": "dark_aqua"
+  }
+ },
+ "u5": {
+  "title": {
+   "text": "Mędrzec",
+   "color": "green",
+   "bold": true
+  },
+  "description": [
+   {
+    "text": "+20% doświadczenia z kul",
+    "color": "green"
+   },
+   {
+    "text": "\nKoszt: 3 pkt",
+    "color": "gold"
+   }
+  ],
+  "icon": {
+   "type": "item",
+   "data": {
+    "item": "minecraft:enchanting_table"
+   }
+  },
+  "frame": "goal",
+  "rewards": [
+   {
+    "type": "puffish_skills:attribute",
+    "data": {
+     "attribute": "puffish_attributes:experience",
+     "value": 0.2,
+     "operation": "multiply_base"
+    }
+   }
+  ],
+  "cost": 3,
+  "extra_description": {
+   "text": "Ścieżka: Uczony",
+   "color": "dark_aqua"
+  }
+ }
+}

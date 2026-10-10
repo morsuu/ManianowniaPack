@@ -1,0 +1,21 @@
+{
+ "title": {
+  "text": "Czarodziej",
+  "color": "aqua",
+  "bold": true
+ },
+ "description": {
+  "text": "Wybierz jedną szkołę magii. Punkty za pokonane potwory i etapy ścieżki klasy.",
+  "color": "gray"
+ },
+ "icon": {
+  "type": "item",
+  "data": {
+   "item": "wizards:staff_wizard"
+  }
+ },
+ "background": "minecraft:textures/block/obsidian.png",
+ "unlocked_by_default": false,
+ "starting_points": 2,
+ "exclusive_root": true
+}

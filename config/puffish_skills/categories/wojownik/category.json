@@ -1,0 +1,21 @@
+{
+ "title": {
+  "text": "Wojownik",
+  "color": "red",
+  "bold": true
+ },
+ "description": {
+  "text": "Berserker w szale bojowym albo niezniszczalny strażnik. Punkty za pokonane potwory i etapy ścieżki klasy.",
+  "color": "gray"
+ },
+ "icon": {
+  "type": "item",
+  "data": {
+   "item": "rogues:iron_double_axe"
+  }
+ },
+ "background": "minecraft:textures/block/nether_bricks.png",
+ "unlocked_by_default": false,
+ "starting_points": 2,
+ "exclusive_root": true
+}

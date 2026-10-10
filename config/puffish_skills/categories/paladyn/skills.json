@@ -1,0 +1,164 @@
+{
+ "obronca_r": {
+  "x": -110,
+  "y": 0,
+  "definition": "obronca_r",
+  "root": true
+ },
+ "obronca_a": {
+  "x": -150,
+  "y": 44,
+  "definition": "obronca_a"
+ },
+ "obronca_b": {
+  "x": -70,
+  "y": 44,
+  "definition": "obronca_b"
+ },
+ "obronca_c": {
+  "x": -174,
+  "y": 88,
+  "definition": "obronca_c"
+ },
+ "obronca_d": {
+  "x": -110,
+  "y": 88,
+  "definition": "obronca_d"
+ },
+ "obronca_e": {
+  "x": -46,
+  "y": 88,
+  "definition": "obronca_e"
+ },
+ "obronca_f": {
+  "x": -150,
+  "y": 132,
+  "definition": "obronca_f"
+ },
+ "obronca_g": {
+  "x": -70,
+  "y": 132,
+  "definition": "obronca_g"
+ },
+ "obronca_h": {
+  "x": -174,
+  "y": 176,
+  "definition": "obronca_h"
+ },
+ "obronca_i": {
+  "x": -110,
+  "y": 176,
+  "definition": "obronca_i"
+ },
+ "obronca_j": {
+  "x": -46,
+  "y": 176,
+  "definition": "obronca_j"
+ },
+ "obronca_k": {
+  "x": -150,
+  "y": 220,
+  "definition": "obronca_k"
+ },
+ "obronca_l": {
+  "x": -70,
+  "y": 220,
+  "definition": "obronca_l"
+ },
+ "obronca_m": {
+  "x": -110,
+  "y": 264,
+  "definition": "obronca_m"
+ },
+ "obronca_x1": {
+  "x": -148,
+  "y": 318,
+  "definition": "obronca_x1"
+ },
+ "obronca_x2": {
+  "x": -72,
+  "y": 318,
+  "definition": "obronca_x2"
+ },
+ "krzyzowiec_r": {
+  "x": 110,
+  "y": 0,
+  "definition": "krzyzowiec_r",
+  "root": true
+ },
+ "krzyzowiec_a": {
+  "x": 70,
+  "y": 44,
+  "definition": "krzyzowiec_a"
+ },
+ "krzyzowiec_b": {
+  "x": 150,
+  "y": 44,
+  "definition": "krzyzowiec_b"
+ },
+ "krzyzowiec_c": {
+  "x": 46,
+  "y": 88,
+  "definition": "krzyzowiec_c"
+ },
+ "krzyzowiec_d": {
+  "x": 110,
+  "y": 88,
+  "definition": "krzyzowiec_d"
+ },
+ "krzyzowiec_e": {
+  "x": 174,
+  "y": 88,
+  "definition": "krzyzowiec_e"
+ },
+ "krzyzowiec_f": {
+  "x": 70,
+  "y": 132,
+  "definition": "krzyzowiec_f"
+ },
+ "krzyzowiec_g": {
+  "x": 150,
+  "y": 132,
+  "definition": "krzyzowiec_g"
+ },
+ "krzyzowiec_h": {
+  "x": 46,
+  "y": 176,
+  "definition": "krzyzowiec_h"
+ },
+ "krzyzowiec_i": {
+  "x": 110,
+  "y": 176,
+  "definition": "krzyzowiec_i"
+ },
+ "krzyzowiec_j": {
+  "x": 174,
+  "y": 176,
+  "definition": "krzyzowiec_j"
+ },
+ "krzyzowiec_k": {
+  "x": 70,
+  "y": 220,
+  "definition": "krzyzowiec_k"
+ },
+ "krzyzowiec_l": {
+  "x": 150,
+  "y": 220,
+  "definition": "krzyzowiec_l"
+ },
+ "krzyzowiec_m": {
+  "x": 110,
+  "y": 264,
+  "definition": "krzyzowiec_m"
+ },
+ "krzyzowiec_x1": {
+  "x": 72,
+  "y": 318,
+  "definition": "krzyzowiec_x1"
+ },
+ "krzyzowiec_x2": {
+  "x": 148,
+  "y": 318,
+  "definition": "krzyzowiec_x2"
+ }
+}

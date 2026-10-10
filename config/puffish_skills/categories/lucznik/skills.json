@@ -1,0 +1,164 @@
+{
+ "snajper_r": {
+  "x": -110,
+  "y": 0,
+  "definition": "snajper_r",
+  "root": true
+ },
+ "snajper_a": {
+  "x": -150,
+  "y": 44,
+  "definition": "snajper_a"
+ },
+ "snajper_b": {
+  "x": -70,
+  "y": 44,
+  "definition": "snajper_b"
+ },
+ "snajper_c": {
+  "x": -174,
+  "y": 88,
+  "definition": "snajper_c"
+ },
+ "snajper_d": {
+  "x": -110,
+  "y": 88,
+  "definition": "snajper_d"
+ },
+ "snajper_e": {
+  "x": -46,
+  "y": 88,
+  "definition": "snajper_e"
+ },
+ "snajper_f": {
+  "x": -150,
+  "y": 132,
+  "definition": "snajper_f"
+ },
+ "snajper_g": {
+  "x": -70,
+  "y": 132,
+  "definition": "snajper_g"
+ },
+ "snajper_h": {
+  "x": -174,
+  "y": 176,
+  "definition": "snajper_h"
+ },
+ "snajper_i": {
+  "x": -110,
+  "y": 176,
+  "definition": "snajper_i"
+ },
+ "snajper_j": {
+  "x": -46,
+  "y": 176,
+  "definition": "snajper_j"
+ },
+ "snajper_k": {
+  "x": -150,
+  "y": 220,
+  "definition": "snajper_k"
+ },
+ "snajper_l": {
+  "x": -70,
+  "y": 220,
+  "definition": "snajper_l"
+ },
+ "snajper_m": {
+  "x": -110,
+  "y": 264,
+  "definition": "snajper_m"
+ },
+ "snajper_x1": {
+  "x": -148,
+  "y": 318,
+  "definition": "snajper_x1"
+ },
+ "snajper_x2": {
+  "x": -72,
+  "y": 318,
+  "definition": "snajper_x2"
+ },
+ "tropiciel_r": {
+  "x": 110,
+  "y": 0,
+  "definition": "tropiciel_r",
+  "root": true
+ },
+ "tropiciel_a": {
+  "x": 70,
+  "y": 44,
+  "definition": "tropiciel_a"
+ },
+ "tropiciel_b": {
+  "x": 150,
+  "y": 44,
+  "definition": "tropiciel_b"
+ },
+ "tropiciel_c": {
+  "x": 46,
+  "y": 88,
+  "definition": "tropiciel_c"
+ },
+ "tropiciel_d": {
+  "x": 110,
+  "y": 88,
+  "definition": "tropiciel_d"
+ },
+ "tropiciel_e": {
+  "x": 174,
+  "y": 88,
+  "definition": "tropiciel_e"
+ },
+ "tropiciel_f": {
+  "x": 70,
+  "y": 132,
+  "definition": "tropiciel_f"
+ },
+ "tropiciel_g": {
+  "x": 150,
+  "y": 132,
+  "definition": "tropiciel_g"
+ },
+ "tropiciel_h": {
+  "x": 46,
+  "y": 176,
+  "definition": "tropiciel_h"
+ },
+ "tropiciel_i": {
+  "x": 110,
+  "y": 176,
+  "definition": "tropiciel_i"
+ },
+ "tropiciel_j": {
+  "x": 174,
+  "y": 176,
+  "definition": "tropiciel_j"
+ },
+ "tropiciel_k": {
+  "x": 70,
+  "y": 220,
+  "definition": "tropiciel_k"
+ },
+ "tropiciel_l": {
+  "x": 150,
+  "y": 220,
+  "definition": "tropiciel_l"
+ },
+ "tropiciel_m": {
+  "x": 110,
+  "y": 264,
+  "definition": "tropiciel_m"
+ },
+ "tropiciel_x1": {
+  "x": 72,
+  "y": 318,
+  "definition": "tropiciel_x1"
+ },
+ "tropiciel_x2": {
+  "x": 148,
+  "y": 318,
+  "definition": "tropiciel_x2"
+ }
+}
