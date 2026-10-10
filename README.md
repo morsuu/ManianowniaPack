@@ -31,26 +31,32 @@ W istniejącej instancji Fabric 1.20.1 (loader 0.19.5):
 
 ## Serwer
 
-**Najprościej (np. Craftserve, bez własnej komendy startowej):** gotowa paczka serwerowa
-[`ManianowniaPack-serwer.zip`](https://github.com/morsuu/ManianowniaPack/releases/download/serwer/ManianowniaPack-serwer.zip)
-buduje się automatycznie przy każdej wersji paczki. Silnik Fabric 1.20.1, rozpakuj ZIP w głównym folderze serwera i uruchom.
-Aktualizacja: wyłącz serwer, usuń foldery `mods`, `config` i `moonlight-global-datapacks`, wgraj i rozpakuj nowy ZIP (świat i kopie zostają).
+Serwer **aktualizuje się sam**: przy każdym starcie mod *Manianownia Aktualizator* pobiera z GitHuba nowe mody, configi i datapacki.
+Jeśli doszły nowe mody, serwer wyłączy się z komunikatem „URUCHOM GO PONOWNIE” - wtedy kliknij **Start** jeszcze raz. Tyle.
 
-**Albo z automatyczną aktualizacją przy starcie** (hosting z własną komendą startową):
+### Pierwsza instalacja (Craftserve, raz)
+1. Panel → **Ustawienia → Silnik → Fabric**, wersja **1.20.1**.
+2. Zatrzymaj serwer. W zakładce **Pliki** usuń foldery `mods`, `config` i `moonlight-global-datapacks` (świat zostaje).
+3. Pobierz [`ManianowniaPack-serwer.zip`](https://github.com/morsuu/ManianowniaPack/releases/download/serwer/ManianowniaPack-serwer.zip),
+   wgraj go w **Pliki** (główny folder), kliknij na nim prawym → **Rozpakuj**, potem usuń ZIP.
+4. Uruchom serwer. Od teraz aktualizacja = restart serwera (nie wgrywaj już ZIP-ów ręcznie).
+5. `server.properties`: ważne `allow-flight=true`, `max-tick-time=-1`, `white-list=true` (wzór w [`instalacja/serwer`](instalacja/serwer)); graczy dodaje się `/whitelist add nick`.
+6. Świat z góry: `/chunky radius 2000`, potem `/chunky start`.
 
-Pliki pomocnicze są w [`instalacja/serwer`](instalacja/serwer): `packwiz-installer-bootstrap.jar`, `start.sh` / `start.bat`, wzór `server.properties` i `server-icon.png`.
+### Most z Discordem
+Czat z gry trafia na kanał Discorda i odwrotnie (wejścia/wyjścia, śmierci, osiągnięcia, `/list` na Discordzie).
+1. [Discord Developer Portal](https://discord.com/developers/applications) → Twoja aplikacja → **Bot**: włącz **Server Members Intent** i **Message Content Intent**, zapisz.
+2. Zaproś bota na swój serwer Discord (link zaproszenia ze strony OAuth2 → URL Generator: `bot` + `applications.commands`,
+   uprawnienia: View Channels, Send Messages, Embed Links, Read Message History, Manage Webhooks).
+3. Discord → Ustawienia → Zaawansowane → **Tryb dewelopera**; prawy klik na kanał → **Kopiuj ID kanału**.
+4. Craftserve → Pliki → `config/Discord-Integration.toml`: wpisz token w `botToken` i ID kanału w `botChannel`, zapisz, zrestartuj serwer.
+   Aktualizacje paczki tego pliku nie nadpisują. **Tokenu nie wrzucaj nigdzie indziej** (jeśli wycieknie: Developer Portal → Bot → Reset Token).
 
-1. Serwer **Fabric 1.20.1**, loader **0.19.5**, **Java 17**, RAM **6–8 GB** (minimum 6 GB).
-   Jeśli panel hostingu nie ma Fabrica do wyboru, pobierz serwer z fabricmc.net (Download → Server, Minecraft 1.20.1, loader 0.19.5)
-   i zmień nazwę pliku na `fabric-server-launch.jar` (tak go uruchamia `start.sh`). Jeśli panel ma Fabrica, użyj jego pliku i popraw nazwę w `start.sh`.
-2. Wrzuć do folderu serwera `packwiz-installer-bootstrap.jar` i `start.sh` (albo `start.bat`).
-3. Komenda startowa: `sh start.sh`. Przy każdym starcie serwer sam dociągnie aktualizację paczki (mody i configi).
-   Jeśli panel nie pozwala na własną komendę, raz uruchom instalator na swoim komputerze w pustym folderze:
-   `java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/morsuu/ManianowniaPack/main/pack.toml`
-   i wyślij foldery `mods` i `config` na serwer (przy każdej aktualizacji paczki powtórz).
-4. Przepisz ustawienia z wzoru `server.properties` (ważne: `allow-flight=true`, `max-tick-time=-1`, `white-list=true`) i dodaj graczy: `/whitelist add nick`.
-5. Wygeneruj świat z góry: `/chunky radius 2000`, potem `/chunky start`.
+### Hosting z własną komendą startową (inny niż Craftserve)
+Pliki w [`instalacja/serwer`](instalacja/serwer): `start.sh` / `start.bat` same pobierają paczkę przez `packwiz-installer-bootstrap.jar`
+(Fabric 1.20.1, loader 0.19.5, Java 17, RAM 6-8 GB).
 
 Na serwerze dodatkowo działają (tylko po stronie serwera, gracze nic nie instalują):
 - **Textile Backup**: kopia świata co godzinę, gdy ktoś gra, i przy wyłączaniu serwera; trzyma 8 ostatnich w folderze `backup/`. Ręcznie: `/backup start`.
+- **Discord Integration**: most czatu z Discordem (wyżej).
 - **spark**: diagnoza lagów, `/spark profiler start`, po minucie `/spark profiler stop` daje link z raportem.

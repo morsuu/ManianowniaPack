@@ -1,0 +1,21 @@
+# ManianowniaPack - most czatu Minecraft <-> Discord (mod Discord Integration)
+# Wpisz token bota i ID kanału w dwóch liniach poniżej, zapisz plik i zrestartuj serwer.
+[general]
+  botToken = "INSERT BOT TOKEN HERE"
+  botChannel = "000000000"
+  botStatusName = "%online% graczy na serwerze"
+  botStatusNameSingular = "%online% gracz na serwerze"
+  botStatusNameEmpty = "Nikt nie gra - wbijaj!"
+  enableUpdateChecker = false
+[messages]
+  language = "pl-PL"
+[webhook]
+  enable = true
+  serverName = "ManianowniaPack"
+  serverAvatarURL = "https://raw.githubusercontent.com/morsuu/ManianowniaPack/main/instalacja/serwer/server-icon.png"
+  playerAvatarURL = "https://mc-heads.net/avatar/%uuid%"
+  webhookName = "ManianowniaPack"
+[ingameCommand]
+  enabled = false
+[linking]
+  enableLinking = false

@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Discord-Integration.toml"
+hash = "8f593d00a762e30170737fb313be340af47850572e72876c63a3a8ee090c6488"
+preserve = true
+
+[[files]]
 file = "config/adventurez.json5"
 hash = "e3d4b524cd4a3881221af04903253c6386a16ef2e8cee6cfba18849edea034eb"
 
@@ -422,6 +427,11 @@ hash = "ee680891ce19f9de6e2c3f67790f8769c5af58cdf0c704404ab4289e459df546"
 metafile = true
 
 [[files]]
+file = "mods/dcintegration.pw.toml"
+hash = "5b7ee24604e5d185cc72eeef00039baf5d7bbac1d8bda3a6ba42c57ea60c5d4c"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
 hash = "ff5473ededba0b8525943e9b05ea1027f7a3c1d8edd58738f4c0df1fc555f31a"
 metafile = true
@@ -569,6 +579,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-windows.pw.toml"
 hash = "ce39863a4773f8b97c9ddf7bab1326f31d22e16e63163127925e18fd689abe42"
+metafile = true
+
+[[files]]
+file = "mods/manianownia-updater.pw.toml"
+hash = "cf01944a7124f8b6e4014e413e8734aa56ad072056458377c78a3e903e7967f7"
 metafile = true
 
 [[files]]
