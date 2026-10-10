@@ -1,0 +1,9 @@
+{
+  "config_version": 2,
+  "default_style": "default",
+  "player": {
+    "modify_name": true,
+    "format": "%manianownia:klasa%%player:name%",
+    "update_tick_time": 100
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "CONFIG_VERSION_DONT_TOUCH_THIS": 3,
+  "default": {
+    "display_name": "%manianownia:klasa%${default}",
+    "message_formats": {
+      "chat": "${player}<dark_gray> »</dark_gray> ${message}"
+    }
+  }
+}

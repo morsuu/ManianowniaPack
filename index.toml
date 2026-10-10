@@ -294,6 +294,10 @@ file = "config/sdrp-common.json"
 hash = "1e83663af3eb9d10f22518083197ebd7f7d2623fd0bb16d2e10fab1743d66a5c"
 
 [[files]]
+file = "config/serversidehorror.json"
+hash = "04cc81d7f2e2dcb9ccea16731961fb36b104e047477bd903a8da5071d4baf298"
+
+[[files]]
 file = "config/simplemenu.json5"
 hash = "ac5f2c1020d3fedcc2fa7da1387b1f828690a976d85d5959c753156f8ad58fc6"
 
@@ -312,6 +316,18 @@ hash = "aadab7bb6b1d3739bb2cfba99214b72377544553df5c4dd71f9be3c179681a64"
 [[files]]
 file = "config/simplemenu/logo/logo.png"
 hash = "f35abb6d9f959acfcd36105b8053a4f61377d61627edc8c213c3126591e3e746"
+
+[[files]]
+file = "config/styled-chat.json"
+hash = "0a88709d2cdd7d878db34435cc91ed6b7233503721667348ca485127045ff4cf"
+
+[[files]]
+file = "config/styledplayerlist/config.json"
+hash = "77b64d161a4596ad39f3a2b0b7b5744b5dc8d4baa4f5ba904e1a23ca56ad49ce"
+
+[[files]]
+file = "config/styledplayerlist/styles/default.json"
+hash = "162946d77104970006aa0f83a9042eac4f7fff60b273e24af3a4f92a09793cb0"
 
 [[files]]
 file = "config/textile_backup.json5"
@@ -429,6 +445,11 @@ metafile = true
 [[files]]
 file = "mods/dcintegration.pw.toml"
 hash = "5b7ee24604e5d185cc72eeef00039baf5d7bbac1d8bda3a6ba42c57ea60c5d4c"
+metafile = true
+
+[[files]]
+file = "mods/deimos.pw.toml"
+hash = "dba6dfddaf7fbe907f0206f122e187eb40705508ef5dbf3ad77a740dc0117914"
 metafile = true
 
 [[files]]
@@ -582,6 +603,11 @@ hash = "ce39863a4773f8b97c9ddf7bab1326f31d22e16e63163127925e18fd689abe42"
 metafile = true
 
 [[files]]
+file = "mods/manianownia-tytuly.pw.toml"
+hash = "8f6e45eb2351d48a3cf41f34234e89a7ef68a8768bff7f926ccd172310870fe4"
+metafile = true
+
+[[files]]
 file = "mods/manianownia-updater.pw.toml"
 hash = "94affe50aec0cc63997585ff24832ce752b46121843d127070b1189dd4ad9357"
 metafile = true
@@ -687,6 +713,11 @@ hash = "e45345b7291b2c55a678a6b43f5521236c5ec6ce00226a8acebb6c5ab04606bb"
 metafile = true
 
 [[files]]
+file = "mods/server-side-horror.pw.toml"
+hash = "e8913819446ac023b420de5d676688259c85129b1cc45779de94b77196e0f5b6"
+metafile = true
+
+[[files]]
 file = "mods/shield-api.pw.toml"
 hash = "8a020ca04c5d1ed02e8d53abddc570e075682a00903cc69ca619e571fbb62447"
 metafile = true
@@ -734,6 +765,16 @@ metafile = true
 [[files]]
 file = "mods/structure-pool-api.pw.toml"
 hash = "682d19e3171b63f72c664e3400619c8386d9e94f8a727f611989ada309db46fc"
+metafile = true
+
+[[files]]
+file = "mods/styled-chat.pw.toml"
+hash = "b845733664bebb9ca1ea74756ceb873779f7f4b086555fe70bc87968aaeabb01"
+metafile = true
+
+[[files]]
+file = "mods/styledplayerlist.pw.toml"
+hash = "c9cbb010eb5f2c8b958e2397b6f056b252827a5abf392baf3a8d0ad9b42fee15"
 metafile = true
 
 [[files]]
@@ -1125,7 +1166,7 @@ hash = "401f537dc11e61516e21618834b7840df2c9398c449ef735148c413fbecd0580"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/tytul/load.mcfunction"
-hash = "c634084be43a4ed3af0129f49770b2c0fa98bd61fa4d300a14c5c9368fc058fc"
+hash = "ba47ad5dbf12df1ad1280e2fb9ad5b69caae1c8eaac22c67693d8ae3d883f310"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/tytul/tick.mcfunction"

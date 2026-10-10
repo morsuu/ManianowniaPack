@@ -1,0 +1,43 @@
+{
+  "grace_period": 3,
+  "burn_down_house_enable": false,
+  "removing_leaves_enable": false,
+  "joining_on_bedrock_enable": false,
+  "joining_in_dungeon_enable": true,
+  "joining_in_dungeon_chance": 200,
+  "random_signs_texts": [
+    "Jestem\nza tobą\n \n ",
+    " \nNie odwracaj\nsię\n ",
+    "Widzę cię\n \n \n ",
+    "Uciekaj\n \n \n:)",
+    "Gdzie jest\nMorsu?\n \n ",
+    "To nie jest\nTwój świat\n \n ",
+    "Drzwi są\notwarte\n \n ",
+    "Byłem tu\n \n \n ",
+    "NIE\nZAPOMNIJ\n \n ",
+    "Pomocy!\nOn tu jest\n \n ",
+    "Pochowany\nżywcem\n \n ",
+    "Wciąż tu\njestem\n \n ",
+    "Policz\nswoje\npochodnie\n ",
+    " \n \n \n ",
+    "null\n \n \n ",
+    "GG\n \n \n "
+  ],
+  "random_fake_joiner_list": [
+    "Herobrine;Cześć.;Widzę, co budujecie;Nie śpij dziś",
+    "null;Kto zgasił pochodnie?;Jestem bliżej, niż myślisz",
+    "Projekt_M;BAF;Hej?;Ups, zły serwer"
+  ],
+  "starer_list": [
+    "Herobrine",
+    "null",
+    "Projekt_M",
+    "MarsThePlanet_"
+  ],
+  "heads_from_list_list": [
+    "Herobrine",
+    "null",
+    "Projekt_M",
+    "MarsThePlanet_"
+  ]
+}

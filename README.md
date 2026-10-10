@@ -59,4 +59,6 @@ Pliki w [`instalacja/serwer`](instalacja/serwer): `start.sh` / `start.bat` same 
 Na serwerze dodatkowo działają (tylko po stronie serwera, gracze nic nie instalują):
 - **Textile Backup**: kopia świata co godzinę, gdy ktoś gra, i przy wyłączaniu serwera; trzyma 8 ostatnich w folderze `backup/`. Ręcznie: `/backup start`.
 - **Discord Integration**: most czatu z Discordem (wyżej).
+- **Styled Chat + Styled Player List + Manianownia Tytuły**: klasa i poziom przed nickiem w czacie i TAB-ie, np. `[Mag 7] morsu`; nad głową poziom klasy.
+- **Server-Side Horror**: po kilku dniach gry świat zaczyna być... dziwny. Nic nie trzeba instalować.
 - **spark**: diagnoza lagów, `/spark profiler start`, po minucie `/spark profiler stop` daje link z raportem.

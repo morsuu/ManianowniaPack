@@ -1,0 +1,13 @@
+name = "server-side-horror"
+filename = "serversidehorror-1.20.1-fabric-4.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/RJ4U0qmn/versions/baC6k3ig/serversidehorror-1.20.1-fabric-4.2.jar"
+hash-format = "sha512"
+hash = "89c4ae691129332d899ccb9f09867da78e7b19ccaf1361cb650a15ec1703a14f4953c506e41b14e997960c667849e80e01ea11bcf070bec5c11e096d4dd4cd88"
+
+[update]
+[update.modrinth]
+mod-id = "RJ4U0qmn"
+version = "baC6k3ig"

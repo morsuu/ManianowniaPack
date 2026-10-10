@@ -51,7 +51,7 @@ jobs:
           echo "eula=true" > eula.txt
           printf "online-mode=false\nmax-tick-time=-1\nspawn-protection=0\n" > server.properties
           ( sleep 420; echo "function manianownia:boss_tick"; echo "function manianownia:legenda/tick"; echo "function manianownia:tytul/tick"; sleep 10; echo "stop" ) | timeout 900 java -Xmx8G -jar fabric-server-launch.jar nogui > server-test.log 2>&1 || true
-          grep -E "Manianownia Aktualizator|Discord|dcintegration|Done \(|puffish_skills\]|Loaded [0-9]+ chapter|Failed to load function|Couldn't|ERROR|Exception" server-test.log | head -200 > server-test-summary.log || true
+          grep -E "Manianownia Aktualizator|Discord|dcintegration|Manianownia Tytu|styled|Styled|serversidehorror|Done \(|puffish_skills\]|Loaded [0-9]+ chapter|Failed to load function|Couldn't|ERROR|Exception" server-test.log | head -200 > server-test-summary.log || true
           cat server-test-summary.log
           cp server-test.log ../server-test.log
           cd ..

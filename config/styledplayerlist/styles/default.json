@@ -1,0 +1,16 @@
+{
+  "style_name": "ManianowniaPack",
+  "update_tick_time": 20,
+  "list_header": [
+    "",
+    "<gold><bold> ManianowniaPack </bold></gold>",
+    "<gray>Graczy: <yellow>%server:online%</yellow>/%server:max_players%</gray>",
+    ""
+  ],
+  "list_footer": [
+    "",
+    "<gray>TPS: %server:tps_colored% <dark_gray>|</dark_gray> Ping: <yellow>%player:ping%</yellow> ms</gray>",
+    "<dark_gray>[K]</dark_gray> <gray>drzewka umiejętności</gray>",
+    ""
+  ]
+}

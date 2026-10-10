@@ -1,0 +1,8 @@
+name = "manianownia-tytuly"
+filename = "manianownia-tytuly-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://raw.githubusercontent.com/morsuu/ManianowniaPack/main/instalacja/serwer/manianownia-tytuly-1.0.0.jar"
+hash-format = "sha512"
+hash = "4559f20d47e7a0c3e54523cc01b82560556e46b820c703cd37ef0886a43af6ee5b34c904a9b49fdafc3d67501b2478802b286fdf5a2f12dca76e7816513df08c"
