@@ -309,6 +309,10 @@ file = "config/simplemenu/logo/logo.png"
 hash = "f35abb6d9f959acfcd36105b8053a4f61377d61627edc8c213c3126591e3e746"
 
 [[files]]
+file = "config/textile_backup.json5"
+hash = "aa292dd96f2c8c9e975f715d7042993d6248026d11296533a2fa892279a6a779"
+
+[[files]]
 file = "config/voidz.json5"
 hash = "bcc35cae0700992c41c71d32975ffed2e78654597d7cd7e3985b18c35ccf670e"
 
@@ -688,6 +692,11 @@ hash = "81b1eb70a60a68b22361da68a624add123c91b3afee57daa02ed1a95bae8d953"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "44c52091b8a96fb3bed74aaa62715db45d60adeb7ba54364b452e6202fdd812a"
+metafile = true
+
+[[files]]
 file = "mods/spell-engine.pw.toml"
 hash = "58d8d904b5d55813d22b0841dd0481fa2ac3bd4a5edc3a97c064fd4e4da82fa9"
 metafile = true
@@ -710,6 +719,11 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "a7a23aa27fe3bbc4ed3ac91994b8ea2c3adaa3600a0660316a74784e4e76d259"
+metafile = true
+
+[[files]]
+file = "mods/textile-backup.pw.toml"
+hash = "8d7c9a5a7a2d1b2b99d919c8b11e37ce1693ab6b62febedd199d82d94865240a"
 metafile = true
 
 [[files]]

@@ -31,10 +31,19 @@ W istniejącej instancji Fabric 1.20.1 (loader 0.19.5):
 
 ## Serwer
 
-Przed startem serwera (w folderze serwera):
+Pliki pomocnicze są w [`instalacja/serwer`](instalacja/serwer): `packwiz-installer-bootstrap.jar`, `start.sh` / `start.bat`, wzór `server.properties` i `server-icon.png`.
 
-```
-java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/morsuu/ManianowniaPack/main/pack.toml
-```
+1. Serwer **Fabric 1.20.1**, loader **0.19.5**, **Java 17**, RAM **6–8 GB** (minimum 6 GB).
+   Jeśli panel hostingu nie ma Fabrica do wyboru, pobierz serwer z fabricmc.net (Download → Server, Minecraft 1.20.1, loader 0.19.5)
+   i zmień nazwę pliku na `fabric-server-launch.jar` (tak go uruchamia `start.sh`). Jeśli panel ma Fabrica, użyj jego pliku i popraw nazwę w `start.sh`.
+2. Wrzuć do folderu serwera `packwiz-installer-bootstrap.jar` i `start.sh` (albo `start.bat`).
+3. Komenda startowa: `sh start.sh`. Przy każdym starcie serwer sam dociągnie aktualizację paczki (mody i configi).
+   Jeśli panel nie pozwala na własną komendę, raz uruchom instalator na swoim komputerze w pustym folderze:
+   `java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/morsuu/ManianowniaPack/main/pack.toml`
+   i wyślij foldery `mods` i `config` na serwer (przy każdej aktualizacji paczki powtórz).
+4. Przepisz ustawienia z wzoru `server.properties` (ważne: `allow-flight=true`, `max-tick-time=-1`, `white-list=true`) i dodaj graczy: `/whitelist add nick`.
+5. Wygeneruj świat z góry: `/chunky radius 2000`, potem `/chunky start`.
 
-Pobierze tylko mody potrzebne serwerowi i config z questami.
+Na serwerze dodatkowo działają (tylko po stronie serwera, gracze nic nie instalują):
+- **Textile Backup**: kopia świata co godzinę, gdy ktoś gra, i przy wyłączaniu serwera; trzyma 8 ostatnich w folderze `backup/`. Ręcznie: `/backup start`.
+- **spark**: diagnoza lagów, `/spark profiler start`, po minucie `/spark profiler stop` daje link z raportem.
