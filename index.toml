@@ -583,7 +583,7 @@ metafile = true
 
 [[files]]
 file = "mods/manianownia-updater.pw.toml"
-hash = "cf01944a7124f8b6e4014e413e8734aa56ad072056458377c78a3e903e7967f7"
+hash = "94affe50aec0cc63997585ff24832ce752b46121843d127070b1189dd4ad9357"
 metafile = true
 
 [[files]]

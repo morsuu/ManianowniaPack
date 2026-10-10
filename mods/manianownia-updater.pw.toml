@@ -1,8 +1,8 @@
 name = "manianownia-updater"
-filename = "manianownia-updater-1.0.0.jar"
+filename = "manianownia-updater-1.0.1.jar"
 side = "server"
 
 [download]
-url = "https://raw.githubusercontent.com/morsuu/ManianowniaPack/main/instalacja/serwer/manianownia-updater-1.0.0.jar"
+url = "https://raw.githubusercontent.com/morsuu/ManianowniaPack/main/instalacja/serwer/manianownia-updater-1.0.1.jar"
 hash-format = "sha512"
-hash = "2ed938d664814922ee9ec1b0ee56e252e6c0a0ed701f3b4b366edf9cecbfa5c893227580d65c3fd78c09cf85695491af0d833b4af1c303e0b3e4ae74983f0f29"
+hash = "e84fb60241f67c6f6c1726cdcf502a2850aa05802b853641856667784203b4ff888124440fafe2855038ba82cf61621321f3f805cafe0e267f8e247441568c65"
