@@ -328,9 +328,10 @@
 			tasks: [
 				{
 					id: "5B60380D4508BF13",
-					type: "kill",
-					entity: "graveyard:lich",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/boss_champion",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -360,6 +361,12 @@
 				},
 				{
 					id: "16B96C3FCF789993",
+					type: "choice",
+					table_id: 1540586916280112383L,
+					title: "&6Trofeum do wyboru: Skażony Czempion"
+				},
+				{
+					id: "5018F9BAE4C53D68",
 					type: "xp_levels",
 					xp_levels: 2
 				}
@@ -387,9 +394,10 @@
 				},
 				{
 					id: "7114D5DBBD5BFCD9",
-					type: "kill",
-					entity: "bosses_of_mass_destruction:lich",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/boss_lich",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -421,6 +429,12 @@
 				},
 				{
 					id: "781F770A0CE387B4",
+					type: "choice",
+					table_id: 8151122461877267416L,
+					title: "&6Trofeum do wyboru: Nocny Licz"
+				},
+				{
+					id: "7B52578A37509914",
 					type: "xp_levels",
 					xp_levels: 2
 				}
@@ -442,9 +456,10 @@
 			tasks: [
 				{
 					id: "3EE72490D6A12281",
-					type: "kill",
-					entity: "minecraft:elder_guardian",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/b_elder",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -474,6 +489,12 @@
 				},
 				{
 					id: "56EA3353F82C5D9B",
+					type: "choice",
+					table_id: 3558146869157803148L,
+					title: "&6Trofeum do wyboru: Strażnik Starszy"
+				},
+				{
+					id: "726460FA5D38C235",
 					type: "xp_levels",
 					xp_levels: 6
 				}
@@ -502,9 +523,10 @@
 				},
 				{
 					id: "7CA5B22789339ACB",
-					type: "kill",
-					entity: "bosses_of_mass_destruction:gauntlet",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/boss_gauntlet",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -536,6 +558,12 @@
 				},
 				{
 					id: "1A09A25C3BACB719",
+					type: "choice",
+					table_id: 2090729018766218035L,
+					title: "&6Trofeum do wyboru: Rękawica Netheru"
+				},
+				{
+					id: "37A45521F902BD05",
 					type: "xp_levels",
 					xp_levels: 16
 				}
@@ -558,9 +586,10 @@
 			tasks: [
 				{
 					id: "5998F3E8924D40A2",
-					type: "kill",
-					entity: "minecraft:wither",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/b_wither",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -590,6 +619,12 @@
 				},
 				{
 					id: "7EB2F10DEAB22303",
+					type: "choice",
+					table_id: 3501381834885856398L,
+					title: "&6Trofeum do wyboru: Wither"
+				},
+				{
+					id: "108B0467FA9C0E6D",
 					type: "xp_levels",
 					xp_levels: 16
 				}
@@ -617,9 +652,10 @@
 				},
 				{
 					id: "7A8BC28B27247096",
-					type: "kill",
-					entity: "bosses_of_mass_destruction:void_blossom",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/boss_blossom",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -650,6 +686,12 @@
 				},
 				{
 					id: "5E260ACE5BAD84BD",
+					type: "choice",
+					table_id: 3770505091885518344L,
+					title: "&6Trofeum do wyboru: Pusta Róża"
+				},
+				{
+					id: "1BC7AB6FECFD0410",
 					type: "xp_levels",
 					xp_levels: 16
 				}
@@ -671,9 +713,10 @@
 			tasks: [
 				{
 					id: "73820DAB13ABFCCA",
-					type: "kill",
-					entity: "minecraft:ender_dragon",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/b_dragon",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -704,6 +747,12 @@
 				},
 				{
 					id: "73450CE015B9B799",
+					type: "choice",
+					table_id: 6848645818859710495L,
+					title: "&6Trofeum do wyboru: Smok Kresu"
+				},
+				{
+					id: "3E93AE2C15B8EEBA",
 					type: "xp_levels",
 					xp_levels: 24
 				}
@@ -731,9 +780,10 @@
 				},
 				{
 					id: "3B7ED9C3C8E08796",
-					type: "kill",
-					entity: "bosses_of_mass_destruction:obsidilith",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/boss_obsidilith",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -765,6 +815,12 @@
 				},
 				{
 					id: "732227A3D3CE7380",
+					type: "choice",
+					table_id: 8323183428343008378L,
+					title: "&6Trofeum do wyboru: Obsydialit"
+				},
+				{
+					id: "39F2556AF4FB7506",
 					type: "xp_levels",
 					xp_levels: 24
 				}
@@ -788,9 +844,10 @@
 			tasks: [
 				{
 					id: "3F48326958884337",
-					type: "kill",
-					entity: "minecraft:warden",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/b_warden",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -821,6 +878,12 @@
 				},
 				{
 					id: "5AC0AF25206F57CC",
+					type: "choice",
+					table_id: 6536053921602332314L,
+					title: "&6Trofeum do wyboru: Warden"
+				},
+				{
+					id: "701D0BF7CD4879DA",
 					type: "xp_levels",
 					xp_levels: 24
 				}
@@ -1156,9 +1219,10 @@
 			tasks: [
 				{
 					id: "38967FF86253D1B0",
-					type: "kill",
-					entity: "adventurez:blackstone_golem",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/az_golem",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -1189,6 +1253,12 @@
 				},
 				{
 					id: "172173B83A1A0523",
+					type: "choice",
+					table_id: 6420432634550690989L,
+					title: "&6Trofeum do wyboru: Czarny Golem"
+				},
+				{
+					id: "55834EA0DC70B890",
 					type: "xp_levels",
 					xp_levels: 16
 				}
@@ -1255,9 +1325,10 @@
 			tasks: [
 				{
 					id: "3CDE0CA8DF9F062B",
-					type: "kill",
-					entity: "adventurez:the_eye",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/az_eye",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -1288,6 +1359,12 @@
 				},
 				{
 					id: "1AD339AC40B967D0",
+					type: "choice",
+					table_id: 3815548958456131240L,
+					title: "&6Trofeum do wyboru: Oko"
+				},
+				{
+					id: "39606A15925BDD52",
 					type: "xp_levels",
 					xp_levels: 24
 				}
@@ -1320,9 +1397,10 @@
 				},
 				{
 					id: "38FFDC2F9FB7DB18",
-					type: "kill",
-					entity: "adventurez:void_shadow",
-					value: 1L
+					type: "advancement",
+					advancement: "manianownia:boss/az_void",
+					criterion: "",
+					title: "Pokonajcie bossa (liczy się każdemu w promieniu 96 bloków)"
 				}
 			],
 			rewards: [
@@ -1362,6 +1440,12 @@
 				},
 				{
 					id: "7D44FCC42447B693",
+					type: "choice",
+					table_id: 6810761737264587251L,
+					title: "&6Trofeum do wyboru: Cień Pustki"
+				},
+				{
+					id: "5C8EBA1F4A3E0432",
 					type: "xp_levels",
 					xp_levels: 24
 				}

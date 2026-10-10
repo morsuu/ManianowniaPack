@@ -1,0 +1,253 @@
+{
+	id: "5E84AFB70F7A61F3",
+	title: "Trofeum: Cień Pustki",
+	icon: "jewelry:netherite_ruby_necklace",
+	loot_size: 1,
+	order_index: 11,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_topaz_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Pustki: Arkan\", \"italic\": false, \"color\": \"dark_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Cień Pustki (boskie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+14% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+2 serca zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"5% mniej otrzymywanych obrażeń\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_az_void",
+							Amount: 0.14d,
+							Operation: 1,
+							UUID: [I; -1090532895, -907976665, -2063877784, -1955759411],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_az_void",
+							Amount: 0.14d,
+							Operation: 1,
+							UUID: [I; -955103142, 1181299560, 186073394, -789952367],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_az_void",
+							Amount: 0.14d,
+							Operation: 1,
+							UUID: [I; -1258153398, -1350690331, -897926195, -1543420647],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_az_void",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1372854370, -1628032058, -1051008039, 1351824427],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_az_void",
+							Amount: 4.0d,
+							Operation: 0,
+							UUID: [I; 1639939588, -2084996730, -1811323313, 1051333655],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_az_void",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 1194047256, 660418908, -1818469027, 595431695],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_citrine_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Pustki: Światła\", \"italic\": false, \"color\": \"dark_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Cień Pustki (boskie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+16% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+2 serca zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"5% mniej otrzymywanych obrażeń\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_az_void",
+							Amount: 0.16d,
+							Operation: 1,
+							UUID: [I; 926084363, -1071032907, 1212251254, -1074940616],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_az_void",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -760271203, -216030830, 1326596843, -2085050482],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_az_void",
+							Amount: 4.0d,
+							Operation: 0,
+							UUID: [I; -845374604, 1550910560, -818048281, -660572281],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_az_void",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 540232876, 1436714779, -652194117, 1025651156],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_ruby_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Pustki: Ostrza\", \"italic\": false, \"color\": \"dark_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Cień Pustki (boskie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+14% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+2 serca zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"5% mniej otrzymywanych obrażeń\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_az_void",
+							Amount: 0.14d,
+							Operation: 1,
+							UUID: [I; 10436364, -126121678, 1191736236, 254378652],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_az_void",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1162176436, 1286520190, 480709025, 1999147756],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_az_void",
+							Amount: 4.0d,
+							Operation: 0,
+							UUID: [I; -1102527036, 1244934938, 753280616, -1829819763],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_az_void",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -878775147, -213670625, 134399580, 1514809247],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_jade_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Pustki: Cięciwy\", \"italic\": false, \"color\": \"dark_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Cień Pustki (boskie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+14% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+2 serca zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"5% mniej otrzymywanych obrażeń\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_az_void",
+							Amount: 0.14d,
+							Operation: 1,
+							UUID: [I; 561012556, -892853475, -1062252576, -1377145432],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_az_void",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -1238454010, 663930579, -890903075, 1337332631],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_az_void",
+							Amount: 4.0d,
+							Operation: 0,
+							UUID: [I; -1632995943, -1937898427, -1154568382, -1424730778],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_az_void",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 81214556, 1222655533, -390866899, 685786425],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		}
+	]
+}

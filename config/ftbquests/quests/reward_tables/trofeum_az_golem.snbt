@@ -1,0 +1,329 @@
+{
+	id: "5919F576D6B824AD",
+	title: "Trofeum: Czarny Golem",
+	icon: "jewelry:netherite_ruby_ring",
+	loot_size: 1,
+	order_index: 6,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_topaz_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Golema: Arkan\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Czarny Golem (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+2 pancerza\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 1455434093, 617632500, -1077753860, -520141659],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 941121665, -1973074649, 374950367, 1233173970],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -1593278428, 1905971463, -677496851, -499845014],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_az_golem",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -612992161, -1442852098, 462230495, -1534097318],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 1509166613, -979856160, -1300952194, -2018440832],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 406497358, -1750174040, 1188256430, -63831618],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -1495680859, -745447147, -1561838613, 1531313614],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 363630475, -661324734, 1160974849, -223060610],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_az_golem",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -1051173925, 639446225, 914847572, -740429252],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -1473208756, -424259944, 2053720864, 1746153014],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_citrine_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Golema: Światła\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Czarny Golem (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+11% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+2 pancerza\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_az_golem",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 15237271, 885630043, 54131104, 561629376],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -1844300449, 2110617184, 1826271977, -687761079],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -233661827, -1991972394, -1853468563, -462477843],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_az_golem",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; -60462767, -460189076, 1744211672, 2132943324],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -560048740, -1229638002, 1563597578, -812499667],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 28106326, -1480571952, 473200797, 196988013],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_ruby_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Golema: Ostrza\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Czarny Golem (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+2 pancerza\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -569152685, 1875641243, 990543107, 393886463],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_az_golem",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -391751735, 692184915, 11145192, 2482820],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 882228802, -439355293, -1222301999, 202820718],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -55317527, 1730977409, 1744586361, 73781382],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_az_golem",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -1866225098, -2143850055, -1039239167, 1081180020],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 51206041, -228413729, 1305094998, 1411668243],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_jade_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Golema: Cięciwy\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Czarny Golem (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+2 pancerza\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -1281566838, 95667082, -2141870210, -1798353339],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_az_golem",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 1902508419, 1059805403, -954187658, 1823804775],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -1274580483, 656025317, -1521678979, 1046194781],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_az_golem",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -374905996, -1041849244, 1337225381, 1277196735],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_az_golem",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -121952457, -1257431301, 649547878, -1939941455],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor",
+							Name: "manianownia_az_golem",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -2040228449, 1185159290, -412261083, -573212407],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		}
+	]
+}

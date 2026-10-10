@@ -1,0 +1,217 @@
+{
+	id: "3097683A4B607C8E",
+	title: "Trofeum: Wither",
+	icon: "jewelry:ruby_necklace",
+	loot_size: 1,
+	order_index: 3,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:tanzanite_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Withera: Arkan\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Wither (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"3% zadanych obrażeń wraca jako zdrowie\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_b_wither",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 1845153419, -585402351, -171849111, -1066513625],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_b_wither",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -2047575839, 1915356962, 771415143, 2116663440],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_b_wither",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 1935499174, -938220353, -1539202167, -1584008096],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_b_wither",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 500463538, -523125467, -56516593, -2130405899],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:life_steal",
+							Name: "manianownia_b_wither",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -888880729, 1065931306, 273655327, 1014223366],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:citrine_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Withera: Światła\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Wither (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"3% zadanych obrażeń wraca jako zdrowie\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_b_wither",
+							Amount: 0.09000000000000001d,
+							Operation: 1,
+							UUID: [I; 1333570826, 1942411374, 200627675, -1577016904],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_b_wither",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 423503650, 1486627861, -665481025, -651676055],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:life_steal",
+							Name: "manianownia_b_wither",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -505188016, 462349778, 1620501971, 1850825758],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:ruby_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Withera: Ostrza\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Wither (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"3% zadanych obrażeń wraca jako zdrowie\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_b_wither",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 2000442306, 761925413, -1445118729, 1732097865],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_b_wither",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -2048166437, -1580277062, -53590331, -677519322],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:life_steal",
+							Name: "manianownia_b_wither",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1222530155, 1886379206, -1082415831, 1481249510],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:jade_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Withera: Cięciwy\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Wither (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"3% zadanych obrażeń wraca jako zdrowie\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_b_wither",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 2000078697, 245524551, -1894712268, -642598221],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_b_wither",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 575610221, -1300088292, -802685210, -1948075769],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:life_steal",
+							Name: "manianownia_b_wither",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -1591824539, 358779059, -1471540206, -1930889983],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		}
+	]
+}

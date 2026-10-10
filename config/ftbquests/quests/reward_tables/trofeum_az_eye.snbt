@@ -1,0 +1,329 @@
+{
+	id: "34F38D8FE3E3AEA8",
+	title: "Trofeum: Oko",
+	icon: "jewelry:netherite_ruby_ring",
+	loot_size: 1,
+	order_index: 10,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_tanzanite_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Oka: Arkan\", \"italic\": false, \"color\": \"red\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Oko (mityczne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+11% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"8% mniej obrażeń od magii\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 1271484734, 866234198, 889976388, -2102748586],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; -73305383, 151235997, -1596271586, 1849081966],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; -1749775366, 1114090132, -1054329011, -492131067],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_az_eye",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -492583631, 1078624455, -1226327173, 184239083],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_az_eye",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; -1154486477, -533862078, 2083931863, -460686344],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; -730128049, -1222781837, 900195317, -2056493221],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 1753435950, 1284117444, 1216790553, 1851541670],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 1736536808, 557206286, 570441513, -1305268754],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_az_eye",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 525613702, -1203244320, -1357022630, -1932997834],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_az_eye",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; -901009097, -1548950978, -1906365193, -1423093121],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_citrine_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Oka: Światła\", \"italic\": false, \"color\": \"red\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Oko (mityczne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+13% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"8% mniej obrażeń od magii\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_az_eye",
+							Amount: 0.13d,
+							Operation: 1,
+							UUID: [I; -671698193, -529419988, -838889127, -510288903],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_az_eye",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -862711099, 1330536253, 977026206, 72055375],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_az_eye",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 1740440632, 1289432470, 1612540273, -1548190187],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_az_eye",
+							Amount: 0.13d,
+							Operation: 1,
+							UUID: [I; -281846242, -34520881, -234188834, -1997570125],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_az_eye",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 1494980534, -1414421349, 1551049479, -1451524827],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_az_eye",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 826100269, 580518396, -1587418212, -222946255],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_ruby_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Oka: Ostrza\", \"italic\": false, \"color\": \"red\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Oko (mityczne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+11% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"8% mniej obrażeń od magii\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; -1903669791, 674779263, -1450397025, 1702593339],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_az_eye",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1732739972, -687498424, 1053462975, 1779715851],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_az_eye",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 1461423121, -1299118990, 1150403568, -2144122348],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 375811589, -47783302, -1091009923, -1533921981],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_az_eye",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1984086543, -1711283621, 1342835864, -1515179013],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_az_eye",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 461832921, 821063926, 1385548098, 1496232285],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_jade_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Oka: Cięciwy\", \"italic\": false, \"color\": \"red\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Oko (mityczne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+11% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"8% mniej obrażeń od magii\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 1271896505, 1233287099, -1985926104, -1920328667],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_az_eye",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 749494911, -1974188616, -1171245255, 113509520],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_az_eye",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; -1510936252, -725927222, 545155189, -1963803847],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_az_eye",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; -1536429862, -189223654, 1296930804, 1523771364],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_az_eye",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -1856864135, -678618863, 1869812607, 1185413262],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_az_eye",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 1396724874, 1981786363, -2061845325, 50191040],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		}
+	]
+}

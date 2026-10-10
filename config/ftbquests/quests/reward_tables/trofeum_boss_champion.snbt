@@ -1,0 +1,329 @@
+{
+	id: "156143A3527D94FF",
+	title: "Trofeum: Skażony Czempion",
+	icon: "jewelry:ruby_ring",
+	loot_size: 1,
+	order_index: 4,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:tanzanite_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Czempiona: Arkan\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Skażony Czempion (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"8% otrzymanych obrażeń wraca do atakującego\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -1243048115, 941555321, 1837672118, -976239995],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -2028425973, -1749121346, 596553574, -1802756534],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 343883536, 1510256385, -394996964, 390166799],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_boss_champion",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -602154524, 1190855761, 1867146842, -185020531],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:damage_reflection",
+							Name: "manianownia_boss_champion",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 1444372459, -1935405562, 1613028635, -1491076041],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -573520552, 1488204283, 1004236339, 1208228016],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -972910228, -1016527679, -1721893989, 346570528],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 606690719, -490737100, 1863946842, -1338144810],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_boss_champion",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1169176510, -1029194734, 2019022914, -1796920301],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:damage_reflection",
+							Name: "manianownia_boss_champion",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 277842150, -413137142, 525811462, -1073139816],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:citrine_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Czempiona: Światła\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Skażony Czempion (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"8% otrzymanych obrażeń wraca do atakującego\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_boss_champion",
+							Amount: 0.09000000000000001d,
+							Operation: 1,
+							UUID: [I; -189019498, -1000819375, 1790876806, 661658573],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_boss_champion",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 908163539, -1352269084, 1679251476, -906670873],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:damage_reflection",
+							Name: "manianownia_boss_champion",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 1930549539, -510607997, 1668052820, 1724506729],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_boss_champion",
+							Amount: 0.09000000000000001d,
+							Operation: 1,
+							UUID: [I; -1109081006, 1706183032, 1215863813, 1372866477],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_boss_champion",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 745661814, 453830257, -447043551, 194958102],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:damage_reflection",
+							Name: "manianownia_boss_champion",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 1371100601, 2127073233, 554068186, -1100442003],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:ruby_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Czempiona: Ostrza\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Skażony Czempion (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"8% otrzymanych obrażeń wraca do atakującego\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -409171578, -1516261795, -1151341998, -1032324455],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_boss_champion",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -1878519086, 233314145, 633584090, 870311817],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:damage_reflection",
+							Name: "manianownia_boss_champion",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 1565654978, -1696255758, 2095086579, 930467775],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -868411624, -854549178, -1770452804, 678752539],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_boss_champion",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 255857025, 678943817, 453449562, -856544164],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:damage_reflection",
+							Name: "manianownia_boss_champion",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 189469312, -215628948, -1480213990, 2061753478],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:jade_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Czempiona: Cięciwy\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Skażony Czempion (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"8% otrzymanych obrażeń wraca do atakującego\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 2115341202, -1141239104, 1211561371, -269299839],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_boss_champion",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -626074473, -1362950286, 1150044801, -583047177],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:damage_reflection",
+							Name: "manianownia_boss_champion",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 994818067, -1678790246, 771024433, -1953313127],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_boss_champion",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 1744518812, -1428468324, -1151995261, 708868454],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_boss_champion",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -1228855132, -1657598359, 945858384, -1838654977],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:damage_reflection",
+							Name: "manianownia_boss_champion",
+							Amount: 0.08d,
+							Operation: 1,
+							UUID: [I; 1171412438, -843180019, -1806513342, -218362596],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		}
+	]
+}

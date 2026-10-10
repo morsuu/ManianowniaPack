@@ -1,0 +1,21 @@
+{
+ "criteria": {
+  "kill": {
+   "trigger": "minecraft:player_killed_entity",
+   "conditions": {
+    "entity": {
+     "type": "bosses_of_mass_destruction:obsidilith"
+    }
+   }
+  },
+  "assist": {
+   "trigger": "minecraft:impossible"
+  }
+ },
+ "requirements": [
+  [
+   "kill",
+   "assist"
+  ]
+ ]
+}

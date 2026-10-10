@@ -1,0 +1,217 @@
+{
+	id: "316113B9C2D1B48C",
+	title: "Trofeum: Strażnik Starszy",
+	icon: "jewelry:ruby_necklace",
+	loot_size: 1,
+	order_index: 1,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:topaz_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Głębin: Arkan\", \"italic\": false, \"color\": \"aqua\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Strażnik Starszy (rzadkie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+5% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_b_elder",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 1915959195, -534057825, 67992662, 1136387641],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_b_elder",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 1105631786, 1446268855, 352768245, 2080671882],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_b_elder",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 1025335496, 1057648461, 1573432686, -662386891],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_b_elder",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1656935708, -1200163388, 736772478, 133122112],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_b_elder",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -1352379661, 1016476213, -2090051022, 163257271],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:citrine_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Głębin: Światła\", \"italic\": false, \"color\": \"aqua\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Strażnik Starszy (rzadkie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_b_elder",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 151541756, 1341272990, 1055058411, -786276270],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_b_elder",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -14775880, -1745133624, 1011802026, 1762436965],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_b_elder",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 684862918, 2057319283, -170490744, -235706555],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:ruby_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Głębin: Ostrza\", \"italic\": false, \"color\": \"aqua\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Strażnik Starszy (rzadkie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+5% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_b_elder",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 1041998891, -557294614, 1675937221, -2142530379],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_b_elder",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 540135419, -1698274780, 1672701416, -47920956],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_b_elder",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -1490924066, 815162723, 1851548782, 1169341682],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:jade_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Głębin: Cięciwy\", \"italic\": false, \"color\": \"aqua\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Strażnik Starszy (rzadkie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+5% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_b_elder",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 754932517, 1831960948, -458446412, 393324241],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_b_elder",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 338258994, -1125950420, 567239579, 983044067],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_b_elder",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -1251235046, 376797633, 92952611, -2000190358],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		}
+	]
+}

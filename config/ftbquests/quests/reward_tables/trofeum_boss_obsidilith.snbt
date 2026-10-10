@@ -1,0 +1,329 @@
+{
+	id: "7381E33ADECD8C7A",
+	title: "Trofeum: Obsydialit",
+	icon: "jewelry:netherite_ruby_ring",
+	loot_size: 1,
+	order_index: 8,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_topaz_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Obsydialitu: Arkan\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Obsydialit (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"4% mniej otrzymywanych obrażeń\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 976509916, -2035413492, -1476598729, -1322112464],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 729914983, -1505301528, -936770061, 1590722484],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 1519090835, 684638955, 1186093591, -671472429],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 874072755, -634961645, -1014058318, 935708983],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 749511343, -16857862, -1184356009, 2112760878],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 344194061, -1300629662, 2495435, 1055829129],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 700280644, -468884752, -2101567551, -1216125762],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -262015206, 397172297, -945299211, -1588988536],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -82631971, 1936570275, -277018344, 355768974],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -1681085178, -988352203, 607486969, -881180725],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_citrine_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Obsydialitu: Światła\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Obsydialit (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+11% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"4% mniej otrzymywanych obrażeń\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; -1181070234, 3649749, 1341500231, 1037944974],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 1808869756, 1941816450, 16783702, 1299968405],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -92292236, -1746657366, 1573313196, -1397497021],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 1325268579, 808430287, -1723418103, -354356267],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -863315326, 10902603, 586360495, -423132917],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 821540151, -512041214, -956958084, 1050272037],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_ruby_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Obsydialitu: Ostrza\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Obsydialit (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"4% mniej otrzymywanych obrażeń\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 307347515, 1085121302, 1401483322, 646088886],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -1991820252, -486847473, 81237676, 2016974786],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -122571798, -475432484, 919467266, 866957230],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -1394720761, -1348119170, 1254522141, -1223037464],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1546343629, 1005513063, -492252771, -2119536542],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -1249589519, 1222673909, 645049150, -151258011],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_jade_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Obsydialitu: Cięciwy\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Obsydialit (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"4% mniej otrzymywanych obrażeń\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 695632342, 817537340, -491351973, 980264283],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -168669151, -1631373265, -1717008168, -1216580023],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 512481402, 1321480527, 854435440, 2088607284],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -1249771074, -1935859386, 1875756068, -444943390],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 1493595112, -2102855701, 687404476, 1856322049],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:resistance",
+							Name: "manianownia_boss_obsidilith",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 706179850, 92350513, 1299441426, 1948711931],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		}
+	]
+}

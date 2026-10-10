@@ -1,0 +1,217 @@
+{
+	id: "3453866771A34E08",
+	title: "Trofeum: Pusta Róża",
+	icon: "jewelry:ruby_necklace",
+	loot_size: 1,
+	order_index: 5,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:tanzanite_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Róży: Arkan\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Pusta Róża (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+15% regeneracji z jedzenia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -538746797, -1875766898, -1531760896, 338498649],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -300245341, 1633722691, -66935647, -2146420572],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 248224961, -20703412, -1295796670, 1852565897],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1760359060, 186529729, -1647994102, -1362654744],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:natural_regeneration",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.15d,
+							Operation: 1,
+							UUID: [I; 1242282370, 1087771133, -715761944, -1330499524],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:citrine_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Róży: Światła\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Pusta Róża (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+15% regeneracji z jedzenia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.09000000000000001d,
+							Operation: 1,
+							UUID: [I; -823627662, 1522353109, 514693581, 1646326716],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_boss_blossom",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 29789432, -273034482, -1508206430, 233531836],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:natural_regeneration",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.15d,
+							Operation: 1,
+							UUID: [I; 793979487, -102866295, 1872300719, -838503542],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:ruby_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Róży: Ostrza\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Pusta Róża (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+15% regeneracji z jedzenia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -27298202, -1618840279, 1317788074, -699491190],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -676743353, -1984245278, 2092271560, 280691153],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:natural_regeneration",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.15d,
+							Operation: 1,
+							UUID: [I; 1017423115, 750254922, 1394344449, 1345764402],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:jade_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Róży: Cięciwy\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Pusta Róża (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+15% regeneracji z jedzenia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 118902708, 1788651524, -112097558, 1856896815],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 468137160, -1335984802, -699815186, 1962669604],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:natural_regeneration",
+							Name: "manianownia_boss_blossom",
+							Amount: 0.15d,
+							Operation: 1,
+							UUID: [I; 501634808, -2102862556, 1572059569, 1117821271],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		}
+	]
+}

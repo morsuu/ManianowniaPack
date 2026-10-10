@@ -1,0 +1,329 @@
+{
+	id: "1D03C2F725295333",
+	title: "Trofeum: Rękawica Netheru",
+	icon: "jewelry:ruby_ring",
+	loot_size: 1,
+	order_index: 2,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:tanzanite_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Rękawicy: Arkan\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Rękawica Netheru (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 wytrzymałości pancerza\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -1949826162, -1722139945, 1677099079, -1096392750],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -1511992573, 1716397580, 40724483, 1200831078],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -938421404, -1943229114, -391166133, 1041030589],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -284170561, -1497190644, 1054748528, 1202737514],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor_toughness",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 1.0d,
+							Operation: 0,
+							UUID: [I; 1623839801, 2136375948, -143452267, -2023144683],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 574494870, 2086135903, -197840861, -1352469392],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -1411414503, -797474174, 1700165078, -1357205632],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 1764878133, 1499420781, -1257382756, -1005307864],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -646781520, -1029466510, -1995924581, 622015472],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor_toughness",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 1.0d,
+							Operation: 0,
+							UUID: [I; 939739709, 8792138, 2103973483, 2013449898],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:citrine_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Rękawicy: Światła\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Rękawica Netheru (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 wytrzymałości pancerza\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.09000000000000001d,
+							Operation: 1,
+							UUID: [I; 676149543, -2063898679, -1232053312, -2026574097],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -2085144159, 878742903, 1683686568, -1111102407],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor_toughness",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 1.0d,
+							Operation: 0,
+							UUID: [I; -1879932573, 2120939073, 1480212858, 131828373],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.09000000000000001d,
+							Operation: 1,
+							UUID: [I; -503240611, 686394939, -742065191, 21428859],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -1588890377, 1563340174, -1105697228, 1701888768],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor_toughness",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 1.0d,
+							Operation: 0,
+							UUID: [I; 1277136654, 2090442089, -1940538070, -758750970],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:ruby_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Rękawicy: Ostrza\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Rękawica Netheru (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 wytrzymałości pancerza\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 1318773131, 2022739502, -1664259430, -1333644642],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -1849287627, -80103876, -194456055, 721826534],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor_toughness",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 1.0d,
+							Operation: 0,
+							UUID: [I; 1196989008, 1011708417, -1030401735, -1556141613],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -485239217, 563511914, -1579025814, -1310081187],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -937812556, 950950352, 1143632372, 1959892660],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor_toughness",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 1.0d,
+							Operation: 0,
+							UUID: [I; -1993375436, 1532133164, -168284480, -859163606],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:jade_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Rękawicy: Cięciwy\", \"italic\": false, \"color\": \"light_purple\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Rękawica Netheru (epickie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 wytrzymałości pancerza\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -63312631, 2083113980, -1389822521, -1368796954],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 2048602669, 611905116, 560817586, 2005467997],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor_toughness",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 1.0d,
+							Operation: 0,
+							UUID: [I; 574678755, -1443453855, -779839605, 533276668],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -9672800, -653062501, 334279176, 642519562],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -1569113938, -700341757, 1244373187, 114339367],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.armor_toughness",
+							Name: "manianownia_boss_gauntlet",
+							Amount: 1.0d,
+							Operation: 0,
+							UUID: [I; 426574335, 417234028, -1704068848, 1068740758],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		}
+	]
+}

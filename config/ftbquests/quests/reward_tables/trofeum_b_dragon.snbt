@@ -1,0 +1,217 @@
+{
+	id: "5F0B47162998E81F",
+	title: "Trofeum: Smok Kresu",
+	icon: "jewelry:netherite_ruby_necklace",
+	loot_size: 1,
+	order_index: 7,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_topaz_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Smoka: Arkan\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Smok Kresu (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości ruchu\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_b_dragon",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -1213891994, -1738761830, -56132236, -869812888],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_b_dragon",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 2071903200, 1326395578, 1505780996, 132173596],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_b_dragon",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -434918523, -419564633, 2066188991, -2135265283],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_b_dragon",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -902925145, 1160798477, -1756707079, 1326899010],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.movement_speed",
+							Name: "manianownia_b_dragon",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -680773443, 1161654153, 397039066, -924183217],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_citrine_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Smoka: Światła\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Smok Kresu (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+11% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości ruchu\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_b_dragon",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 891074296, -512854583, -1346930794, -766336860],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_b_dragon",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; -1469479402, -1098801205, -981811343, 938076040],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.movement_speed",
+							Name: "manianownia_b_dragon",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -1630353478, 662986709, -772486966, 130922272],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_ruby_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Smoka: Ostrza\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Smok Kresu (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości ruchu\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_b_dragon",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; 1532494265, 1887130891, -1303478523, 1698217509],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_b_dragon",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1822368073, -1226872222, 70603079, 121203771],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.movement_speed",
+							Name: "manianownia_b_dragon",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 1351421968, 518703041, -1700233511, -1369613456],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_jade_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Smoka: Cięciwy\", \"italic\": false, \"color\": \"gold\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Smok Kresu (legendarne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+9% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości ruchu\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_b_dragon",
+							Amount: 0.09d,
+							Operation: 1,
+							UUID: [I; -909191781, 743819244, -726650578, -1284024923],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_b_dragon",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 154954939, 1581409306, -1286721443, 2119838105],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.movement_speed",
+							Name: "manianownia_b_dragon",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 1012551203, 1617869817, -1215564716, -1650976977],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,329 @@
+{
+	id: "711E9AB14CE6EBD8",
+	title: "Trofeum: Nocny Licz",
+	icon: "jewelry:ruby_ring",
+	loot_size: 1,
+	order_index: 0,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:topaz_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Licza: Arkan\", \"italic\": false, \"color\": \"aqua\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Nocny Licz (rzadkie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+5% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"5% mniej obrażeń od magii\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 182647232, -2062589933, 648029634, -1739937052],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 891279244, -1373956383, -508172506, -350402334],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -870673126, -723170726, -1766444890, -617673362],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_boss_lich",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -883669343, 428804748, -1438930321, 987501930],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 1837138251, 356779689, -1085398475, 161266080],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -16653275, -762644839, 1341799120, 26243712],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 932547834, -1820879522, -667079990, -863477066],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -1492443934, 261104244, -69953918, 1589990442],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_boss_lich",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 777002331, -1460156681, 219429172, 1998117216],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 1761555908, -1248914673, -1268013772, -1616032463],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:citrine_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Licza: Światła\", \"italic\": false, \"color\": \"aqua\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Nocny Licz (rzadkie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+7% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"5% mniej obrażeń od magii\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_boss_lich",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; -1782012142, -710879211, 1237516770, -1330998971],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_boss_lich",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 650683716, -578768719, -109854111, 1057155349],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -401888601, -1641663582, -1359065401, -1013267063],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_boss_lich",
+							Amount: 0.07d,
+							Operation: 1,
+							UUID: [I; 1721716833, -406601792, -2040349542, 1151588638],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_boss_lich",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 797594418, 143627001, 1859936407, 2097863131],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -428174517, 1382374713, 957856642, 271258092],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:ruby_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Licza: Ostrza\", \"italic\": false, \"color\": \"aqua\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Nocny Licz (rzadkie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+5% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"5% mniej obrażeń od magii\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -125478541, 912316245, 1433478973, -1442148258],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_boss_lich",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 1181202582, -1178897930, -1330967604, 915578252],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -1310973560, -1687208183, -995285216, -1227750741],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 777888896, 2056771758, 1288052369, -1383220131],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_boss_lich",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -1934197613, 1359485541, -979760154, -1480356244],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 2133033308, 467861298, -837157669, 645613629],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:jade_ring",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Pierścień Licza: Cięciwy\", \"italic\": false, \"color\": \"aqua\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Nocny Licz (rzadkie)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+5% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"5% mniej obrażeń od magii\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -2037139077, 1111228257, 467119583, -169027951],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_boss_lich",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; 1994949160, 631192728, -1759340866, 1658761691],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; -1485357831, -1816110079, 359407918, 1077498262],
+							Slot: "hand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 892982156, -570474491, -275523871, 224128377],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_boss_lich",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -1872978533, -665429497, 329467383, 934073113],
+							Slot: "offhand/ring"
+						},
+						{
+							AttributeName: "puffish_attributes:magic_resistance",
+							Name: "manianownia_boss_lich",
+							Amount: 0.05d,
+							Operation: 1,
+							UUID: [I; 612755281, -478625303, 188557435, -1038209759],
+							Slot: "offhand/ring"
+						}
+					]
+				}
+			}
+		}
+	]
+}

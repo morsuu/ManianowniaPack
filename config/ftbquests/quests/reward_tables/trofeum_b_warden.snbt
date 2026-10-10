@@ -1,0 +1,217 @@
+{
+	id: "5AB4BA6985E7E69A",
+	title: "Trofeum: Warden",
+	icon: "jewelry:netherite_ruby_necklace",
+	loot_size: 1,
+	order_index: 9,
+	rewards: [
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_tanzanite_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Wardena: Arkan\", \"italic\": false, \"color\": \"red\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Warden (mityczne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Czarodzieja\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+11% mocy czarów ognia, lodu i arkanów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości rzucania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"potwory widzą cię z 20% mniejszej odległości\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:arcane",
+							Name: "manianownia_b_warden",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; -1814011193, -703302574, -1246688290, 406916089],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:fire",
+							Name: "manianownia_b_warden",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 2108454289, -44890094, 356341711, 321675541],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:frost",
+							Name: "manianownia_b_warden",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; -1866872126, -1805326967, 1483858542, 1339686334],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "spell_power:haste",
+							Name: "manianownia_b_warden",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; -1721783835, 769242650, 693156701, 521887620],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:stealth",
+							Name: "manianownia_b_warden",
+							Amount: 0.2d,
+							Operation: 1,
+							UUID: [I; 435049682, 823244702, 1699907408, -901971570],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_citrine_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Wardena: Światła\", \"italic\": false, \"color\": \"red\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Warden (mityczne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Paladyna i Kapłana\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+13% mocy leczenia i świętych czarów\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+1 serce zdrowia\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"potwory widzą cię z 20% mniejszej odległości\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "spell_power:healing",
+							Name: "manianownia_b_warden",
+							Amount: 0.13d,
+							Operation: 1,
+							UUID: [I; 912896515, 2028644215, -490132990, -55099926],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.max_health",
+							Name: "manianownia_b_warden",
+							Amount: 2.0d,
+							Operation: 0,
+							UUID: [I; 187802841, -1160997912, 460336352, 1513032148],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:stealth",
+							Name: "manianownia_b_warden",
+							Amount: 0.2d,
+							Operation: 1,
+							UUID: [I; 1706068128, -1784521397, 295514950, 61125332],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_ruby_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Wardena: Ostrza\", \"italic\": false, \"color\": \"red\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Warden (mityczne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łotrzyka i Wojownika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+11% obrażeń broni wręcz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+3% szybkości ataku\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"potwory widzą cię z 20% mniejszej odległości\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "minecraft:generic.attack_damage",
+							Name: "manianownia_b_warden",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 2050787676, 917917137, -1693473457, 587761414],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "minecraft:generic.attack_speed",
+							Name: "manianownia_b_warden",
+							Amount: 0.03d,
+							Operation: 1,
+							UUID: [I; 695884864, -655589209, 1238266741, 945534272],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:stealth",
+							Name: "manianownia_b_warden",
+							Amount: 0.2d,
+							Operation: 1,
+							UUID: [I; -31988653, 533844802, 343189801, 260062406],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		},
+		{
+			type: "item",
+			item: {
+				id: "jewelry:netherite_jade_necklace",
+				Count: 1b,
+				tag: {
+					display: {
+						Name: "{\"text\": \"Naszyjnik Wardena: Cięciwy\", \"italic\": false, \"color\": \"red\"}",
+						Lore: [
+							"{\"text\": \"Trofeum: Warden (mityczne)\", \"italic\": false, \"color\": \"gold\"}",
+							"{\"text\": \"dla Łucznika\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+11% obrażeń łuków i kusz\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"+4% szybkości naciągania\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"potwory widzą cię z 20% mniejszej odległości\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"\", \"italic\": false, \"color\": \"gray\"}",
+							"{\"text\": \"Dodatkowo bonus kamienia szlachetnego.\", \"italic\": false, \"color\": \"gray\"}"
+						]
+					},
+					TrinketAttributeModifiers: [
+						{
+							AttributeName: "ranged_weapon:damage",
+							Name: "manianownia_b_warden",
+							Amount: 0.11d,
+							Operation: 1,
+							UUID: [I; 1260306398, -1059628345, -1386184598, 1777549912],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "ranged_weapon:haste",
+							Name: "manianownia_b_warden",
+							Amount: 0.04d,
+							Operation: 1,
+							UUID: [I; -73462259, -327956209, 1270943369, -504828380],
+							Slot: "chest/necklace"
+						},
+						{
+							AttributeName: "puffish_attributes:stealth",
+							Name: "manianownia_b_warden",
+							Amount: 0.2d,
+							Operation: 1,
+							UUID: [I; -486739982, -1347981400, 455116475, 2109935054],
+							Slot: "chest/necklace"
+						}
+					]
+				}
+			}
+		}
+	]
+}
