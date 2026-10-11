@@ -20,7 +20,7 @@
 			description: [
 				"&6&lBossowie Manianowni&r",
 				"",
-				"&7Poziom 1:&r Koszmar i Żniwiarz (cmentarze), &bNocny Licz&r (wieża w zimnych biomach)",
+				"&7Poziom 1:&r Koszmar (nocą na otwartych terenach), &bNocny Licz&r (wieża w zimnych biomach)",
 				"&7Poziom 2:&r &bStrażnik Starszy&r, &cRękawica Netheru&r, &5Wither&r",
 				"&7Poziom 3:&r &aPusta Róża&r (bujne jaskinie), &4Skażony Czempion&r, &8Czarny Golem&r (Nether), &dSmok Kresu&r, &8Obsydialit&r (Kres)",
 				"&7Poziom 4:&r &3Warden&r, &5Oko&r (Kres)",
@@ -105,12 +105,16 @@
 		},
 		{
 			id: "51D5CC52B649E8FF",
-			title: "Koszmary nocy",
+			title: "Koszmar nocy",
 			x: 3.5d,
 			y: -3.0d,
 			icon: "minecraft:wither_rose",
 			description: [
-				"Pokonaj Koszmara i Żniwiarza."
+				"Pokonaj &5Koszmara&r: wysoki na 2,5 bloku upiór (45 HP, bije mocno).",
+				"Nie siedzi na cmentarzu! Pojawia się sam, nocą w ciemności na otwartych terenach: równiny, śnieg, pustynia,",
+				"sawanna, badlandy, bagna i ciemne lasy. Jest rzadki, więc szukaj go z dala od pochodni.",
+				"",
+				"&7Żniwiarze (małe latające upiory w grupach) krążą nocą po ciemnych lasach i bagnach."
 			],
 			dependencies: [
 				"1F3AD6F828C111D3"
@@ -120,12 +124,6 @@
 					id: "32A5B231ECEB3690",
 					type: "kill",
 					entity: "graveyard:nightmare",
-					value: 1L
-				},
-				{
-					id: "71B35D157C51170F",
-					type: "kill",
-					entity: "graveyard:reaper",
 					value: 1L
 				}
 			],

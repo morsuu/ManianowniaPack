@@ -1,0 +1,14 @@
+{
+ "replace": false,
+ "values": [
+  "minecraft:dark_forest",
+  {
+   "id": "#c:swamp",
+   "required": false
+  },
+  {
+   "id": "#c:dead",
+   "required": false
+  }
+ ]
+}
