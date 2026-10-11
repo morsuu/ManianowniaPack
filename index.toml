@@ -18,6 +18,10 @@ file = "config/bosses_of_mass_destruction.json5"
 hash = "19588ad57025878f9ae575627776cd0b920089b486a78c006dbc75cfff311bbc"
 
 [[files]]
+file = "config/cave_dweller.properties"
+hash = "eafe23f086f7a203176131494cb1041a54c78e272ac0d4218dd14e83a1bdc840"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "8d21b9f3cb6e86436c23ebeb556a2838d6c5905bf93cfc5a30aa18eefa38e80a"
 
