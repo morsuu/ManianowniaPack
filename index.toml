@@ -7,7 +7,7 @@ preserve = true
 
 [[files]]
 file = "config/EssentialCommands.properties"
-hash = "af2d4c6d9adb805c050de7f9883b1329b7d59b472585a4a7f4f2eb83ad27f1d6"
+hash = "7d24ab2c7ae87fa4ae83025a31ceee70f49489ce1071c8e8781b665fb7b16fa8"
 
 [[files]]
 file = "config/adventurez.json5"
