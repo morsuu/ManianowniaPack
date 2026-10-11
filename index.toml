@@ -15,7 +15,7 @@ hash = "fbe73a79937d0f0a1bd492e0630eeece04c582345724d562de83837b61867b48"
 
 [[files]]
 file = "config/bosses_of_mass_destruction.json5"
-hash = "19588ad57025878f9ae575627776cd0b920089b486a78c006dbc75cfff311bbc"
+hash = "b6b8e3b6bae5ee2f6301e9753eb9dabdadfe6cc4185b8f82cc233872e4144361"
 
 [[files]]
 file = "config/cave_dweller.properties"
@@ -1173,7 +1173,11 @@ hash = "ba89d4742db1455891b1caddfa49f7291edfa09ae13e23f1fd225f7632c6b9a2"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/init.mcfunction"
-hash = "b5f90210d7aa77c724bfe75b0a75331dfc636c845948cbb8cc457881584659ae"
+hash = "4b04beea791bb011fc8df8e457c20a389048744eeb8212d4949760f5cb34fa6e"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/rekawica.mcfunction"
+hash = "c51bbbbd4213755b12813109da83f17a73e61142075174fe356ae92371cf472c"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/scale.mcfunction"
@@ -1233,7 +1237,7 @@ hash = "50fb50bf087fd570690f4a1ae102d473d6a1b595196fb6e1c98d20401d231b4c"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_tick.mcfunction"
-hash = "9dafed44c85a71298c43b8536dde824e05b0d88571f3de47c8af1545a933967c"
+hash = "6b30a538f835e0a8e425d55f1e22ed8572d815017636218d000b964ae535c220"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/class_hint.mcfunction"
