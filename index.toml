@@ -150,6 +150,10 @@ file = "config/graveyard/the-graveyard-3.0-config.json5"
 hash = "29ec567d5e5b3f64cc9cccd253f1dc9ead1abbba51258836392c3f692607b3e9"
 
 [[files]]
+file = "config/neat-client.json5"
+hash = "7199cca8f1a2b978b5d4af188ab64b87fe373c2a9afbd5acfb149eb3057614a3"
+
+[[files]]
 file = "config/puffish_skills/categories/czarodziej/category.json"
 hash = "a99ce2a75ff01cf1f483c81acea718144565c5226ab3a5265e4c8d4ca9841b54"
 
@@ -692,6 +696,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "d1c5cb8be3280eceae07c0040ec3f15b5ef84e8024066854464a25ded1d2ca9f"
+metafile = true
+
+[[files]]
+file = "mods/neat.pw.toml"
+hash = "214347a108d7bcafa7cb95287864da801a18534f21a80e57f4611bab3b1affe4"
 metafile = true
 
 [[files]]
