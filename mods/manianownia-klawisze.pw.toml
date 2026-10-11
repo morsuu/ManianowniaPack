@@ -1,0 +1,8 @@
+name = "manianownia-klawisze"
+filename = "manianownia-klawisze-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/morsuu/ManianowniaPack/main/instalacja/serwer/manianownia-klawisze-1.0.0.jar"
+hash-format = "sha512"
+hash = "3199dba51285c7149c7cd6cdcd3da71fe109fdcede5bb01799f41d9995e142ad2e7b3ca199c62ddab9369f4d092404e819d620ed9f85c16f09caed736705a18d"

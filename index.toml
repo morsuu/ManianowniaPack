@@ -571,6 +571,16 @@ hash = "f77b873ff59b977e2c6cce48a2567a9a894b02b29987cdaed6b0902713682a75"
 metafile = true
 
 [[files]]
+file = "mods/inventory-sorting.pw.toml"
+hash = "d8ea8e81648907d19593df1f58a7842a3d3f491a920fc8e3ff86ffe6f76bb023"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "7f5931eafa6604de453398975567a555228b1d431110223578ba4f4cb5954fe0"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "a64726d1774d835666454ed0fc297b706d6f75d039c84def4983faa63fd38d14"
 metafile = true
@@ -628,6 +638,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-windows.pw.toml"
 hash = "ce39863a4773f8b97c9ddf7bab1326f31d22e16e63163127925e18fd689abe42"
+metafile = true
+
+[[files]]
+file = "mods/manianownia-klawisze.pw.toml"
+hash = "2c406b0eb07d69888f1a995fb237e7800db22484c9eae1918852cfe53bbab2bf"
 metafile = true
 
 [[files]]
@@ -1351,7 +1366,7 @@ hash = "bc1bd10a345b7ba1469df4267bc31bbeac285bd8802eb01d5a6c8ca8204a9bc8"
 
 [[files]]
 file = "options.txt"
-hash = "6594a67d54413d8106d9f0e7979d3f76c1224e47bf2e8c8e267561945edc5592"
+hash = "a18a645441079b5c9aa4f1a1394e1cefc1ccbb55974f1ed51cc4b9a1c9341cee"
 preserve = true
 
 [[files]]
@@ -1409,3 +1424,13 @@ hash = "4c504ac5a4eae7fd31dde4e5cc6340cc32108f5039cbff4065c4a20308dff56a"
 [[files]]
 file = "resourcepacks/ManianowniaPack/pack.png"
 hash = "53accc6e1d3a304919fc66125821f68ca83f4154508c54205bf58e44f7022670"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "6dfab77c0017a3ad3b243a6fa7aac834c24c157ed0a418316a8213e8132201ae"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast.pw.toml"
+hash = "7320abc59a23f13c012c7b9fdc2b59ce0931c8651ab85930eee63ffef9bd8c03"
+metafile = true

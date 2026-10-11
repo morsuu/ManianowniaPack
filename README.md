@@ -18,6 +18,8 @@ Od teraz przy każdym starcie gra sama sprawdza, czy jest nowa wersja paczki, i 
 - Zacznij od rozdziału **Witaj w Manianowni**: opisuje mody, skróty i cel gry.
 - **K**: drzewka umiejętności (Pufferfish's Skills). Wspólne „Przetrwanie” + drzewko twojej klasy (odblokujesz je questem pod wybraną klasą).
 - Skróty w nowych instalacjach: **J** punkty na mapie (Xaero), **N** plecak na plecach, **R** przewrót. W starszych instalacjach Xaero ma punkty pod **U**, tak jak księga questów: zmień to w Opcje → Sterowanie.
+- **Sortowanie**: środkowy przycisk myszy w ekwipunku albo skrzyni (albo klawisz **P**) sortuje przedmioty (Inventory Sorter).
+- **Shadery** (Iris): **O** otwiera listę shaderów. W paczce są **MakeUp Ultra Fast** (lekki, na słabsze komputery) i **Complementary Reimagined** (ładniejszy). Domyślnie wyłączone.
 
 ## Ręcznie (bez zipa)
 

@@ -17,4 +17,6 @@ key_key.puffish_skills.open:key.keyboard.k
 key_gui.xaero_waypoints_key:key.keyboard.j
 key_key.travelersbackpack.inventory:key.keyboard.n
 key_gui.xaero_enlarge_map:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
 resourcePacks:["vanilla","fabric","file/ManianowniaPack"]
