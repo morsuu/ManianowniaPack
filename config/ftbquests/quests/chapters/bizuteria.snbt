@@ -20,7 +20,8 @@
 			description: [
 				"Jewelry: pierścienie i naszyjniki wkładasz w sloty biżuterii.",
 				"Klejnoty wypadają z żył klejnotów głęboko pod ziemią (jak diamenty).",
-				"&crubin&r: atak, &etopaz&r: zbroja, &6cytryn&r: ogień, &ajadeit&r: leczenie, &bszafir&r: lód, &5tanzanit&r: arkana."
+				"&crubin&r: obrażenia wręcz, &etopaz&r: ogień i arkana, &5tanzanit&r: lód, &6cytryn&r: leczenie,",
+				"&ajadeit&r: łuki i kusze, &bszafir&r: +1 serce. Netherytowa biżuteria daje podwójny bonus."
 			],
 			dependencies: [
 				"7FEE44943B9D9C09"
