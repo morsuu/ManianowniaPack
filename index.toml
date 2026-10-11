@@ -15,7 +15,7 @@ hash = "fbe73a79937d0f0a1bd492e0630eeece04c582345724d562de83837b61867b48"
 
 [[files]]
 file = "config/bosses_of_mass_destruction.json5"
-hash = "fb58f45f4ab6a1423408ace5b6a8a411d9ed14c767eb3d4a22e47e8ead865886"
+hash = "19588ad57025878f9ae575627776cd0b920089b486a78c006dbc75cfff311bbc"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -27,7 +27,7 @@ hash = "19c6b23537adfe853b88566623c7d7c78b06a5b25ca63d69481b4d132cd52063"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
-hash = "04d434870ff21151e1976fbbe5d602dd31f982495cebe4e284bdf8ec4c80ac19"
+hash = "e07012e671780b539b4f67cf0bdab84171ed869a0c8714090e4ab4dc4bd183a3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/build.snbt"
@@ -87,7 +87,7 @@ hash = "bee6550d57fdbb0b9f4d1ebbc5a1b33d6c221163718be9a69b94e08967db777e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "14a393399e88b93a7fa65bb7bbaaab8cebfb63804714d78db969aee23195c4c0"
+hash = "7a929da7d198cdff28c3734a53137c572195d3c18fc076ab849e68d848e4e78d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
@@ -144,6 +144,10 @@ hash = "50a4a24b48e14cfb8ef0402aa735ce6aa5adb94205b6212907e488e9afb5a401"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/trofeum_boss_obsidilith.snbt"
 hash = "4861ad2aa3381433c450416622dbc1e33e62c74e00761d3154a3d34e03fd5346"
+
+[[files]]
+file = "config/graveyard/the-graveyard-3.0-config.json5"
+hash = "29ec567d5e5b3f64cc9cccd253f1dc9ead1abbba51258836392c3f692607b3e9"
 
 [[files]]
 file = "config/puffish_skills/categories/czarodziej/category.json"
@@ -291,7 +295,7 @@ hash = "ebc8a208acbfba2dfb802520bea6e26dc9c0cbb5947a4b80d27676ddf6e30e16"
 
 [[files]]
 file = "config/rpgdifficulty.json"
-hash = "9cfc5312c7299ce57012235161053669e283ab3f90cbd8b6fce4de56a47db17b"
+hash = "e8cb0e69e9eddaa5a20bc5f94bab09fe35e1985c5c14931c45f65e76e32e28a1"
 
 [[files]]
 file = "config/sdrp-common.json"
@@ -1106,19 +1110,27 @@ hash = "4c1cdcd30bcde14732742ea04e8b9cd934c79dceff5819e6cac0da8678d50ef2"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/difficulty/the_end.json"
-hash = "34def3a791705e2785f8ad5e194519ceeba8e7aa16abd3fca7b2ded3c3ed5641"
+hash = "4d950b99b4872c11425922a94ffaf830fa1b6f3c838ece31945266b9d0386740"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/difficulty/the_nether.json"
-hash = "ff8a66e9a68984a65c2cf3486c2c6ef86eaa3a8deaa78f7b60d0ec16c79cb1b7"
+hash = "68fc7f8a34953ed1cd48342feb0cc06eb2047b3d55ef31deb42077e3835f8142"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/difficulty/void.json"
-hash = "9bd63e92256962846499631df47536db0be252d11c0094796c02d692bf1dfe11"
+hash = "8f399fac0bdb6f77fdf33c4b05eccb7481c705efe1c6a8b39792c347f50345aa"
 
 [[files]]
-file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_buff.mcfunction"
-hash = "b64cd069f058198949e62e00dfc9af81917adf5d207482a8d7c8d99bde0717e6"
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/apply.mcfunction"
+hash = "0f10b55bce3e9528c1d3a04da9b57d5a2e9e157dd69c6f563b7bdb7b72e9929c"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/init.mcfunction"
+hash = "b5f90210d7aa77c724bfe75b0a75331dfc636c845948cbb8cc457881584659ae"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/scale.mcfunction"
+hash = "ee829bfe20c91893ba65286a8000cfef653988e8ccfbf1606f118d34dc1cb7fa"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_kill/az_eye.mcfunction"
@@ -1170,7 +1182,7 @@ hash = "50fb50bf087fd570690f4a1ae102d473d6a1b595196fb6e1c98d20401d231b4c"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_tick.mcfunction"
-hash = "dfa4d97150478d1d617237f6120af56852bc6b0cc579586707e141161d3e3ecc"
+hash = "9f808620f67905253a3e06085d0a08aa2df2033a84533bab468241b6e9683ffa"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/class_hint.mcfunction"
@@ -1234,7 +1246,7 @@ hash = "8229a7be1f774f386c0135c47f5df60b35a6189dbefbedd60d43fd663d6b7c35"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/spawn.mcfunction"
-hash = "a8dcd926b63e01b0cbb49927be57e55f95ff33c8da2e6c8c7cd4cbf7bd500d36"
+hash = "88dcfdb4498a7bf023a14ac0179a6ccfc407f6f0991fb311b608fb3020b21ce6"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/tick.mcfunction"
@@ -1242,7 +1254,7 @@ hash = "1c87cb5e51116d520aac670fbcadb5656b0a79a8b896ae8b2f9506e9462b2965"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/load.mcfunction"
-hash = "0fde27d64f079ebca7bcb8e999d6d8b753bb66a926d56fe6135821e55343102a"
+hash = "3f3cfd8d791044eb5b79e9a0aa46d6a79494c64d7d5c40dcb458d9647c702757"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/skills_hint.mcfunction"

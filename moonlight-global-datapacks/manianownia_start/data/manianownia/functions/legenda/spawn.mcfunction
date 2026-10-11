@@ -21,6 +21,7 @@ execute store result score #n mp_tmp if entity @a[distance=..64,gamemode=!specta
 execute if score #n mp_tmp matches 2.. as @e[tag=mp_new] run attribute @s minecraft:generic.max_health modifier add c10923a5-d62d-2287-db86-aca58f24edc5 "Manianownia grupa" 0.5 multiply_base
 execute if score #n mp_tmp matches 3.. as @e[tag=mp_new] run attribute @s minecraft:generic.max_health modifier add 123644b1-4eca-39ad-d616-8ffab6e7c663 "Manianownia grupa" 0.5 multiply_base
 execute if score #n mp_tmp matches 4.. as @e[tag=mp_new] run attribute @s minecraft:generic.max_health modifier add 175b379a-c071-4547-42f2-29f2c9408a1c "Manianownia grupa" 0.5 multiply_base
+execute as @e[tag=mp_new] run attribute @s minecraft:generic.attack_damage modifier add 8e3d58ff-df1a-9164-aed7-43d65c3b4b64 "Manianownia legenda" 0.5 multiply_base
 execute as @e[tag=mp_new] run data modify entity @s Health set value 99999f
 scoreboard players set @e[tag=mp_new] mp_lt 0
 scoreboard players set @e[tag=mp_new] mp_lab 0
