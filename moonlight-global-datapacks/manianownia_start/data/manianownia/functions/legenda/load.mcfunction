@@ -1,4 +1,5 @@
 scoreboard objectives add mp_tmp dummy
+scoreboard objectives add mp_lup dummy
 scoreboard objectives add mp_lt dummy
 scoreboard objectives add mp_lab dummy
 scoreboard players set #n6 mp_tmp 6

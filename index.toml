@@ -1275,8 +1275,12 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/
 hash = "d516f84735a7729dd7c77e9747ab175f5f62ca5717e700164a6d12b241e9ed24"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/dopad.mcfunction"
+hash = "afba70ad6339a9cd6f8def02551dc89288f5a313e66a59ad1cb5cb53b4785807"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/each.mcfunction"
-hash = "e056007561abee1a27453dac06cffb046c1e228fe43b7b3b334b6551728dad25"
+hash = "50b680732c96651d2134e8854128150afec59e408cf9063ddab2396c7583bfec"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/flee.mcfunction"
@@ -1284,7 +1288,7 @@ hash = "d566bd5f6b26bcc079dfc9439a0b87ea16dba9e7474c0909a31080318990e929"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/load.mcfunction"
-hash = "9d2d0cf25274dc5f5aa69f971a88390c5c2f1b04eddf776ec3c406cc6eeb1d01"
+hash = "48fe9e897fbff32cd94d115e0b97408bf3816614a2994e688fcbd7c1b7dd091f"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/roll.mcfunction"
