@@ -1,0 +1,28 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "SGS",
+  "T T",
+  "L L"
+ ],
+ "key": {
+  "S": {
+   "item": "minecraft:ink_sac"
+  },
+  "T": {
+   "item": "minecraft:netherite_scrap"
+  },
+  "G": {
+   "item": "minecraft:gold_ingot"
+  },
+  "L": {
+   "item": "minecraft:leather"
+  }
+ },
+ "result": {
+  "item": "rogues:assassin_armor_legs",
+  "count": 1
+ },
+ "show_notification": true
+}

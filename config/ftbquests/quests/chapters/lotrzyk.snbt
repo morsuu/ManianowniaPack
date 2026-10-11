@@ -169,13 +169,22 @@
 					id: "38698A6CC67A4A9A",
 					type: "item",
 					item: {
-						id: "minecraft:rabbit_hide",
+						id: "minecraft:leather",
 						Count: 1b
 					},
-					count: 16
+					count: 12
 				},
 				{
 					id: "700AE6DCBDE82D55",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_scrap",
+						Count: 1b
+					},
+					count: 2
+				},
+				{
+					id: "5AD983B813E6EE2D",
 					type: "item",
 					item: {
 						id: "minecraft:diamond",
@@ -183,7 +192,7 @@
 					}
 				},
 				{
-					id: "5AD983B813E6EE2D",
+					id: "1CEC202A4F02760A",
 					type: "command",
 					command: "/puffish_skills points add @s puffish_skills:lotrzyk 1",
 					elevate_perms: true,
@@ -191,7 +200,7 @@
 					title: "&a+1 punkt umiejętności (Łotrzyk)"
 				},
 				{
-					id: "1CEC202A4F02760A",
+					id: "7249B3F9B90EAE14",
 					type: "xp_levels",
 					xp_levels: 1
 				}
@@ -299,7 +308,7 @@
 			y: 1.0d,
 			icon: "rogues:assassin_armor_chest",
 			description: [
-				"Drugi zestaw: skrytobójca (skóry królików)."
+				"Drugi zestaw: skrytobójca. Skóra, worki z atramentem i 7 odłamków netherytu na cały zestaw (jak zbroja berserkera)."
 			],
 			dependencies: [
 				"3F490A5FDC2C1423",

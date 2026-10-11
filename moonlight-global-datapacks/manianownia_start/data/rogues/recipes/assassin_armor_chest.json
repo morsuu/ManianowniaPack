@@ -1,0 +1,28 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "S S",
+  "TGT",
+  "LLL"
+ ],
+ "key": {
+  "S": {
+   "item": "minecraft:ink_sac"
+  },
+  "T": {
+   "item": "minecraft:netherite_scrap"
+  },
+  "G": {
+   "item": "minecraft:gold_ingot"
+  },
+  "L": {
+   "item": "minecraft:leather"
+  }
+ },
+ "result": {
+  "item": "rogues:assassin_armor_chest",
+  "count": 1
+ },
+ "show_notification": true
+}

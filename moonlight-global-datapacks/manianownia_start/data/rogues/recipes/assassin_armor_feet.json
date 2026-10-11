@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "TST",
+  "L L"
+ ],
+ "key": {
+  "S": {
+   "item": "minecraft:ink_sac"
+  },
+  "T": {
+   "item": "minecraft:netherite_scrap"
+  },
+  "L": {
+   "item": "minecraft:leather"
+  }
+ },
+ "result": {
+  "item": "rogues:assassin_armor_feet",
+  "count": 1
+ },
+ "show_notification": true
+}

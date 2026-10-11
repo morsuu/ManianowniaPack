@@ -59,7 +59,7 @@ hash = "bca63222680de71c8e30dae9434ab95692954c06fe8d38b6d3f455afdc5b12f5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lotrzyk.snbt"
-hash = "ead9f28acaff2fbff38e30a38e8201cb6aed95b433f5af9c07b734ee578e1bc5"
+hash = "4188c516665a4fd89469fed3d56b4363a1cc2ac31df5b48cff54fa98e2878187"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lucznik.snbt"
@@ -1453,6 +1453,22 @@ hash = "2ab6b1cf8d496fe42e6aee7fb40c4fe3828bfbeb25f14f60f04a1ee84377fd8b"
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_mace.json"
 hash = "852e5054256c5fe8b001c3120e7713d9a28f50551f3b8f540b5a43c241013dcb"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/rogues/recipes/assassin_armor_chest.json"
+hash = "7dc5eab8d1f1c71678f695f47b917084afc57b326ee93553f47e3a5ce2e08fce"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/rogues/recipes/assassin_armor_feet.json"
+hash = "f9525a223e27d60c8ca267046f8d5e6a50aa0ef93aa1c2841101c42bf7976e86"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/rogues/recipes/assassin_armor_head.json"
+hash = "7decf01a89fe04809ecc1a86ee28daa93d2facf491ff315feaf16620314729b6"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/rogues/recipes/assassin_armor_legs.json"
+hash = "f9fd830ed2e4c1da5237d82578bc55079208462f414f55141877f832c8453163"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/rogues/recipes/diamond_dagger.json"
