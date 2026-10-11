@@ -67,6 +67,8 @@ Na serwerze dodatkowo działają (tylko po stronie serwera, gracze nic nie insta
 - **Styled Chat + Styled Player List + Manianownia Tytuły**: klasa i poziom przed nickiem w czacie i TAB-ie, np. `[Mag 7] morsu`; nad głową poziom klasy.
 - **Server-Side Horror**: po kilku dniach gry świat zaczyna być... dziwny. Nic nie trzeba instalować.
 - **From The Fog**: Herobrine (po 3 dniach gry). Bez podpalania baz. Ustawienia (OP): `/function fromthefog:admin/config`.
+- **Straszaki Manianowni** (datapack, tylko serwer): od 3. dnia świata szepty na czacie, kroki i drzwi za plecami, bicie serca w ciemności, dalekie dźwięki i fałszywe osiągnięcia. Częściej nocą i pod ziemią, najwyżej raz na 10 minut na gracza. Wyłączenie (OP): `/scoreboard players set #straszaki_off mp_cfg 1`.
+- **Spooky Doors**: drzwi jak w horrorach - uchylasz, zaglądasz, trzaskasz nimi szybkim ruchem myszy.
 - **Cave Dweller**: coś poluje w jaskiniach. Słyszysz je, zanim je zobaczysz.
 - **Tense Ambience** (u graczy): niepokojące dźwięki otoczenia nocą i w jaskiniach; na słabszym sprzęcie można je wyłączyć w ustawieniach moda.
 - **spark**: diagnoza lagów, `/spark profiler start`, po minucie `/spark profiler stop` daje link z raportem.

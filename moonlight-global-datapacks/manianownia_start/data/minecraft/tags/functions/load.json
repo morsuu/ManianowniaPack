@@ -3,6 +3,7 @@
   "manianownia:load",
   "manianownia:legenda/load",
   "manianownia:tytul/load",
-  "manianownia:horror/load"
+  "manianownia:horror/load",
+  "manianownia:straszak/load"
  ]
 }

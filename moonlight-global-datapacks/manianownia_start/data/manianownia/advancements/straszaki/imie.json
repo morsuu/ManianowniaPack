@@ -1,0 +1,25 @@
+{
+ "display": {
+  "icon": {
+   "item": "minecraft:sculk_shrieker"
+  },
+  "title": {
+   "text": "Szept",
+   "color": "dark_red"
+  },
+  "description": {
+   "text": "Usłyszałeś swoje imię. Nikt go nie wypowiedział.",
+   "color": "gray"
+  },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": true,
+  "background": "minecraft:textures/block/black_concrete.png"
+ },
+ "criteria": {
+  "x": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

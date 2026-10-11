@@ -1,0 +1,25 @@
+{
+ "display": {
+  "icon": {
+   "item": "minecraft:ender_eye"
+  },
+  "title": {
+   "text": "Nie jesteś sam",
+   "color": "dark_red"
+  },
+  "description": {
+   "text": "Coś szło za tobą przez ostatnie sto bloków.",
+   "color": "gray"
+  },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": true,
+  "background": "minecraft:textures/block/black_concrete.png"
+ },
+ "criteria": {
+  "x": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

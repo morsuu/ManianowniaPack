@@ -1,0 +1,25 @@
+{
+ "display": {
+  "icon": {
+   "item": "minecraft:carved_pumpkin"
+  },
+  "title": {
+   "text": "Patrzy",
+   "color": "dark_red"
+  },
+  "description": {
+   "text": "Odwróciłeś wzrok w ostatniej chwili.",
+   "color": "gray"
+  },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": true,
+  "background": "minecraft:textures/block/black_concrete.png"
+ },
+ "criteria": {
+  "x": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

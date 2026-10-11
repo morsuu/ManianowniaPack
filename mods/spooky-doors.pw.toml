@@ -1,0 +1,13 @@
+name = "spooky-doors"
+filename = "spookydoors-fabric-1.20.1-20.1.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/j5axkwld/versions/UiUFSxVA/spookydoors-fabric-1.20.1-20.1.13.jar"
+hash-format = "sha512"
+hash = "99c1b59e6bdc329a873ca13ef11b37da536993774e5aefa6a00e203e082b28a93beae0c1f0d0078804937b6f99188f8a321db5a3c4341ea7c19ef8db02088fd4"
+
+[update]
+[update.modrinth]
+mod-id = "j5axkwld"
+version = "UiUFSxVA"

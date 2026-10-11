@@ -1,0 +1,25 @@
+{
+ "display": {
+  "icon": {
+   "item": "minecraft:oak_door"
+  },
+  "title": {
+   "text": "Pusty dom",
+   "color": "dark_red"
+  },
+  "description": {
+   "text": "Ktoś był w twojej bazie, gdy cię nie było.",
+   "color": "gray"
+  },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": true,
+  "background": "minecraft:textures/block/black_concrete.png"
+ },
+ "criteria": {
+  "x": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

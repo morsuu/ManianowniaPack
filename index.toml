@@ -819,6 +819,11 @@ hash = "9bf2480d429149e5e36bb3261e4269630eef718a31bdf00f5da4a7d19651446a"
 metafile = true
 
 [[files]]
+file = "mods/spooky-doors.pw.toml"
+hash = "4553dcdd6c10940649c66eb39a5affe71e957b24b7f5c01e371c1d6660797fd2"
+metafile = true
+
+[[files]]
 file = "mods/structure-pool-api.pw.toml"
 hash = "682d19e3171b63f72c664e3400619c8386d9e94f8a727f611989ada309db46fc"
 metafile = true
@@ -1118,6 +1123,30 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancemen
 hash = "4c1cdcd30bcde14732742ea04e8b9cd934c79dceff5819e6cac0da8678d50ef2"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/straszaki/imie.json"
+hash = "9b39fa150af88796f569d62ac30d405f5f4ebac2f2edfd4fb09f0cf4069a78a9"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/straszaki/nie_sam.json"
+hash = "0878a0d82fb52b0f1ba6d0819a8c5decb3a9edde0c8ea968ecac5b3cacc2994d"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/straszaki/null.json"
+hash = "28bb34b92708484d604aecb254f219ddae49686467a3de57b51309c0d2d0aee5"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/straszaki/patrzy.json"
+hash = "0e45191d36a1b795f7796f7fdf00ce8f3eb5dcf2ccb7903585420e1bfef1e8ef"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/straszaki/pochodnia.json"
+hash = "abae8b193e6f1f5cec7bbe3821bd6910d7729c5fb47cdabe9533cabee9434eaa"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/advancements/straszaki/pusty_dom.json"
+hash = "e2a20b4a05ee95b8f338cd876d64b2cce2688bc5a0d717b19037741818741e7b"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/difficulty/the_end.json"
 hash = "4d950b99b4872c11425922a94ffaf830fa1b6f3c838ece31945266b9d0386740"
 
@@ -1270,6 +1299,66 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/
 hash = "05e3da8f02ab7fcd28d0a0b94a7f31db700f1ae05800e4ce0b1e9fd301bb61d6"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/daleko.mcfunction"
+hash = "b9e585d63fe14fc2141b84430b30ba755e476a791718056d9f7572b6463b07c1"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/drzwi.mcfunction"
+hash = "651d1d7662de7efdbaf51464bca6ab8fc6cf524dd9978c3c12ae25d125e53432"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/drzwi2.mcfunction"
+hash = "8b19fa7e8afe471472a5c2c2365aa38c408780d0b75777620694615d8e4ba711"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/gracz.mcfunction"
+hash = "a865fb42e27cec3520dcc0707531b88083ca4c9325702557f9f6bb727d905329"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/kroki.mcfunction"
+hash = "27cb030de2953d249cf7ba54eb934b90c7413a3064d5113ace00e464fa691f7b"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/kroki2.mcfunction"
+hash = "33f38f375c35289aaf662bbd389fbacfd1a8479a2f79df03dce79d2e289c0c23"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/kroki3.mcfunction"
+hash = "5d7529f646db215800846b5c953cdb0402baeec179a10f3e70cf5654bc54d582"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/kroki4.mcfunction"
+hash = "fcdf05947791b75776e54c211f46f957bc8575386d22f2d79e6a40b94fbb5cee"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/load.mcfunction"
+hash = "d4768f245e836cc2eb8de8206399c52c4ee380975ed4d42e69bcc1797c84f7f3"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/losuj.mcfunction"
+hash = "10ceb44d366352589c150295f3090bc5bf9c044427702c2bb794cf5ccce08e23"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/osiagniecie.mcfunction"
+hash = "ab5ecba0cba24278cced16b3b3d47f2fa674f40873949abde8d9527d40f4c329"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/serce.mcfunction"
+hash = "29dc593e7a7d08a315488b507db43fb3cee9ea2e435a8e2854c069ac503279c1"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/serce2.mcfunction"
+hash = "3a9fb029f045a35d9d6a6b4ff42367b69f201c963edbc0a9e4f1d1226068261f"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/szept.mcfunction"
+hash = "82aeccc49b6cf39e30927da74bfc42b13ba5b3820abf8dd5bab123fa593e081d"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/straszak/tick.mcfunction"
+hash = "76de8bc1c2e26219f3e85958a93ae023a000a55987146c6f79cd95eb967e7d95"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/tytul/gracz.mcfunction"
 hash = "401f537dc11e61516e21618834b7840df2c9398c449ef735148c413fbecd0580"
 
@@ -1288,6 +1377,18 @@ hash = "a375687ff22955ecb083272d7dca8bc26d2bb6918e1503d621ba025c8950ace5"
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/loot_tables/legenda.json"
 hash = "1630587be466ce2cf50963d8d82ab754b96df85f375770ed43c804e3a4f54e20"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/predicates/straszak_ciemno.json"
+hash = "11bf6820d6d2f6754aecd4b52d0a9f1e79e464c1830fb2408bb2dce855ce6393"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/predicates/szansa_1_5.json"
+hash = "197d35f89eeeda90e83db7f32fde626e97d10dbff79ef6168781be388046f023"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/predicates/szansa_4.json"
+hash = "cf54cd5edc45d0ffaec5e606c7cdb90acb902b9b76c2075de53c25f2d951da9d"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/predicates/szansa_legendy.json"
@@ -1315,7 +1416,7 @@ hash = "f8a6bcdcb2ad98eaaeaf61d0cebc633a87eeda5064d2a5111a6facfe606ea70e"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/minecraft/tags/functions/load.json"
-hash = "c1d1464412bbdd1d3987aa403341af0875125301ac315906e510075e2564a0d6"
+hash = "2cb99eca4f1559c816b4d183b7072d9ff43d8d64c8b0399d0cf8f9e6ab3a5721"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_claymore.json"

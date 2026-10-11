@@ -1,0 +1,25 @@
+{
+ "display": {
+  "icon": {
+   "item": "minecraft:redstone_torch"
+  },
+  "title": {
+   "text": "Ostatnia pochodnia",
+   "color": "dark_red"
+  },
+  "description": {
+   "text": "Ciemność cię zapamiętała.",
+   "color": "gray"
+  },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": true,
+  "background": "minecraft:textures/block/black_concrete.png"
+ },
+ "criteria": {
+  "x": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}
