@@ -897,6 +897,22 @@ file = "moonlight-global-datapacks/manianownia_start/data/c/tags/entity_types/bo
 hash = "39a81ac797dd77377b12291925decf00c0b09b54d58997b1c8c43ca0336bd675"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/createdeco/recipes/copper_support.json"
+hash = "c256dded3cf5f8491f2247d65d078ada3deab43ebb8a07abd136df70a0a46d09"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/createdeco/recipes/iron_support.json"
+hash = "be6a99b748a6933358b8e90e3baec77a3e94a2c90ac7d99080019b63f4969771"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/handcrafted/recipes/white_sheet.json"
+hash = "9152be1fd0af3bc03d2bce1b93f9cc46cb63f0e80fd7ec6210d303cc33e858c0"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/handcrafted/recipes/wood_plate.json"
+hash = "cdafc1de8bb3b86be71c3fd160627e737c8c9944e3d9b82a347bfa4e272c5d31"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_citrine_necklace.json"
 hash = "d534d593b85a8485403091b5cfd92eea7da8179254b4c97f27eb21ccdd6bf9f8"
 
@@ -1219,6 +1235,10 @@ hash = "fe6304c6e3be150085276ebd9d67aa972e043576d29e714a966be5ba7b9a8e98"
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/tags/entity_types/bosses.json"
 hash = "39a81ac797dd77377b12291925decf00c0b09b54d58997b1c8c43ca0336bd675"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/mcwwindows/recipes/bamboo_shutter.json"
+hash = "24c03b47a790db29793d9882580de75f00b35e96ea7132c86e9a2482ca489d11"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/minecraft/recipes/netherite_upgrade_smithing_template.json"

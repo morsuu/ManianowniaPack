@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "b b",
+  " b ",
+  "b b"
+ ],
+ "key": {
+  "b": {
+   "item": "minecraft:iron_ingot"
+  }
+ },
+ "result": {
+  "item": "createdeco:iron_support",
+  "count": 4
+ },
+ "show_notification": true
+}

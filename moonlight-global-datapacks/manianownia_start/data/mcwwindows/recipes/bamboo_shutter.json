@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "BB",
+  "BB",
+  "BB"
+ ],
+ "key": {
+  "B": {
+   "item": "minecraft:bamboo"
+  }
+ },
+ "result": {
+  "item": "mcwwindows:bamboo_shutter",
+  "count": 2
+ },
+ "show_notification": true
+}

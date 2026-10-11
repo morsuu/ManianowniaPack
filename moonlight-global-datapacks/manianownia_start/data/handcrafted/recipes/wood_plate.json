@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "# #",
+  " S "
+ ],
+ "key": {
+  "#": {
+   "tag": "minecraft:wooden_slabs"
+  },
+  "S": {
+   "item": "minecraft:stick"
+  }
+ },
+ "result": {
+  "item": "handcrafted:wood_plate",
+  "count": 3
+ },
+ "show_notification": true
+}
