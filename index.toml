@@ -31,7 +31,7 @@ hash = "19c6b23537adfe853b88566623c7d7c78b06a5b25ca63d69481b4d132cd52063"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
-hash = "e07012e671780b539b4f67cf0bdab84171ed869a0c8714090e4ab4dc4bd183a3"
+hash = "c107f8efec74f6302d3d7fd4759211bfdeeabdf80bbe1548eae68bfa423a38a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/build.snbt"
@@ -91,7 +91,7 @@ hash = "bee6550d57fdbb0b9f4d1ebbc5a1b33d6c221163718be9a69b94e08967db777e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "7a929da7d198cdff28c3734a53137c572195d3c18fc076ab849e68d848e4e78d"
+hash = "27de3ccdbb3783e2bc11523ac3f27692529606302ca4098bf729dd851b7887c2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
@@ -1169,7 +1169,7 @@ hash = "8f399fac0bdb6f77fdf33c4b05eccb7481c705efe1c6a8b39792c347f50345aa"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/apply.mcfunction"
-hash = "0f10b55bce3e9528c1d3a04da9b57d5a2e9e157dd69c6f563b7bdb7b72e9929c"
+hash = "ba89d4742db1455891b1caddfa49f7291edfa09ae13e23f1fd225f7632c6b9a2"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/init.mcfunction"
@@ -1178,6 +1178,10 @@ hash = "b5f90210d7aa77c724bfe75b0a75331dfc636c845948cbb8cc457881584659ae"
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/scale.mcfunction"
 hash = "ee829bfe20c91893ba65286a8000cfef653988e8ccfbf1606f118d34dc1cb7fa"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/wzmocnienie.mcfunction"
+hash = "772feb641783c56b598c66e735ec78c4cfaf5f3d849d4d671835b58e886c4d6b"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_kill/az_eye.mcfunction"
@@ -1229,7 +1233,7 @@ hash = "50fb50bf087fd570690f4a1ae102d473d6a1b595196fb6e1c98d20401d231b4c"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_tick.mcfunction"
-hash = "fc0e756fcf9f5f59e98631638cb8d92172fe927ecf6fc78f78eee85fe41550fd"
+hash = "9dafed44c85a71298c43b8536dde824e05b0d88571f3de47c8af1545a933967c"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/class_hint.mcfunction"
