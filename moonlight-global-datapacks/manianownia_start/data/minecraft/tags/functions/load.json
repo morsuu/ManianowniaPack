@@ -2,6 +2,7 @@
  "values": [
   "manianownia:load",
   "manianownia:legenda/load",
-  "manianownia:tytul/load"
+  "manianownia:tytul/load",
+  "manianownia:horror/load"
  ]
 }

@@ -299,7 +299,7 @@ hash = "1e83663af3eb9d10f22518083197ebd7f7d2623fd0bb16d2e10fab1743d66a5c"
 
 [[files]]
 file = "config/serversidehorror.json"
-hash = "36a9ae0b491db7f7800f26e221cbfbad9db8ca353d8d663d71e407a0c03c85ed"
+hash = "6129a9ab64956464d4c274cf4fd387f503c121d61e365fd90f084e2437f89624"
 
 [[files]]
 file = "config/simplemenu.json5"
@@ -1145,6 +1145,14 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/
 hash = "1bb18f3dcd57759672360cb99827f067f9a4a0ee57f78857fc7199ee973b5ee9"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/horror/load.mcfunction"
+hash = "c5eb678b5dba170d3bc411f94f6af4856997d71f4d887f2a189bf55b413951fd"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/horror/ustaw.mcfunction"
+hash = "61b563c537a9582f870899bd36ac129832c7d423410f131df9121a1f2e4731ca"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/legenda/ab_lowca.mcfunction"
 hash = "a96c210d5e8ee98bb92a51c4d60fe1f670b1c6c0670a60b2eef4f3c5442306ea"
 
@@ -1246,7 +1254,7 @@ hash = "f8a6bcdcb2ad98eaaeaf61d0cebc633a87eeda5064d2a5111a6facfe606ea70e"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/minecraft/tags/functions/load.json"
-hash = "66534e5b8b472ba918ee84788dd41fe60f1bab4b72193316b1a9079f4d22143e"
+hash = "c1d1464412bbdd1d3987aa403341af0875125301ac315906e510075e2564a0d6"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/paladins/recipes/diamond_claymore.json"
