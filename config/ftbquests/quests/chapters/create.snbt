@@ -492,7 +492,7 @@
 			y: 0.0d,
 			icon: "create:zinc_ingot",
 			description: [
-				"Cynk występuje wysoko w górach i pod ziemią. Potrzebny do mosiądzu.",
+				"Ruda cynku leży pod ziemią od Y 70 aż do dna świata, tak samo często na każdej wysokości. Potrzebna do mosiądzu.",
 				"&ePrzyda się też do diamentowej broni każdej klasy!"
 			],
 			dependencies: [

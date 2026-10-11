@@ -1,5 +1,5 @@
 {
-	"necromancer_spawn_weight": 1,
+	"necromancer_spawn_weight": 3,
 	"nightmare_spawn_weight": 5,
 	"piglin_beast_ore_spawn_chance": 30,
 	"piglin_beast_attack_piglin_spawn_chance": 7,

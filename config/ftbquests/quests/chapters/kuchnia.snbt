@@ -397,7 +397,7 @@
 			y: 1.5d,
 			icon: "create:bar_of_chocolate",
 			description: [
-				"Create też gotuje: zrób czekoladę albo słodką bułkę."
+				"Create też gotuje: zrób 4 tabliczki czekolady (kakao, cukier i mleko w podgrzanym mikserze)."
 			],
 			dependencies: [
 				"5976CA7B8FF6EC27",

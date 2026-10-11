@@ -235,7 +235,7 @@
 			y: -3.5d,
 			icon: "wizards:staff_fire",
 			description: [
-				"Laska szkoły zwiększa moc i zasięg czarów."
+				"Laska szkoły zwiększa moc i zasięg czarów. Okucia robi się ze sztabek cynku (ruda z Create)."
 			],
 			dependencies: [
 				"1C20B14064F02703",
@@ -521,7 +521,7 @@
 			y: 0.0d,
 			icon: "wizards:staff_frost",
 			description: [
-				"Laska szkoły zwiększa moc i zasięg czarów."
+				"Laska szkoły zwiększa moc i zasięg czarów. Okucia robi się ze sztabek cynku (ruda z Create)."
 			],
 			dependencies: [
 				"3FBC4CAB6B5AF6D6",
@@ -807,7 +807,7 @@
 			y: 3.5d,
 			icon: "wizards:staff_arcane",
 			description: [
-				"Laska szkoły zwiększa moc i zasięg czarów."
+				"Laska szkoły zwiększa moc i zasięg czarów. Okucia robi się ze sztabek cynku (ruda z Create)."
 			],
 			dependencies: [
 				"7045D0BED5B1179A",

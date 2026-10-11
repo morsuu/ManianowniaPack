@@ -165,7 +165,7 @@
 				"YUNG's Better Mineshafts: wejdź do opuszczonej kopalni."
 			],
 			dependencies: [
-				"1DA768AF0D8A9CAA"
+				"7527986E38766F19"
 			],
 			tasks: [
 				{
@@ -356,7 +356,7 @@
 				"Znajdź leśną rezydencję. W środku czekają przywoływacze z totemami."
 			],
 			dependencies: [
-				"3F22A53F4CF398AF"
+				"7527986E38766F19"
 			],
 			size: 1.5d,
 			tasks: [
@@ -393,7 +393,7 @@
 				"Znajdź podwodną świątynię. Mieszka w niej Strażnik Starszy."
 			],
 			dependencies: [
-				"55C75E428FA64FA7"
+				"7527986E38766F19"
 			],
 			tasks: [
 				{
@@ -431,7 +431,7 @@
 				"Głęboko w Ciemnej Głębi czeka Starożytne Miasto. Bądź cicho: tam mieszka &3Warden&r."
 			],
 			dependencies: [
-				"359F4F25C0C4C545"
+				"7527986E38766F19"
 			],
 			tasks: [
 				{
@@ -467,8 +467,7 @@
 				"Podążaj za Okiem Kresu do twierdzy (YUNG's Better Strongholds)."
 			],
 			dependencies: [
-				"1456E8076E9CD7B9",
-				"785E5E668FAAED21"
+				"7527986E38766F19"
 			],
 			tasks: [
 				{
@@ -491,7 +490,7 @@
 				{
 					id: "5E7E64EC5EBACC42",
 					type: "xp_levels",
-					xp_levels: 1
+					xp_levels: 3
 				}
 			]
 		},
@@ -603,7 +602,7 @@
 				"Pokonaj 5 orków. W nagrodę dostaniesz &ePodręcznik AdventureZ&r z opisem stworów i ołtarzy w 3D."
 			],
 			dependencies: [
-				"7527986E38766F19"
+				"357D7C74A4819D02"
 			],
 			tasks: [
 				{
@@ -643,7 +642,7 @@
 				{
 					id: "36478BD8B47B9435",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -681,7 +680,7 @@
 				{
 					id: "36227B39A0C154FA",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -696,7 +695,7 @@
 				"Strażnicy parują ciosy tarczą: atakuj z boku albo czarami. Pokonaj Przywoływacza."
 			],
 			dependencies: [
-				"1BDF1726D8C61BAD"
+				"357D7C74A4819D02"
 			],
 			tasks: [
 				{
@@ -727,7 +726,7 @@
 				{
 					id: "5D05ADDAC06CDCE4",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -742,7 +741,7 @@
 				"Pokonaj jednego."
 			],
 			dependencies: [
-				"1BDF1726D8C61BAD"
+				"357D7C74A4819D02"
 			],
 			tasks: [
 				{
@@ -773,7 +772,7 @@
 				{
 					id: "39BE7B37A5489804",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		}

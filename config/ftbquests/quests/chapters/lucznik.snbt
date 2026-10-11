@@ -144,7 +144,7 @@
 			y: 0.7d,
 			icon: "archers:heavy_crossbow",
 			description: [
-				"Wolno się ładuje, ale potężnie trafia."
+				"Wolno się ładuje, ale potężnie trafia. Potrzebna sztabka cynku (ruda z Create)."
 			],
 			dependencies: [
 				"1D752A6D1387AAA9"

@@ -11,7 +11,7 @@ hash = "af2d4c6d9adb805c050de7f9883b1329b7d59b472585a4a7f4f2eb83ad27f1d6"
 
 [[files]]
 file = "config/adventurez.json5"
-hash = "e3d4b524cd4a3881221af04903253c6386a16ef2e8cee6cfba18849edea034eb"
+hash = "fbe73a79937d0f0a1bd492e0630eeece04c582345724d562de83837b61867b48"
 
 [[files]]
 file = "config/bosses_of_mass_destruction.json5"
@@ -23,11 +23,11 @@ hash = "8d21b9f3cb6e86436c23ebeb556a2838d6c5905bf93cfc5a30aa18eefa38e80a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bizuteria.snbt"
-hash = "a8e617c61a89c94f8088285019b87c88a7bdf5cd8327219f59511f9ce0821069"
+hash = "19c6b23537adfe853b88566623c7d7c78b06a5b25ca63d69481b4d132cd52063"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
-hash = "47ad8626be82ae2508ef86cc7f3ba26d06f3ae4eebf32004b2f829da0ce3deed"
+hash = "04d434870ff21151e1976fbbe5d602dd31f982495cebe4e284bdf8ec4c80ac19"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/build.snbt"
@@ -35,7 +35,7 @@ hash = "dd4a5e4d417358b1a9b37856ff494613a2c155c80240c64c76b0eee6162cebb5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "4df5070f9294e04449705c3333645aec65325ce67f9631b2b22462d3b10d31aa"
+hash = "eee17ba4cc69adae2eb4192a00bfef76d10394b3b8dc65b501be9fce050dc63a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create2.snbt"
@@ -43,15 +43,15 @@ hash = "90b4b1488473fc9c19b670e32725a05cd9634896dd0d99049fd3faf4e1e17894"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czarodziej.snbt"
-hash = "a56413765d2b95cd80007d13353aac7755fcf262f00c95f5cc68d917aeb093c8"
+hash = "4474d13de146a422fd1843d89adaf306ee351f09dca09c95f553a0db9265ca48"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kaplan.snbt"
-hash = "621322e35bb41e0d1eeac3a58986208502a3e0ecf5da46479ec2b7284971b5ab"
+hash = "ebe6231380e515e1d90d383b5ea62a40ff486927bb3f9c26a08d4eb1ac0df790"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kuchnia.snbt"
-hash = "3500c28e61608a19beaf6d0c6f154dc559898535498d53f0b8d21a5314ec043c"
+hash = "bca63222680de71c8e30dae9434ab95692954c06fe8d38b6d3f455afdc5b12f5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lotrzyk.snbt"
@@ -59,7 +59,7 @@ hash = "ead9f28acaff2fbff38e30a38e8201cb6aed95b433f5af9c07b734ee578e1bc5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lucznik.snbt"
-hash = "33069cb48f327746d0afa735a89b316af2b5078dc8d30019780e155c9fb4f571"
+hash = "1e6544852b05b4860889fd203a0aeca8e60430d71a4507a043607c692d98dd2f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/manianownia.snbt"
@@ -75,7 +75,7 @@ hash = "0c1bfd8c3786df32b872ec4fd68d929ba3515f2175c42d8f45d276f2d79ff516"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/przygoda.snbt"
-hash = "74870d6f1fa4cc6974a761405e12e9ce9c32830d288b23ac942fa0e8d2402816"
+hash = "6dabe069399a5f6051474d4f228e3a159a6519e009e77f8b2239a72868b58933"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
@@ -87,7 +87,7 @@ hash = "bee6550d57fdbb0b9f4d1ebbc5a1b33d6c221163718be9a69b94e08967db777e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "ee5b19b80bc3058402d3a68f7f2b982bd206796fc8fdcc621991bb426d1e352b"
+hash = "14a393399e88b93a7fa65bb7bbaaab8cebfb63804714d78db969aee23195c4c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
@@ -942,6 +942,14 @@ file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/nether
 hash = "040b7db2f0a6b8b20a56e1cccb7fc223060ea563c94f9d33abdc4bb9d64cae81"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_ruby_necklace.json"
+hash = "537f23076ba11544f09a47afe6a30f074eeb1876c550d75f04561f0261f7fd48"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_ruby_ring.json"
+hash = "d8a93f170a25b0a256c7b92ec6a7506f2be98ae9ea8274a9ad5739eb944fa8ae"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/jewelry/recipes/netherite_sapphire_necklace.json"
 hash = "c581ba1f2556a0bc2e28e822fbfd953688775cf417503c346068970931a4bf5e"
 
@@ -1260,6 +1268,10 @@ hash = "39a81ac797dd77377b12291925decf00c0b09b54d58997b1c8c43ca0336bd675"
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/mcwwindows/recipes/bamboo_shutter.json"
 hash = "24c03b47a790db29793d9882580de75f00b35e96ea7132c86e9a2482ca489d11"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/minecraft/loot_tables/gameplay/piglin_bartering.json"
+hash = "876bb4bd3bc760d66a1d4d81f9f81da84262422cb733f028376ade94219cd5df"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/minecraft/recipes/netherite_upgrade_smithing_template.json"

@@ -22,7 +22,7 @@
 				"",
 				"&7Poziom 1:&r Koszmar (nocą na otwartych terenach), &bNocny Licz&r (wieża w zimnych biomach)",
 				"&7Poziom 2:&r &bStrażnik Starszy&r, &cRękawica Netheru&r, &5Wither&r",
-				"&7Poziom 3:&r &aPusta Róża&r (bujne jaskinie), &4Skażony Czempion&r, &8Czarny Golem&r (Nether), &dSmok Kresu&r, &8Obsydialit&r (Kres)",
+				"&7Poziom 3:&r &aPusta Róża&r (mszysta jaskinia pod ziemią), &4Skażony Czempion&r, &8Czarny Golem&r (Nether), &dSmok Kresu&r, &8Obsydialit&r (Kres)",
 				"&7Poziom 4:&r &3Warden&r, &5Oko&r (Kres)",
 				"&7Finał:&r &0&lCień Pustki&r (wymiar Pustki)",
 				"",
@@ -117,7 +117,7 @@
 				"&7Żniwiarze (małe latające upiory w grupach) krążą nocą po ciemnych lasach i bagnach."
 			],
 			dependencies: [
-				"1F3AD6F828C111D3"
+				"37066CB97E6F2A07"
 			],
 			tasks: [
 				{
@@ -159,10 +159,10 @@
 			y: -4.5d,
 			icon: "graveyard:bone_dagger",
 			description: [
-				"Kościany sztylet znajdziesz w skrzyniach na cmentarzach i w kryptach."
+				"Kościany sztylet zrobisz z 3 kości ułożonych w pionie."
 			],
 			dependencies: [
-				"1F3AD6F828C111D3"
+				"37066CB97E6F2A07"
 			],
 			tasks: [
 				{
@@ -195,8 +195,8 @@
 			y: -4.5d,
 			icon: "graveyard:vial_of_blood",
 			description: [
-				"Zbierz krew wieśniaków: pusta butelka w drugiej ręce i kościany sztylet w głównej.",
-				"Napełnij fiolkę do pełna."
+				"Kościany sztylet w głównej ręce, pusta butelka w drugiej. Wieśniak zabity sztyletem (ostatni cios) napełnia fiolkę.",
+				"Pierwsze zabójstwo daje fiolkę, każde następne dodaje 10% krwi. Do ołtarza potrzeba co najmniej 80%."
 			],
 			dependencies: [
 				"7A951B1281F33A0A"
@@ -232,10 +232,12 @@
 			y: -4.5d,
 			icon: "graveyard:middle_bone_staff",
 			description: [
-				"Zdobądź trzy części kościanej laski (górną, środkową i dolną) z krypt i więzienia Licza."
+				"Części kościanej laski stoją w &eruinach&r w zwykłych lasach (Kompas odkrywcy: graveyard:ruins).",
+				"Każde ruiny mają jedną część, więc trzeba znaleźć kilka. Środkowa bywa też przy martwych drzewach na bagnach i w ciemnych lasach.",
+				"Wykop część kilofem, żeby ją zabrać."
 			],
 			dependencies: [
-				"1F3AD6F828C111D3"
+				"37066CB97E6F2A07"
 			],
 			tasks: [
 				{
@@ -281,7 +283,7 @@
 				"Znajdź Więzienie Licza z ołtarzem."
 			],
 			dependencies: [
-				"1F3AD6F828C111D3"
+				"37066CB97E6F2A07"
 			],
 			tasks: [
 				{
@@ -314,13 +316,12 @@
 			y: -3.0d,
 			icon: "minecraft:netherite_sword",
 			description: [
-				"Nocą przy ołtarzu w Więzieniu Licza użyj pełnej fiolki krwi i trzech części kościanej laski.",
-				"Czempion ma trzy fazy. Przygotujcie mikstury!"
+				"Więzienie Licza stoi na wyspie w zimnym lub głębokim oceanie. Postaw trzy części laski w rzędzie 7 bloków od ołtarza",
+				"(środkowa naprzeciwko ołtarza, dolna i górna 3 bloki po bokach), a potem nocą kliknij ołtarz fiolką z co najmniej 80% krwi.",
+				"Czempion ma kilka faz. Przygotujcie mikstury!"
 			],
 			dependencies: [
-				"1897405BF077ED83",
-				"72DB24674EDFB177",
-				"572BA4A23CABDB61"
+				"37066CB97E6F2A07"
 			],
 			size: 1.5d,
 			tasks: [
@@ -509,8 +510,8 @@
 				"Chowaj się za filarami! Trofeum: Płonące Oko."
 			],
 			dependencies: [
-				"7493A99EC828A5E3",
-				"5C96898B541528E8"
+				"37066CB97E6F2A07",
+				"17CA9EA3317BFD6C"
 			],
 			size: 1.5d,
 			tasks: [
@@ -578,7 +579,8 @@
 				"Walczcie z dala od bazy, najlepiej pod ziemią!"
 			],
 			dependencies: [
-				"76BF6B10BFDB4D81"
+				"37066CB97E6F2A07",
+				"17CA9EA3317BFD6C"
 			],
 			size: 1.5d,
 			tasks: [
@@ -635,11 +637,11 @@
 			y: 1.5d,
 			icon: "minecraft:spore_blossom",
 			description: [
-				"Pusta Róża rośnie w bujnych jaskiniach. Pustą lilię (konwalia + odłamek ametystu) postaw na ziemi: jej pyłek wskaże drogę.",
+				"Pusta Róża rośnie we własnej, porośniętej mchem jaskini około Y -29, pod większością biomów. Pustą lilię (konwalia + odłamek ametystu) postaw na ziemi: jej pyłek wskaże drogę.",
 				"Niszcz kwiaty-tarcze bossa. Trofeum: Kolec Pustki."
 			],
 			dependencies: [
-				"710A01BD949B4036"
+				"37066CB97E6F2A07"
 			],
 			size: 1.5d,
 			tasks: [
@@ -691,7 +693,7 @@
 				{
 					id: "1BC7AB6FECFD0410",
 					type: "xp_levels",
-					xp_levels: 16
+					xp_levels: 2
 				}
 			]
 		},
@@ -767,7 +769,8 @@
 				"Zmienia ataki w zależności od koloru run. Trofeum: Obsydianowe Serce."
 			],
 			dependencies: [
-				"59B99EEA84AF085B"
+				"37066CB97E6F2A07",
+				"3B4ED7D972F2259B"
 			],
 			size: 1.5d,
 			tasks: [
@@ -917,18 +920,10 @@
 					id: "78C97D222F27C5C2",
 					type: "item",
 					item: {
-						id: "minecraft:diamond",
+						id: "minecraft:bread",
 						Count: 1b
 					},
-					count: 3
-				},
-				{
-					id: "30C6D1E4CB5FA5DC",
-					type: "item",
-					item: {
-						id: "minecraft:golden_apple",
-						Count: 1b
-					}
+					count: 8
 				}
 			]
 		},
@@ -1218,8 +1213,8 @@
 			y: 7.5d,
 			icon: "adventurez:gilded_blackstone_shard",
 			description: [
-				"&eZłocone odłamki czarnego kamienia&r znajdziesz w skrzyniach bastionów,",
-				"dostaniesz od piglinów-osiłków albo w handlu ze zwykłymi piglinami (złoto). Potrzebne są 4."
+				"&eZłocone odłamki czarnego kamienia&r: ok. 10% z piglina-osiłka, ok. 2% za każdą sztabkę złota w handlu z piglinami,",
+				"rzadko w skrzyniach bastionów. Potrzebne są 4."
 			],
 			dependencies: [
 				"11DD851AE73E7BB4"
@@ -1267,9 +1262,8 @@
 				"Golem po śmierci rozpada się na dwa mniejsze. Trofeum: serce golema i złocone fragmenty netherytu."
 			],
 			dependencies: [
-				"3613B32562F718CD",
-				"54154C1A5902B89B",
-				"710A01BD949B4036"
+				"37066CB97E6F2A07",
+				"17CA9EA3317BFD6C"
 			],
 			size: 1.75d,
 			tasks: [
