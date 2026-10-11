@@ -155,7 +155,7 @@ hash = "29ec567d5e5b3f64cc9cccd253f1dc9ead1abbba51258836392c3f692607b3e9"
 
 [[files]]
 file = "config/neat-client.json5"
-hash = "e4b13dfedc0a5fe8790784ad80d74b6234a515c972e2cde510068888581dcd46"
+hash = "42dba24b53f3f246b5c4574ecf8013afe15797f0d607b3a6fa86ba196041b51b"
 
 [[files]]
 file = "config/puffish_skills/categories/czarodziej/category.json"
