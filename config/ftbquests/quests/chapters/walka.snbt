@@ -18,13 +18,13 @@
 			y: 0.0d,
 			icon: "minecraft:iron_sword",
 			description: [
-				"Pokonaj 10 zombie.",
+				"Pokonaj 10 zombie (zwykłych - posucha i utopce się nie liczą).",
 				"",
 				"&eBetter Combat&r: każda broń ma własny zasięg i serię ciosów. Przytrzymaj atak, żeby robić combosy.",
 				"&eCombat Roll&r: unik przypiszesz w &eOpcje > Sterowanie&r."
 			],
 			dependencies: [
-				"5AAA760A737FE538"
+				"357D7C74A4819D02"
 			],
 			size: 1.5d,
 			tasks: [
@@ -57,7 +57,7 @@
 				{
 					id: "5C86BC2C015C1910",
 					type: "xp_levels",
-					xp_levels: 6
+					xp_levels: 2
 				}
 			]
 		},
@@ -103,7 +103,7 @@
 				{
 					id: "724595730B0A0EAF",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -140,7 +140,7 @@
 				{
 					id: "7B113DACF33C3949",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -194,7 +194,7 @@
 				{
 					id: "7FAA00BCCC24DAFF",
 					type: "xp_levels",
-					xp_levels: 6
+					xp_levels: 2
 				}
 			]
 		},
@@ -240,7 +240,7 @@
 				{
 					id: "73387C13B84F1EEA",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -286,7 +286,7 @@
 				{
 					id: "3BCA62862AA85B68",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -332,7 +332,7 @@
 				{
 					id: "505962015FDFAB74",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -368,7 +368,7 @@
 				{
 					id: "79B60E7A56C7FF15",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},

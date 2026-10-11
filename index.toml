@@ -23,7 +23,7 @@ hash = "8d21b9f3cb6e86436c23ebeb556a2838d6c5905bf93cfc5a30aa18eefa38e80a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bizuteria.snbt"
-hash = "2e1ce5bb1ba1d7aba2c40b7c86964cf2981c9f52ac76f15110131234709ca93a"
+hash = "a8397b6135527cc654dd858f5f3f76309446ccc3d1630f5ae821e6fdc398bbc5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
@@ -75,7 +75,7 @@ hash = "0c1bfd8c3786df32b872ec4fd68d929ba3515f2175c42d8f45d276f2d79ff516"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/przygoda.snbt"
-hash = "9496293a3a69413835e737008797c4a17aa741700cf724ccbbc393a27eea9c13"
+hash = "74870d6f1fa4cc6974a761405e12e9ce9c32830d288b23ac942fa0e8d2402816"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
@@ -83,7 +83,7 @@ hash = "d72567bf2bb8e4a1fde45cb14ffb045172b3efe6d93dad39d148dd70eba2f80d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/walka.snbt"
-hash = "cc5615e5db72fd4846daf6bff2d378781f0751736491dce7cc55f9d93665337f"
+hash = "bee6550d57fdbb0b9f4d1ebbc5a1b33d6c221163718be9a69b94e08967db777e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"

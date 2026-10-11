@@ -55,7 +55,7 @@
 				{
 					id: "3AE80D8569909776",
 					type: "xp_levels",
-					xp_levels: 6
+					xp_levels: 2
 				}
 			]
 		},
@@ -91,7 +91,7 @@
 				{
 					id: "15FEF84DFF16AFFF",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -127,7 +127,7 @@
 				{
 					id: "7EEED77756C4FF26",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -163,7 +163,7 @@
 				{
 					id: "1B4BC2DC41BEC14C",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -224,7 +224,7 @@
 				{
 					id: "73DF135BCA1ECE34",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -260,7 +260,7 @@
 				{
 					id: "54500AADBAB315E4",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -297,7 +297,7 @@
 				{
 					id: "589C8A46817CC06A",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
@@ -339,7 +339,7 @@
 				{
 					id: "10B5AE6B0BA6BF07",
 					type: "xp_levels",
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 		},
