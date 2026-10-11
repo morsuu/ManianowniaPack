@@ -478,6 +478,11 @@ hash = "dba6dfddaf7fbe907f0206f122e187eb40705508ef5dbf3ad77a740dc0117914"
 metafile = true
 
 [[files]]
+file = "mods/dummmmmmy.pw.toml"
+hash = "de8e24e677a8ec73be0de47530dab0c5e97b5831a0a825dd6debcf3ac4575630"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
 hash = "ff5473ededba0b8525943e9b05ea1027f7a3c1d8edd58738f4c0df1fc555f31a"
 metafile = true
