@@ -50,10 +50,10 @@ jobs:
           curl -sSL -o fabric-server-launch.jar https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.19.5/1.0.1/server/jar
           echo "eula=true" > eula.txt
           printf "online-mode=false\nmax-tick-time=-1\nspawn-protection=0\n" > server.properties
-          ( sleep 420; echo "function manianownia:boss_tick"; echo "function manianownia:legenda/tick"; echo "function manianownia:tytul/tick"; sleep 10; echo "stop" ) | timeout 900 java -Xmx8G -jar fabric-server-launch.jar nogui > server-test.log 2>&1 || true
+          ( sleep 420; echo "function manianownia:boss_tick"; echo "function manianownia:legenda/tick"; echo "function manianownia:tytul/tick"; echo "summon cave_dweller:cave_dweller 0 120 0 {NoAI:1b}"; sleep 2; echo "function manianownia:boss_tick"; sleep 2; echo "attribute @e[type=#manianownia:crawler,limit=1] minecraft:generic.max_health get"; echo "attribute @e[type=#manianownia:crawler,limit=1] minecraft:generic.attack_damage get"; sleep 10; echo "stop" ) | timeout 900 java -Xmx8G -jar fabric-server-launch.jar nogui > server-test.log 2>&1 || true
           grep -E "Manianownia Aktualizator|Discord|dcintegration|Manianownia Tytu|styled|Styled|serversidehorror|Done \(|puffish_skills\]|Loaded [0-9]+ chapter|Failed to load function|Couldn't|ERROR|Exception" server-test.log | head -200 > server-test-summary.log || true
           cat server-test-summary.log
-          { echo "=== config/xaero ==="; find config/xaero -type f 2>/dev/null; for f in $(find config/xaero -type f 2>/dev/null); do echo "--- $f"; cat "$f"; done; } >> server-test.log
+          { echo "=== config cave dweller ==="; find config -maxdepth 2 -ipath "*cave*" -type f 2>/dev/null; for f in $(find config -maxdepth 2 -ipath "*cave*" -type f 2>/dev/null); do echo "--- $f"; cat "$f"; done; } >> server-test.log
           cp server-test.log ../server-test.log
           cd ..
           gh release upload serwer server-test.log test/server-test-summary.log --clobber

@@ -1220,11 +1220,15 @@ hash = "50fb50bf087fd570690f4a1ae102d473d6a1b595196fb6e1c98d20401d231b4c"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_tick.mcfunction"
-hash = "9f808620f67905253a3e06085d0a08aa2df2033a84533bab468241b6e9683ffa"
+hash = "fc0e756fcf9f5f59e98631638cb8d92172fe927ecf6fc78f78eee85fe41550fd"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/class_hint.mcfunction"
 hash = "98d3bdc2a886cc4f4055a8fbc647ebfa3698b60971698e2c0bb08df7aa125ccf"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/crawler_buff.mcfunction"
+hash = "78cbb46bb3ed314988c2f49b36f095a694e239bbb56ac0e4bb528313af5b95fa"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/first_join.mcfunction"
@@ -1401,6 +1405,10 @@ hash = "fe6304c6e3be150085276ebd9d67aa972e043576d29e714a966be5ba7b9a8e98"
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/tags/entity_types/bosses.json"
 hash = "39a81ac797dd77377b12291925decf00c0b09b54d58997b1c8c43ca0336bd675"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/tags/entity_types/crawler.json"
+hash = "73398615b2315e23d1c26b9457c6759d4cf5098f7fdaa5678d196c3383236cf5"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/mcwwindows/recipes/bamboo_shutter.json"
