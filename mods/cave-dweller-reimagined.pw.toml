@@ -1,0 +1,13 @@
+name = "cave-dweller-reimagined"
+filename = "cave_dweller-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DcbG8MdA/versions/Vpo4KTCH/cave_dweller-1.20.1.jar"
+hash-format = "sha512"
+hash = "8ba13f317d0234cb8c1d5494d776ccc7807cadbc6a03f30dfb2dec7b7f1bd7d2b8fbbb35c0e333d7892c604605f526fb31f5ec48e65dc6a2870d6f23a1a2b4ab"
+
+[update]
+[update.modrinth]
+mod-id = "DcbG8MdA"
+version = "Vpo4KTCH"

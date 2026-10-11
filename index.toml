@@ -416,6 +416,11 @@ hash = "1049bbed80d5b9582a0d5e4cb17420b6d66ad47461a891934e59a2b8504c6899"
 metafile = true
 
 [[files]]
+file = "mods/cave-dweller-reimagined.pw.toml"
+hash = "5d5cc1d2c7c5e0ae4038a504f872ab421dd26c56b74c3f6b1d8db8ab37ed8f67"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "9bea000e1bef2ea70683493152984e5bf27a12bcd3a0014ca16c60af40097edb"
 metafile = true
