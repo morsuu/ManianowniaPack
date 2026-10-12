@@ -1225,6 +1225,7 @@
 				"Silniejsze potwory dają więcej doświadczenia. Zdarzają się też wielkie i szybkie zombie.",
 				"",
 				"&cBossowie&r mają +40% zdrowia za każdego kolejnego gracza w pobliżu (liczone, zanim ktoś ich zrani).",
+				"Rosną też z poziomem klasy najmocniejszego gracza: od poziomu 6 +3% zdrowia i +2% ataku za poziom.",
 				"Idźcie na nich razem i przygotujcie się: mikstury, jedzenie, dobry sprzęt i rozwinięte drzewka.",
 				"",
 				"Po wejściu do Netheru uważajcie na &6legendy&r: losowe bossy, które pojawiają się obok graczy",

@@ -5,3 +5,9 @@ execute if score #inv mp_tmp matches 0 if score #h mp_tmp < #m mp_tmp run tag @s
 execute store result score #n mp_tmp if entity @a[distance=..96,gamemode=!spectator]
 execute if score #n mp_tmp matches 6.. run scoreboard players set #n mp_tmp 5
 execute if entity @s[tag=!mp_hit] if score #n mp_tmp matches 1.. unless score @s mp_np = #n mp_tmp run function manianownia:boss/apply
+scoreboard players set #lv mp_tmp 0
+execute if entity @s[tag=!mp_hit] as @a[distance=..96,gamemode=!spectator] run function manianownia:boss/poziom
+scoreboard players remove #lv mp_tmp 5
+execute if score #lv mp_tmp matches ..-1 run scoreboard players set #lv mp_tmp 0
+execute if score #lv mp_tmp matches 20.. run scoreboard players set #lv mp_tmp 20
+execute if entity @s[tag=!mp_hit] unless score @s mp_lv = #lv mp_tmp run function manianownia:boss/poziom_apply

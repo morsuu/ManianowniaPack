@@ -91,7 +91,7 @@ hash = "bee6550d57fdbb0b9f4d1ebbc5a1b33d6c221163718be9a69b94e08967db777e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/witaj.snbt"
-hash = "27de3ccdbb3783e2bc11523ac3f27692529606302ca4098bf729dd851b7887c2"
+hash = "687d52c6b6258c502341717aea6521c04c3e54ef61048f2adf7542cfd4de0a07"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wojownik.snbt"
@@ -1238,8 +1238,16 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/
 hash = "b5f90210d7aa77c724bfe75b0a75331dfc636c845948cbb8cc457881584659ae"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/poziom.mcfunction"
+hash = "3e89e6aab8d816e928c9c467da07d47892bd15082ff203ffa71a4df5e8cbb90b"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/poziom_apply.mcfunction"
+hash = "ff28fc0a4a634bdf701d55c5479ec7d0a2f5d46246616a49de5bb367fe2865fa"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/scale.mcfunction"
-hash = "ee829bfe20c91893ba65286a8000cfef653988e8ccfbf1606f118d34dc1cb7fa"
+hash = "3938848d1450d45b1a7555ab695883d6c3b10cbf5d170707dd08bdeb9d5b0f6f"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/wzmocnienie.mcfunction"
@@ -1375,7 +1383,7 @@ hash = "1c87cb5e51116d520aac670fbcadb5656b0a79a8b896ae8b2f9506e9462b2965"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/load.mcfunction"
-hash = "3f3cfd8d791044eb5b79e9a0aa46d6a79494c64d7d5c40dcb458d9647c702757"
+hash = "31d1930316f11ae8d5b6e258dba7d03def20f38451ffc4594ac29709b37dcc97"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/skills_hint.mcfunction"
