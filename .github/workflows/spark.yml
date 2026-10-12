@@ -1,0 +1,49 @@
+name: Spark decode
+# Narzędzie: pobiera profil spark (kod z .github/spark-code.txt), dekoduje protobuf do JSON i wrzuca do wydania "serwer".
+on:
+  push:
+    branches: [main]
+    paths: [".github/spark-code.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dekoduj
+        run: |
+          set -x
+          CODE=$(head -1 .github/spark-code.txt | tr -d '[:space:]')
+          curl -sSL -D headers.txt -o profile.bin "https://spark-usercontent.lucko.me/$CODE"
+          cat headers.txt
+          sudo apt-get install -y protobuf-compiler >/dev/null
+          pip install protobuf >/dev/null
+          mkdir -p proto/spark
+          for f in spark spark_sampler spark_heap spark_ws; do
+            curl -sSLf -o proto/spark/$f.proto "https://raw.githubusercontent.com/lucko/spark/master/spark-common/src/main/proto/spark/$f.proto" || true
+          done
+          ls proto/spark
+          protoc -Iproto --python_out=. proto/spark/*.proto
+          python3 - <<'PY'
+          import sys, json
+          sys.path.insert(0, ".")
+          from google.protobuf.json_format import MessageToDict
+          data = open("profile.bin", "rb").read()
+          out = None
+          for mod, cls in (("spark.spark_sampler_pb2", "SamplerData"), ("spark.spark_pb2", "HealthData"), ("spark.spark_heap_pb2", "HeapData")):
+              try:
+                  m = __import__(mod, fromlist=[cls]); msg = getattr(m, cls)(); msg.ParseFromString(data)
+                  d = MessageToDict(msg)
+                  if d: out = {"type": cls, "data": d}; break
+              except Exception as e:
+                  print(cls, e)
+          json.dump(out, open("spark.json", "w"))
+          print(out and out["type"], len(json.dumps(out)))
+          PY
+          gzip -k spark.json
+      - name: Wyślij
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload serwer spark.json.gz --clobber
