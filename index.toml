@@ -933,6 +933,11 @@ hash = "509e74c594b5b5697f9f9f0d457770d9c07fc4b3a5277653511fa2e0edd5820d"
 metafile = true
 
 [[files]]
+file = "mods/xp-storage.pw.toml"
+hash = "82c4d949d3f010a9d2928fa0ad5c44bf8a7e760fed86e180a19b628d790fe8a9"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "27e8f0334249834e9909b01b8cc397fa54db101da8cb9ca44353556841d6442d"
 metafile = true
