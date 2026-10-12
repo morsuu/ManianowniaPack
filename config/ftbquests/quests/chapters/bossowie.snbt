@@ -232,8 +232,8 @@
 			y: -4.5d,
 			icon: "graveyard:middle_bone_staff",
 			description: [
-				"Części kościanej laski stoją w &eruinach&r w zwykłych lasach (Kompas odkrywcy: graveyard:ruins).",
-				"Każde ruiny mają jedną część, więc trzeba znaleźć kilka. Środkowa bywa też przy martwych drzewach na bagnach i w ciemnych lasach.",
+				"Części kościanej laski &cnie leżą na cmentarzach&r: stoją w &eruinach&r w lasach (Kompas odkrywcy: graveyard:ruins).",
+				"Każde ruiny mają jedną losową część, więc trzeba znaleźć kilka. Środkowa bywa też przy martwych drzewach (bagna, ciemne lasy, tajga).",
 				"Wykop część kilofem, żeby ją zabrać."
 			],
 			dependencies: [

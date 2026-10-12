@@ -31,7 +31,7 @@ hash = "19c6b23537adfe853b88566623c7d7c78b06a5b25ca63d69481b4d132cd52063"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
-hash = "c107f8efec74f6302d3d7fd4759211bfdeeabdf80bbe1548eae68bfa423a38a0"
+hash = "373d2039bfd135dbde68870e943739d8ec2321610c0f613549b56eee96aebc78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/build.snbt"
@@ -950,6 +950,14 @@ hash = "c256dded3cf5f8491f2247d65d078ada3deab43ebb8a07abd136df70a0a46d09"
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/createdeco/recipes/iron_support.json"
 hash = "be6a99b748a6933358b8e90e3baec77a3e94a2c90ac7d99080019b63f4969771"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/graveyard/tags/worldgen/biome/has_structure/dead_tree.json"
+hash = "9af29fd7f3a1d383adb42307b3463f0cf6955573de7450fae26088e96a32ad56"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/graveyard/tags/worldgen/biome/has_structure/ruins.json"
+hash = "2cd0bb1902a7713c4c444487f21510e22face537d4c86c4713d2d4382ef51f33"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/graveyard/tags/worldgen/biome/nightmare_spawns.json"
