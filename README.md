@@ -65,6 +65,7 @@ Na serwerze dodatkowo działają (tylko po stronie serwera, gracze nic nie insta
 - **/spawn**: teleport na spawn (3 s bez ruszania się). Punkt ustawia OP: `/spawn set`.
 - **/back**: powrót do miejsca przed ostatnim teleportem albo do miejsca śmierci (3 s bez ruszania się).
 - **Lootr** (u wszystkich): skrzynie z łupem w strukturach mają osobną zawartość dla każdego gracza.
+- **Nowe struktury (1.24)**: YUNG's (pustynne i dżunglowe świątynie, monumenty, fortece Netheru, chatki wiedźm, mosty, drobiazgi), Towns & Towers (wioski i wieże), Explorify (małe ruiny i obozy). Tylko w nowych chunkach.
 - **Discord Integration**: most czatu z Discordem (wyżej).
 - **Styled Chat + Styled Player List + Manianownia Tytuły**: klasa i poziom przed nickiem w czacie i TAB-ie, np. `[Mag 7] morsu`; nad głową poziom klasy.
 - **Server-Side Horror**: po kilku dniach gry świat zaczyna być... dziwny. Nic nie trzeba instalować.

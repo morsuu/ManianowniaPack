@@ -1,9 +1,9 @@
 name: Modrinth lookup
-# Narzędzie: dla projektów z tools/modrinth-query.txt pobiera najnowszą wersję Fabric 1.20.1 i wrzuca JSON do wydania "serwer".
+# Narzędzie: dla projektów z .github/modrinth-query.txt pobiera najnowszą wersję Fabric 1.20.1 i wrzuca JSON do wydania "serwer".
 on:
   push:
     branches: [main]
-    paths: ["tools/modrinth-query.txt"]
+    paths: [".github/modrinth-query.txt"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,7 +20,7 @@ jobs:
               r = urllib.request.Request(u, headers={"User-Agent": "morsuu/ManianowniaPack lookup"})
               return json.load(urllib.request.urlopen(r))
           out = {}
-          for slug in [l.strip() for l in open("tools/modrinth-query.txt") if l.strip()]:
+          for slug in [l.strip() for l in open(".github/modrinth-query.txt") if l.strip()]:
               try:
                   p = get(f"https://api.modrinth.com/v2/project/{slug}")
                   q = urllib.parse.urlencode({"game_versions": '["1.20.1"]', "loaders": '["fabric"]'})
