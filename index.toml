@@ -613,6 +613,11 @@ hash = "a64726d1774d835666454ed0fc297b706d6f75d039c84def4983faa63fd38d14"
 metafile = true
 
 [[files]]
+file = "mods/jamlib.pw.toml"
+hash = "b1a7a21ae250f23137bc94695d6001186bd4d84aa7735cab4ca3f0676e430392"
+metafile = true
+
+[[files]]
 file = "mods/jewelry.pw.toml"
 hash = "f40dabe0a683aa56742d6c52e2b951ccd57c047951025f04bcd8fc5748257556"
 metafile = true
@@ -770,6 +775,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "27adf8e671a54f4cbe6dc4e4a6ca21f56144d1690de2da4c041620c54c85a355"
+metafile = true
+
+[[files]]
+file = "mods/rightclickharvest.pw.toml"
+hash = "a984ac98d1b3fd1706f7df5f5b3b03119bd42e6215d8f99dc8e7cabd0bdc6186"
 metafile = true
 
 [[files]]
