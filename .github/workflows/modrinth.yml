@@ -1,0 +1,46 @@
+name: Modrinth lookup
+# Narzędzie: dla projektów z tools/modrinth-query.txt pobiera najnowszą wersję Fabric 1.20.1 i wrzuca JSON do wydania "serwer".
+on:
+  push:
+    branches: [main]
+    paths: ["tools/modrinth-query.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zapytaj Modrinth
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request, urllib.parse
+          def get(u):
+              r = urllib.request.Request(u, headers={"User-Agent": "morsuu/ManianowniaPack lookup"})
+              return json.load(urllib.request.urlopen(r))
+          out = {}
+          for slug in [l.strip() for l in open("tools/modrinth-query.txt") if l.strip()]:
+              try:
+                  p = get(f"https://api.modrinth.com/v2/project/{slug}")
+                  q = urllib.parse.urlencode({"game_versions": '["1.20.1"]', "loaders": '["fabric"]'})
+                  vs = get(f"https://api.modrinth.com/v2/project/{slug}/version?{q}")
+                  v = vs[0] if vs else None
+                  e = {"pid": p["id"], "title": p["title"], "client_side": p["client_side"], "server_side": p["server_side"],
+                       "downloads": p["downloads"], "updated": p["updated"]}
+                  if v:
+                      f = next((f for f in v["files"] if f["primary"]), v["files"][0])
+                      e.update(vid=v["id"], version=v["version_number"], loaders=v["loaders"], fn=f["filename"], size=f["size"],
+                               sha1=f["hashes"]["sha1"], sha512=f["hashes"]["sha512"], url=f["url"],
+                               deps=[d for d in v["dependencies"] if d["dependency_type"] == "required"],
+                               incompat=[d for d in v["dependencies"] if d["dependency_type"] == "incompatible"])
+                  out[slug] = e
+              except Exception as ex:
+                  out[slug] = {"error": str(ex)}
+          json.dump(out, open("modrinth.json", "w"), indent=1)
+          PY
+          cat modrinth.json | head -c 3000
+      - name: Wyślij
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload serwer modrinth.json --clobber
