@@ -358,6 +358,10 @@ file = "config/voidz.json5"
 hash = "bcc35cae0700992c41c71d32975ffed2e78654597d7cd7e3985b18c35ccf670e"
 
 [[files]]
+file = "config/xp_storage/cosmetic.json"
+hash = "562f0432727b228bb92b71df21a2bcb111c8dfd5de5542ecf3ad65402033a299"
+
+[[files]]
 file = "mods/adventurez.pw.toml"
 hash = "832a33f88da33ef873f0c747b49dea33be30650c66647a3c88bc736581e49cd9"
 metafile = true
