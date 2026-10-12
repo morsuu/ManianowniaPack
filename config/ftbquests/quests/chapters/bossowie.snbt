@@ -449,7 +449,7 @@
 				"Pokonaj Strażnika Starszego w podwodnej świątyni. Weź mikstury oddychania pod wodą i mleko na zmęczenie."
 			],
 			dependencies: [
-				"359F4F25C0C4C545"
+				"37066CB97E6F2A07"
 			],
 			size: 1.5d,
 			tasks: [
@@ -495,7 +495,7 @@
 				{
 					id: "726460FA5D38C235",
 					type: "xp_levels",
-					xp_levels: 6
+					xp_levels: 2
 				}
 			]
 		},
@@ -838,7 +838,7 @@
 				"Pokonaj go w Starożytnym Mieście."
 			],
 			dependencies: [
-				"5B7A682BEF2108AF",
+				"37066CB97E6F2A07",
 				"59B99EEA84AF085B"
 			],
 			size: 1.75d,
