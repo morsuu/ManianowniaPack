@@ -20,7 +20,8 @@ jobs:
               r = urllib.request.Request(u, headers={"User-Agent": "morsuu/ManianowniaPack lookup"})
               return json.load(urllib.request.urlopen(r))
           out = {}
-          for slug in [l.strip() for l in open(".github/modrinth-query.txt") if l.strip()]:
+          INSPECT = {l.strip()[1:] for l in open(".github/modrinth-query.txt") if l.startswith("!")}
+          for slug in [l.strip().lstrip("!") for l in open(".github/modrinth-query.txt") if l.strip()]:
               try:
                   p = get(f"https://api.modrinth.com/v2/project/{slug}")
                   q = urllib.parse.urlencode({"game_versions": '["1.20.1"]', "loaders": '["fabric"]'})
@@ -34,6 +35,12 @@ jobs:
                                sha1=f["hashes"]["sha1"], sha512=f["hashes"]["sha512"], url=f["url"],
                                deps=[d for d in v["dependencies"] if d["dependency_type"] == "required"],
                                incompat=[d for d in v["dependencies"] if d["dependency_type"] == "incompatible"])
+                  if v and slug in INSPECT:
+                      import zipfile, io
+                      z = zipfile.ZipFile(io.BytesIO(urllib.request.urlopen(urllib.request.Request(f["url"], headers={"User-Agent": "x"})).read()))
+                      e["files"] = {n: z.read(n).decode("utf-8", "replace")[:4000] for n in z.namelist()
+                                    if (("/recipes/" in n or "/recipe/" in n) and n.endswith(".json")) or n.endswith("lang/en_us.json")
+                                    or (n.endswith((".json", ".toml", ".json5")) and "config" in n.lower())}
                   out[slug] = e
               except Exception as ex:
                   out[slug] = {"error": str(ex)}
