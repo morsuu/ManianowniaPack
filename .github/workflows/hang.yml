@@ -31,20 +31,21 @@ jobs:
           grep -v -E "^(online-mode|white-list|enforce-whitelist|max-tick-time)=" server.properties.wzor > server.properties
           printf "online-mode=false\nmax-tick-time=120000\nlevel-seed=%s\n" "$SEED" >> server.properties
           mkfifo in
-          ( tail -f in | timeout 1800 java -Xmx10G -jar fabric-server-launch.jar nogui > ../hang-test.log 2>&1 ) &
+          java -Xmx10G -jar fabric-server-launch.jar nogui < in > ../hang-test.log 2>&1 &
+          PID=$!
           exec 3>in
           for i in $(seq 1 120); do grep -q "Done (" ../hang-test.log && break; sleep 5; done
           echo "=== START GEN $(date +%T)" >> ../hang-test.log
           CX=$((X/16)); CZ=$((Z/16))
           echo "forceload add $((X-48)) $((Z-48)) $((X+48)) $((Z+48))" >&3
           echo "chunky world minecraft:overworld" >&3; echo "chunky center $X $Z" >&3; echo "chunky radius $R" >&3; echo "chunky start" >&3; sleep 1; echo "chunky confirm" >&3
-          PID=$(pgrep -f fabric-server-launch.jar | head -1)
-          for i in $(seq 1 30); do
+          for i in $(seq 1 16); do
             sleep 30
             echo "say ping $i" >&3
             sleep 2
             echo "=== JSTACK $i $(date +%T) (ostatnie ping: $(grep -c 'ping' ../hang-test.log))" >> ../jstack.log
-            jstack $PID >> ../jstack.log 2>&1 || true
+            timeout 60 jstack $PID >> ../jstack.log 2>&1 || true
+            if [ "$i" = "1" ] || ! tail -c 3000 ../hang-test.log | grep -q "ping $i"; then echo "brak odpowiedzi na ping $i" >> ../jstack.log; fi
             if grep -q "Task completed\|chunky.*100" ../hang-test.log; then echo "=== chunky done" >> ../hang-test.log; break; fi
           done
           echo "stop" >&3; sleep 30; kill $PID 2>/dev/null || true
