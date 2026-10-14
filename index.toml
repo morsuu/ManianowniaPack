@@ -303,7 +303,7 @@ hash = "ebc8a208acbfba2dfb802520bea6e26dc9c0cbb5947a4b80d27676ddf6e30e16"
 
 [[files]]
 file = "config/rpgdifficulty.json"
-hash = "e8cb0e69e9eddaa5a20bc5f94bab09fe35e1985c5c14931c45f65e76e32e28a1"
+hash = "f1f6ba8f39eaf70af3a1f2c2081f5140002face1cd8e6306c80c8878d35f4432"
 
 [[files]]
 file = "config/sdrp-common.json"

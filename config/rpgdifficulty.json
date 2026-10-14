@@ -39,7 +39,8 @@
     "minecraft:sheep",
     "minecraft:pig",
     "minecraft:chicken",
-    "minecraft:horse"
+    "minecraft:horse",
+    "dummmmmmy:target_dummy"
   ],
   "allowSpecialZombie": true,
   "bigZombieChance": 10,
