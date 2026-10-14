@@ -22,7 +22,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          read SEED X Z R < .github/hang.txt
+          read SEED X Z R REST < .github/hang.txt
           mkdir t && cd t
           gh release download serwer -p ManianowniaPack-serwer.zip
           unzip -q ManianowniaPack-serwer.zip && rm ManianowniaPack-serwer.zip
