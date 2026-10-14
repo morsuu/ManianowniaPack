@@ -1257,6 +1257,10 @@ file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/
 hash = "b5f90210d7aa77c724bfe75b0a75331dfc636c845948cbb8cc457881584659ae"
 
 [[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/mocni.mcfunction"
+hash = "2fe5d441971d3d2d977957faa8bf8bf5c5b34187258b844f67cec60ba6d45dc0"
+
+[[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss/poziom.mcfunction"
 hash = "3e89e6aab8d816e928c9c467da07d47892bd15082ff203ffa71a4df5e8cbb90b"
 
@@ -1322,7 +1326,7 @@ hash = "50fb50bf087fd570690f4a1ae102d473d6a1b595196fb6e1c98d20401d231b4c"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/boss_tick.mcfunction"
-hash = "8a69e0d07c3dbfdea3b60a4c749073fb31e14834b6f99bd1e98a11615ef59097"
+hash = "41a56b04bbb88fdaef603cb438a33ca033d51395c941b852c92eae2d1425f879"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/functions/class_hint.mcfunction"
@@ -1511,6 +1515,10 @@ hash = "fe6304c6e3be150085276ebd9d67aa972e043576d29e714a966be5ba7b9a8e98"
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/tags/entity_types/bosses.json"
 hash = "39a81ac797dd77377b12291925decf00c0b09b54d58997b1c8c43ca0336bd675"
+
+[[files]]
+file = "moonlight-global-datapacks/manianownia_start/data/manianownia/tags/entity_types/bosses_mocni.json"
+hash = "9549c568efaca49c42e358bbd7e68fd80136f50b1012d1ff091991d0b2d71df3"
 
 [[files]]
 file = "moonlight-global-datapacks/manianownia_start/data/manianownia/tags/entity_types/crawler.json"

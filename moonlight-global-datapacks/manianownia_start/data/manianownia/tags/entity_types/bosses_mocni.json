@@ -1,0 +1,22 @@
+{
+ "replace": false,
+ "values": [
+  {
+   "id": "adventurez:blackstone_golem",
+   "required": false
+  },
+  "minecraft:ender_dragon",
+  {
+   "id": "bosses_of_mass_destruction:obsidilith",
+   "required": false
+  },
+  {
+   "id": "adventurez:the_eye",
+   "required": false
+  },
+  {
+   "id": "adventurez:void_shadow",
+   "required": false
+  }
+ ]
+}
