@@ -1,0 +1,57 @@
+name: Hang test
+# Narzędzie: generuje świat z seedem i obszarem z .github/hang.txt (seed x z promień), zbiera zrzuty wątków (jstack)
+# i wrzuca log do wydania "serwer" jako hang-test.log.
+on:
+  push:
+    branches: [main]
+    paths: [".github/hang.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  hang:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Serwer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          read SEED X Z R < .github/hang.txt
+          mkdir t && cd t
+          gh release download serwer -p ManianowniaPack-serwer.zip
+          unzip -q ManianowniaPack-serwer.zip && rm ManianowniaPack-serwer.zip
+          curl -sSL -o fabric-server-launch.jar https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.19.5/1.0.1/server/jar
+          echo "eula=true" > eula.txt
+          grep -v -E "^(online-mode|white-list|enforce-whitelist|max-tick-time)=" server.properties.wzor > server.properties
+          printf "online-mode=false\nmax-tick-time=120000\nlevel-seed=%s\n" "$SEED" >> server.properties
+          mkfifo in
+          ( tail -f in | timeout 1800 java -Xmx10G -jar fabric-server-launch.jar nogui > ../hang-test.log 2>&1 ) &
+          exec 3>in
+          for i in $(seq 1 120); do grep -q "Done (" ../hang-test.log && break; sleep 5; done
+          echo "=== START GEN $(date +%T)" >> ../hang-test.log
+          CX=$((X/16)); CZ=$((Z/16))
+          echo "forceload add $((X-48)) $((Z-48)) $((X+48)) $((Z+48))" >&3
+          echo "chunky world minecraft:overworld" >&3; echo "chunky center $X $Z" >&3; echo "chunky radius $R" >&3; echo "chunky start" >&3; sleep 1; echo "chunky confirm" >&3
+          PID=$(pgrep -f fabric-server-launch.jar | head -1)
+          for i in $(seq 1 30); do
+            sleep 30
+            echo "say ping $i" >&3
+            sleep 2
+            echo "=== JSTACK $i $(date +%T) (ostatnie ping: $(grep -c 'ping' ../hang-test.log))" >> ../jstack.log
+            jstack $PID >> ../jstack.log 2>&1 || true
+            if grep -q "Task completed\|chunky.*100" ../hang-test.log; then echo "=== chunky done" >> ../hang-test.log; break; fi
+          done
+          echo "stop" >&3; sleep 30; kill $PID 2>/dev/null || true
+      - name: Wyślij
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gzip -kf jstack.log || true
+          gh release upload serwer hang-test.log jstack.log.gz --clobber
