@@ -31,7 +31,7 @@ hash = "19c6b23537adfe853b88566623c7d7c78b06a5b25ca63d69481b4d132cd52063"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bossowie.snbt"
-hash = "0f3a58397f3d3d6c35467c05e6fc245708dfff4f9d4067ba49ac64f61e298545"
+hash = "b20f34727c50780e73fc93e5d44919780ae1f8e7232eec6f4da9043fa4d0481e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/build.snbt"

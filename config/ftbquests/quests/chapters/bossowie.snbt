@@ -1362,8 +1362,9 @@
 				"",
 				"Oko przywołasz w Kresie kapliczką, która wysysa moc ze &5smoczego jaja&r:",
 				"&7- spód: obsydian 5x5 (może być płaczący),",
-				"&7- środek: płaczący obsydian 3x3 na środku i pręty Kresu w czterech rogach podstawy,",
-				"&7- góra: pręty Kresu na rogach płaczącego obsydianu i smocze jajo na samym środku.",
+				"&7- na nim, na środku: płaczący obsydian 3x3,",
+				"&7- na płaczącym obsydianie: smocze jajo na środku i 4 pręty Kresu na rogach (stawiane na wierzchu, pionowo).",
+				"&7Stój w pobliżu ok. minuty: kapliczka wysysa jajo i pojawia się Oko.",
 				"",
 				"Oko wysysa energię i strzela pociskami. Po jego śmierci otworzy się portal do &8Pustki&r."
 			],
