@@ -41,6 +41,9 @@ jobs:
                       e["files"] = {n: z.read(n).decode("utf-8", "replace")[:4000] for n in z.namelist()
                                     if (("/recipes/" in n or "/recipe/" in n) and n.endswith(".json")) or n.endswith("lang/en_us.json")
                                     or (n.endswith((".json", ".toml", ".json5")) and "config" in n.lower())}
+                      import re as _re
+                      e["cmd_strings"] = {n: sorted(set(x.decode("latin1") for x in _re.findall(rb"[ -~]{3,60}", z.read(n))))[:300]
+                                          for n in z.namelist() if n.endswith(".class") and "ommand" in n}
                   out[slug] = e
               except Exception as ex:
                   out[slug] = {"error": str(ex)}
